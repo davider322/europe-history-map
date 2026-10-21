@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "realm": "Duchy of Swabia",
+    "leader": "Herman II",
+    "info": "An approximate map of the Swabian and imperial political sphere in eastern and central Switzerland around 1000. Swabia was a duchy within the Holy Roman Empire; Herman II was duke until 1003. Local counts, monasteries and bishops governed many areas in practice. Modern cantonal borders are not historical borders.",
+    "regionAdmins": ["Switzerland"],
+    "fillColor": "#c29a45",
+    "borderColor": "#705522"
+  },
+  "provinces": [
+    "ticino",
+    "grisons",
+    "schaffhausen",
+    "thurgau",
+    "zürich",
+    "aargau",
+    "st.gallen",
+    "lucerne",
+    "zug",
+    "uri",
+    "schwyz",
+    "glarus",
+    "nidwalden",
+    "obwalden",
+    "appenzellausserrhoden",
+    "appenzellinnerrhoden"
+  ]
+}

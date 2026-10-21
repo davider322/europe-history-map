@@ -1,0 +1,1548 @@
+{
+    "baseYear":  1955,
+    "note":  "Europe at the end of 1990. Germany was reunified on 3 October when the German Democratic Republic acceded to the Federal Republic. The Saar had joined West Germany in 1957; the Soviet Union remained intact while communist governments across Eastern Europe had fallen. Berlin is shown as a single region because the available map data has no separate city sectors.",
+    "overrides":  {
+                      "Finnic Tribal Lands":  {
+                                                  "properties":  {
+                                                                     "leader":  "National government",
+                                                                     "info":  "Finnic Tribal Lands at the end of 1990."
+                                                                 }
+                                              },
+                      "Karelian Frontierlands":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "Karelian Frontierlands at the end of 1990."
+                                                                    }
+                                                 },
+                      "Sámi and Northern Frontierlands":  {
+                                                              "properties":  {
+                                                                                 "leader":  "National government",
+                                                                                 "info":  "Sámi and Northern Frontierlands at the end of 1990."
+                                                                             }
+                                                          },
+                      "Denmark":  {
+                                      "properties":  {
+                                                         "leader":  "National government",
+                                                         "info":  "Denmark at the end of 1990."
+                                                     }
+                                  },
+                      "Holy Roman Empire":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Holy Roman Empire at the end of 1990."
+                                                               }
+                                            },
+                      "Duchy of Normandy":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Duchy of Normandy at the end of 1990."
+                                                               }
+                                            },
+                      "Principality of Capua":  {
+                                                    "properties":  {
+                                                                       "leader":  "National government",
+                                                                       "info":  "Principality of Capua at the end of 1990."
+                                                                   }
+                                                },
+                      "Principality of Salerno":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Principality of Salerno at the end of 1990."
+                                                                     }
+                                                  },
+                      "Duchy of Naples":  {
+                                              "properties":  {
+                                                                 "leader":  "National government",
+                                                                 "info":  "Duchy of Naples at the end of 1990."
+                                                             }
+                                          },
+                      "Norway":  {
+                                     "properties":  {
+                                                        "leader":  "National government",
+                                                        "info":  "Norway at the end of 1990."
+                                                    }
+                                 },
+                      "Saharan Frontier and Tribal Lands":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "Saharan Frontier and Tribal Lands at the end of 1990."
+                                                                               }
+                                                            },
+                      "Kingdom of Abkhazia":  {
+                                                  "properties":  {
+                                                                     "leader":  "National government",
+                                                                     "info":  "Kingdom of Abkhazia at the end of 1990."
+                                                                 }
+                                              },
+                      "Tao-Klarjeti (Bagratid Domain)":  {
+                                                             "properties":  {
+                                                                                "leader":  "National government",
+                                                                                "info":  "Tao-Klarjeti (Bagratid Domain) at the end of 1990."
+                                                                            }
+                                                         },
+                      "Kakheti (Regional Kingdom)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Kakheti (Regional Kingdom) at the end of 1990."
+                                                                        }
+                                                     },
+                      "Emirate of Tbilisi":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Emirate of Tbilisi at the end of 1990."
+                                                                }
+                                             },
+                      "Marwanid Emirate":  {
+                                               "properties":  {
+                                                                  "leader":  "National government",
+                                                                  "info":  "Marwanid Emirate at the end of 1990."
+                                                              }
+                                           },
+                      "Caliphate of Córdoba":  {
+                                                   "properties":  {
+                                                                      "leader":  "National government",
+                                                                      "info":  "Caliphate of Córdoba at the end of 1990."
+                                                                  }
+                                               },
+                      "Kingdom of Gwynedd":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Kingdom of Gwynedd at the end of 1990."
+                                                                }
+                                             },
+                      "Kingdom of Powys":  {
+                                               "properties":  {
+                                                                  "leader":  "National government",
+                                                                  "info":  "Kingdom of Powys at the end of 1990."
+                                                              }
+                                           },
+                      "Kingdom of Deheubarth":  {
+                                                    "properties":  {
+                                                                       "leader":  "National government",
+                                                                       "info":  "Kingdom of Deheubarth at the end of 1990."
+                                                                   }
+                                                },
+                      "Kingdom of Leinster":  {
+                                                  "properties":  {
+                                                                     "leader":  "National government",
+                                                                     "info":  "Kingdom of Leinster at the end of 1990."
+                                                                 }
+                                              },
+                      "Kingdom of Munster":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Kingdom of Munster at the end of 1990."
+                                                                }
+                                             },
+                      "Historical Microstates":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "Historical Microstates at the end of 1990."
+                                                                    }
+                                                 },
+                      "Arabian Tribal Polities":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Arabian Tribal Polities at the end of 1990."
+                                                                     }
+                                                  },
+                      "Kingdom of Meath":  {
+                                               "properties":  {
+                                                                  "leader":  "National government",
+                                                                  "info":  "Kingdom of Meath at the end of 1990."
+                                                              }
+                                           },
+                      "Kingdom of Dublin":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Kingdom of Dublin at the end of 1990."
+                                                               }
+                                            },
+                      "County of Roussillon":  {
+                                                   "properties":  {
+                                                                      "leader":  "National government",
+                                                                      "info":  "County of Roussillon at the end of 1990."
+                                                                  }
+                                               },
+                      "Kingdom of Galicia":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Kingdom of Galicia at the end of 1990."
+                                                                }
+                                             },
+                      "Taifa of Seville":  {
+                                               "properties":  {
+                                                                  "leader":  "National government",
+                                                                  "info":  "Taifa of Seville at the end of 1990."
+                                                              }
+                                           },
+                      "Taifa of Badajoz":  {
+                                               "properties":  {
+                                                                  "leader":  "National government",
+                                                                  "info":  "Taifa of Badajoz at the end of 1990."
+                                                              }
+                                           },
+                      "Taifa of Toledo":  {
+                                              "properties":  {
+                                                                 "leader":  "National government",
+                                                                 "info":  "Taifa of Toledo at the end of 1990."
+                                                             }
+                                          },
+                      "Taifa of Granada":  {
+                                               "properties":  {
+                                                                  "leader":  "National government",
+                                                                  "info":  "Taifa of Granada at the end of 1990."
+                                                              }
+                                           },
+                      "Taifa of Murcia":  {
+                                              "properties":  {
+                                                                 "leader":  "National government",
+                                                                 "info":  "Taifa of Murcia at the end of 1990."
+                                                             }
+                                          },
+                      "Taifa of Valencia":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Taifa of Valencia at the end of 1990."
+                                                               }
+                                            },
+                      "Taifa of Zaragoza":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Taifa of Zaragoza at the end of 1990."
+                                                               }
+                                            },
+                      "Norman Apulia and Calabria":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Norman Apulia and Calabria at the end of 1990."
+                                                                        }
+                                                     },
+                      "Lordship of Glamorgan":  {
+                                                    "properties":  {
+                                                                       "leader":  "National government",
+                                                                       "info":  "Lordship of Glamorgan at the end of 1990."
+                                                                   }
+                                                },
+                      "Norman Lordships of Gwent and Gwynllwg":  {
+                                                                     "properties":  {
+                                                                                        "leader":  "National government",
+                                                                                        "info":  "Norman Lordships of Gwent and Gwynllwg at the end of 1990."
+                                                                                    }
+                                                                 },
+                      "Eastern Anatolian and Jazira Emirates":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "National government",
+                                                                                       "info":  "Eastern Anatolian and Jazira Emirates at the end of 1990."
+                                                                                   }
+                                                                },
+                      "County of Edessa":  {
+                                               "properties":  {
+                                                                  "leader":  "National government",
+                                                                  "info":  "County of Edessa at the end of 1990."
+                                                              }
+                                           },
+                      "Kingdom of León":  {
+                                              "properties":  {
+                                                                 "leader":  "National government",
+                                                                 "info":  "Kingdom of León at the end of 1990."
+                                                             }
+                                          },
+                      "Kingdom of Portugal":  {
+                                                  "properties":  {
+                                                                     "leader":  "National government",
+                                                                     "info":  "Kingdom of Portugal at the end of 1990."
+                                                                 }
+                                              },
+                      "Lordship of Mecklenburg":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Lordship of Mecklenburg at the end of 1990."
+                                                                     }
+                                                  },
+                      "Danish Estonia":  {
+                                             "properties":  {
+                                                                "leader":  "National government",
+                                                                "info":  "Danish Estonia at the end of 1990."
+                                                            }
+                                         },
+                      "Kingdom of Majorca":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Kingdom of Majorca at the end of 1990."
+                                                                }
+                                             },
+                      "Republic of Venice (Aegean)":  {
+                                                          "properties":  {
+                                                                             "leader":  "National government",
+                                                                             "info":  "Republic of Venice (Aegean) at the end of 1990."
+                                                                         }
+                                                      },
+                      "Principality of Moldavia":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "Principality of Moldavia at the end of 1990."
+                                                                      }
+                                                   },
+                      "Denmark–Norway":  {
+                                             "properties":  {
+                                                                "leader":  "National government",
+                                                                "info":  "Denmark–Norway at the end of 1990."
+                                                            }
+                                         },
+                      "Denmark–Norway (Gotland)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "Denmark–Norway (Gotland) at the end of 1990."
+                                                                      }
+                                                   },
+                      "France (Brittany)":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "France (Brittany) at the end of 1990."
+                                                               }
+                                            },
+                      "France (Provence)":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "France (Provence) at the end of 1990."
+                                                               }
+                                            },
+                      "Sweden":  {
+                                     "properties":  {
+                                                        "leader":  "National government",
+                                                        "info":  "Sweden at the end of 1990."
+                                                    }
+                                 },
+                      "Polish–Lithuanian Commonwealth":  {
+                                                             "properties":  {
+                                                                                "leader":  "National government",
+                                                                                "info":  "Polish–Lithuanian Commonwealth at the end of 1990."
+                                                                            }
+                                                         },
+                      "Polish–Lithuanian Commonwealth (Pomerelia)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "National government",
+                                                                                            "info":  "Polish–Lithuanian Commonwealth (Pomerelia) at the end of 1990."
+                                                                                        }
+                                                                     },
+                      "Polish–Lithuanian Commonwealth (Lithuania)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "National government",
+                                                                                            "info":  "Polish–Lithuanian Commonwealth (Lithuania) at the end of 1990."
+                                                                                        }
+                                                                     },
+                      "Polish–Lithuanian Commonwealth (Sudovia)":  {
+                                                                       "properties":  {
+                                                                                          "leader":  "National government",
+                                                                                          "info":  "Polish–Lithuanian Commonwealth (Sudovia) at the end of 1990."
+                                                                                      }
+                                                                   },
+                      "Polish–Lithuanian Commonwealth (Polotsk)":  {
+                                                                       "properties":  {
+                                                                                          "leader":  "National government",
+                                                                                          "info":  "Polish–Lithuanian Commonwealth (Polotsk) at the end of 1990."
+                                                                                      }
+                                                                   },
+                      "Polish–Lithuanian Commonwealth (Ruthenia)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "National government",
+                                                                                           "info":  "Polish–Lithuanian Commonwealth (Ruthenia) at the end of 1990."
+                                                                                       }
+                                                                    },
+                      "Safavid Iran (Armenia)":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "Safavid Iran (Armenia) at the end of 1990."
+                                                                    }
+                                                 },
+                      "Spanish Monarchy (Granada)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Spanish Monarchy (Granada) at the end of 1990."
+                                                                        }
+                                                     },
+                      "Spanish Monarchy (Aragon)":  {
+                                                        "properties":  {
+                                                                           "leader":  "National government",
+                                                                           "info":  "Spanish Monarchy (Aragon) at the end of 1990."
+                                                                       }
+                                                    },
+                      "Spanish Monarchy (Navarre)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Spanish Monarchy (Navarre) at the end of 1990."
+                                                                        }
+                                                     },
+                      "Spanish Netherlands":  {
+                                                  "properties":  {
+                                                                     "leader":  "National government",
+                                                                     "info":  "Spanish Netherlands at the end of 1990."
+                                                                 }
+                                              },
+                      "Spanish Netherlands (Brabant and Luxembourg)":  {
+                                                                           "properties":  {
+                                                                                              "leader":  "National government",
+                                                                                              "info":  "Spanish Netherlands (Brabant and Luxembourg) at the end of 1990."
+                                                                                          }
+                                                                       },
+                      "Alaouite Sultanate":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Alaouite Sultanate at the end of 1990."
+                                                                }
+                                             },
+                      "Sweden (Scania)":  {
+                                              "properties":  {
+                                                                 "leader":  "National government",
+                                                                 "info":  "Sweden (Scania) at the end of 1990."
+                                                             }
+                                          },
+                      "Qajar Iran":  {
+                                         "properties":  {
+                                                            "leader":  "National government",
+                                                            "info":  "Qajar Iran at the end of 1990."
+                                                        }
+                                     },
+                      "Kingdom of Sicily":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Kingdom of Sicily at the end of 1990."
+                                                               }
+                                            },
+                      "Kingdom of Naples":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Kingdom of Naples at the end of 1990."
+                                                               }
+                                            },
+                      "Ligurian Republic":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Ligurian Republic at the end of 1990."
+                                                               }
+                                            },
+                      "French Republic (Gascony, Dauphiné and annexations)":  {
+                                                                                  "properties":  {
+                                                                                                     "leader":  "National government",
+                                                                                                     "info":  "French Republic (Gascony, Dauphiné and annexations) at the end of 1990."
+                                                                                                 }
+                                                                              },
+                      "French Republic (Savoy)":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "French Republic (Savoy) at the end of 1990."
+                                                                     }
+                                                  },
+                      "French Republic (Annexed Territories)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "National government",
+                                                                                       "info":  "French Republic (Annexed Territories) at the end of 1990."
+                                                                                   }
+                                                                },
+                      "Kingdom of Prussia (Polish partition)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "National government",
+                                                                                       "info":  "Kingdom of Prussia (Polish partition) at the end of 1990."
+                                                                                   }
+                                                                },
+                      "Habsburg Monarchy (Galicia)":  {
+                                                          "properties":  {
+                                                                             "leader":  "National government",
+                                                                             "info":  "Habsburg Monarchy (Galicia) at the end of 1990."
+                                                                         }
+                                                      },
+                      "Netherlands":  {
+                                          "properties":  {
+                                                             "leader":  "National government",
+                                                             "info":  "Netherlands at the end of 1990."
+                                                         }
+                                      },
+                      "Kingdom of Italy (Cisalpine Republic)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "National government",
+                                                                                       "info":  "Kingdom of Italy (Cisalpine Republic) at the end of 1990."
+                                                                                   }
+                                                                },
+                      "Austria-Hungary (Hungarian crown)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "Austria-Hungary (Hungarian crown) at the end of 1990."
+                                                                               }
+                                                            },
+                      "Denmark (Faroe Islands)":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Denmark (Faroe Islands) at the end of 1990."
+                                                                     }
+                                                  },
+                      "Denmark (Iceland)":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Denmark (Iceland) at the end of 1990."
+                                                               }
+                                            },
+                      "Switzerland":  {
+                                          "properties":  {
+                                                             "leader":  "National government",
+                                                             "info":  "Switzerland at the end of 1990."
+                                                         }
+                                      },
+                      "France":  {
+                                     "properties":  {
+                                                        "leader":  "Francois Mitterrand (President)",
+                                                        "info":  "France at the end of 1990."
+                                                    }
+                                 },
+                      "Kingdom of Italy (Grand Duchy of Tuscany)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "National government",
+                                                                                           "info":  "Kingdom of Italy (Grand Duchy of Tuscany) at the end of 1990."
+                                                                                       }
+                                                                    },
+                      "Austria-Hungary (Banat)":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Austria-Hungary (Banat) at the end of 1990."
+                                                                     }
+                                                  },
+                      "Austria-Hungary (Kingdom of Bohemia)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "National government",
+                                                                                      "info":  "Austria-Hungary (Kingdom of Bohemia) at the end of 1990."
+                                                                                  }
+                                                               },
+                      "United Kingdom (Connacht)":  {
+                                                        "properties":  {
+                                                                           "leader":  "National government",
+                                                                           "info":  "United Kingdom (Connacht) at the end of 1990."
+                                                                       }
+                                                    },
+                      "United Kingdom (Isle of Man)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "United Kingdom (Isle of Man) at the end of 1990."
+                                                                          }
+                                                       },
+                      "United Kingdom (Ulster)":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "United Kingdom (Ulster) at the end of 1990."
+                                                                     }
+                                                  },
+                      "Kingdom of Italy (Kingdom of Sardinia)":  {
+                                                                     "properties":  {
+                                                                                        "leader":  "National government",
+                                                                                        "info":  "Kingdom of Italy (Kingdom of Sardinia) at the end of 1990."
+                                                                                    }
+                                                                 },
+                      "United Kingdom (Northern Isles)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "National government",
+                                                                                 "info":  "United Kingdom (Northern Isles) at the end of 1990."
+                                                                             }
+                                                          },
+                      "Kingdom of Italy (North Italian signorie)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "National government",
+                                                                                           "info":  "Kingdom of Italy (North Italian signorie) at the end of 1990."
+                                                                                       }
+                                                                    },
+                      "France (Africa)":  {
+                                              "properties":  {
+                                                                 "leader":  "National government",
+                                                                 "info":  "France (Africa) at the end of 1990."
+                                                             }
+                                          },
+                      "Kingdom of Greece":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Kingdom of Greece at the end of 1990."
+                                                               }
+                                            },
+                      "Austria-Hungary (Bosnia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "Austria-Hungary (Bosnia) at the end of 1990."
+                                                                      }
+                                                   },
+                      "United Kingdom (Cyprus)":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "United Kingdom (Cyprus) at the end of 1990."
+                                                                     }
+                                                  },
+                      "Kingdom of Greece (Thessaly)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "Kingdom of Greece (Thessaly) at the end of 1990."
+                                                                          }
+                                                       },
+                      "Kingdom of Italy (Papal Enclave of Benevento)":  {
+                                                                            "properties":  {
+                                                                                               "leader":  "National government",
+                                                                                               "info":  "Kingdom of Italy (Papal Enclave of Benevento) at the end of 1990."
+                                                                                           }
+                                                                        },
+                      "Kingdom of Italy":  {
+                                               "properties":  {
+                                                                  "leader":  "National government",
+                                                                  "info":  "Kingdom of Italy at the end of 1990."
+                                                              }
+                                           },
+                      "Austria-Hungary (Principality of Transylvania)":  {
+                                                                             "properties":  {
+                                                                                                "leader":  "National government",
+                                                                                                "info":  "Austria-Hungary (Principality of Transylvania) at the end of 1990."
+                                                                                            }
+                                                                         },
+                      "Kingdom of Italy (Republic of Venice)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "National government",
+                                                                                       "info":  "Kingdom of Italy (Republic of Venice) at the end of 1990."
+                                                                                   }
+                                                                },
+                      "Austria-Hungary":  {
+                                              "properties":  {
+                                                                 "leader":  "National government",
+                                                                 "info":  "Austria-Hungary at the end of 1990."
+                                                             }
+                                          },
+                      "Austria-Hungary (Reconquered)":  {
+                                                            "properties":  {
+                                                                               "leader":  "National government",
+                                                                               "info":  "Austria-Hungary (Reconquered) at the end of 1990."
+                                                                           }
+                                                        },
+                      "United Kingdom":  {
+                                             "properties":  {
+                                                                "leader":  "John Major (Prime Minister)",
+                                                                "info":  "The United Kingdom at the end of 1990."
+                                                            }
+                                         },
+                      "United Kingdom (Scotland)":  {
+                                                        "properties":  {
+                                                                           "leader":  "National government",
+                                                                           "info":  "United Kingdom (Scotland) at the end of 1990."
+                                                                       }
+                                                    },
+                      "Kingdom of Romania":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Kingdom of Romania at the end of 1990."
+                                                                }
+                                             },
+                      "Denmark 2":  {
+                                        "properties":  {
+                                                           "leader":  "National government",
+                                                           "info":  "Denmark 2 at the end of 1990."
+                                                       }
+                                    },
+                      "Belgium":  {
+                                      "properties":  {
+                                                         "leader":  "National government",
+                                                         "info":  "Belgium at the end of 1990."
+                                                     }
+                                  },
+                      "Luxembourg":  {
+                                         "properties":  {
+                                                            "leader":  "National government",
+                                                            "info":  "Luxembourg at the end of 1990."
+                                                        }
+                                     },
+                      "France (Gascony, Dauphiné and annexations)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "National government",
+                                                                                            "info":  "France (Gascony, Dauphiné and annexations) at the end of 1990."
+                                                                                        }
+                                                                     },
+                      "Kingdom of Italy (Savoy)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "Kingdom of Italy (Savoy) at the end of 1990."
+                                                                      }
+                                                   },
+                      "France (Savoy)":  {
+                                             "properties":  {
+                                                                "leader":  "National government",
+                                                                "info":  "France (Savoy) at the end of 1990."
+                                                            }
+                                         },
+                      "Austria-Hungary (Galicia)":  {
+                                                        "properties":  {
+                                                                           "leader":  "National government",
+                                                                           "info":  "Austria-Hungary (Galicia) at the end of 1990."
+                                                                       }
+                                                    },
+                      "Austria-Hungary (Holy Roman Empire)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "National government",
+                                                                                     "info":  "Austria-Hungary (Holy Roman Empire) at the end of 1990."
+                                                                                 }
+                                                              },
+                      "Switzerland (Holy Roman Empire)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "National government",
+                                                                                 "info":  "Switzerland (Holy Roman Empire) at the end of 1990."
+                                                                             }
+                                                          },
+                      "France (Lorraine)":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "France (Lorraine) at the end of 1990."
+                                                               }
+                                            },
+                      "Kingdom of Italy (Holy Roman Empire)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "National government",
+                                                                                      "info":  "Kingdom of Italy (Holy Roman Empire) at the end of 1990."
+                                                                                  }
+                                                               },
+                      "Kingdom of Greece (Ionian Islands)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "National government",
+                                                                                    "info":  "Kingdom of Greece (Ionian Islands) at the end of 1990."
+                                                                                }
+                                                             },
+                      "Kingdom of Italy (Kingdom of Naples)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "National government",
+                                                                                      "info":  "Kingdom of Italy (Kingdom of Naples) at the end of 1990."
+                                                                                  }
+                                                               },
+                      "Kingdom of Italy (Kingdom of Sicily)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "National government",
+                                                                                      "info":  "Kingdom of Italy (Kingdom of Sicily) at the end of 1990."
+                                                                                  }
+                                                               },
+                      "United Kingdom (Malta)":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "United Kingdom (Malta) at the end of 1990."
+                                                                    }
+                                                 },
+                      "Kingdom of Italy (Ligurian Republic)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "National government",
+                                                                                      "info":  "Kingdom of Italy (Ligurian Republic) at the end of 1990."
+                                                                                  }
+                                                               },
+                      "France (Corsica)":  {
+                                               "properties":  {
+                                                                  "leader":  "National government",
+                                                                  "info":  "France (Corsica) at the end of 1990."
+                                                              }
+                                           },
+                      "Kingdom of Greece (Albania)":  {
+                                                          "properties":  {
+                                                                             "leader":  "National government",
+                                                                             "info":  "Kingdom of Greece (Albania) at the end of 1990."
+                                                                         }
+                                                      },
+                      "Kingdom of Greece (Constantinople)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "National government",
+                                                                                    "info":  "Kingdom of Greece (Constantinople) at the end of 1990."
+                                                                                }
+                                                             },
+                      "Egypt (British occupation)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Egypt (British occupation) at the end of 1990."
+                                                                        }
+                                                     },
+                      "Kingdom of Serbia":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Kingdom of Serbia at the end of 1990."
+                                                               }
+                                            },
+                      "Austria-Hungary (Principality of Moldavia)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "National government",
+                                                                                            "info":  "Austria-Hungary (Principality of Moldavia) at the end of 1990."
+                                                                                        }
+                                                                     },
+                      "Kingdom of Romania (Principality of Moldavia)":  {
+                                                                            "properties":  {
+                                                                                               "leader":  "National government",
+                                                                                               "info":  "Kingdom of Romania (Principality of Moldavia) at the end of 1990."
+                                                                                           }
+                                                                        },
+                      "Kingdom of Greece (Aegean)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Kingdom of Greece (Aegean) at the end of 1990."
+                                                                        }
+                                                     },
+                      "France (Roussillon)":  {
+                                                  "properties":  {
+                                                                     "leader":  "National government",
+                                                                     "info":  "France (Roussillon) at the end of 1990."
+                                                                 }
+                                              },
+                      "Kingdom of Sweden":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Kingdom of Sweden at the end of 1990."
+                                                               }
+                                            },
+                      "Kingdom of Montenegro":  {
+                                                    "properties":  {
+                                                                       "leader":  "National government",
+                                                                       "info":  "Kingdom of Montenegro at the end of 1990."
+                                                                   }
+                                                },
+                      "Kingdom of Norway":  {
+                                                "properties":  {
+                                                                   "leader":  "National government",
+                                                                   "info":  "Kingdom of Norway at the end of 1990."
+                                                               }
+                                            },
+                      "Principality of Albania":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Principality of Albania at the end of 1990."
+                                                                     }
+                                                  },
+                      "Kingdom of Italy (Libya)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "Kingdom of Italy (Libya) at the end of 1990."
+                                                                      }
+                                                   },
+                      "Russian SFSR (Galicia)":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "Russian SFSR (Galicia) at the end of 1990."
+                                                                    }
+                                                 },
+                      "Russian SFSR (Kingdom of Georgia)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "Russian SFSR (Kingdom of Georgia) at the end of 1990."
+                                                                               }
+                                                            },
+                      "Russian SFSR (Armenia)":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "Russian SFSR (Armenia) at the end of 1990."
+                                                                    }
+                                                 },
+                      "Russian SFSR (Estonia)":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "Russian SFSR (Estonia) at the end of 1990."
+                                                                    }
+                                                 },
+                      "Russian SFSR (Finland)":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "Russian SFSR (Finland) at the end of 1990."
+                                                                    }
+                                                 },
+                      "Russian SFSR (Principality of Moldavia)":  {
+                                                                      "properties":  {
+                                                                                         "leader":  "National government",
+                                                                                         "info":  "Russian SFSR (Principality of Moldavia) at the end of 1990."
+                                                                                     }
+                                                                  },
+                      "Russian SFSR (Finland) – Karelian Frontierlands":  {
+                                                                              "properties":  {
+                                                                                                 "leader":  "National government",
+                                                                                                 "info":  "Russian SFSR (Finland) – Karelian Frontierlands at the end of 1990."
+                                                                                             }
+                                                                          },
+                      "Russian SFSR (Arran and Shirvan)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "National government",
+                                                                                  "info":  "Russian SFSR (Arran and Shirvan) at the end of 1990."
+                                                                              }
+                                                           },
+                      "Russian SFSR (Lithuania)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "Russian SFSR (Lithuania) at the end of 1990."
+                                                                      }
+                                                   },
+                      "Russian SFSR (Finland) – Sámi and Northern Frontierlands":  {
+                                                                                       "properties":  {
+                                                                                                          "leader":  "National government",
+                                                                                                          "info":  "Russian SFSR (Finland) – Sámi and Northern Frontierlands at the end of 1990."
+                                                                                                      }
+                                                                                   },
+                      "Russian SFSR (Courland)":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Russian SFSR (Courland) at the end of 1990."
+                                                                     }
+                                                  },
+                      "Russian SFSR (Polish partition)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "National government",
+                                                                                 "info":  "Russian SFSR (Polish partition) at the end of 1990."
+                                                                             }
+                                                          },
+                      "Russian SFSR (Partitioned Poland)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "Russian SFSR (Partitioned Poland) at the end of 1990."
+                                                                               }
+                                                            },
+                      "Russian SFSR (Crimea)":  {
+                                                    "properties":  {
+                                                                       "leader":  "National government",
+                                                                       "info":  "Russian SFSR (Crimea) at the end of 1990."
+                                                                   }
+                                                },
+                      "Russian SFSR (Crimea) 2":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Russian SFSR (Crimea) 2 at the end of 1990."
+                                                                     }
+                                                  },
+                      "Russian SFSR (Caucasian steppe)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "National government",
+                                                                                 "info":  "Russian SFSR (Caucasian steppe) at the end of 1990."
+                                                                             }
+                                                          },
+                      "Russian SFSR (North Caucasus)":  {
+                                                            "properties":  {
+                                                                               "leader":  "National government",
+                                                                               "info":  "Russian SFSR (North Caucasus) at the end of 1990."
+                                                                           }
+                                                        },
+                      "Russian SFSR (Volga–Ural)":  {
+                                                        "properties":  {
+                                                                           "leader":  "National government",
+                                                                           "info":  "Russian SFSR (Volga–Ural) at the end of 1990."
+                                                                       }
+                                                    },
+                      "Russian SFSR (Northern Finnic Frontierlands)":  {
+                                                                           "properties":  {
+                                                                                              "leader":  "National government",
+                                                                                              "info":  "Russian SFSR (Northern Finnic Frontierlands) at the end of 1990."
+                                                                                          }
+                                                                       },
+                      "Russian SFSR (Astrakhan)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "Russian SFSR (Astrakhan) at the end of 1990."
+                                                                      }
+                                                   },
+                      "Russian SFSR (Kazan)":  {
+                                                   "properties":  {
+                                                                      "leader":  "National government",
+                                                                      "info":  "Russian SFSR (Kazan) at the end of 1990."
+                                                                  }
+                                               },
+                      "Russian SFSR (Novgorod)":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Russian SFSR (Novgorod) at the end of 1990."
+                                                                     }
+                                                  },
+                      "Russian SFSR (Seversk)":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "Russian SFSR (Seversk) at the end of 1990."
+                                                                    }
+                                                 },
+                      "Russian SFSR (Karelian Frontierlands)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "National government",
+                                                                                       "info":  "Russian SFSR (Karelian Frontierlands) at the end of 1990."
+                                                                                   }
+                                                                },
+                      "Russian SFSR (Sámi and Northern Frontierlands)":  {
+                                                                             "properties":  {
+                                                                                                "leader":  "National government",
+                                                                                                "info":  "Russian SFSR (Sámi and Northern Frontierlands) at the end of 1990."
+                                                                                            }
+                                                                         },
+                      "Republic of German-Austria":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Republic of German-Austria at the end of 1990."
+                                                                        }
+                                                     },
+                      "Czechoslovakia":  {
+                                             "properties":  {
+                                                                "leader":  "Vaclav Havel (President)",
+                                                                "info":  "The Velvet Revolution ended communist rule in 1989. Czechoslovakia remained a single state at the end of 1990."
+                                                            }
+                                         },
+                      "Kingdom of Romania (Greater Romania)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Ion Iliescu (President)",
+                                                                                      "info":  "The Romanian Revolution overthrew the communist government in December 1989. Ion Iliescu was elected president in 1990.",
+                                                                                      "realm":  "Romania",
+                                                                                      "label":  "Romania"
+                                                                                  }
+                                                               },
+                      "Kingdom of Italy (Former Austrian Lands)":  {
+                                                                       "properties":  {
+                                                                                          "leader":  "National government",
+                                                                                          "info":  "Kingdom of Italy (Former Austrian Lands) at the end of 1990."
+                                                                                      }
+                                                                   },
+                      "France (Alsace-Lorraine)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "France (Alsace-Lorraine) at the end of 1990."
+                                                                      }
+                                                   },
+                      "Finland":  {
+                                      "properties":  {
+                                                         "leader":  "National government",
+                                                         "info":  "Finland at the end of 1990."
+                                                     }
+                                  },
+                      "Republic of Estonia":  {
+                                                  "properties":  {
+                                                                     "leader":  "National government",
+                                                                     "info":  "Republic of Estonia at the end of 1990."
+                                                                 }
+                                              },
+                      "Republic of Latvia":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Republic of Latvia at the end of 1990."
+                                                                }
+                                             },
+                      "Republic of Lithuania":  {
+                                                    "properties":  {
+                                                                       "leader":  "National government",
+                                                                       "info":  "Republic of Lithuania at the end of 1990."
+                                                                   }
+                                                },
+                      "Ukrainian People's Republic":  {
+                                                               "properties":  {
+                                                                                  "leader":  "National government",
+                                                                                  "info":  "Ukrainian People's Republic at the end of 1990."
+                                                                              }
+                                                           },
+                      "Democratic Republic of Georgia":  {
+                                                             "properties":  {
+                                                                                "leader":  "National government",
+                                                                                "info":  "Democratic Republic of Georgia at the end of 1990."
+                                                                            }
+                                                         },
+                      "First Republic of Armenia":  {
+                                                        "properties":  {
+                                                                           "leader":  "National government",
+                                                                           "info":  "First Republic of Armenia at the end of 1990."
+                                                                       }
+                                                    },
+                      "Azerbaijan Democratic Republic":  {
+                                                             "properties":  {
+                                                                                "leader":  "National government",
+                                                                                "info":  "Azerbaijan Democratic Republic at the end of 1990."
+                                                                            }
+                                                         },
+                      "Soviet Union":  {
+                                           "properties":  {
+                                                              "leader":  "Mikhail Gorbachev (President)",
+                                                              "info":  "The Soviet Union remained intact at the end of 1990, although several republics had declared sovereignty."
+                                                          }
+                                       },
+                      "Republic of Turkey (Palestine coast)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "National government",
+                                                                                      "info":  "Republic of Turkey (Palestine coast) at the end of 1990."
+                                                                                  }
+                                                               },
+                      "Republic of Turkey (Hejaz)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Republic of Turkey (Hejaz) at the end of 1990."
+                                                                        }
+                                                     },
+                      "Republic of Turkey (Iraq)":  {
+                                                        "properties":  {
+                                                                           "leader":  "National government",
+                                                                           "info":  "Republic of Turkey (Iraq) at the end of 1990."
+                                                                       }
+                                                    },
+                      "Republic of Turkey (Tripoli)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "Republic of Turkey (Tripoli) at the end of 1990."
+                                                                          }
+                                                       },
+                      "Republic of Turkey (al-Hasa)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "Republic of Turkey (al-Hasa) at the end of 1990."
+                                                                          }
+                                                       },
+                      "Republic of Turkey (Aleppo)":  {
+                                                          "properties":  {
+                                                                             "leader":  "National government",
+                                                                             "info":  "Republic of Turkey (Aleppo) at the end of 1990."
+                                                                         }
+                                                      },
+                      "Republic of Turkey (Medina)":  {
+                                                          "properties":  {
+                                                                             "leader":  "National government",
+                                                                             "info":  "Republic of Turkey (Medina) at the end of 1990."
+                                                                         }
+                                                      },
+                      "Republic of Turkey (Jazira)":  {
+                                                          "properties":  {
+                                                                             "leader":  "National government",
+                                                                             "info":  "Republic of Turkey (Jazira) at the end of 1990."
+                                                                         }
+                                                      },
+                      "Republic of Turkey (Egypt and Syria)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "National government",
+                                                                                      "info":  "Republic of Turkey (Egypt and Syria) at the end of 1990."
+                                                                                  }
+                                                               },
+                      "German Reich (Pomerania)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "German Reich (Pomerania) at the end of 1990."
+                                                                      }
+                                                   },
+                      "German Reich (Alsace)":  {
+                                                    "properties":  {
+                                                                       "leader":  "National government",
+                                                                       "info":  "German Reich (Alsace) at the end of 1990."
+                                                                   }
+                                                },
+                      "German Reich (Silesia)":  {
+                                                     "properties":  {
+                                                                        "leader":  "National government",
+                                                                        "info":  "German Reich (Silesia) at the end of 1990."
+                                                                    }
+                                                 },
+                      "German Reich (East Prussia)":  {
+                                                          "properties":  {
+                                                                             "leader":  "National government",
+                                                                             "info":  "German Reich (East Prussia) at the end of 1990."
+                                                                         }
+                                                      },
+                      "German Reich":  {
+                                           "properties":  {
+                                                              "leader":  "National government",
+                                                              "info":  "German Reich at the end of 1990."
+                                                          }
+                                       },
+                      "German Reich (Polish partition)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "National government",
+                                                                                 "info":  "German Reich (Polish partition) at the end of 1990."
+                                                                             }
+                                                          },
+                      "German Reich (Kingdom of Prussia)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "German Reich (Kingdom of Prussia) at the end of 1990."
+                                                                               }
+                                                            },
+                      "German Reich (Swedish Pomerania)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "National government",
+                                                                                  "info":  "German Reich (Swedish Pomerania) at the end of 1990."
+                                                                              }
+                                                           },
+                      "German Reich (Rhineland)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "German Reich (Rhineland) at the end of 1990."
+                                                                      }
+                                                   },
+                      "Republic of Turkey (Rumelia)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "Republic of Turkey (Rumelia) at the end of 1990."
+                                                                          }
+                                                       },
+                      "Republic of Turkey":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Republic of Turkey at the end of 1990."
+                                                                }
+                                             },
+                      "Republic of Turkey (Anatolia)":  {
+                                                            "properties":  {
+                                                                               "leader":  "National government",
+                                                                               "info":  "Republic of Turkey (Anatolia) at the end of 1990."
+                                                                           }
+                                                        },
+                      "Republic of Turkey (Serbia)":  {
+                                                          "properties":  {
+                                                                             "leader":  "National government",
+                                                                             "info":  "Republic of Turkey (Serbia) at the end of 1990."
+                                                                         }
+                                                      },
+                      "Republic of Turkey (Albania)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "Republic of Turkey (Albania) at the end of 1990."
+                                                                          }
+                                                       },
+                      "Republic of Turkey (Constantinople)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "National government",
+                                                                                     "info":  "Republic of Turkey (Constantinople) at the end of 1990."
+                                                                                 }
+                                                              },
+                      "Republic of Turkey (Trebizond)":  {
+                                                             "properties":  {
+                                                                                "leader":  "National government",
+                                                                                "info":  "Republic of Turkey (Trebizond) at the end of 1990."
+                                                                            }
+                                                         },
+                      "Republic of Turkey (Antioch)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "Republic of Turkey (Antioch) at the end of 1990."
+                                                                          }
+                                                       },
+                      "Republic of Turkey (Cilicia)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "Republic of Turkey (Cilicia) at the end of 1990."
+                                                                          }
+                                                       },
+                      "Republic of Turkey (Tunis)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Republic of Turkey (Tunis) at the end of 1990."
+                                                                        }
+                                                     },
+                      "Republic of Turkey (Tunis interior)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "National government",
+                                                                                     "info":  "Republic of Turkey (Tunis interior) at the end of 1990."
+                                                                                 }
+                                                              },
+                      "Republic of Turkey (Tripolitania)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "Republic of Turkey (Tripolitania) at the end of 1990."
+                                                                               }
+                                                            },
+                      "Republic of Turkey (Cyrenaica)":  {
+                                                             "properties":  {
+                                                                                "leader":  "National government",
+                                                                                "info":  "Republic of Turkey (Cyrenaica) at the end of 1990."
+                                                                            }
+                                                         },
+                      "Republic of Turkey (Upper Mesopotamia)":  {
+                                                                     "properties":  {
+                                                                                        "leader":  "National government",
+                                                                                        "info":  "Republic of Turkey (Upper Mesopotamia) at the end of 1990."
+                                                                                    }
+                                                                 },
+                      "Republic of Turkey (Erzurum)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "Republic of Turkey (Erzurum) at the end of 1990."
+                                                                          }
+                                                       },
+                      "Republic of Turkey (Banat)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Republic of Turkey (Banat) at the end of 1990."
+                                                                        }
+                                                     },
+                      "Republic of Turkey (Albania) 2":  {
+                                                             "properties":  {
+                                                                                "leader":  "National government",
+                                                                                "info":  "Republic of Turkey (Albania) 2 at the end of 1990."
+                                                                            }
+                                                         },
+                      "Republic of Turkey (Aegean)":  {
+                                                          "properties":  {
+                                                                             "leader":  "National government",
+                                                                             "info":  "Republic of Turkey (Aegean) at the end of 1990."
+                                                                         }
+                                                      },
+                      "Republic of Turkey 2":  {
+                                                   "properties":  {
+                                                                      "leader":  "National government",
+                                                                      "info":  "Republic of Turkey 2 at the end of 1990."
+                                                                  }
+                                               },
+                      "Spanish State":  {
+                                            "properties":  {
+                                                               "leader":  "National government",
+                                                               "info":  "Spanish State at the end of 1990."
+                                                           }
+                                        },
+                      "German Reich (Anschluss)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "German Reich (Anschluss) at the end of 1990."
+                                                                      }
+                                                   },
+                      "German Reich (Sudetenland)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "German Reich (Sudetenland) at the end of 1990."
+                                                                        }
+                                                     },
+                      "German Reich (Memel)":  {
+                                                   "properties":  {
+                                                                      "leader":  "National government",
+                                                                      "info":  "German Reich (Memel) at the end of 1990."
+                                                                  }
+                                               },
+                      "German Reich (Protectorate of Bohemia and Moravia)":  {
+                                                                                 "properties":  {
+                                                                                                    "leader":  "National government",
+                                                                                                    "info":  "German Reich (Protectorate of Bohemia and Moravia) at the end of 1990."
+                                                                                                }
+                                                                             },
+                      "Slovak Republic":  {
+                                              "properties":  {
+                                                                 "leader":  "National government",
+                                                                 "info":  "Slovak Republic at the end of 1990."
+                                                             }
+                                          },
+                      "Kingdom of Hungary (Territorial Gains)":  {
+                                                                     "properties":  {
+                                                                                        "leader":  "National government",
+                                                                                        "info":  "Kingdom of Hungary (Territorial Gains) at the end of 1990."
+                                                                                    }
+                                                                 },
+                      "Kingdom of Italy (Albania)":  {
+                                                         "properties":  {
+                                                                            "leader":  "National government",
+                                                                            "info":  "Kingdom of Italy (Albania) at the end of 1990."
+                                                                        }
+                                                     },
+                      "Kingdom of Iraq":  {
+                                              "properties":  {
+                                                                 "leader":  "National government",
+                                                                 "info":  "Kingdom of Iraq at the end of 1990."
+                                                             }
+                                          },
+                      "French Mandate (Syria and Lebanon)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "National government",
+                                                                                    "info":  "French Mandate (Syria and Lebanon) at the end of 1990."
+                                                                                }
+                                                             },
+                      "United Kingdom (Mandate of Palestine)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "National government",
+                                                                                       "info":  "United Kingdom (Mandate of Palestine) at the end of 1990."
+                                                                                   }
+                                                                },
+                      "United Kingdom (Transjordan)":  {
+                                                           "properties":  {
+                                                                              "leader":  "National government",
+                                                                              "info":  "United Kingdom (Transjordan) at the end of 1990."
+                                                                          }
+                                                       },
+                      "Kingdom of Saudi Arabia":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Kingdom of Saudi Arabia at the end of 1990."
+                                                                     }
+                                                  },
+                      "Republic of Turkey (Kars, Ardahan and Artvin)":  {
+                                                                            "properties":  {
+                                                                                               "leader":  "National government",
+                                                                                               "info":  "Republic of Turkey (Kars, Ardahan and Artvin) at the end of 1990."
+                                                                                           }
+                                                                        },
+                      "Soviet Occupation Zone (Germany)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "National government",
+                                                                                  "info":  "Soviet Occupation Zone (Germany) at the end of 1990."
+                                                                              }
+                                                           },
+                      "British Occupation Zone (Germany)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "British Occupation Zone (Germany) at the end of 1990."
+                                                                               }
+                                                            },
+                      "United States Occupation Zone (Germany)":  {
+                                                                      "properties":  {
+                                                                                         "leader":  "National government",
+                                                                                         "info":  "United States Occupation Zone (Germany) at the end of 1990."
+                                                                                     }
+                                                                  },
+                      "French Occupation Zone (Germany)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "National government",
+                                                                                  "info":  "French Occupation Zone (Germany) at the end of 1990."
+                                                                              }
+                                                           },
+                      "Soviet Occupation Zone (Austria)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "National government",
+                                                                                  "info":  "Soviet Occupation Zone (Austria) at the end of 1990."
+                                                                              }
+                                                           },
+                      "United States Occupation Zone (Austria)":  {
+                                                                      "properties":  {
+                                                                                         "leader":  "National government",
+                                                                                         "info":  "United States Occupation Zone (Austria) at the end of 1990."
+                                                                                     }
+                                                                  },
+                      "British Occupation Zone (Austria)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "British Occupation Zone (Austria) at the end of 1990."
+                                                                               }
+                                                            },
+                      "French Occupation Zone (Austria)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "National government",
+                                                                                  "info":  "French Occupation Zone (Austria) at the end of 1990."
+                                                                              }
+                                                           },
+                      "Soviet Union (Baltic Republics)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Mikhail Gorbachev (President)",
+                                                                                 "info":  "Soviet Union (Baltic Republics) within the Soviet Union at the end of 1990."
+                                                                             }
+                                                          },
+                      "Soviet Union (Postwar Acquisitions)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "Mikhail Gorbachev (President)",
+                                                                                     "info":  "Soviet Union (Postwar Acquisitions) within the Soviet Union at the end of 1990."
+                                                                                 }
+                                                              },
+                      "France (Alsace-Lorraine Restored)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "France (Alsace-Lorraine Restored) at the end of 1990."
+                                                                               }
+                                                            },
+                      "People's Republic of Bulgaria":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "Zhelyu Zhelev (President)",
+                                                                                    "info":  "Bulgaria began its transition from communist rule in 1989; the state became the Republic of Bulgaria in 1990.",
+                                                                                    "realm":  "Republic of Bulgaria",
+                                                                                    "label":  "Bulgaria"
+                                                                                }
+                                                             },
+                      "Polish People's Republic":  {
+                                                            "properties":  {
+                                                                               "leader":  "Lech Walesa (President-elect)",
+                                                                               "info":  "Poland had completed its transition to a multiparty democracy. Lech Walesa was elected president in December 1990.",
+                                                                               "realm":  "Republic of Poland",
+                                                                               "label":  "Poland"
+                                                                           }
+                                                        },
+                      "Hungarian People's Republic":  {
+                                                               "properties":  {
+                                                                                  "leader":  "Arpad Goncz (President)",
+                                                                                  "info":  "Hungary became a multiparty republic in 1989 and held free parliamentary elections in 1990.",
+                                                                                  "realm":  "Republic of Hungary",
+                                                                                  "label":  "Hungary"
+                                                                              }
+                                                           },
+                      "Federal People's Republic of Yugoslavia":  {
+                                                                           "properties":  {
+                                                                                              "leader":  "Ante Markovic (Prime Minister)",
+                                                                                              "info":  "Yugoslavia remained a federation at the end of 1990, though its constituent republics were moving toward independence.",
+                                                                                              "realm":  "Socialist Federal Republic of Yugoslavia",
+                                                                                              "label":  "Yugoslavia"
+                                                                                          }
+                                                                       },
+                      "People's Republic of Bulgaria (Southern Dobruja)":  {
+                                                                                    "properties":  {
+                                                                                                       "leader":  "National government",
+                                                                                                       "info":  "People's Republic of Bulgaria (Southern Dobruja) at the end of 1990."
+                                                                                                   }
+                                                                                },
+                      "People's Republic of Albania":  {
+                                                                "properties":  {
+                                                                                   "leader":  "National government",
+                                                                                   "info":  "People's Republic of Albania at the end of 1990."
+                                                                               }
+                                                            },
+                      "German Democratic Republic":  {
+                                                         "properties":  {
+                                                                            "leader":  "Former state",
+                                                                            "info":  "The German Democratic Republic acceded to the Federal Republic of Germany on 3 October 1990.",
+                                                                            "label":  "",
+                                                                            "regionFilters":  [
+
+                                                                                              ],
+                                                                            "excludeIds":  [
+
+                                                                                           ]
+                                                                        },
+                                                         "provinces":  [
+
+                                                                       ]
+                                                     },
+                      "Federal Republic of Germany":  {
+                                                          "properties":  {
+                                                                             "leader":  "Helmut Kohl (Federal Chancellor)",
+                                                                             "info":  "Germany was reunified on 3 October 1990, when the German Democratic Republic acceded to the Federal Republic. Berlin is shown as one region because the available map data has no separate city sectors.",
+                                                                             "realm":  "Federal Republic of Germany",
+                                                                             "label":  "Germany",
+                                                                             "regionFilters":  [
+                                                                                                   {
+                                                                                                       "admin":  "Germany",
+                                                                                                       "ids":  [
+                                                                                                                   "saxony",
+                                                                                                                   "bavaria",
+                                                                                                                   "rhineland-palatinate",
+                                                                                                                   "saarland",
+                                                                                                                   "schleswig-holstein",
+                                                                                                                   "lowersaxony",
+                                                                                                                   "northrhine-westphalia",
+                                                                                                                   "baden-württemberg",
+                                                                                                                   "brandenburg",
+                                                                                                                   "mecklenburg-westernpomerania",
+                                                                                                                   "freehanseaticbremen",
+                                                                                                                   "hamburg",
+                                                                                                                   "hesse",
+                                                                                                                   "thuringia",
+                                                                                                                   "saxony-anhalt",
+                                                                                                                   "berlin"
+                                                                                                               ]
+                                                                                                   }
+                                                                                               ],
+                                                                             "excludeIds":  [
+
+                                                                                            ],
+                                                                             "fillColor":  "#8b8f9e",
+                                                                             "borderColor":  "#4c4f5c"
+                                                                         },
+                                                          "provinces":  [
+
+                                                                        ]
+                                                      },
+                      "Saar Protectorate":  {
+                                                "properties":  {
+                                                                   "leader":  "Former protectorate",
+                                                                   "info":  "The Saar Protectorate had joined the Federal Republic of Germany in 1957.",
+                                                                   "label":  "",
+                                                                   "regionFilters":  [
+
+                                                                                     ],
+                                                                   "excludeIds":  [
+
+                                                                                  ]
+                                                               },
+                                                "provinces":  [
+
+                                                              ]
+                                            },
+                      "Republic of Austria":  {
+                                                  "properties":  {
+                                                                     "leader":  "Kurt Waldheim (President)",
+                                                                     "info":  "Austria remained a sovereign, permanently neutral republic."
+                                                                 }
+                                              }
+                  },
+    "additions":  [
+
+                  ]
+}

@@ -1,0 +1,31 @@
+﻿{
+    "properties":  {
+                       "realm":  "Duklja",
+                       "leader":  "Jovan Vladimir",
+                       "info":  "Duklja was a local South Slavic principality in present-day Montenegro. Around 1000 it was under Bulgarian suzerainty, although its local dynasty remained in place. All of present-day Montenegro is shown as a rough geographic proxy; the area\u0027s borders and control were less clearly defined than those of a modern state.",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Montenegro",
+                                                 "excludeIds":  [
+                                                                    "rožaje",
+                                                                    "berane",
+                                                                    "plav"
+                                                                ]
+                                             },
+                                             {
+                                                 "admin":  "Montenegro",
+                                                 "geonunit":  "Montenegro",
+                                                 "ids":  [
+                                                             "berane",
+                                                             "plav",
+                                                             "rožaje"
+                                                         ]
+                                             }
+                                         ],
+                       "fillColor":  "#56877d",
+                       "borderColor":  "#31534c"
+                   },
+    "provinces":  [
+
+                  ]
+}

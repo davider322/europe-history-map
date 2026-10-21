@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "realm": "Kingdom of Powys",
+    "leader": "Welsh princely dynasty; ruler in 1000 uncertain",
+    "info": "A Welsh kingdom on the frontier with Mercia. Its extent is shown using modern administrative areas as a rough illustration.",
+    "regionFilters": [
+      {
+        "admin": "United Kingdom",
+        "geonunit": "Wales",
+        "ids": ["powys", "wrexham"]
+      }
+    ],
+    "fillColor": "#8eaa62",
+    "borderColor": "#58693d"
+  },
+  "provinces": []
+}

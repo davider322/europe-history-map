@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "realm": "Armenian Kingdoms and Principalities",
+    "leader": "Several local dynasties; no single ruler",
+    "info": "A rough map of Armenian centers of power around 1000: the Bagratid kingdom around Ani, Vaspurakan around Lake Van, and smaller principalities in the Caucasus. These were several independent dynasties, not a single realm; modern provinces in Turkey, Armenia and Nakhchivan are only map references and cannot reproduce their exact borders.",
+    "regionFilters": [
+      {
+        "admin": "Turkey",
+        "ids": [
+          "ardahan",
+          "a\u00c4\u0178r\u00c4\u00b1",
+          "i\u00c4\u0178d\u00c4\u00b1r",
+          "kars",
+          "van",
+          "bitlis",
+          "mu\u00c5\u0178"
+        ]
+      },
+      {
+        "admin": "Armenia"
+      },
+      {
+        "admin": "Azerbaijan",
+        "ids": ["aze-nakhchivan-autonomous-republic"]
+      }
+    ],
+    "fillColor": "#9d6e9c",
+    "borderColor": "#60415f"
+  },
+  "provinces": []
+}

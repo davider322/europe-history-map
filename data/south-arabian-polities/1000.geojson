@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "realm": "Gulf Coast (Local Chiefdoms)",
+    "leader": "Local coastal chieftains; suzerainty unclear",
+    "info": "Around 1000, the area around the present-day United Arab Emirates consisted of local coastal and inland communities, with shifting ties to Oman, the Buyids and Qarmatian powers. There was no unified state corresponding to the modern federation; the border is shown as a rough regional marker.",
+    "regionFilters": [
+      {
+        "admin": "United Arab Emirates"
+      }
+    ],
+    "fillColor": "#8c8060",
+    "borderColor": "#5a523e"
+  },
+  "provinces": []
+}

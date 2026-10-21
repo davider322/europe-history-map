@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Mann (local Norse-Gaelic polity)",
+    "leader": "Local chieftains; suzerainty uncertain",
+    "info": "Around 1000, Mann had a Norse-Gaelic population and local rulers with close ties to Dublin and the Hebrides. A unified kingdom across the islands cannot be securely attested for this period, so the map shows the island as a local polity.",
+    "regionFilters": [
+      {
+        "admin": "Supplemental Islands",
+        "ids": ["isle-of-man"]
+      }
+    ],
+    "fillColor": "#4f8b83",
+    "borderColor": "#2e544f"
+  },
+  "provinces": []
+}

@@ -1,0 +1,71 @@
+﻿{
+    "properties":  {
+                       "realm":  "Caliphate of Córdoba",
+                       "leader":  "Hisham II; Almanzor held de facto power",
+                       "info":  "Around 1000, al-Andalus was formally ruled by Caliph Hisham II, while the hajib Almanzor dominated politics. The area is approximated using modern regions and excludes areas shown here as León, Navarre and Barcelona. The Canary Islands are not shown. The territories use the original base provinces; modern borders are cartographic references, not historical ones.",
+                       "regionAdmins":  [
+                                            "Spain",
+                                            "Portugal"
+                                        ],
+                       "fillColor":  "#398b83",
+                       "borderColor":  "#20534e",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Spain",
+                                                 "ids":  [
+                                                             "cádiz",
+                                                             "huelva",
+                                                             "almería",
+                                                             "granada",
+                                                             "málaga",
+                                                             "seville",
+                                                             "córdoba",
+                                                             "jaén",
+                                                             "albacete",
+                                                             "cuenca",
+                                                             "toledo",
+                                                             "ciudadreal",
+                                                             "guadalajara"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "Portugal",
+                                                 "geonunit":  "Portugal",
+                                                 "ids":  [
+                                                             "beja",
+                                                             "castelobranco",
+                                                             "coimbra",
+                                                             "évora",
+                                                             "guarda",
+                                                             "leiria",
+                                                             "lisbon",
+                                                             "portalegre",
+                                                             "santarém",
+                                                             "setúbal",
+                                                             "viseu"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "Spain",
+                                                 "geonunit":  "",
+                                                 "ids":  [
+                                                             "alicante",
+                                                             "badajoz",
+                                                             "cáceres",
+                                                             "castellón",
+                                                             "huesca",
+                                                             "teruel",
+                                                             "valencia"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+                      "ceuta",
+                      "melilla",
+                      "murcia",
+                      "balearicislands",
+                      "communityofmadrid",
+                      "faro"
+                  ]
+}

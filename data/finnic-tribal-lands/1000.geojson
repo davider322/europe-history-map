@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Finnic Tribal Lands",
+    "leader": "Local Finnic groups and chieftains",
+    "info": "The area of present-day Finland consisted around 1000 of several local Finnic communities and spheres of influence, not a unified kingdom. Swedish influence grew gradually, but modern regions should not be read as a Swedish-Finnish state border. Lapland and Karelia are shown separately as broad frontier and cultural regions.",
+    "regionFilters": [
+      {
+        "admin": "Finland",
+        "excludeIds": ["lapland", "northkarelia", "southkarelia"]
+      }
+    ],
+    "fillColor": "#b7a276",
+    "borderColor": "#776849"
+  },
+  "provinces": []
+}

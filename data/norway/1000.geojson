@@ -1,0 +1,38 @@
+﻿{
+    "properties":  {
+                       "realm":  "Norway",
+                       "leader":  "Olaf Tryggvason (until 1000)",
+                       "info":  "A cautious, approximate map of the southern core areas associated with the Kingdom of Norway around 1000. Modern regions do not match historical borders. Norway uses the original base provinces; modern borders are cartographic references, not historical ones. Sámi and northern frontierlands are shown separately farther north; Norwegian royal claims and local influence there were more intermittent and should not be read as uniform direct control.",
+                       "regionAdmins":  [
+                                            "Norway"
+                                        ],
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Norway",
+                                                 "geonunit":  "Norway",
+                                                 "ids":  [
+                                                             "akershus",
+                                                             "aust-agder",
+                                                             "oslo",
+                                                             "telemark",
+                                                             "vest-agder",
+                                                             "vestfold"
+                                                         ]
+                                             }
+                                         ],
+                       "fillColor":  "#3d7891",
+                       "borderColor":  "#214654"
+                   },
+    "provinces":  [
+                      "nord-trøndelag",
+                      "sør-trøndelag",
+                      "hedmark",
+                      "østfold",
+                      "buskerud",
+                      "rogaland",
+                      "hordaland",
+                      "sognogfjordane",
+                      "møreogromsdal",
+                      "oppland"
+                  ]
+}

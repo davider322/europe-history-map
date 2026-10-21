@@ -1,0 +1,24 @@
+﻿{
+    "properties":  {
+                       "realm":  "Duchy of Naples",
+                       "leader":  "John IV",
+                       "info":  "Around 1000, Naples was a self-governing duchy with close ties to Byzantium. The modern provincial boundary is used only as an approximate marker. The relevant areas of southern Italy use the original base provinces; the realm\u0027s political extent is unchanged.",
+                       "regionAdmins":  [
+                                            "Italy"
+                                        ],
+                       "fillColor":  "#547f8c",
+                       "borderColor":  "#304d55",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Italy",
+                                                 "geonunit":  "Italy",
+                                                 "ids":  [
+                                                             "naples"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+
+                  ]
+}

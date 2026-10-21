@@ -1,0 +1,31 @@
+﻿{
+    "properties":  {
+                       "realm":  "Sardinia (Local Autonomy)",
+                       "leader":  "Local provincial judge; name uncertain",
+                       "info":  "Around 1000, Sardinia was a remote former Byzantine province where local rulers were gaining autonomy. It cannot be established with certainty that the island was already divided into the four later giudicati. Byzantine suzerainty may have continued formally, but its practical strength is unclear. Modern provinces are shown only as a rough illustration. The relevant areas of southern Italy use the original base provinces; the realm\u0027s political extent is unchanged.",
+                       "regionAdmins":  [
+                                            "Italy"
+                                        ],
+                       "fillColor":  "#718c79",
+                       "borderColor":  "#425347",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Italy",
+                                                 "geonunit":  "Italy",
+                                                 "ids":  [
+                                                             "cagliari",
+                                                             "carbonia-iglesias",
+                                                             "mediocampidano",
+                                                             "nuoro",
+                                                             "ogliastra",
+                                                             "olbia-tempio",
+                                                             "oristano",
+                                                             "sassari"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+
+                  ]
+}

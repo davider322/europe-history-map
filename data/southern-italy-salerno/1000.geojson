@@ -1,0 +1,25 @@
+﻿{
+    "properties":  {
+                       "realm":  "Principality of Salerno",
+                       "leader":  "Guaimar III",
+                       "info":  "An independent Lombard principality under Guaimar III. Amalfi retained considerable autonomy but was around this time under Salerno\u0027s suzerainty. Modern regional borders are only a rough illustration. The relevant areas of southern Italy use the original base provinces; the realm\u0027s political extent is unchanged.",
+                       "regionAdmins":  [
+                                            "Italy"
+                                        ],
+                       "fillColor":  "#b98a48",
+                       "borderColor":  "#70522a",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Italy",
+                                                 "geonunit":  "Italy",
+                                                 "ids":  [
+                                                             "avellino",
+                                                             "salerno"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+
+                  ]
+}

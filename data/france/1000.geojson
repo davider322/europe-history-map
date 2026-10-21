@@ -1,0 +1,100 @@
+﻿{
+    "properties":  {
+                       "realm":  "France",
+                       "leader":  "Robert II",
+                       "info":  "A simplified map of the West Frankish Kingdom around 1000 using modern French regions. The Duchy of Normandy is shown separately in the north, and parts of present-day eastern and southeastern France are shown separately as the Kingdom of Burgundy. Corsica is shown in the Byzantine layer as a nominal and uncertain Byzantine sphere. The French king exercised his strongest direct power around the royal demesne; major duchies and counties were effectively ruled by local dynasties. The color therefore indicates political affiliation and claims, not uniform royal control. Modern administrative boundaries are not historical borders. The French core uses the original base provinces; Normandy and Burgundy are shown separately. Modern borders are cartographic references, not historical ones.",
+                       "label":  "France",
+                       "regionAdmins":  [
+                                            "France"
+                                        ],
+                       "fillColor":  "#4169a1",
+                       "borderColor":  "#203b61",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "France",
+                                                 "ids":  [
+                                                             "nord",
+                                                             "aisne",
+                                                             "somme",
+                                                             "pas-de-calais",
+                                                             "oise",
+                                                             "haute-garonne",
+                                                             "hautes-pyrénées",
+                                                             "gers",
+                                                             "tarn-et-garonne",
+                                                             "pyrenees-atlantics",
+                                                             "landes",
+                                                             "gironde",
+                                                             "lot-et-garonne"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "France",
+                                                 "geonunit":  "France",
+                                                 "ids":  [
+                                                             "allier",
+                                                             "ardennes",
+                                                             "ariège",
+                                                             "aube",
+                                                             "aude",
+                                                             "aveyron",
+                                                             "bas-rhin",
+                                                             "cantal",
+                                                             "charente",
+                                                             "charente-maritime",
+                                                             "cher",
+                                                             "corrèze",
+                                                             "côte-d’or",
+                                                             "côtes-d\u0027armor",
+                                                             "creuse",
+                                                             "deux-sèvres",
+                                                             "dordogne",
+                                                             "essonne",
+                                                             "eure-et-loir",
+                                                             "finistère",
+                                                             "gard",
+                                                             "haute-loire",
+                                                             "haute-marne",
+                                                             "haute-vienne",
+                                                             "haut-rhin",
+                                                             "hauts-de-seine",
+                                                             "hérault",
+                                                             "ille-et-vilaine",
+                                                             "indre",
+                                                             "indre-et-loire",
+                                                             "loire",
+                                                             "loire-atlantique",
+                                                             "loiret",
+                                                             "loir-et-cher",
+                                                             "lot",
+                                                             "lozère",
+                                                             "maine-et-loire",
+                                                             "marne",
+                                                             "mayenne",
+                                                             "meurthe-et-moselle",
+                                                             "meuse",
+                                                             "morbihan",
+                                                             "moselle",
+                                                             "nièvre",
+                                                             "paris",
+                                                             "puy-de-dôme",
+                                                             "saône-et-loire",
+                                                             "sarthe",
+                                                             "seine-et-marne",
+                                                             "seine-saint-denis",
+                                                             "tarn",
+                                                             "val-de-marne",
+                                                             "val-d\u0027oise",
+                                                             "vendée",
+                                                             "vienne",
+                                                             "vosges",
+                                                             "yonne",
+                                                             "yvelines"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+
+                  ]
+}

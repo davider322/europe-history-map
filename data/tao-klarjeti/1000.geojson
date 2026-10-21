@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "realm": "Tao-Klarjeti (Bagratid Domain)",
+    "leader": "Gurgen of Tao; Bagrat III\u0027s influence was growing",
+    "info": "Tao-Klarjeti was a Bagratid center of power in present-day southern and central Georgia. Around 1000, Gurgen held the title of King of Kings, while Bagrat III built his position from the Kingdom of Abkhazia. The area was part of the political unification that led to a united Georgia in 1008, but was not yet a unified kingdom.",
+    "regionFilters": [
+      {
+        "admin": "Georgia",
+        "ids": [
+          "geo-kvemo-kartli",
+          "geo-mtskheta-mtianeti",
+          "geo-samtskhe-javakheti",
+          "geo-shida-kartli"
+        ]
+      }
+    ],
+    "fillColor": "#b88a52",
+    "borderColor": "#745534"
+  },
+  "provinces": []
+}

@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "realm": "Duchy of Bohemia",
+    "leader": "Boleslaus III",
+    "info": "Bohemia was a Přemyslid duchy under the suzerainty of the Holy Roman Empire, but had its own ruler. The map shows the Bohemian core using modern regions. Moravia is shown separately as a disputed area under Polish control or suzerainty around the turn of the millennium; modern regional borders are only an approximation.",
+    "regionAdmins": ["Czech Republic"],
+    "fillColor": "#7563a8",
+    "borderColor": "#45385f"
+  },
+  "provinces": [
+    "ústínadlabem",
+    "liberec",
+    "karlovyvary",
+    "plzeň-",
+    "southbohemian",
+    "hradeckrálové",
+    "pardubice",
+    "vysočina",
+    "centralbohemian",
+    "prague"
+  ]
+}

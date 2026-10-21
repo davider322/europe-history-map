@@ -1,0 +1,128 @@
+Denmark (Iceland) |  | #8b1e2d | p0 f21
+Russian Empire (Courland) |  | #1c3a22 | p0 f1014
+German Empire (East Prussia) |  | #8b8f9e | p0 f99
+Russian Empire (Kazan) |  | #1c3a22 | p0 f68
+Russian Empire (Northern Finnic Frontierlands) |  | #1c3a22 | p0 f91
+Russian Empire (Volga–Ural) |  | #1c3a22 | p0 f204
+Russian Empire (North Caucasus) |  | #1c3a22 | p0 f109
+Russian Empire (Caucasian steppe) |  | #1c3a22 | p0 f125
+German Empire (Kingdom of Prussia) |  | #8b8f9e | p3 f2
+France | France | #4169a1 | p0 f510
+Kingdom of Italy | Kingdom of Italy | #5fa07e | p14 f2
+Kingdom of Italy (Papal Enclave of Benevento) |  | #5fa07e | p0 f81
+Denmark (Faroe Islands) |  | #8b1e2d | p0 f58
+Switzerland | Switzerland | #c9726b | p16 f2
+Austria-Hungary (Kingdom of Bohemia) |  | #ffffff | p10 f89
+Austria-Hungary | Austria-Hungary | #ffffff | p0 f322
+Austria-Hungary (Hungarian crown) |  | #ffffff | p9 f210
+Principality of Bulgaria | Bulgaria | #5f9ea0 | p0 f22
+Ottoman Empire (Rumelia) |  | #d1a52e | p0 f453
+Principality of Montenegro | Montenegro | #b0607a | p0 f144
+Austria-Hungary (Bosnia) |  | #ffffff | p0 f398
+Russian Empire (Crimea) |  | #1c3a22 | p5 f94
+Russian Empire (Crimea) 2 |  | #1c3a22 | p0 f70
+Ottoman Empire (Egypt and Syria) |  | #d1a52e | p0 f501
+Ottoman Empire (Aleppo) |  | #d1a52e | p0 f99
+Alaouite Sultanate | Morocco | #a8704f | p0 f343
+Saharan Frontier and Tribal Lands |  | #a89d84 | p0 f164
+Russian Empire | Russian Empire | #1c3a22 | p0 f225
+Russian Empire (Arran and Shirvan) |  | #1c3a22 | p0 f60
+United Kingdom | United Kingdom | #c0504d | p27 f156
+United Kingdom (Scotland) |  | #c0504d | p1 f479
+United Kingdom (Isle of Man) |  | #c0504d | p0 f56
+United Kingdom (Northern Isles) |  | #c0504d | p0 f92
+United Kingdom (Ulster) |  | #c0504d | p3 f58
+United Kingdom (Connacht) |  | #c0504d | p5 f2
+Denmark–Norway (Gotland) |  | #8b1e2d | p1 f2
+Kingdom of Italy (Kingdom of Sardinia) |  | #5fa07e | p0 f150
+Historical Microstates |  | #d9894a | p0 f94
+Ottoman Empire (Hejaz) |  | #d1a52e | p0 f54
+Ottoman Empire (Medina) |  | #d1a52e | p0 f58
+Ottoman Empire (al-Hasa) |  | #d1a52e | p0 f75
+Arabian Tribal Polities | Arabian tribal lands | #a28b70 | p0 f106
+Qajar Iran | Qajar Iran | #9a4a6a | p0 f18
+Ottoman Empire (Iraq) |  | #d1a52e | p0 f201
+Russian Empire (Kingdom of Georgia) |  | #1c3a22 | p0 f67
+Kingdom of Spain | Spain | #a37d45 | p33 f550
+Ottoman Empire (Serbia) |  | #d1a52e | p0 f875
+Kingdom of Portugal | Portugal | #2f6b3a | p18 f2
+Ottoman Empire (Tripolitania) |  | #d1a52e | p0 f88
+Ottoman Empire (Cyrenaica) | Ottoman Empire | #d1a52e | p0 f100
+Ottoman Empire (Anatolia) |  | #d1a52e | p0 f540
+Ottoman Empire (Trebizond) |  | #d1a52e | p0 f84
+Ottoman Empire (Antioch) |  | #d1a52e | p0 f36
+Ottoman Empire (Palestine coast) |  | #d1a52e | p0 f122
+France (Brittany) |  | #4169a1 | p0 f104
+United Kingdom (Cyprus) |  | #c0504d | p0 f20
+Ottoman Empire (Cilicia) |  | #d1a52e | p0 f56
+Ottoman Empire (Tripoli) |  | #d1a52e | p0 f99
+Ottoman Empire (Upper Mesopotamia) |  | #d1a52e | p0 f95
+Ottoman Empire (Erzurum) |  | #d1a52e | p0 f68
+Ottoman Empire (Jazira) |  | #d1a52e | p0 f117
+France (Africa) | French Africa | #4169a1 | p0 f41
+France (Provence) |  | #4169a1 | p4 f2
+Russian Empire (Novgorod) |  | #1c3a22 | p0 f77
+Russian Empire (Estonia) |  | #1c3a22 | p0 f21
+Ottoman Empire (Albania) |  | #d1a52e | p0 f95
+Kingdom of Greece (Thessaly) |  | #6fa8d8 | p0 f40
+Kingdom of Greece | Greece | #6fa8d8 | p0 f53
+Ottoman Empire (Constantinople) |  | #d1a52e | p0 f39
+Ottoman Empire | Ottoman Empire | #d1a52e | p0 f165
+Kingdom of Italy (Cisalpine Republic) |  | #5fa07e | p22 f2
+Kingdom of Italy (Republic of Venice) |  | #5fa07e | p2 f2
+Kingdom of Italy (Grand Duchy of Tuscany) |  | #5fa07e | p4 f2
+Kingdom of Italy (North Italian signorie) |  | #5fa07e | p9 f2
+German Empire (Pomerania) |  | #8b8f9e | p1 f2
+German Empire (Silesia) |  | #8b8f9e | p3 f2
+Kingdom of Romania | Romania | #cc8f6a | p18 f2
+Russian Empire (Seversk) |  | #1c3a22 | p0 f58
+Russian Empire (Astrakhan) |  | #1c3a22 | p0 f98
+Netherlands | Netherlands | #d98a3d | p0 f47
+Austria-Hungary (Reconquered) |  | #ffffff | p0 f370
+Austria-Hungary (Principality of Transylvania) |  | #ffffff | p0 f250
+German Empire (Swedish Pomerania) |  | #8b8f9e | p1 f2
+Russian Empire (Lithuania) |  | #1c3a22 | p0 f23
+Russian Empire (Partitioned Poland) |  | #1c3a22 | p13 f2
+Austria-Hungary (Banat) |  | #ffffff | p0 f133
+Denmark 2 | Denmark | #8b1e2d | p0 f21
+Belgium | Belgium | #c2b04a | p0 f21
+German Empire (Rhineland) |  | #8b8f9e | p0 f63
+Luxembourg | Luxembourg | #8fb0c9 | p0 f24
+German Empire (Alsace) |  | #8b8f9e | p0 f51
+France (Gascony, Dauphiné and annexations) |  | #4169a1 | p0 f219
+Kingdom of Italy (Savoy) |  | #5fa07e | p0 f51
+France (Savoy) |  | #4169a1 | p0 f76
+Austria-Hungary (Galicia) |  | #ffffff | p0 f144
+Russian Empire (Galicia) |  | #1c3a22 | p0 f76
+German Empire | German Empire | #8b8f9e | p0 f232
+Austria-Hungary (Holy Roman Empire) |  | #ffffff | p0 f158
+Switzerland (Holy Roman Empire) |  | #c9726b | p0 f140
+France (Lorraine) |  | #4169a1 | p0 f65
+Kingdom of Italy (Holy Roman Empire) |  | #5fa07e | p0 f114
+Russian Empire (Karelian Frontierlands) |  | #1c3a22 | p0 f38
+Russian Empire (Finland) – Karelian Frontierlands |  | #1c3a22 | p0 f59
+Kingdom of Greece (Ionian Islands) |  | #6fa8d8 | p0 f44
+Ottoman Empire (Albania) 2 |  | #d1a52e | p0 f57
+Kingdom of Italy (Kingdom of Naples) |  | #5fa07e | p0 f258
+Russian Empire (Polish partition) |  | #1c3a22 | p0 f68
+German Empire (Polish partition) |  | #8b8f9e | p0 f112
+Kingdom of Italy (Kingdom of Sicily) |  | #5fa07e | p0 f122
+United Kingdom (Malta) |  | #c0504d | p0 f19
+Kingdom of Italy (Ligurian Republic) |  | #5fa07e | p0 f67
+France (Corsica) |  | #4169a1 | p0 f57
+Kingdom of Greece (Albania) |  | #6fa8d8 | p0 f41
+Kingdom of Greece (Constantinople) |  | #6fa8d8 | p0 f42
+Egypt (British occupation) | Egypt | #d08a86 | p0 f19
+Kingdom of Serbia | Serbia | #8e6aa8 | p0 f222
+Russian Empire (Principality of Moldavia) |  | #1c3a22 | p0 f21
+Austria-Hungary (Principality of Moldavia) |  | #ffffff | p0 f42
+Kingdom of Romania (Principality of Moldavia) |  | #cc8f6a | p0 f101
+Kingdom of Greece (Aegean) |  | #6fa8d8 | p0 f42
+Ottoman Empire (Aegean) |  | #d1a52e | p0 f36
+Russian Empire (Armenia) |  | #1c3a22 | p0 f123
+Ottoman Empire 2 |  | #d1a52e | p0 f64
+Russian Empire (Sámi and Northern Frontierlands) |  | #1c3a22 | p0 f39
+Russian Empire (Finland) – Sámi and Northern Frontierlands |  | #1c3a22 | p0 f39
+France (Roussillon) |  | #4169a1 | p0 f50
+Sweden–Norway | Sweden–Norway | #102548 | p0 f273
+Russian Empire (Finland) |  | #1c3a22 | p0 f323

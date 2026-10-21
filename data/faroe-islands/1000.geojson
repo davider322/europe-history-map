@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Faroe Islands (local chiefdom)",
+    "leader": "Local chieftains; Sigmundur Brestisson",
+    "info": "Around 1000, the Faroe Islands had a Norse settler population with local chieftains and assemblies, not a securely attested unified kingdom. Sigmundur Brestisson was a prominent chieftain in later saga tradition. The islands\u0027 political relationship with Norway was still unclear.",
+    "regionFilters": [
+      {
+        "admin": "Supplemental Islands",
+        "ids": ["faroe-islands"]
+      }
+    ],
+    "fillColor": "#87945f",
+    "borderColor": "#50583a"
+  },
+  "provinces": []
+}

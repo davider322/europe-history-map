@@ -1,0 +1,92 @@
+{
+    "properties":  {
+                       "realm":  "Byzantine Empire",
+                       "label":  "Byzantium",
+                       "leader":  "Basil II",
+                       "info":  "A simplified overview of the Byzantine Empire around 1000: Greece, Crete, Cyprus, much of present-day Albania and Anatolia, and Byzantine-controlled areas in Apulia and Calabria. Corsica is included in the nominal Byzantine sphere, although actual control there was uncertain. Armenian kingdoms and principalities, as well as the Marwanid Emirate, are shown separately to the east and southeast. Borders with Bulgaria and local rulers shifted; modern regions are only rough map references and do not imply uniform direct control. The relevant areas of southern Italy use the original base provinces; the realm\u0027s political extent is unchanged.",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Greece"
+                                             },
+                                             {
+                                                 "admin":  "Albania",
+                                                 "excludeIds":  [
+                                                                    "kukës"
+                                                                ]
+                                             },
+                                             {
+                                                 "admin":  "Cyprus"
+                                             },
+                                             {
+                                                 "admin":  "Turkey",
+                                                 "excludeIds":  [
+                                                                    "ardahan",
+                                                                    "ağrı",
+                                                                    "bitlis",
+                                                                    "iğdır",
+                                                                    "kars",
+                                                                    "van",
+                                                                    "muş",
+                                                                    "batman",
+                                                                    "diyarbakır",
+                                                                    "mardin",
+                                                                    "siirt",
+                                                                    "şırnak",
+                                                                    "şanlıurfa"
+                                                                ]
+                                             },
+                                             {
+                                                 "admin":  "Romania",
+                                                 "ids":  [
+                                                             "constanța",
+                                                             "tulcea"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "France",
+                                                 "ids":  [
+                                                             "haute-corse",
+                                                             "corse-du-sud"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "Albania",
+                                                 "geonunit":  "Albania",
+                                                 "ids":  [
+                                                             "kukës"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "Italy",
+                                                 "geonunit":  "Italy",
+                                                 "ids":  [
+                                                             "bari",
+                                                             "barletta-andria-trani",
+                                                             "brindisi",
+                                                             "catanzaro",
+                                                             "cosenza",
+                                                             "crotone",
+                                                             "foggia",
+                                                             "lecce",
+                                                             "matera",
+                                                             "potenza",
+                                                             "reggiocalabria",
+                                                             "taranto",
+                                                             "vibovalentia"
+                                                         ]
+                                             }
+                                         ],
+                       "fillColor":  "#55306f",
+                       "borderColor":  "#2d1b3a",
+                       "label":  "Byzantium",
+                       "labelPosition":  [
+                                             39.5,
+                                             29.0
+                                         ],
+                       "labelFontSize":  75,
+                       "labelLetterSpacing":  3
+                   },
+    "provinces":  [
+
+                  ]
+}

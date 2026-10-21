@@ -1,0 +1,715 @@
+{
+    "baseYear":  "1900",
+    "note":  "Europe in 1871: the German Empire is proclaimed, Italy has just taken Rome, Austria-Hungary is a dual monarchy, France is a republic, and the Balkans, Bosnia and Cyprus are still Ottoman.",
+    "overrides":  {
+                      "Russian Empire (Courland)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Alexander II"
+                                                                       }
+                                                    },
+                      "German Empire (East Prussia)":  {
+                                                           "properties":  {
+                                                                              "leader":  "Wilhelm I"
+                                                                          }
+                                                       },
+                      "Russian Empire (Kazan)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Alexander II"
+                                                                    }
+                                                 },
+                      "Russian Empire (Northern Finnic Frontierlands)":  {
+                                                                             "properties":  {
+                                                                                                "leader":  "Alexander II"
+                                                                                            }
+                                                                         },
+                      "Russian Empire (Volga–Ural)":  {
+                                                          "properties":  {
+                                                                             "leader":  "Alexander II"
+                                                                         }
+                                                      },
+                      "Russian Empire (North Caucasus)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Alexander II"
+                                                                             }
+                                                          },
+                      "Russian Empire (Caucasian steppe)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "Alexander II"
+                                                                               }
+                                                            },
+                      "German Empire (Kingdom of Prussia)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "Wilhelm I"
+                                                                                }
+                                                             },
+                      "France":  {
+                                     "properties":  {
+                                                        "leader":  "Adolphe Thiers (President)",
+                                                        "info":  "The Third Republic was proclaimed in September 1870 after Napoleon III fell at Sedan; France lost Alsace and part of Lorraine and put down the Paris Commune in 1871."
+                                                    }
+                                 },
+                      "Kingdom of Italy":  {
+                                               "properties":  {
+                                                                  "leader":  "Victor Emmanuel II",
+                                                                  "info":  "Italy was almost unified: Venetia was gained in 1866 and Rome was taken from the Pope in 1870 (capital from 1871); Trento and Trieste were still Austrian."
+                                                              }
+                                           },
+                      "Kingdom of Italy (Papal Enclave of Benevento)":  {
+                                                                            "properties":  {
+                                                                                               "leader":  "Victor Emmanuel II"
+                                                                                           }
+                                                                        },
+                      "Ottoman Empire (Rumelia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Abdulaziz"
+                                                                      }
+                                                   },
+                      "Russian Empire (Crimea)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Alexander II"
+                                                                     }
+                                                  },
+                      "Russian Empire (Crimea) 2":  {
+                                                        "properties":  {
+                                                                           "leader":  "Alexander II"
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Egypt and Syria)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "Abdulaziz"
+                                                                              }
+                                                           },
+                      "Ottoman Empire (Aleppo)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Abdulaziz"
+                                                                     }
+                                                  },
+                      "Alaouite Sultanate":  {
+                                                 "properties":  {
+                                                                    "leader":  "Muhammad IV",
+                                                                    "info":  "Morocco was an independent sultanate under Muhammad IV (1859-73), under growing European pressure."
+                                                                }
+                                             },
+                      "Russian Empire":  {
+                                             "properties":  {
+                                                                "leader":  "Alexander II",
+                                                                "info":  "Russia under Alexander II had freed the serfs in 1861 and was expanding in Central Asia and the Caucasus; Poland, the Baltic provinces and Finland were under the tsar."
+                                                            }
+                                         },
+                      "Russian Empire (Arran and Shirvan)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "Alexander II"
+                                                                                }
+                                                             },
+                      "Kingdom of Italy (Kingdom of Sardinia)":  {
+                                                                     "properties":  {
+                                                                                        "leader":  "Victor Emmanuel II"
+                                                                                    }
+                                                                 },
+                      "Ottoman Empire (Hejaz)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Abdulaziz"
+                                                                    }
+                                                 },
+                      "Ottoman Empire (Medina)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Abdulaziz"
+                                                                     }
+                                                  },
+                      "Ottoman Empire (al-Hasa)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Abdulaziz"
+                                                                      }
+                                                   },
+                      "Qajar Iran":  {
+                                         "properties":  {
+                                                            "leader":  "Naser al-Din Shah",
+                                                            "info":  "Persia was ruled by Naser al-Din Shah of the Qajar dynasty, balancing between Russia and Britain."
+                                                        }
+                                     },
+                      "Ottoman Empire (Iraq)":  {
+                                                    "properties":  {
+                                                                       "leader":  "Abdulaziz"
+                                                                   }
+                                                },
+                      "Russian Empire (Kingdom of Georgia)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "Alexander II"
+                                                                                 }
+                                                              },
+                      "Kingdom of Spain":  {
+                                               "properties":  {
+                                                                  "leader":  "Amadeo I (of Savoy)",
+                                                                  "info":  "After the Revolution of 1868 ousted Isabella II, Spain was ruled by Amadeo of Savoy (1870-73), followed by the First Republic."
+                                                              }
+                                           },
+                      "Ottoman Empire (Serbia)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Abdulaziz"
+                                                                     }
+                                                  },
+                      "Kingdom of Portugal":  {
+                                                  "properties":  {
+                                                                     "leader":  "Luís I",
+                                                                     "info":  "Portugal under Luís I (1861-89) was a constitutional monarchy with African colonies."
+                                                                 }
+                                              },
+                      "Ottoman Empire (Tripolitania)":  {
+                                                            "properties":  {
+                                                                               "leader":  "Abdulaziz"
+                                                                           }
+                                                        },
+                      "Ottoman Empire (Cyrenaica)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Abdulaziz"
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Anatolia)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Abdulaziz",
+                                                                           "label":  "Ottoman Empire",
+                                                                           "labelOwn":  true
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Trebizond)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Abdulaziz"
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Antioch)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Abdulaziz"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Palestine coast)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "Abdulaziz"
+                                                                              }
+                                                           },
+                      "France (Brittany)":  {
+                                                "properties":  {
+                                                                   "leader":  "Adolphe Thiers (President)"
+                                                               }
+                                            },
+                      "Ottoman Empire (Cilicia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Abdulaziz"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Tripoli)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Abdulaziz"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Upper Mesopotamia)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "Abdulaziz"
+                                                                                }
+                                                             },
+                      "Ottoman Empire (Erzurum)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Abdulaziz"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Jazira)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Abdulaziz"
+                                                                     }
+                                                  },
+                      "France (Africa)":  {
+                                              "properties":  {
+                                                                 "leader":  "Adolphe Thiers (President)",
+                                                                 "info":  "France had ruled Algeria since 1830; Tunisia was still a nominally Ottoman beylik until the protectorate of 1881.",
+                                                                 "regionFilters":  [
+                                                                                       {
+                                                                                           "admin":  "Algeria"
+                                                                                       }
+                                                                                   ]
+                                                             }
+                                          },
+                      "France (Provence)":  {
+                                                "properties":  {
+                                                                   "leader":  "Adolphe Thiers (President)"
+                                                               }
+                                            },
+                      "Russian Empire (Novgorod)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Alexander II"
+                                                                       }
+                                                    },
+                      "Russian Empire (Estonia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Alexander II"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Albania)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Abdulaziz"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Constantinople)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Abdulaziz"
+                                                                             }
+                                                          },
+                      "Ottoman Empire":  {
+                                             "properties":  {
+                                                                "leader":  "Abdulaziz",
+                                                                "info":  "The Ottoman Empire still held the whole Balkans from Bosnia and Bulgaria to Thessaly and Macedonia, plus Anatolia, the Levant, Iraq, the Hejaz, Cyprus and Libya; Serbia and Romania were autonomous vassals.",
+                                                                "label":  ""
+                                                            }
+                                         },
+                      "Kingdom of Italy (Cisalpine Republic)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Victor Emmanuel II"
+                                                                                   }
+                                                                },
+                      "Kingdom of Italy (Republic of Venice)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Victor Emmanuel II"
+                                                                                   }
+                                                                },
+                      "Kingdom of Italy (Grand Duchy of Tuscany)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Victor Emmanuel II"
+                                                                                       }
+                                                                    },
+                      "Kingdom of Italy (North Italian signorie)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Victor Emmanuel II"
+                                                                                       }
+                                                                    },
+                      "German Empire (Pomerania)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Wilhelm I"
+                                                                       }
+                                                    },
+                      "German Empire (Silesia)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Wilhelm I"
+                                                                     }
+                                                  },
+                      "Russian Empire (Seversk)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Alexander II"
+                                                                      }
+                                                   },
+                      "Russian Empire (Astrakhan)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Alexander II"
+                                                                        }
+                                                     },
+                      "Netherlands":  {
+                                          "properties":  {
+                                                             "leader":  "William III",
+                                                             "info":  "The Kingdom of the Netherlands under William III (1849-90)."
+                                                         }
+                                      },
+                      "German Empire (Swedish Pomerania)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "Wilhelm I"
+                                                                               }
+                                                            },
+                      "Russian Empire (Lithuania)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Alexander II"
+                                                                        }
+                                                     },
+                      "Russian Empire (Partitioned Poland)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "Alexander II"
+                                                                                 }
+                                                              },
+                      "German Empire (Rhineland)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Wilhelm I"
+                                                                       }
+                                                    },
+                      "Luxembourg":  {
+                                         "properties":  {
+                                                            "leader":  "William III (Grand Duke)",
+                                                            "info":  "Luxembourg was a neutral grand duchy (since 1867) in personal union with the Netherlands."
+                                                        }
+                                     },
+                      "German Empire (Alsace)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Wilhelm I"
+                                                                    }
+                                                 },
+                      "France (Gascony, Dauphiné and annexations)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "Adolphe Thiers (President)"
+                                                                                        }
+                                                                     },
+                      "Kingdom of Italy (Savoy)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Victor Emmanuel II"
+                                                                      }
+                                                   },
+                      "France (Savoy)":  {
+                                             "properties":  {
+                                                                "leader":  "Adolphe Thiers (President)"
+                                                            }
+                                         },
+                      "Russian Empire (Galicia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Alexander II"
+                                                                      }
+                                                   },
+                      "German Empire":  {
+                                            "properties":  {
+                                                               "leader":  "Wilhelm I",
+                                                               "info":  "The German Empire was proclaimed at Versailles on 18 January 1871 under Wilhelm I of Prussia, uniting the North German Confederation with the southern states; Alsace was annexed from France."
+                                                           }
+                                        },
+                      "France (Lorraine)":  {
+                                                "properties":  {
+                                                                   "leader":  "Adolphe Thiers (President)"
+                                                               }
+                                            },
+                      "Kingdom of Italy (Holy Roman Empire)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel II"
+                                                                                  }
+                                                               },
+                      "Russian Empire (Karelian Frontierlands)":  {
+                                                                      "properties":  {
+                                                                                         "leader":  "Alexander II"
+                                                                                     }
+                                                                  },
+                      "Russian Empire (Finland) – Karelian Frontierlands":  {
+                                                                                "properties":  {
+                                                                                                   "leader":  "Alexander II"
+                                                                                               }
+                                                                            },
+                      "Ottoman Empire (Albania) 2":  {
+                                                         "properties":  {
+                                                                            "leader":  "Abdulaziz"
+                                                                        }
+                                                     },
+                      "Kingdom of Italy (Kingdom of Naples)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel II"
+                                                                                  }
+                                                               },
+                      "Russian Empire (Polish partition)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "Alexander II"
+                                                                               }
+                                                            },
+                      "German Empire (Polish partition)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "Wilhelm I"
+                                                                              }
+                                                           },
+                      "Kingdom of Italy (Kingdom of Sicily)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel II"
+                                                                                  }
+                                                               },
+                      "Kingdom of Italy (Ligurian Republic)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel II"
+                                                                                  }
+                                                               },
+                      "France (Corsica)":  {
+                                               "properties":  {
+                                                                  "leader":  "Adolphe Thiers (President)"
+                                                              }
+                                           },
+                      "Russian Empire (Principality of Moldavia)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Alexander II"
+                                                                                       }
+                                                                    },
+                      "Ottoman Empire (Aegean)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Abdulaziz"
+                                                                     }
+                                                  },
+                      "Russian Empire (Armenia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Alexander II"
+                                                                      }
+                                                   },
+                      "Ottoman Empire 2":  {
+                                               "properties":  {
+                                                                  "leader":  "Abdulaziz"
+                                                              }
+                                           },
+                      "Russian Empire (Sámi and Northern Frontierlands)":  {
+                                                                               "properties":  {
+                                                                                                  "leader":  "Alexander II"
+                                                                                              }
+                                                                           },
+                      "Russian Empire (Finland) – Sámi and Northern Frontierlands":  {
+                                                                                         "properties":  {
+                                                                                                            "leader":  "Alexander II"
+                                                                                                        }
+                                                                                     },
+                      "France (Roussillon)":  {
+                                                  "properties":  {
+                                                                     "leader":  "Adolphe Thiers (President)"
+                                                                 }
+                                              },
+                      "Sweden–Norway":  {
+                                            "properties":  {
+                                                               "leader":  "Charles XV",
+                                                               "info":  "Sweden and Norway were in a personal union under Charles XV (d. 1872, succeeded by Oscar II); Norway kept its own constitution and parliament."
+                                                           }
+                                        },
+                      "Russian Empire (Finland)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Alexander II (Grand Duke)",
+                                                                          "info":  "Finland was a grand duchy under the Russian tsar since 1809, with its own diet."
+                                                                      }
+                                                   },
+                      "Austria-Hungary":  {
+                                              "properties":  {
+                                                                 "info":  "The Dual Monarchy of Austria and Hungary was created by the Compromise of 1867 under Franz Joseph I; Bosnia was still Ottoman."
+                                                             }
+                                          },
+                      "Kingdom of Greece":  {
+                                                "properties":  {
+                                                                   "info":  "Greece received the Ionian Islands from Britain in 1864; Thessaly, Epirus, Macedonia and Crete were still Ottoman."
+                                                               }
+                                            },
+                      "Principality of Montenegro":  {
+                                                         "properties":  {
+                                                                            "info":  "Montenegro was a small mountain principality around Cetinje under Nicholas I; it was recognised as independent only in 1878, when it roughly doubled in size.",
+                                                                            "leader":  "Nicholas I",
+                                                                            "regionFilters":  [
+                                                                                                  {
+                                                                                                      "admin":  "Montenegro",
+                                                                                                      "ids":  [
+                                                                                                                  "cetinje",
+                                                                                                                  "danilovgrad"
+                                                                                                              ]
+                                                                                                  }
+                                                                                              ]
+                                                                        }
+                                                     },
+                      "Belgium":  {
+                                      "properties":  {
+                                                         "info":  "Belgium became independent in 1830; Leopold II reigned from 1865."
+                                                     }
+                                  },
+                      "Denmark 2":  {
+                                        "properties":  {
+                                                           "info":  "Denmark lost Schleswig-Holstein to Prussia and Austria in 1864 but kept Iceland and the Faroe Islands."
+                                                       }
+                                    },
+                      "United Kingdom":  {
+                                             "properties":  {
+                                                                "info":  "The United Kingdom was the leading industrial and naval power, with Gladstone as prime minister; Queen Victoria reigned until 1901."
+                                                            }
+                                         },
+                      "Principality of Bulgaria":  {
+                                                       "properties":  {
+                                                                          "realm":  "Ottoman Empire (Bulgaria)",
+                                                                          "label":  "Ottoman Empire",
+                                                                          "leader":  "Abdulaziz",
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "info":  "Bulgaria was still a set of Ottoman provinces; the autonomous principality came only in 1878.",
+                                                                          "labelOwn":  true
+                                                                      }
+                                                   },
+                      "Austria-Hungary (Bosnia)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Ottoman Empire (Bosnia)",
+                                                                          "label":  "",
+                                                                          "leader":  "Abdulaziz",
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "info":  "Bosnia and Herzegovina were Ottoman until Austria-Hungary occupied them in 1878."
+                                                                      }
+                                                   },
+                      "United Kingdom (Cyprus)":  {
+                                                      "properties":  {
+                                                                         "realm":  "Ottoman Empire (Cyprus)",
+                                                                         "label":  "",
+                                                                         "leader":  "Abdulaziz",
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12",
+                                                                         "info":  "Cyprus was Ottoman until Britain took over its administration in 1878."
+                                                                     }
+                                                  },
+                      "Kingdom of Greece (Thessaly)":  {
+                                                           "properties":  {
+                                                                              "realm":  "Ottoman Empire (Thessaly)",
+                                                                              "label":  "",
+                                                                              "leader":  "Abdulaziz",
+                                                                              "fillColor":  "#d1a52e",
+                                                                              "borderColor":  "#7a5f12",
+                                                                              "info":  "Thessaly was Ottoman until it was ceded to Greece in 1881."
+                                                                          }
+                                                       },
+                      "Egypt (British occupation)":  {
+                                                         "properties":  {
+                                                                            "realm":  "Khedivate of Egypt",
+                                                                            "leader":  "Isma’il Pasha (Khedive)",
+                                                                            "info":  "Egypt was a semi-autonomous Ottoman khedivate; Isma’il opened the Suez Canal in 1869 and ran up huge debts."
+                                                                        }
+                                                     },
+                      "Kingdom of Serbia":  {
+                                                "properties":  {
+                                                                   "realm":  "Principality of Serbia",
+                                                                   "leader":  "Milan IV Obrenović (under regency until 1872)",
+                                                                   "excludeIds":  [
+                                                                                      "nišava",
+                                                                                      "pirot",
+                                                                                      "toplica",
+                                                                                      "jablanica",
+                                                                                      "pčinja",
+                                                                                      "raška"
+                                                                                  ],
+                                                                   "info":  "Serbia was an autonomous principality under Ottoman suzerainty; it gained independence and the Niš region only in 1878, and became a kingdom in 1882."
+                                                               }
+                                            },
+                      "Kingdom of Romania":  {
+                                                 "properties":  {
+                                                                    "realm":  "Principality of Romania",
+                                                                    "leader":  "Carol I (Prince)",
+                                                                    "excludeIds":  [
+                                                                                       "constanța",
+                                                                                       "tulcea"
+                                                                                   ],
+                                                                    "info":  "Wallachia and Moldavia united in 1859 and Carol I of Hohenzollern became prince in 1866; Romania was still under Ottoman suzerainty and Dobruja was Ottoman."
+                                                                }
+                                             },
+                      "Kingdom of Romania (Principality of Moldavia)":  {
+                                                                            "properties":  {
+                                                                                               "realm":  "Principality of Romania (Moldavia)",
+                                                                                               "leader":  "Carol I (Prince)"
+                                                                                           }
+                                                                        }
+                  },
+    "additions":  [
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Ottoman Empire (Montenegrin lands)",
+                                             "label":  "",
+                                             "leader":  "Abdulaziz",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Montenegro",
+                                                                       "ids":  [
+                                                                                   "podgorica",
+                                                                                   "nikšić",
+                                                                                   "bar",
+                                                                                   "ulcinj",
+                                                                                   "pljevlja",
+                                                                                   "bijelopolje",
+                                                                                   "žabljak",
+                                                                                   "plužine",
+                                                                                   "šavnik",
+                                                                                   "kolašin",
+                                                                                   "mojkovac",
+                                                                                   "andrijevica",
+                                                                                   "plav",
+                                                                                   "berane",
+                                                                                   "rožaje"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d1a52e",
+                                             "borderColor":  "#7a5f12",
+                                             "info":  "These districts were Ottoman until Montenegro took them in 1878."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Austria-Hungary (Bay of Kotor)",
+                                             "label":  "",
+                                             "leader":  "Franz Joseph I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Montenegro",
+                                                                       "ids":  [
+                                                                                   "kotor",
+                                                                                   "hercegnovi",
+                                                                                   "budva",
+                                                                                   "tivat"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#ffffff",
+                                             "borderColor":  "#8a8576",
+                                             "info":  "The Bay of Kotor belonged to the Austrian Kingdom of Dalmatia."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Beylik of Tunis",
+                                             "label":  "Tunis",
+                                             "leader":  "Muhammad III as-Sadiq (Bey)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Tunisia"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#c9b36a",
+                                             "borderColor":  "#7a6a30",
+                                             "info":  "Tunisia was a nominally Ottoman beylik, effectively autonomous and deep in debt; France made it a protectorate in 1881."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Ottoman Empire (Nis and Vranje)",
+                                             "label":  "",
+                                             "leader":  "Abdulaziz",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Republic of Serbia",
+                                                                       "ids":  [
+                                                                                   "nišava",
+                                                                                   "pirot",
+                                                                                   "toplica",
+                                                                                   "jablanica",
+                                                                                   "pčinja",
+                                                                                   "raška"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d1a52e",
+                                             "borderColor":  "#7a5f12",
+                                             "info":  "These districts (including the Sanjak of Novi Pazar) were Ottoman until Serbia took them in 1878 (Novi Pazar until 1912)."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Ottoman Empire (Dobruja)",
+                                             "label":  "",
+                                             "leader":  "Abdulaziz",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Romania",
+                                                                       "ids":  [
+                                                                                   "constanța",
+                                                                                   "tulcea"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d1a52e",
+                                             "borderColor":  "#7a5f12",
+                                             "info":  "Dobruja was Ottoman until it passed to Romania in 1878."
+                                         }
+                      }
+                  ]
+}

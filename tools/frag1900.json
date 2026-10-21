@@ -1,0 +1,2320 @@
+{
+    "baseYear":  "1800",
+    "note":  "Europe c. 1900: German and Italian unification, Austria-Hungary, independent Balkan states, French North Africa, Sweden-Norway union.",
+    "overrides":  {
+                      "Alaouite Sultanate":  {
+                                                 "provinces":  [
+
+                                                               ],
+                                                 "properties":  {
+                                                                    "regionFilters":  [
+                                                                                          {
+                                                                                              "admin":  "Morocco",
+                                                                                              "ids":  [
+                                                                                                          "tadla-azilal",
+                                                                                                          "fès-méknas-boulmane",
+                                                                                                          "marrakesh-tensift-elhaouz",
+                                                                                                          "doukkalaabda",
+                                                                                                          "grandcasablanca",
+                                                                                                          "chaouia-ouardigha",
+                                                                                                          "rabat-salé-zemmour-zaër",
+                                                                                                          "gharb-chrarda-bénihssen",
+                                                                                                          "taza-alhoceïma-taounate",
+                                                                                                          "suss-massa-draa",
+                                                                                                          "meknès-tafilalet",
+                                                                                                          "oriental",
+                                                                                                          "tangier-tetouan",
+                                                                                                          "laâyoune-boujdour-sakiaelhamra",
+                                                                                                          "guelmim-essemara"
+                                                                                                      ]
+                                                                                          }
+                                                                                      ],
+                                                                    "leader":  "Abd al-Aziz",
+                                                                    "info":  "Morocco was still independent under the Alaouite dynasty, but under growing French and Spanish pressure."
+                                                                }
+                                             },
+                      "Batavian Republic":  {
+                                                "properties":  {
+                                                                   "realm":  "Netherlands",
+                                                                   "label":  "Netherlands",
+                                                                   "leader":  "Wilhelmina",
+                                                                   "fillColor":  "#d98a3d",
+                                                                   "borderColor":  "#7a4a1d",
+                                                                   "info":  "The Kingdom of the Netherlands; Queen Wilhelmina succeeded in 1890."
+                                                               }
+                                            },
+                      "Cisalpine Republic":  {
+                                                 "properties":  {
+                                                                    "realm":  "Kingdom of Italy (Cisalpine Republic)",
+                                                                    "label":  "",
+                                                                    "leader":  "Umberto I",
+                                                                    "fillColor":  "#5fa07e",
+                                                                    "borderColor":  "#2f5e46",
+                                                                    "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                                                }
+                                             },
+                      "Crimean Khanate (Crimea)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Russian Empire (Crimea) 2",
+                                                                          "label":  "",
+                                                                          "leader":  "Nicholas II",
+                                                                          "fillColor":  "#1c3a22",
+                                                                          "borderColor":  "#0b1a10",
+                                                                          "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                      }
+                                                   },
+                      "Croatia (Hungarian crown)":  {
+                                                        "properties":  {
+                                                                           "realm":  "Austria-Hungary (Hungarian crown)",
+                                                                           "label":  "",
+                                                                           "leader":  "Franz Joseph I",
+                                                                           "fillColor":  "#ffffff",
+                                                                           "borderColor":  "#8a8576",
+                                                                           "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                                                       }
+                                                    },
+                      "Denmark–Norway":  {
+                                             "provinces":  [
+
+                                                           ],
+                                             "properties":  {
+                                                                "regionFilters":  [
+
+                                                                                  ]
+                                                            }
+                                         },
+                      "Denmark–Norway (Faroe Islands)":  {
+                                                             "properties":  {
+                                                                                "realm":  "Denmark (Faroe Islands)",
+                                                                                "label":  "",
+                                                                                "leader":  "Christian IX",
+                                                                                "fillColor":  "#8b1e2d",
+                                                                                "borderColor":  "#4b0d16",
+                                                                                "info":  "Denmark had lost Norway (1814) and Schleswig-Holstein (1864) but kept Iceland and the Faroe Islands."
+                                                                            }
+                                                         },
+                      "Denmark–Norway (Iceland)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Denmark (Iceland)",
+                                                                          "label":  "",
+                                                                          "leader":  "Christian IX",
+                                                                          "fillColor":  "#8b1e2d",
+                                                                          "borderColor": "#4b0d16",
+                                                                          "info":  "Denmark had lost Norway (1814) and Schleswig-Holstein (1864) but kept Iceland and the Faroe Islands."
+                                                                      }
+                                                   },
+                      "Duchy of Swabia":  {
+                                              "properties":  {
+                                                                 "realm":  "Switzerland",
+                                                                 "label":  "Switzerland",
+                                                                 "leader":  "Federal Council",
+                                                                 "fillColor":  "#c9726b",
+                                                                 "borderColor":  "#7a403c",
+                                                                 "info":  "The Swiss Confederation became a federal state in 1848."
+                                                             }
+                                          },
+                      "France (Brittany)":  {
+                                                "properties":  {
+                                                                   "realm":  "France (Brittany)",
+                                                                   "label":  "",
+                                                                   "leader":  "Emile Loubet",
+                                                                   "fillColor":  "#4169a1",
+                                                                   "borderColor":  "#203b61",
+                                                                   "info":  "The Third Republic was proclaimed in 1870 after the defeat by Prussia; France lost Alsace-Lorraine but built a large colonial empire."
+                                                               }
+                                            },
+                      "France (Provence)":  {
+                                                "properties":  {
+                                                                   "realm":  "France (Provence)",
+                                                                   "label":  "",
+                                                                   "leader":  "Emile Loubet",
+                                                                   "fillColor":  "#4169a1",
+                                                                   "borderColor":  "#203b61",
+                                                                   "info":  "The Third Republic was proclaimed in 1870 after the defeat by Prussia; France lost Alsace-Lorraine but built a large colonial empire."
+                                                               }
+                                            },
+                      "French Republic":  {
+                                              "properties":  {
+                                                                 "realm":  "France",
+                                                                 "label":  "France",
+                                                                 "leader":  "Emile Loubet",
+                                                                 "fillColor":  "#4169a1",
+                                                                 "borderColor":  "#203b61",
+                                                                 "info":  "The Third Republic was proclaimed in 1870 after the defeat by Prussia; France lost Alsace-Lorraine but built a large colonial empire."
+                                                             }
+                                          },
+                      "French Republic (Annexed Territories)":  {
+                                                                    "provinces":  [
+
+                                                                                  ],
+                                                                    "properties":  {
+                                                                                       "regionFilters":  [
+
+                                                                                                         ]
+                                                                                   }
+                                                                },
+                      "French Republic (Gascony, Dauphiné and annexations)":  {
+                                                                                  "provinces":  [
+
+                                                                                                ],
+                                                                                  "properties":  {
+                                                                                                     "regionFilters":  [
+
+                                                                                                                       ]
+                                                                                                 }
+                                                                              },
+                      "French Republic (Savoy)":  {
+                                                      "provinces":  [
+
+                                                                    ],
+                                                      "properties":  {
+                                                                         "regionFilters":  [
+
+                                                                                           ]
+                                                                     }
+                                                  },
+                      "Grand Duchy of Tuscany":  {
+                                                     "properties":  {
+                                                                        "realm":  "Kingdom of Italy (Grand Duchy of Tuscany)",
+                                                                        "label":  "",
+                                                                        "leader":  "Umberto I",
+                                                                        "fillColor":  "#5fa07e",
+                                                                        "borderColor":  "#2f5e46",
+                                                                        "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                                                    }
+                                                 },
+                      "Habsburg Monarchy (Banat)":  {
+                                                        "properties":  {
+                                                                           "realm":  "Austria-Hungary (Banat)",
+                                                                           "label":  "",
+                                                                           "leader":  "Franz Joseph I",
+                                                                           "fillColor":  "#ffffff",
+                                                                           "borderColor":  "#8a8576",
+                                                                           "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                                                       }
+                                                    },
+                      "Habsburg Monarchy (Galicia)":  {
+                                                          "provinces":  [
+
+                                                                        ],
+                                                          "properties":  {
+                                                                             "regionFilters":  [
+
+                                                                                               ]
+                                                                         }
+                                                      },
+                      "Holy Roman Empire":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+
+                                                                                     ]
+                                                               }
+                                            },
+                      "Karelian Frontierlands":  {
+                                                     "provinces":  [
+
+                                                                   ],
+                                                     "properties":  {
+                                                                        "regionFilters":  [
+
+                                                                                          ]
+                                                                    }
+                                                 },
+                      "Kingdom of Bohemia":  {
+                                                 "properties":  {
+                                                                    "realm":  "Austria-Hungary (Kingdom of Bohemia)",
+                                                                    "label":  "",
+                                                                    "leader":  "Franz Joseph I",
+                                                                    "fillColor":  "#ffffff",
+                                                                    "borderColor":  "#8a8576",
+                                                                    "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                                                }
+                                             },
+                      "Kingdom of Bohemia (Silesia)":  {
+                                                           "properties":  {
+                                                                              "realm":  "German Empire (Silesia)",
+                                                                              "label":  "",
+                                                                              "leader":  "Wilhelm II",
+                                                                              "fillColor":  "#8b8f9e",
+                                                                              "borderColor":  "#4c4f5c",
+                                                                              "info":  "Germany was unified under Prussian leadership in 1871 and by 1900 was Europe's leading industrial power; it included Alsace-Lorraine, taken from France."
+                                                                          }
+                                                       },
+                      "Kingdom of England (Connacht)":  {
+                                                            "properties":  {
+                                                                               "realm":  "United Kingdom (Connacht)",
+                                                                               "label":  "",
+                                                                               "leader":  "Victoria",
+                                                                               "fillColor":  "#c0504d",
+                                                                               "borderColor":  "#6e2927",
+                                                                               "info":  "The United Kingdom of Great Britain and Ireland, centre of the largest empire in history; Queen Victoria reigned until 1901."
+                                                                           }
+                                                        },
+                      "Kingdom of England (Isle of Man)":  {
+                                                               "properties":  {
+                                                                                  "realm":  "United Kingdom (Isle of Man)",
+                                                                                  "label":  "",
+                                                                                  "leader":  "Victoria",
+                                                                                  "fillColor":  "#c0504d",
+                                                                                  "borderColor":  "#6e2927",
+                                                                                  "info":  "The United Kingdom of Great Britain and Ireland, centre of the largest empire in history; Queen Victoria reigned until 1901."
+                                                                              }
+                                                           },
+                      "Kingdom of England (Ulster)":  {
+                                                          "properties":  {
+                                                                             "realm":  "United Kingdom (Ulster)",
+                                                                             "label":  "",
+                                                                             "leader":  "Victoria",
+                                                                             "fillColor":  "#c0504d",
+                                                                             "borderColor":  "#6e2927",
+                                                                             "info":  "The United Kingdom of Great Britain and Ireland, centre of the largest empire in history; Queen Victoria reigned until 1901."
+                                                                         }
+                                                      },
+                      "Kingdom of Georgia":  {
+                                                 "properties":  {
+                                                                    "realm":  "Russian Empire (Kingdom of Georgia)",
+                                                                    "label":  "",
+                                                                    "leader":  "Nicholas II",
+                                                                    "fillColor":  "#1c3a22",
+                                                                    "borderColor":  "#0b1a10",
+                                                                    "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                }
+                                             },
+                      "Kingdom of Naples":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+
+                                                                                     ]
+                                                               }
+                                            },
+                      "Kingdom of Prussia":  {
+                                                 "properties":  {
+                                                                    "realm":  "German Empire (Kingdom of Prussia)",
+                                                                    "label":  "",
+                                                                    "leader":  "Wilhelm II",
+                                                                    "fillColor":  "#8b8f9e",
+                                                                    "borderColor":  "#4c4f5c",
+                                                                    "info":  "Germany was unified under Prussian leadership in 1871 and by 1900 was Europe's leading industrial power; it included Alsace-Lorraine, taken from France."
+                                                                }
+                                             },
+                      "Kingdom of Prussia (East Prussia)":  {
+                                                                "properties":  {
+                                                                                   "realm":  "German Empire (East Prussia)",
+                                                                                   "label":  "",
+                                                                                   "leader":  "Wilhelm II",
+                                                                                   "fillColor":  "#8b8f9e",
+                                                                                   "borderColor":  "#4c4f5c",
+                                                                                   "info":  "Germany was unified under Prussian leadership in 1871 and by 1900 was Europe's leading industrial power; it included Alsace-Lorraine, taken from France."
+                                                                               }
+                                                            },
+                      "Kingdom of Prussia (Polish partition)":  {
+                                                                    "provinces":  [
+
+                                                                                  ],
+                                                                    "properties":  {
+                                                                                       "regionFilters":  [
+
+                                                                                                         ]
+                                                                                   }
+                                                                },
+                      "Kingdom of Prussia (Pomerania)":  {
+                                                             "properties":  {
+                                                                                "realm":  "German Empire (Pomerania)",
+                                                                                "label":  "",
+                                                                                "leader":  "Wilhelm II",
+                                                                                "fillColor":  "#8b8f9e",
+                                                                                "borderColor":  "#4c4f5c",
+                                                                                "info":  "Germany was unified under Prussian leadership in 1871 and by 1900 was Europe's leading industrial power; it included Alsace-Lorraine, taken from France."
+                                                                            }
+                                                         },
+                      "Kingdom of Sardinia":  {
+                                                  "properties":  {
+                                                                     "realm":  "Kingdom of Italy (Kingdom of Sardinia)",
+                                                                     "label":  "",
+                                                                     "leader":  "Umberto I",
+                                                                     "fillColor":  "#5fa07e",
+                                                                     "borderColor":  "#2f5e46",
+                                                                     "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                                                 }
+                                              },
+                      "Kingdom of Scotland (Northern Isles)":  {
+                                                                   "properties":  {
+                                                                                      "realm":  "United Kingdom (Northern Isles)",
+                                                                                      "label":  "",
+                                                                                      "leader":  "Victoria",
+                                                                                      "fillColor":  "#c0504d",
+                                                                                      "borderColor":  "#6e2927",
+                                                                                      "info":  "The United Kingdom of Great Britain and Ireland, centre of the largest empire in history; Queen Victoria reigned until 1901."
+                                                                                  }
+                                                               },
+                      "Kingdom of Serbia (Zeta)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Principality of Montenegro",
+                                                                          "label":  "Montenegro",
+                                                                          "leader":  "Nicholas I",
+                                                                          "fillColor":  "#b0607a",
+                                                                          "borderColor":  "#63303f",
+                                                                          "info":  "Montenegro was recognised as independent in 1878."
+                                                                      }
+                                                   },
+                      "Kingdom of Sicily":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+
+                                                                                     ]
+                                                               }
+                                            },
+                      "Kingdom of Spain":  {
+                                               "properties":  {
+                                                                  "realm":  "Kingdom of Spain",
+                                                                  "label":  "Spain",
+                                                                  "leader":  "Alfonso XIII",
+                                                                  "fillColor":  "#a37d45",
+                                                                  "borderColor":  "#654d2b",
+                                                                  "info":  "Spain lost Cuba, Puerto Rico and the Philippines to the United States in 1898; Alfonso XIII was a minor under his mother's regency until 1902.",
+                                                                  "regionFilters":  [
+                                                                                        {
+                                                                                            "admin":  "Spain",
+                                                                                            "ids":  [
+                                                                                                        "melilla",
+                                                                                                        "ceuta",
+                                                                                                        "valladolid",
+                                                                                                        "segovia",
+                                                                                                        "communityofmadrid",
+                                                                                                        "jaén",
+                                                                                                        "guadalajara",
+                                                                                                        "córdoba",
+                                                                                                        "ciudadreal",
+                                                                                                        "palencia",
+                                                                                                        "ávila",
+                                                                                                        "burgos",
+                                                                                                        "soria",
+                                                                                                        "león",
+                                                                                                        "toledo",
+                                                                                                        "cuenca",
+                                                                                                        "albacete",
+                                                                                                        "araba/álava",
+                                                                                                        "larioja",
+                                                                                                        "biscay",
+                                                                                                        "cantabria",
+                                                                                                        "asturias",
+                                                                                                        "lugo",
+                                                                                                        "acoruña",
+                                                                                                        "seville",
+                                                                                                        "murcia",
+                                                                                                        "huelva",
+                                                                                                        "pontevedra",
+                                                                                                        "zamora",
+                                                                                                        "salamanca",
+                                                                                                        "cáceres",
+                                                                                                        "ourense",
+                                                                                                        "cádiz",
+                                                                                                        "badajoz",
+                                                                                                        "gipuzkoa",
+                                                                                                        "teruel",
+                                                                                                        "zaragoza",
+                                                                                                        "balearicislands",
+                                                                                                        "alicante",
+                                                                                                        "valencia",
+                                                                                                        "castellón",
+                                                                                                        "tarragona",
+                                                                                                        "barcelona",
+                                                                                                        "girona",
+                                                                                                        "lleida",
+                                                                                                        "huesca",
+                                                                                                        "málaga",
+                                                                                                        "granada",
+                                                                                                        "almería",
+                                                                                                        "navarre"
+                                                                                                    ]
+                                                                                        }
+                                                                                    ]
+                                                              }
+                                           },
+                      "Ligurian Republic":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+
+                                                                                     ]
+                                                               }
+                                            },
+                      "Nogai Horde (Caucasian steppe)":  {
+                                                             "properties":  {
+                                                                                "realm":  "Russian Empire (Caucasian steppe)",
+                                                                                "label":  "",
+                                                                                "leader":  "Nicholas II",
+                                                                                "fillColor":  "#1c3a22",
+                                                                                "borderColor":  "#0b1a10",
+                                                                                "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                            }
+                                                         },
+                      "Nogai Horde (North Caucasus)":  {
+                                                           "properties":  {
+                                                                              "realm":  "Russian Empire (North Caucasus)",
+                                                                              "label":  "",
+                                                                              "leader":  "Nicholas II",
+                                                                              "fillColor":  "#1c3a22",
+                                                                              "borderColor":  "#0b1a10",
+                                                                              "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                          }
+                                                       },
+                      "Nogai Horde (Volga–Ural)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Russian Empire (Volga–Ural)",
+                                                                          "label":  "",
+                                                                          "leader":  "Nicholas II",
+                                                                          "fillColor":  "#1c3a22",
+                                                                          "borderColor":  "#0b1a10",
+                                                                          "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                      }
+                                                   },
+                      "North Italian signorie":  {
+                                                     "properties":  {
+                                                                        "realm":  "Kingdom of Italy (North Italian signorie)",
+                                                                        "label":  "",
+                                                                        "leader":  "Umberto I",
+                                                                        "fillColor":  "#5fa07e",
+                                                                        "borderColor":  "#2f5e46",
+                                                                        "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                                                    }
+                                                 },
+                      "Northern Finnic Frontierlands":  {
+                                                            "properties":  {
+                                                                               "realm":  "Russian Empire (Northern Finnic Frontierlands)",
+                                                                               "label":  "",
+                                                                               "leader":  "Nicholas II",
+                                                                               "fillColor":  "#1c3a22",
+                                                                               "borderColor":  "#0b1a10",
+                                                                               "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                           }
+                                                        },
+                      "Ottoman Empire (Albania)":  {
+                                                       "provinces":  [
+
+                                                                     ],
+                                                       "properties":  {
+                                                                          "regionFilters":  [
+                                                                                                {
+                                                                                                    "admin":  "Albania",
+                                                                                                    "ids":  [
+                                                                                                                "vlorë",
+                                                                                                                "gjirokastër",
+                                                                                                                "korçë"
+                                                                                                            ]
+                                                                                                },
+                                                                                                {
+                                                                                                    "admin":  "Greece",
+                                                                                                    "ids":  [
+                                                                                                                "epirus"
+                                                                                                            ]
+                                                                                                }
+                                                                                            ],
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Algiers)":  {
+                                                       "properties":  {
+                                                                          "realm":  "France (Africa)",
+                                                                          "label":  "French Africa",
+                                                                          "leader":  "Emile Loubet",
+                                                                          "fillColor":  "#4169a1",
+                                                                          "borderColor":  "#203b61",
+                                                                          "info":  "France conquered Algeria from 1830 and treated it as part of France; Tunisia became a French protectorate in 1881 under the Bey of Tunis.",
+                                                                          "regionFilters":  [
+                                                                                                {
+                                                                                                    "admin":  "Algeria"
+                                                                                                },
+                                                                                                {
+                                                                                                    "admin":  "Tunisia"
+                                                                                                }
+                                                                                            ]
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Athens)":  {
+                                                      "properties":  {
+                                                                         "realm":  "Kingdom of Greece",
+                                                                         "label":  "Greece",
+                                                                         "leader":  "George I",
+                                                                         "fillColor":  "#6fa8d8",
+                                                                         "borderColor":  "#35607f",
+                                                                         "info":  "Independent since the 1820s; Greece received the Ionian Islands in 1864 and Thessaly in 1881."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Bosnia)":  {
+                                                      "properties":  {
+                                                                         "realm":  "Austria-Hungary (Bosnia)",
+                                                                         "label":  "",
+                                                                         "leader":  "Franz Joseph I",
+                                                                         "fillColor":  "#ffffff",
+                                                                         "borderColor":  "#8a8576",
+                                                                         "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Bulgaria)":  {
+                                                        "properties":  {
+                                                                           "realm":  "Principality of Bulgaria",
+                                                                           "label":  "Bulgaria",
+                                                                           "leader":  "Ferdinand I",
+                                                                           "fillColor":  "#5f9ea0",
+                                                                           "borderColor":  "#2f5e60",
+                                                                           "info":  "Bulgaria became an autonomous principality in 1878 and united with Eastern Rumelia in 1885, still nominally under the Sultan."
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Constantinople)":  {
+                                                              "provinces":  [
+
+                                                                            ],
+                                                              "properties":  {
+                                                                                 "regionFilters":  [
+                                                                                                       {
+                                                                                                           "admin":  "Turkey",
+                                                                                                           "ids":  [
+                                                                                                                       "istanbul"
+                                                                                                                   ]
+                                                                                                       }
+                                                                                                   ],
+                                                                                 "fillColor":  "#d1a52e",
+                                                                                 "borderColor":  "#7a5f12"
+                                                                             }
+                                                          },
+                      "Ottoman Empire (Cyprus)":  {
+                                                      "properties":  {
+                                                                         "realm":  "United Kingdom (Cyprus)",
+                                                                         "label":  "",
+                                                                         "leader":  "Victoria",
+                                                                         "fillColor":  "#c0504d",
+                                                                         "borderColor":  "#6e2927",
+                                                                         "info":  "The United Kingdom of Great Britain and Ireland, centre of the largest empire in history; Queen Victoria reigned until 1901."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Egypt and Syria)":  {
+                                                               "provinces":  [
+
+                                                                             ],
+                                                               "properties":  {
+                                                                                  "regionFilters":  [
+                                                                                                        {
+                                                                                                            "admin":  "Israel",
+                                                                                                            "ids":  [
+                                                                                                                        "isr-jerusalem-district",
+                                                                                                                        "isr-central-district",
+                                                                                                                        "isr-southern-district"
+                                                                                                                    ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "admin":  "Jordan"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "admin":  "Lebanon",
+                                                                                                            "ids":  [
+                                                                                                                        "lbn-keserwan-jbeil",
+                                                                                                                        "lbn-b-qaa",
+                                                                                                                        "lbn-nabat-y",
+                                                                                                                        "lbn-liban-sud",
+                                                                                                                        "lbn-mont-liban",
+                                                                                                                        "lbn-baalbek-hermel"
+                                                                                                                    ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "admin":  "Palestine"
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "admin":  "Syria",
+                                                                                                            "ids":  [
+                                                                                                                        "syr-quneitra",
+                                                                                                                        "syr-as-sweida",
+                                                                                                                        "syr-dar-a",
+                                                                                                                        "syr-ar-raqqa",
+                                                                                                                        "syr-deir-ez-zor",
+                                                                                                                        "syr-al-hasakeh",
+                                                                                                                        "syr-lattakia",
+                                                                                                                        "syr-hama",
+                                                                                                                        "syr-homs",
+                                                                                                                        "syr-rural-damascus",
+                                                                                                                        "syr-damascus"
+                                                                                                                    ]
+                                                                                                        },
+                                                                                                        {
+                                                                                                            "admin":  "Turkey",
+                                                                                                            "ids":  [
+                                                                                                                        "şanlıurfa"
+                                                                                                                    ]
+                                                                                                        }
+                                                                                                    ],
+                                                                                  "fillColor":  "#d1a52e",
+                                                                                  "borderColor":  "#7a5f12"
+                                                                              }
+                                                           },
+                      "Ottoman Empire (Serbia)":  {
+                                                      "provinces":  [
+
+                                                                    ],
+                                                      "properties":  {
+                                                                         "regionFilters":  [
+                                                                                               {
+                                                                                                   "admin":  "Albania",
+                                                                                                   "ids":  [
+                                                                                                               "lezhë",
+                                                                                                               "shkodër",
+                                                                                                               "kukës",
+                                                                                                               "dibër"
+                                                                                                           ]
+                                                                                               },
+                                                                                               {
+                                                                                                   "admin":  "Kosovo"
+                                                                                               },
+                                                                                               {
+                                                                                                   "admin":  "Macedonia",
+                                                                                                   "ids":  [
+                                                                                                               "konče",
+                                                                                                               "vasilevo",
+                                                                                                               "radoviš",
+                                                                                                               "bosilovo",
+                                                                                                               "vinica",
+                                                                                                               "demirkapija",
+                                                                                                               "veles",
+                                                                                                               "zrnovci",
+                                                                                                               "kočani",
+                                                                                                               "štip",
+                                                                                                               "karbinci",
+                                                                                                               "ilinden",
+                                                                                                               "kratovo",
+                                                                                                               "gradsko",
+                                                                                                               "svetinikole",
+                                                                                                               "lozovo",
+                                                                                                               "skopje",
+                                                                                                               "vraneštica",
+                                                                                                               "zelenikovo",
+                                                                                                               "aračinovo",
+                                                                                                               "češinovo-obleševo",
+                                                                                                               "probištip",
+                                                                                                               "kiselavoda",
+                                                                                                               "studeničani",
+                                                                                                               "aerodrom",
+                                                                                                               "kruševo",
+                                                                                                               "gazibaba",
+                                                                                                               "drugovo",
+                                                                                                               "negotino",
+                                                                                                               "rosoman",
+                                                                                                               "čaška",
+                                                                                                               "zajas",
+                                                                                                               "centar",
+                                                                                                               "čair",
+                                                                                                               "butel",
+                                                                                                               "šutoorizari",
+                                                                                                               "karpoš",
+                                                                                                               "sopište",
+                                                                                                               "oslomej",
+                                                                                                               "brvenica",
+                                                                                                               "želino",
+                                                                                                               "pehčevo",
+                                                                                                               "berovo",
+                                                                                                               "makedonskakamenica",
+                                                                                                               "delčevo",
+                                                                                                               "kumanovo",
+                                                                                                               "staronagoričane",
+                                                                                                               "rankovce",
+                                                                                                               "krivapalanka",
+                                                                                                               "vrapčište",
+                                                                                                               "bogovinje",
+                                                                                                               "tetovo",
+                                                                                                               "tearce",
+                                                                                                               "jegunovce",
+                                                                                                               "saraj",
+                                                                                                               "gjorčepetrov",
+                                                                                                               "čučer-sandevo",
+                                                                                                               "lipkovo",
+                                                                                                               "kavadarci",
+                                                                                                               "gevgelija",
+                                                                                                               "bogdanci",
+                                                                                                               "strumica",
+                                                                                                               "valandovo",
+                                                                                                               "dojran",
+                                                                                                               "novoselo",
+                                                                                                               "gostivar",
+                                                                                                               "mavrovoandrostuša",
+                                                                                                               "centaržupa"
+                                                                                                           ]
+                                                                                               }
+                                                                                           ],
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12"
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Thessaly)":  {
+                                                        "properties":  {
+                                                                           "realm":  "Kingdom of Greece (Thessaly)",
+                                                                           "label":  "",
+                                                                           "leader":  "George I",
+                                                                           "fillColor":  "#6fa8d8",
+                                                                           "borderColor":  "#35607f",
+                                                                           "info":  "Independent since the 1820s; Greece received the Ionian Islands in 1864 and Thessaly in 1881."
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Tunis interior)":  {
+                                                              "provinces":  [
+
+                                                                            ],
+                                                              "properties":  {
+                                                                                 "regionFilters":  [
+
+                                                                                                   ],
+                                                                                 "fillColor":  "#d1a52e",
+                                                                                 "borderColor":  "#7a5f12"
+                                                                             }
+                                                          },
+                      "Ottoman Empire (Tunis)":  {
+                                                     "provinces":  [
+
+                                                                   ],
+                                                     "properties":  {
+                                                                        "regionFilters":  [
+
+                                                                                          ],
+                                                                        "fillColor":  "#d1a52e",
+                                                                        "borderColor":  "#7a5f12"
+                                                                    }
+                                                 },
+                      "Papal Enclave of Benevento":  {
+                                                         "properties":  {
+                                                                            "realm":  "Kingdom of Italy (Papal Enclave of Benevento)",
+                                                                            "label":  "",
+                                                                            "leader":  "Umberto I",
+                                                                            "fillColor":  "#5fa07e",
+                                                                            "borderColor":  "#2f5e46",
+                                                                            "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                                                        }
+                                                     },
+                      "Papal States":  {
+                                           "properties":  {
+                                                              "realm":  "Kingdom of Italy",
+                                                              "label":  "Kingdom of Italy",
+                                                              "leader":  "Umberto I",
+                                                              "fillColor":  "#5fa07e",
+                                                              "borderColor":  "#2f5e46",
+                                                              "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                                          }
+                                       },
+                      "Principality of Moldavia":  {
+                                                       "provinces":  [
+
+                                                                     ],
+                                                       "properties":  {
+                                                                          "regionFilters":  [
+
+                                                                                            ]
+                                                                      }
+                                                   },
+                      "Principality of Transylvania":  {
+                                                           "properties":  {
+                                                                              "realm":  "Austria-Hungary (Principality of Transylvania)",
+                                                                              "label":  "",
+                                                                              "leader":  "Franz Joseph I",
+                                                                              "fillColor":  "#ffffff",
+                                                                              "borderColor":  "#8a8576",
+                                                                              "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                                                          }
+                                                       },
+                      "Qajar Iran":  {
+                                         "properties":  {
+                                                            "realm":  "Qajar Iran",
+                                                            "label":  "Qajar Iran",
+                                                            "leader":  "Mozaffar ad-Din Shah",
+                                                            "fillColor":  "#9a4a6a",
+                                                            "borderColor":  "#5a2640",
+                                                            "info":  "Persia was ruled by the Qajar dynasty and squeezed between Russian and British influence."
+                                                        }
+                                     },
+                      "Republic of Venice":  {
+                                                 "properties":  {
+                                                                    "realm":  "Kingdom of Italy (Republic of Venice)",
+                                                                    "label":  "",
+                                                                    "leader":  "Umberto I",
+                                                                    "fillColor":  "#5fa07e",
+                                                                    "borderColor":  "#2f5e46",
+                                                                    "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                                                }
+                                             },
+                      "Republic of Venice (Aegean)":  {
+                                                          "provinces":  [
+
+                                                                        ],
+                                                          "properties":  {
+                                                                             "regionFilters":  [
+
+                                                                                               ]
+                                                                         }
+                                                      },
+                      "Royal Hungary (Habsburg)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Austria-Hungary",
+                                                                          "label":  "Austria-Hungary",
+                                                                          "leader":  "Franz Joseph I",
+                                                                          "fillColor":  "#ffffff",
+                                                                          "borderColor":  "#8a8576",
+                                                                          "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                                                      }
+                                                   },
+                      "Royal Hungary (Reconquered)":  {
+                                                          "properties":  {
+                                                                             "realm":  "Austria-Hungary (Reconquered)",
+                                                                             "label":  "",
+                                                                             "leader":  "Franz Joseph I",
+                                                                             "fillColor":  "#ffffff",
+                                                                             "borderColor":  "#8a8576",
+                                                                             "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                                                         }
+                                                      },
+                      "Russian Empire":  {
+                                             "properties":  {
+                                                                "realm":  "Russian Empire",
+                                                                "label":  "Russian Empire",
+                                                                "leader":  "Nicholas II",
+                                                                "fillColor":  "#1c3a22",
+                                                                "borderColor":  "#0b1a10",
+                                                                "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                            }
+                                         },
+                      "Russian Empire (Courland)":  {
+                                                        "properties":  {
+                                                                           "realm":  "Russian Empire (Courland)",
+                                                                           "label":  "",
+                                                                           "leader":  "Nicholas II",
+                                                                           "fillColor":  "#1c3a22",
+                                                                           "borderColor":  "#0b1a10",
+                                                                           "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                       }
+                                                    },
+                      "Russian Empire (Crimea)":  {
+                                                      "properties":  {
+                                                                         "realm":  "Russian Empire (Crimea)",
+                                                                         "label":  "",
+                                                                         "leader":  "Nicholas II",
+                                                                         "fillColor":  "#1c3a22",
+                                                                         "borderColor":  "#0b1a10",
+                                                                         "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                     }
+                                                  },
+                      "Russian Empire (Estonia)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Russian Empire (Estonia)",
+                                                                          "label":  "",
+                                                                          "leader":  "Nicholas II",
+                                                                          "fillColor":  "#1c3a22",
+                                                                          "borderColor":  "#0b1a10",
+                                                                          "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                      }
+                                                   },
+                      "Russian Empire (Lithuania)":  {
+                                                         "properties":  {
+                                                                            "realm":  "Russian Empire (Lithuania)",
+                                                                            "label":  "",
+                                                                            "leader":  "Nicholas II",
+                                                                            "fillColor":  "#1c3a22",
+                                                                            "borderColor":  "#0b1a10",
+                                                                            "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                        }
+                                                     },
+                      "Russian Empire (Partitioned Poland)":  {
+                                                                  "properties":  {
+                                                                                     "realm":  "Russian Empire (Partitioned Poland)",
+                                                                                     "label":  "",
+                                                                                     "leader":  "Nicholas II",
+                                                                                     "fillColor":  "#1c3a22",
+                                                                                     "borderColor":  "#0b1a10",
+                                                                                     "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                                 }
+                                                              },
+                      "Safavid Iran (Armenia)":  {
+                                                     "provinces":  [
+
+                                                                   ],
+                                                     "properties":  {
+                                                                        "regionFilters":  [
+
+                                                                                          ]
+                                                                    }
+                                                 },
+                      "Safavid Iran (Arran and Shirvan)":  {
+                                                               "properties":  {
+                                                                                  "realm":  "Russian Empire (Arran and Shirvan)",
+                                                                                  "label":  "",
+                                                                                  "leader":  "Nicholas II",
+                                                                                  "fillColor":  "#1c3a22",
+                                                                                  "borderColor":  "#0b1a10",
+                                                                                  "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                              }
+                                                           },
+                      "Saharan Frontier and Tribal Lands":  {
+                                                                "provinces":  [
+
+                                                                              ],
+                                                                "properties":  {
+                                                                                   "regionFilters":  [
+                                                                                                         {
+                                                                                                             "admin":  "Libya",
+                                                                                                             "ids":  [
+                                                                                                                         "wadialhayaa",
+                                                                                                                         "sabha",
+                                                                                                                         "jufra",
+                                                                                                                         "mizdah",
+                                                                                                                         "jafara",
+                                                                                                                         "ghat",
+                                                                                                                         "ashshati",
+                                                                                                                         "murzuq",
+                                                                                                                         "kufra",
+                                                                                                                         "ghadames"
+                                                                                                                     ]
+                                                                                                         },
+                                                                                                         {
+                                                                                                             "admin":  "Morocco",
+                                                                                                             "ids":  [
+                                                                                                                         "oueded-dahab"
+                                                                                                                     ]
+                                                                                                         }
+                                                                                                     ]
+                                                                               }
+                                                            },
+                      "Sámi and Northern Frontierlands":  {
+                                                              "provinces":  [
+
+                                                                            ],
+                                                              "properties":  {
+                                                                                 "regionFilters":  [
+
+                                                                                                   ]
+                                                                             }
+                                                          },
+                      "Spanish Monarchy (Aragon)":  {
+                                                        "provinces":  [
+
+                                                                      ],
+                                                        "properties":  {
+                                                                           "regionFilters":  [
+
+                                                                                             ]
+                                                                       }
+                                                    },
+                      "Spanish Monarchy (Granada)":  {
+                                                         "provinces":  [
+
+                                                                       ],
+                                                         "properties":  {
+                                                                            "regionFilters":  [
+
+                                                                                              ]
+                                                                        }
+                                                     },
+                      "Spanish Monarchy (Navarre)":  {
+                                                         "provinces":  [
+
+                                                                       ],
+                                                         "properties":  {
+                                                                            "regionFilters":  [
+
+                                                                                              ]
+                                                                        }
+                                                     },
+                      "Sweden":  {
+                                     "provinces":  [
+
+                                                   ],
+                                     "properties":  {
+                                                        "regionFilters":  [
+
+                                                                          ]
+                                                    }
+                                 },
+                      "Sweden (Scania)":  {
+                                              "provinces":  [
+
+                                                            ],
+                                              "properties":  {
+                                                                 "regionFilters":  [
+
+                                                                                   ]
+                                                             }
+                                          },
+                      "Sweden (Swedish Pomerania)":  {
+                                                         "properties":  {
+                                                                            "realm":  "German Empire (Swedish Pomerania)",
+                                                                            "label":  "",
+                                                                            "leader":  "Wilhelm II",
+                                                                            "fillColor":  "#8b8f9e",
+                                                                            "borderColor":  "#4c4f5c",
+                                                                            "info":  "Germany was unified under Prussian leadership in 1871 and by 1900 was Europe's leading industrial power; it included Alsace-Lorraine, taken from France."
+                                                                        }
+                                                     },
+                      "Tsardom of Russia (Astrakhan)":  {
+                                                            "properties":  {
+                                                                               "realm":  "Russian Empire (Astrakhan)",
+                                                                               "label":  "",
+                                                                               "leader":  "Nicholas II",
+                                                                               "fillColor":  "#1c3a22",
+                                                                               "borderColor":  "#0b1a10",
+                                                                               "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                           }
+                                                        },
+                      "Tsardom of Russia (Kazan)":  {
+                                                        "properties":  {
+                                                                           "realm":  "Russian Empire (Kazan)",
+                                                                           "label":  "",
+                                                                           "leader":  "Nicholas II",
+                                                                           "fillColor":  "#1c3a22",
+                                                                           "borderColor":  "#0b1a10",
+                                                                           "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                       }
+                                                    },
+                      "Tsardom of Russia (Novgorod)":  {
+                                                           "properties":  {
+                                                                              "realm":  "Russian Empire (Novgorod)",
+                                                                              "label":  "",
+                                                                              "leader":  "Nicholas II",
+                                                                              "fillColor":  "#1c3a22",
+                                                                              "borderColor":  "#0b1a10",
+                                                                              "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                          }
+                                                       },
+                      "Tsardom of Russia (Seversk)":  {
+                                                          "properties":  {
+                                                                             "realm":  "Russian Empire (Seversk)",
+                                                                             "label":  "",
+                                                                             "leader":  "Nicholas II",
+                                                                             "fillColor":  "#1c3a22",
+                                                                             "borderColor":  "#0b1a10",
+                                                                             "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                                                         }
+                                                      },
+                      "United Kingdom of Great Britain":  {
+                                                              "properties":  {
+                                                                                 "realm":  "United Kingdom",
+                                                                                 "label":  "United Kingdom",
+                                                                                 "leader":  "Victoria",
+                                                                                 "fillColor":  "#c0504d",
+                                                                                 "borderColor":  "#6e2927",
+                                                                                 "info":  "The United Kingdom of Great Britain and Ireland, centre of the largest empire in history; Queen Victoria reigned until 1901."
+                                                                             }
+                                                          },
+                      "United Kingdom of Great Britain (Scotland)":  {
+                                                                         "properties":  {
+                                                                                            "realm":  "United Kingdom (Scotland)",
+                                                                                            "label":  "",
+                                                                                            "leader":  "Victoria",
+                                                                                            "fillColor":  "#c0504d",
+                                                                                            "borderColor":  "#6e2927",
+                                                                                            "info":  "The United Kingdom of Great Britain and Ireland, centre of the largest empire in history; Queen Victoria reigned until 1901."
+                                                                                        }
+                                                                     },
+                      "Wallachia":  {
+                                        "properties":  {
+                                                           "realm":  "Kingdom of Romania",
+                                                           "label":  "Romania",
+                                                           "leader":  "Carol I",
+                                                           "fillColor":  "#cc8f6a",
+                                                           "borderColor":  "#7a4a32",
+                                                           "info":  "Wallachia and Moldavia united in 1859; Romania became independent in 1878 and a kingdom in 1881, gaining Dobruja."
+                                                       }
+                                    },
+                      "Ottoman Empire (Rumelia)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Aleppo)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12"
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Hejaz)":  {
+                                                     "properties":  {
+                                                                        "fillColor":  "#d1a52e",
+                                                                        "borderColor":  "#7a5f12"
+                                                                    }
+                                                 },
+                      "Ottoman Empire (Medina)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12"
+                                                                     }
+                                                  },
+                      "Ottoman Empire (al-Hasa)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Iraq)":  {
+                                                    "properties":  {
+                                                                       "fillColor":  "#d1a52e",
+                                                                       "borderColor":  "#7a5f12"
+                                                                   }
+                                                },
+                      "Ottoman Empire (Tripolitania)":  {
+                                                            "properties":  {
+                                                                               "fillColor":  "#d1a52e",
+                                                                               "borderColor":  "#7a5f12"
+                                                                           }
+                                                        },
+                      "Ottoman Empire (Cyrenaica)":  {
+                                                         "properties":  {
+                                                                            "fillColor":  "#d1a52e",
+                                                                            "borderColor":  "#7a5f12",
+                                                                            "label":  "Ottoman Empire",
+                                                                            "labelOwn":  true,
+                                                                            "leader":  "Abdulhamid II",
+                                                                            "info":  "Ottoman Tripolitania and Cyrenaica were the empire's last North African provinces, lost to Italy in 1911-12."
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Anatolia)":  {
+                                                        "properties":  {
+                                                                           "fillColor":  "#d1a52e",
+                                                                           "borderColor":  "#7a5f12"
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Trebizond)":  {
+                                                         "properties":  {
+                                                                            "fillColor":  "#d1a52e",
+                                                                            "borderColor":  "#7a5f12"
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Antioch)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Palestine coast)":  {
+                                                               "properties":  {
+                                                                                  "fillColor":  "#d1a52e",
+                                                                                  "borderColor":  "#7a5f12"
+                                                                              }
+                                                           },
+                      "Ottoman Empire (Cilicia)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Tripoli)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Upper Mesopotamia)":  {
+                                                                 "properties":  {
+                                                                                    "fillColor":  "#d1a52e",
+                                                                                    "borderColor":  "#7a5f12"
+                                                                                }
+                                                             },
+                      "Ottoman Empire (Erzurum)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12"
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Jazira)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12"
+                                                                     }
+                                                  },
+                      "Ottoman Empire":  {
+                                             "properties":  {
+                                                                "fillColor":  "#d1a52e",
+                                                                "borderColor":  "#7a5f12",
+                                                                "leader":  "Abdulhamid II",
+                                                                "info":  "The Ottoman Empire had lost most of the Balkans but still held Anatolia, Macedonia, Albania, the Levant, Iraq and the Hejaz."
+                                                            }
+                                         },
+                      "Ottoman Empire (Banat)":  {
+                                                     "properties":  {
+                                                                        "fillColor":  "#d1a52e",
+                                                                        "borderColor":  "#7a5f12"
+                                                                    }
+                                                 },
+                      "Kingdom of Portugal":  {
+                                                  "properties":  {
+                                                                     "leader":  "Carlos I",
+                                                                     "info":  "Portugal was a constitutional monarchy with a large African empire; the monarchy fell in 1910."
+                                                                 }
+                                              }
+                  },
+    "additions":  [
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Denmark 2",
+                                             "label":  "Denmark",
+                                             "leader":  "Christian IX",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Denmark"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b1e2d",
+                                             "borderColor": "#4b0d16",
+                                             "info":  "Denmark had lost Norway (1814) and Schleswig-Holstein (1864) but kept Iceland and the Faroe Islands."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Belgium",
+                                             "label":  "Belgium",
+                                             "leader":  "Leopold II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Belgium"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#c2b04a",
+                                             "borderColor":  "#6b6125",
+                                             "info":  "Belgium became independent in 1830; Leopold II also ruled the Congo Free State as a personal possession."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "German Empire (Rhineland)",
+                                             "label":  "",
+                                             "leader":  "Wilhelm II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "saarland",
+                                                                                   "rhineland-palatinate"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b8f9e",
+                                             "borderColor":  "#4c4f5c",
+                                             "info":  "Germany was unified under Prussian leadership in 1871 and by 1900 was Europe's leading industrial power; it included Alsace-Lorraine, taken from France."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Luxembourg",
+                                             "label":  "Luxembourg",
+                                             "leader":  "Adolphe",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Luxembourg"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8fb0c9",
+                                             "borderColor":  "#4b6478",
+                                             "info":  "Luxembourg was a separate grand duchy, in personal union with the Netherlands until 1890, then under Adolphe of Nassau."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "German Empire (Alsace)",
+                                             "label":  "",
+                                             "leader":  "Wilhelm II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "France",
+                                                                       "ids":  [
+                                                                                   "haut-rhin",
+                                                                                   "bas-rhin"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b8f9e",
+                                             "borderColor":  "#4c4f5c",
+                                             "info":  "Germany was unified under Prussian leadership in 1871 and by 1900 was Europe's leading industrial power; it included Alsace-Lorraine, taken from France."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "France (Gascony, Dauphiné and annexations)",
+                                             "label":  "",
+                                             "leader":  "Emile Loubet",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "France",
+                                                                       "ids":  [
+                                                                                   "haute-saône",
+                                                                                   "lot-et-garonne",
+                                                                                   "ardèche",
+                                                                                   "rhône",
+                                                                                   "dordogne",
+                                                                                   "drôme",
+                                                                                   "isère",
+                                                                                   "gers",
+                                                                                   "pas-de-calais",
+                                                                                   "gironde",
+                                                                                   "landes",
+                                                                                   "doubs",
+                                                                                   "territoiredebelfort",
+                                                                                   "pyrenees-atlantics",
+                                                                                   "hautes-alpes",
+                                                                                   "nord"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#4169a1",
+                                             "borderColor":  "#203b61",
+                                             "info":  "The Third Republic was proclaimed in 1870 after the defeat by Prussia; France lost Alsace-Lorraine but built a large colonial empire."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Italy (Savoy)",
+                                             "label":  "",
+                                             "leader":  "Umberto I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "turin",
+                                                                                   "cuneo",
+                                                                                   "aosta"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#5fa07e",
+                                             "borderColor":  "#2f5e46",
+                                             "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "France (Savoy)",
+                                             "label":  "",
+                                             "leader":  "Emile Loubet",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "France",
+                                                                       "ids":  [
+                                                                                   "ain",
+                                                                                   "haute-savoie",
+                                                                                   "savoie",
+                                                                                   "alpes-maritimes"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#4169a1",
+                                             "borderColor":  "#203b61",
+                                             "info":  "The Third Republic was proclaimed in 1870 after the defeat by Prussia; France lost Alsace-Lorraine but built a large colonial empire."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Austria-Hungary (Galicia)",
+                                             "label":  "",
+                                             "leader":  "Franz Joseph I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Poland",
+                                                                       "ids":  [
+                                                                                   "podkarpackievoivodeship",
+                                                                                   "lesserpolandvoivodeship"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Ukraine",
+                                                                       "ids":  [
+                                                                                   "ternopil",
+                                                                                   "lviv",
+                                                                                   "ivano-frankivsk"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#ffffff",
+                                             "borderColor":  "#8a8576",
+                                             "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Russian Empire (Galicia)",
+                                             "label":  "",
+                                             "leader":  "Nicholas II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Poland",
+                                                                       "ids":  [
+                                                                                   "świętokrzyskievoivodeship",
+                                                                                   "lublinvoivodeship"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#1c3a22",
+                                             "borderColor":  "#0b1a10",
+                                             "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "German Empire",
+                                             "label":  "German Empire",
+                                             "leader":  "Wilhelm II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "France",
+                                                                       "ids":  [
+                                                                                   "moselle"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "saxony-anhalt",
+                                                                                   "thuringia",
+                                                                                   "hesse",
+                                                                                   "hamburg",
+                                                                                   "freehanseaticbremen",
+                                                                                   "baden-württemberg",
+                                                                                   "northrhine-westphalia",
+                                                                                   "lowersaxony",
+                                                                                   "schleswig-holstein",
+                                                                                   "bavaria",
+                                                                                   "saxony"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b8f9e",
+                                             "borderColor":  "#4c4f5c",
+                                             "info":  "Germany was unified under Prussian leadership in 1871 and by 1900 was Europe's leading industrial power; it included Alsace-Lorraine, taken from France."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Austria-Hungary (Holy Roman Empire)",
+                                             "label":  "",
+                                             "leader":  "Franz Joseph I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Austria"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Croatia",
+                                                                       "ids":  [
+                                                                                   "istria"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "trentino",
+                                                                                   "trieste",
+                                                                                   "gorizia",
+                                                                                   "trentino-southtyrol"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Slovenia"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#ffffff",
+                                             "borderColor":  "#8a8576",
+                                             "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Switzerland (Holy Roman Empire)",
+                                             "label":  "",
+                                             "leader":  "Federal Council",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Switzerland",
+                                                                       "ids":  [
+                                                                                   "fribourg",
+                                                                                   "bern",
+                                                                                   "neuchâtel",
+                                                                                   "vaud",
+                                                                                   "geneva",
+                                                                                   "jura",
+                                                                                   "solothurn",
+                                                                                   "basel-landschaft",
+                                                                                   "basel-stadt",
+                                                                                   "valais"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#c9726b",
+                                             "borderColor":  "#7a403c",
+                                             "info":  "The Swiss Confederation became a federal state in 1848."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "France (Lorraine)",
+                                             "label":  "",
+                                             "leader":  "Emile Loubet",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "France",
+                                                                       "ids":  [
+                                                                                   "vosges",
+                                                                                   "jura",
+                                                                                   "meurthe-et-moselle"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#4169a1",
+                                             "borderColor":  "#203b61",
+                                             "info":  "The Third Republic was proclaimed in 1870 after the defeat by Prussia; France lost Alsace-Lorraine but built a large colonial empire."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Italy (Holy Roman Empire)",
+                                             "label":  "",
+                                             "leader":  "Umberto I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "biella",
+                                                                                   "pordenone",
+                                                                                   "forlì-cesena",
+                                                                                   "udine",
+                                                                                   "belluno",
+                                                                                   "sondrio",
+                                                                                   "verbano-cusio-ossola"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#5fa07e",
+                                             "borderColor":  "#2f5e46",
+                                             "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Russian Empire (Karelian Frontierlands)",
+                                             "label":  "",
+                                             "leader":  "Nicholas II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Russia",
+                                                                       "ids":  [
+                                                                                   "karelia"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#1c3a22",
+                                             "borderColor":  "#0b1a10",
+                                             "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Russian Empire (Finland) – Karelian Frontierlands",
+                                             "label":  "",
+                                             "leader":  "Nicholas II (Grand Duke)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Finland",
+                                                                       "ids":  [
+                                                                                   "southkarelia",
+                                                                                   "northkarelia"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#1c3a22",
+                                             "borderColor":  "#0b1a10",
+                                             "info":  "Finland was a grand duchy under the Russian tsar since 1809, with its own parliament and laws."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Greece (Ionian Islands)",
+                                             "label":  "",
+                                             "leader":  "George I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Greece",
+                                                                       "ids":  [
+                                                                                   "ionianislands"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#6fa8d8",
+                                             "borderColor":  "#35607f",
+                                             "info":  "Independent since the 1820s; Greece received the Ionian Islands in 1864 and Thessaly in 1881."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Ottoman Empire (Albania) 2",
+                                             "label":  "",
+                                             "leader":  "Abdulhamid II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Albania",
+                                                                       "ids":  [
+                                                                                   "durrës",
+                                                                                   "tirana",
+                                                                                   "elbasan"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d1a52e",
+                                             "borderColor":  "#7a5f12",
+                                             "info":  "The Ottoman Empire had lost most of the Balkans but still held Anatolia, Macedonia, Albania, the Levant, Iraq and the Hejaz."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Italy (Kingdom of Naples)",
+                                             "label":  "",
+                                             "leader":  "Umberto I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "l'aquila",
+                                                                                   "avellino",
+                                                                                   "caserta",
+                                                                                   "naples",
+                                                                                   "salerno",
+                                                                                   "potenza",
+                                                                                   "vibovalentia",
+                                                                                   "reggiocalabria",
+                                                                                   "catanzaro",
+                                                                                   "crotone",
+                                                                                   "cosenza",
+                                                                                   "matera",
+                                                                                   "taranto",
+                                                                                   "lecce",
+                                                                                   "brindisi",
+                                                                                   "bari",
+                                                                                   "barletta-andria-trani",
+                                                                                   "foggia",
+                                                                                   "chieti",
+                                                                                   "pescara",
+                                                                                   "teramo"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#5fa07e",
+                                             "borderColor":  "#2f5e46",
+                                             "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Russian Empire (Polish partition)",
+                                             "label":  "",
+                                             "leader":  "Nicholas II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Poland",
+                                                                       "ids":  [
+                                                                                   "łódźvoivodeship",
+                                                                                   "masovianvoivodeship"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#1c3a22",
+                                             "borderColor":  "#0b1a10",
+                                             "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "German Empire (Polish partition)",
+                                             "label":  "",
+                                             "leader":  "Wilhelm II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Poland",
+                                                                       "ids":  [
+                                                                                   "greaterpolandvoivodeship",
+                                                                                   "kuyavian-pomeranianvoivodeship",
+                                                                                   "pomeranianvoivodeship"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b8f9e",
+                                             "borderColor":  "#4c4f5c",
+                                             "info":  "Germany was unified under Prussian leadership in 1871 and by 1900 was Europe's leading industrial power; it included Alsace-Lorraine, taken from France."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Italy (Kingdom of Sicily)",
+                                             "label":  "",
+                                             "leader":  "Umberto I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "enna",
+                                                                                   "catania",
+                                                                                   "syracuse",
+                                                                                   "ragusa",
+                                                                                   "caltanissetta",
+                                                                                   "agrigento",
+                                                                                   "palermo",
+                                                                                   "messina",
+                                                                                   "trapani"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#5fa07e",
+                                             "borderColor":  "#2f5e46",
+                                             "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "United Kingdom (Malta)",
+                                             "label":  "",
+                                             "leader":  "Victoria",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Malta"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#c0504d",
+                                             "borderColor":  "#6e2927",
+                                             "info":  "The United Kingdom of Great Britain and Ireland, centre of the largest empire in history; Queen Victoria reigned until 1901."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Italy (Ligurian Republic)",
+                                             "label":  "",
+                                             "leader":  "Umberto I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "savona",
+                                                                                   "liguria",
+                                                                                   "laspezia",
+                                                                                   "imperia"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#5fa07e",
+                                             "borderColor":  "#2f5e46",
+                                             "info":  "Italy was unified between 1859 and 1870 under the House of Savoy, with Rome as capital from 1871."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "France (Corsica)",
+                                             "label":  "",
+                                             "leader":  "Emile Loubet",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "France",
+                                                                       "ids":  [
+                                                                                   "corse-du-sud",
+                                                                                   "haute-corse"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#4169a1",
+                                             "borderColor":  "#203b61",
+                                             "info":  "The Third Republic was proclaimed in 1870 after the defeat by Prussia; France lost Alsace-Lorraine but built a large colonial empire."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Greece (Albania)",
+                                             "label":  "",
+                                             "leader":  "George I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Greece",
+                                                                       "ids":  [
+                                                                                   "westgreece"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#6fa8d8",
+                                             "borderColor":  "#35607f",
+                                             "info":  "Independent since the 1820s; Greece received the Ionian Islands in 1864 and Thessaly in 1881."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Greece (Constantinople)",
+                                             "label":  "",
+                                             "leader":  "George I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Greece",
+                                                                       "ids":  [
+                                                                                   "peloponnese"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#6fa8d8",
+                                             "borderColor":  "#35607f",
+                                             "info":  "Independent since the 1820s; Greece received the Ionian Islands in 1864 and Thessaly in 1881."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Egypt (British occupation)",
+                                             "label":  "Egypt",
+                                             "leader":  "Abbas II (Khedive)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Egypt"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d08a86",
+                                             "borderColor":  "#7a4a48",
+                                             "info":  "Egypt was formally Ottoman but under British occupation since 1882."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Serbia",
+                                             "label":  "Serbia",
+                                             "leader":  "Alexander I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Republic of Serbia",
+                                                                       "ids":  [
+                                                                                   "kolubara",
+                                                                                   "moravica",
+                                                                                   "šumadija",
+                                                                                   "pomoravski",
+                                                                                   "nišava",
+                                                                                   "podunavlje",
+                                                                                   "belgrade",
+                                                                                   "braničevo",
+                                                                                   "mačva",
+                                                                                   "zlatibor",
+                                                                                   "toplica",
+                                                                                   "rasina",
+                                                                                   "raška",
+                                                                                   "jablanica",
+                                                                                   "pirot",
+                                                                                   "zaječar",
+                                                                                   "bor",
+                                                                                   "pčinja"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8e6aa8",
+                                             "borderColor":  "#4f3a63",
+                                             "info":  "Serbia won full independence in 1878 and became a kingdom in 1882."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Russian Empire (Principality of Moldavia)",
+                                             "label":  "",
+                                             "leader":  "Nicholas II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Moldova"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#1c3a22",
+                                             "borderColor":  "#0b1a10",
+                                             "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Austria-Hungary (Principality of Moldavia)",
+                                             "label":  "",
+                                             "leader":  "Franz Joseph I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Ukraine",
+                                                                       "ids":  [
+                                                                                   "chernivtsi"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#ffffff",
+                                             "borderColor":  "#8a8576",
+                                             "info":  "The Dual Monarchy of Austria and Hungary (1867) ruled Bohemia, Galicia, Croatia, Transylvania and the Slovene lands; Bosnia was occupied from 1878."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Romania (Principality of Moldavia)",
+                                             "label":  "",
+                                             "leader":  "Carol I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Romania",
+                                                                       "ids":  [
+                                                                                   "bacău",
+                                                                                   "neamț",
+                                                                                   "vrancea",
+                                                                                   "suceava",
+                                                                                   "galați",
+                                                                                   "vaslui",
+                                                                                   "iași",
+                                                                                   "botoșani"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#cc8f6a",
+                                             "borderColor":  "#7a4a32",
+                                             "info":  "Wallachia and Moldavia united in 1859; Romania became independent in 1878 and a kingdom in 1881, gaining Dobruja."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Greece (Aegean)",
+                                             "label":  "",
+                                             "leader":  "George I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Greece",
+                                                                       "ids":  [
+                                                                                   "southaegean"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#6fa8d8",
+                                             "borderColor":  "#35607f",
+                                             "info":  "Independent since the 1820s; Greece received the Ionian Islands in 1864 and Thessaly in 1881."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Ottoman Empire (Aegean)",
+                                             "label":  "",
+                                             "leader":  "Abdulhamid II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Greece",
+                                                                       "ids":  [
+                                                                                   "crete"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d1a52e",
+                                             "borderColor":  "#7a5f12",
+                                             "info":  "The Ottoman Empire had lost most of the Balkans but still held Anatolia, Macedonia, Albania, the Levant, Iraq and the Hejaz."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Russian Empire (Armenia)",
+                                             "label":  "",
+                                             "leader":  "Nicholas II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Armenia"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Azerbaijan",
+                                                                       "ids":  [
+                                                                                   "aze-nakhchivan-autonomous-republic"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Turkey",
+                                                                       "ids":  [
+                                                                                   "kars"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#1c3a22",
+                                             "borderColor":  "#0b1a10",
+                                             "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Ottoman Empire 2",
+                                             "label":  "",
+                                             "leader":  "Abdulhamid II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Turkey",
+                                                                       "ids":  [
+                                                                                   "bitlis",
+                                                                                   "muş",
+                                                                                   "van",
+                                                                                   "ağrı",
+                                                                                   "iğdır"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d1a52e",
+                                             "borderColor":  "#7a5f12",
+                                             "info":  "The Ottoman Empire had lost most of the Balkans but still held Anatolia, Macedonia, Albania, the Levant, Iraq and the Hejaz."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Russian Empire (Sámi and Northern Frontierlands)",
+                                             "label":  "",
+                                             "leader":  "Nicholas II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Russia",
+                                                                       "ids":  [
+                                                                                   "murmansk"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#1c3a22",
+                                             "borderColor":  "#0b1a10",
+                                             "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Russian Empire (Finland) – Sámi and Northern Frontierlands",
+                                             "label":  "",
+                                             "leader":  "Nicholas II (Grand Duke)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Finland",
+                                                                       "ids":  [
+                                                                                   "lapland"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#1c3a22",
+                                             "borderColor":  "#0b1a10",
+                                             "info":  "Finland was a grand duchy under the Russian tsar since 1809, with its own parliament and laws."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "France (Roussillon)",
+                                             "label":  "",
+                                             "leader":  "Emile Loubet",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "France",
+                                                                       "ids":  [
+                                                                                   "pyrénées-orientales"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#4169a1",
+                                             "borderColor":  "#203b61",
+                                             "info":  "The Third Republic was proclaimed in 1870 after the defeat by Prussia; France lost Alsace-Lorraine but built a large colonial empire."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Sweden–Norway",
+                                             "label":  "Sweden–Norway",
+                                             "leader":  "Oscar II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Norway",
+                                                                       "ids":  [
+                                                                                   "oppland",
+                                                                                   "møreogromsdal",
+                                                                                   "sognogfjordane",
+                                                                                   "hordaland",
+                                                                                   "rogaland",
+                                                                                   "vest-agder",
+                                                                                   "aust-agder",
+                                                                                   "telemark",
+                                                                                   "vestfold",
+                                                                                   "buskerud",
+                                                                                   "oslo",
+                                                                                   "østfold",
+                                                                                   "akershus",
+                                                                                   "hedmark",
+                                                                                   "sør-trøndelag",
+                                                                                   "nord-trøndelag",
+                                                                                   "finnmark",
+                                                                                   "nordland",
+                                                                                   "troms"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Sweden"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#102548",
+                                             "borderColor":  "#06142b",
+                                             "info":  "Sweden and Norway were in a personal union under one king from 1814 to 1905; Norway kept its own constitution and parliament, and Sweden had held Scania, Halland and Blekinge since 1658."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Russian Empire (Finland)",
+                                             "label":  "",
+                                             "leader":  "Nicholas II (Grand Duke)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Finland",
+                                                                       "ids":  [
+                                                                                   "paijannetavastia",
+                                                                                   "tavastiaproper",
+                                                                                   "pirkanmaa",
+                                                                                   "southernostrobothnia",
+                                                                                   "centralfinland",
+                                                                                   "southernsavonia",
+                                                                                   "northernsavonia",
+                                                                                   "centralostrobothnia",
+                                                                                   "ostrobothnia",
+                                                                                   "satakunta",
+                                                                                   "finlandproper",
+                                                                                   "uusimaa",
+                                                                                   "kymenlaakso",
+                                                                                   "kainuu",
+                                                                                   "northernostrobothnia"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Supplemental Islands",
+                                                                       "ids":  [
+                                                                                   "aland"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#1c3a22",
+                                             "borderColor":  "#0b1a10",
+                                             "info":  "Finland was a grand duchy under the Russian tsar since 1809, with its own parliament and laws."
+                                         }
+                      }
+                  ]
+}

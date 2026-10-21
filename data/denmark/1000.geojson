@@ -1,0 +1,19 @@
+{
+  "properties": {
+    "realm": "Denmark",
+    "leader": "Sweyn Forkbeard",
+    "info": "Around 1000, Denmark is shown using modern regions as an approximate map. Scania, Halland and Blekinge are included as areas with Danish ties during this period; these are not exact historical borders.",
+    "fillColor": "#8b1e2d",
+    "borderColor": "#4b0d16"
+  },
+  "provinces": [
+    "northdenmark",
+    "centraldenmark",
+    "southerndenmark",
+    "denmark",
+    "zealand",
+    "skane",
+    "halland",
+    "blekinge"
+  ]
+}

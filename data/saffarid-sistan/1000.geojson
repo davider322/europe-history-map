@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Saffarids in Sistan",
+    "leader": "Khalaf ibn Ahmad",
+    "info": "The Saffarid dynasty retained Sistan around 1000, although its dominion had greatly contracted. Present-day Sistan and Baluchestan is much larger than the historical core and is used only as a rough map reference.",
+    "regionFilters": [
+      {
+        "admin": "Iran",
+        "ids": ["irn-sistan-and-baluchestan"]
+      }
+    ],
+    "fillColor": "#a87849",
+    "borderColor": "#6a4b2d"
+  },
+  "provinces": []
+}

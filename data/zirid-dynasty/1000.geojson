@@ -1,0 +1,55 @@
+{
+  "properties": {
+    "realm": "Zirid Ifriqiya",
+    "leader": "Al-Mansur ibn Buluggin",
+    "info": "Around 1000, the Zirids ruled Ifriqiya from Kairouan, formally under Fatimid suzerainty. Modern Tunisian regions, neighboring parts of eastern Algeria and the Tripolitanian coast are used as approximate map references; they are not exact historical borders.",
+    "regionFilters": [
+      {
+        "admin": "Tunisia"
+      },
+      {
+        "admin": "Algeria",
+        "ids": [
+          "eltarf",
+          "t\u00c3\u00a9bessa",
+          "soukahras",
+          "annaba",
+          "skikda",
+          "jijel",
+          "b\u00c3\u00a9ja\u00c3\u00afa",
+          "tiziouzou",
+          "boumerd\u00c3\u00a8s",
+          "s\u00c3\u00a9tif",
+          "bordjbouarr\u00c3\u00a9ridj",
+          "bou\u00c3\u00afra",
+          "guelma",
+          "constantine",
+          "mila",
+          "oumelbouaghi",
+          "batna",
+          "khenchela"
+        ]
+      },
+      {
+        "admin": "Libya",
+        "ids": [
+          "nuqatalkhams",
+          "tripolidistrict",
+          "zawiya",
+          "murqub",
+          "misrata",
+          "sirte",
+          "ajdabiya",
+          "benghazi",
+          "marj",
+          "alqubbah",
+          "jabalalakhdar",
+          "butnan"
+        ]
+      }
+    ],
+    "fillColor": "#978351",
+    "borderColor": "#665a37"
+  },
+  "provinces": []
+}

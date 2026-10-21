@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "realm": "Kingdom of Ulster",
+    "leader": "Local kingdoms; suzerainty disputed",
+    "info": "Ulster was a regional kingdom or province, not a unified modern Northern Ireland. The map combines areas in present-day Northern Ireland and the Republic of Ireland; the influence of northern dynasties varied.",
+    "regionAdmins": ["Ireland"],
+    "regionFilters": [
+      {
+        "admin": "United Kingdom",
+        "geonunit": "Northern Ireland"
+      }
+    ],
+    "fillColor": "#6584a4",
+    "borderColor": "#3a4e65"
+  },
+  "provinces": [
+    "donegal",
+    "cavan",
+    "monaghan"
+  ]
+}

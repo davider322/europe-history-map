@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "realm": "Ziyarid Dynasty in Tabaristan and Gurgan",
+    "leader": "Qabus ibn Wushmagir",
+    "info": "Under Qabus ibn Wushmagir, the Ziyarid dynasty held Gurgan and parts of Tabaristan around 1000. The modern provinces along the Caspian Sea are a rough approximation; local Daylamite autonomy and Buyid influence made borders uncertain.",
+    "regionFilters": [
+      {
+        "admin": "Iran",
+        "ids": [
+          "irn-mazandaran",
+          "irn-mazandaran-2",
+          "irn-golestan",
+          "irn-gilan",
+          "irn-semnan"
+        ]
+      }
+    ],
+    "fillColor": "#718b78",
+    "borderColor": "#455648"
+  },
+  "provinces": []
+}

@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "realm": "Old Prussian Lands",
+    "leader": "Local Prussian chieftains",
+    "info": "The Old Prussians were Baltic peoples organized into local lands, not a unified kingdom. Parts of present-day Kaliningrad and Warmia-Masuria are used as rough map references; these borders do not represent historical political boundaries.",
+    "regionFilters": [
+      {
+        "admin": "Russia",
+        "ids": ["kaliningrad"]
+      },
+      {
+        "admin": "Poland",
+        "ids": ["warmian-masurianvoivodeship"]
+      }
+    ],
+    "fillColor": "#9e765e",
+    "borderColor": "#694b3b"
+  },
+  "provinces": []
+}

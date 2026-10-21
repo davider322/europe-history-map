@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "realm": "Norse Isles around Orkney",
+    "leader": "Sigurd the Stout (Earl of Orkney)",
+    "info": "Around 1000, Orkney and Shetland were under strong Norse influence. The Hebrides were also disputed between Norse and Scottish powers. The layer shows the islands as an approximate Norse sphere, not an exact territorial border.",
+    "regionFilters": [
+      {
+        "admin": "United Kingdom",
+        "geonunit": "Scotland",
+        "ids": [
+          "outerhebrides",
+          "orkneyislands",
+          "shetlandislands"
+        ]
+      }
+    ],
+    "fillColor": "#7795ad",
+    "borderColor": "#405564"
+  },
+  "provinces": []
+}

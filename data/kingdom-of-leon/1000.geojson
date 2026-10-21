@@ -1,0 +1,55 @@
+﻿{
+    "properties":  {
+                       "realm":  "Kingdom of León",
+                       "leader":  "Alfonso V",
+                       "info":  "León was a Christian kingdom in northwestern Iberia. Castile was then a county associated with León. The map shows an approximate extent using modern Spanish regions and northwestern Portugal. The territories use the original base provinces; modern borders are cartographic references, not historical ones.",
+                       "regionAdmins":  [
+                                            "Spain",
+                                            "Portugal"
+                                        ],
+                       "fillColor":  "#c6b64e",
+                       "borderColor":  "#756a2e",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Spain",
+                                                 "ids":  [
+                                                             "salamanca",
+                                                             "zamora",
+                                                             "león",
+                                                             "soria",
+                                                             "burgos",
+                                                             "ávila",
+                                                             "palencia",
+                                                             "segovia",
+                                                             "valladolid"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "Portugal",
+                                                 "geonunit":  "Portugal",
+                                                 "ids":  [
+                                                             "braga",
+                                                             "bragança",
+                                                             "porto",
+                                                             "vianadocastelo",
+                                                             "vilareal"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "Spain",
+                                                 "geonunit":  "",
+                                                 "ids":  [
+                                                             "acoruña",
+                                                             "lugo",
+                                                             "ourense",
+                                                             "pontevedra"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+                      "asturias",
+                      "cantabria",
+                      "aveiro"
+                  ]
+}

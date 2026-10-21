@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "realm": "Kingdom of Pamplona (Navarre)",
+    "leader": "García Sánchez II",
+    "info": "Around 1000, the Kingdom of Pamplona, often called Navarre retrospectively, was ruled by García Sánchez II. The approximate map uses present-day Navarre, La Rioja and parts of the Basque Country; these borders do not match the kingdom\u0027s exact extent.",
+    "regionAdmins": ["Spain"],
+    "fillColor": "#70452b",
+    "borderColor": "#402819"
+  },
+  "provinces": [
+    "navarre",
+    "larioja",
+    "gipuzkoa",
+    "biscay",
+    "araba/álava"
+  ]
+}

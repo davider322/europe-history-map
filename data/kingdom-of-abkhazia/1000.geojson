@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "realm": "Kingdom of Abkhazia",
+    "leader": "Bagrat III",
+    "info": "Bagrat III became king of Abkhazia in 978 and ruled western Georgia around 1000. His realm was not yet the same as the later unified Kingdom of Georgia. Modern regions are used only as an approximation.",
+    "regionFilters": [
+      {
+        "admin": "Georgia",
+        "ids": [
+          "geo-abkhazia",
+          "geo-adjara",
+          "geo-guria",
+          "geo-imereti",
+          "geo-racha-lechkhumi-and-kvemo-svaneti",
+          "geo-samegrelo-zemo-svaneti"
+        ]
+      }
+    ],
+    "fillColor": "#71869c",
+    "borderColor": "#465565"
+  },
+  "provinces": []
+}

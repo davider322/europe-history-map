@@ -1,0 +1,2036 @@
+{
+    "baseYear":  "1800",
+    "note":  "Europe 1815 after the Congress of Vienna: Austrian Empire, enlarged Prussia, German Confederation states, Congress Poland, United Netherlands, Sweden-Norway.",
+    "overrides":  {
+                      "Batavian Republic":  {
+                                                "properties":  {
+                                                                   "realm":  "United Kingdom of the Netherlands",
+                                                                   "label":  "Netherlands",
+                                                                   "leader":  "William I",
+                                                                   "fillColor":  "#d98a3d",
+                                                                   "borderColor":  "#7a4a1d",
+                                                                   "info":  "The Congress of Vienna created a united kingdom of the Netherlands, Belgium and Luxembourg under the House of Orange.",
+                                                                   "regionFilters":  [
+                                                                                         {
+                                                                                             "admin":  "Belgium"
+                                                                                         },
+                                                                                         {
+                                                                                             "admin":  "Luxembourg"
+                                                                                         },
+                                                                                         {
+                                                                                             "admin":  "Netherlands",
+                                                                                             "ids":  [
+                                                                                                         "utrecht",
+                                                                                                         "flevoland",
+                                                                                                         "friesland",
+                                                                                                         "northholland",
+                                                                                                         "southholland",
+                                                                                                         "northbrabant",
+                                                                                                         "zeeland",
+                                                                                                         "limburg",
+                                                                                                         "gelderland",
+                                                                                                         "overijssel",
+                                                                                                         "drenthe",
+                                                                                                         "groningen"
+                                                                                                     ]
+                                                                                         }
+                                                                                     ],
+                                                                   "excludeIds":  [
+
+                                                                                  ]
+                                                               }
+                                            },
+                      "Cisalpine Republic":  {
+                                                 "provinces":  [
+
+                                                               ],
+                                                 "properties":  {
+                                                                    "regionFilters":  [
+
+                                                                                      ]
+                                                                }
+                                             },
+                      "Crimean Khanate (Crimea)":  {
+                                                       "provinces":  [
+
+                                                                     ],
+                                                       "properties":  {
+                                                                          "regionFilters":  [
+
+                                                                                            ]
+                                                                      }
+                                                   },
+                      "Croatia (Hungarian crown)":  {
+                                                        "provinces":  [
+
+                                                                      ],
+                                                        "properties":  {
+                                                                           "regionFilters":  [
+
+                                                                                             ],
+                                                                           "leader":  "Francis I",
+                                                                           "info":  "A Habsburg crown land: Francis I ruled it as king or archduke, in personal union with the Austrian Empire."
+                                                                       }
+                                                    },
+                      "Denmark–Norway":  {
+                                             "provinces":  [
+
+                                                           ],
+                                             "properties":  {
+                                                                "regionFilters":  [
+
+                                                                                  ]
+                                                            }
+                                         },
+                      "Denmark–Norway (Faroe Islands)":  {
+                                                             "provinces":  [
+
+                                                                           ],
+                                                             "properties":  {
+                                                                                "regionFilters":  [
+
+                                                                                                  ]
+                                                                            }
+                                                         },
+                      "Denmark–Norway (Iceland)":  {
+                                                       "provinces":  [
+
+                                                                     ],
+                                                       "properties":  {
+                                                                          "regionFilters":  [
+
+                                                                                            ]
+                                                                      }
+                                                   },
+                      "Duchy of Swabia":  {
+                                              "properties":  {
+                                                                 "realm":  "Switzerland",
+                                                                 "label":  "Switzerland",
+                                                                 "leader":  "Federal Diet",
+                                                                 "fillColor":  "#c9726b",
+                                                                 "borderColor":  "#7a403c",
+                                                                 "info":  "The Swiss Confederation was restored in 1815 with 22 cantons and declared permanently neutral.",
+                                                                 "regionFilters":  [
+                                                                                       {
+                                                                                           "admin":  "Switzerland"
+                                                                                       }
+                                                                                   ],
+                                                                 "excludeIds":  [
+
+                                                                                ]
+                                                             }
+                                          },
+                      "France (Brittany)":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+
+                                                                                     ]
+                                                               }
+                                            },
+                      "France (Provence)":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+
+                                                                                     ]
+                                                               }
+                                            },
+                      "French Republic":  {
+                                              "properties":  {
+                                                                 "realm":  "Kingdom of France",
+                                                                 "label":  "France",
+                                                                 "leader":  "Louis XVIII",
+                                                                 "fillColor":  "#4169a1",
+                                                                 "borderColor":  "#203b61",
+                                                                 "info":  "The Bourbons were restored in 1814-15 after Napoleon's fall, and France was reduced to roughly its 1790 borders.",
+                                                                 "regionFilters":  [
+                                                                                       {
+                                                                                           "admin":  "France",
+                                                                                           "ids":  [
+                                                                                                       "ille-et-vilaine",
+                                                                                                       "côtes-d'armor",
+                                                                                                       "finistère",
+                                                                                                       "morbihan",
+                                                                                                       "loire-atlantique",
+                                                                                                       "vaucluse",
+                                                                                                       "bouches-du-rhône",
+                                                                                                       "var",
+                                                                                                       "alpes-de-haute-provence",
+                                                                                                       "val-de-marne",
+                                                                                                       "seine-et-marne",
+                                                                                                       "essonne",
+                                                                                                       "yonne",
+                                                                                                       "vienne",
+                                                                                                       "deux-sèvres",
+                                                                                                       "saône-et-loire",
+                                                                                                       "orne",
+                                                                                                       "oise",
+                                                                                                       "côte-d’or",
+                                                                                                       "nièvre",
+                                                                                                       "lozère",
+                                                                                                       "cantal",
+                                                                                                       "haute-loire",
+                                                                                                       "eure-et-loir",
+                                                                                                       "cher",
+                                                                                                       "charente",
+                                                                                                       "yvelines",
+                                                                                                       "val-d'oise",
+                                                                                                       "seine-saint-denis",
+                                                                                                       "hauts-de-seine",
+                                                                                                       "paris",
+                                                                                                       "aube",
+                                                                                                       "maine-et-loire",
+                                                                                                       "loiret",
+                                                                                                       "allier",
+                                                                                                       "puy-de-dôme",
+                                                                                                       "loire",
+                                                                                                       "marne",
+                                                                                                       "haute-marne",
+                                                                                                       "sarthe",
+                                                                                                       "mayenne",
+                                                                                                       "creuse",
+                                                                                                       "loir-et-cher",
+                                                                                                       "indre",
+                                                                                                       "indre-et-loire",
+                                                                                                       "lot",
+                                                                                                       "aveyron",
+                                                                                                       "tarn",
+                                                                                                       "tarn-et-garonne",
+                                                                                                       "corrèze",
+                                                                                                       "haute-vienne",
+                                                                                                       "somme",
+                                                                                                       "seine-maritime",
+                                                                                                       "eure",
+                                                                                                       "calvados",
+                                                                                                       "manche",
+                                                                                                       "vendée",
+                                                                                                       "charente-maritime",
+                                                                                                       "aude",
+                                                                                                       "hérault",
+                                                                                                       "gard",
+                                                                                                       "ariège",
+                                                                                                       "hautes-pyrénées",
+                                                                                                       "haute-garonne",
+                                                                                                       "meuse",
+                                                                                                       "aisne",
+                                                                                                       "ardennes",
+                                                                                                       "haute-saône",
+                                                                                                       "lot-et-garonne",
+                                                                                                       "ardèche",
+                                                                                                       "rhône",
+                                                                                                       "dordogne",
+                                                                                                       "drôme",
+                                                                                                       "isère",
+                                                                                                       "gers",
+                                                                                                       "pas-de-calais",
+                                                                                                       "gironde",
+                                                                                                       "landes",
+                                                                                                       "doubs",
+                                                                                                       "territoiredebelfort",
+                                                                                                       "haut-rhin",
+                                                                                                       "bas-rhin",
+                                                                                                       "pyrenees-atlantics",
+                                                                                                       "hautes-alpes",
+                                                                                                       "nord",
+                                                                                                       "ain",
+                                                                                                       "vosges",
+                                                                                                       "jura",
+                                                                                                       "moselle",
+                                                                                                       "meurthe-et-moselle",
+                                                                                                       "corse-du-sud",
+                                                                                                       "haute-corse",
+                                                                                                       "pyrénées-orientales"
+                                                                                                   ]
+                                                                                       }
+                                                                                   ],
+                                                                 "excludeIds":  [
+
+                                                                                ]
+                                                             }
+                                          },
+                      "French Republic (Annexed Territories)":  {
+                                                                    "provinces":  [
+
+                                                                                  ],
+                                                                    "properties":  {
+                                                                                       "regionFilters":  [
+
+                                                                                                         ]
+                                                                                   }
+                                                                },
+                      "French Republic (Gascony, Dauphiné and annexations)":  {
+                                                                                  "provinces":  [
+
+                                                                                                ],
+                                                                                  "properties":  {
+                                                                                                     "regionFilters":  [
+
+                                                                                                                       ]
+                                                                                                 }
+                                                                              },
+                      "French Republic (Savoy)":  {
+                                                      "provinces":  [
+
+                                                                    ],
+                                                      "properties":  {
+                                                                         "regionFilters":  [
+
+                                                                                           ]
+                                                                     }
+                                                  },
+                      "Grand Duchy of Tuscany":  {
+                                                     "properties":  {
+                                                                        "realm":  "Grand Duchy of Tuscany",
+                                                                        "label":  "Tuscany",
+                                                                        "leader":  "Ferdinand III",
+                                                                        "fillColor":  "#b0455a",
+                                                                        "borderColor":  "#68232f",
+                                                                        "info":  "Habsburg-Lorraine Tuscany was restored in 1814.",
+                                                                        "regionFilters":  [
+                                                                                              {
+                                                                                                  "admin":  "Italy",
+                                                                                                  "ids":  [
+                                                                                                              "siena",
+                                                                                                              "pisa",
+                                                                                                              "livorno",
+                                                                                                              "grosseto",
+                                                                                                              "prato",
+                                                                                                              "pistoia",
+                                                                                                              "florence",
+                                                                                                              "arezzo"
+                                                                                                          ]
+                                                                                              }
+                                                                                          ],
+                                                                        "excludeIds":  [
+
+                                                                                       ]
+                                                                    }
+                                                 },
+                      "Habsburg Monarchy (Banat)":  {
+                                                        "provinces":  [
+
+                                                                      ],
+                                                        "properties":  {
+                                                                           "regionFilters":  [
+
+                                                                                             ],
+                                                                           "leader":  "Francis I",
+                                                                           "info":  "A Habsburg crown land: Francis I ruled it as king or archduke, in personal union with the Austrian Empire."
+                                                                       }
+                                                    },
+                      "Habsburg Monarchy (Galicia)":  {
+                                                          "provinces":  [
+
+                                                                        ],
+                                                          "properties":  {
+                                                                             "regionFilters":  [
+
+                                                                                               ],
+                                                                             "leader":  "Francis I",
+                                                                             "info":  "A Habsburg crown land: Francis I ruled it as king or archduke, in personal union with the Austrian Empire."
+                                                                         }
+                                                      },
+                      "Holy Roman Empire":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+
+                                                                                     ]
+                                                               }
+                                            },
+                      "Karelian Frontierlands":  {
+                                                     "provinces":  [
+
+                                                                   ],
+                                                     "properties":  {
+                                                                        "regionFilters":  [
+
+                                                                                          ],
+                                                                        "fillColor":  "#1c3a22",
+                                                                        "borderColor":  "#0b1a10",
+                                                                        "label":  "",
+                                                                        "leader":  "Alexander I",
+                                                                        "info":  "Part of the Russian Empire."
+                                                                    }
+                                                 },
+                      "Kingdom of Bohemia":  {
+                                                 "provinces":  [
+
+                                                               ],
+                                                 "properties":  {
+                                                                    "regionFilters":  [
+
+                                                                                      ],
+                                                                    "leader":  "Francis I",
+                                                                    "info":  "A Habsburg crown land: Francis I ruled it as king or archduke, in personal union with the Austrian Empire."
+                                                                }
+                                             },
+                      "Kingdom of Bohemia (Silesia)":  {
+                                                           "provinces":  [
+
+                                                                         ],
+                                                           "properties":  {
+                                                                              "regionFilters":  [
+
+                                                                                                ]
+                                                                          }
+                                                       },
+                      "Kingdom of Georgia":  {
+                                                 "provinces":  [
+
+                                                               ],
+                                                 "properties":  {
+                                                                    "regionFilters":  [
+
+                                                                                      ]
+                                                                }
+                                             },
+                      "Kingdom of Naples":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+                                                                                         {
+                                                                                             "admin":  "Italy",
+                                                                                             "ids":  [
+                                                                                                         "l'aquila",
+                                                                                                         "avellino",
+                                                                                                         "caserta",
+                                                                                                         "naples",
+                                                                                                         "salerno",
+                                                                                                         "potenza",
+                                                                                                         "vibovalentia",
+                                                                                                         "reggiocalabria",
+                                                                                                         "catanzaro",
+                                                                                                         "crotone",
+                                                                                                         "cosenza",
+                                                                                                         "matera",
+                                                                                                         "taranto",
+                                                                                                         "lecce",
+                                                                                                         "brindisi",
+                                                                                                         "bari",
+                                                                                                         "barletta-andria-trani",
+                                                                                                         "foggia",
+                                                                                                         "chieti",
+                                                                                                         "pescara",
+                                                                                                         "teramo"
+                                                                                                     ]
+                                                                                         }
+                                                                                     ],
+                                                                   "leader":  "Ferdinand IV",
+                                                                   "info":  "Naples was restored under Ferdinand IV after Murat's fall; the two kingdoms were merged as the Two Sicilies in 1816."
+                                                               }
+                                            },
+                      "Kingdom of Prussia":  {
+                                                 "properties":  {
+                                                                    "realm":  "Kingdom of Prussia",
+                                                                    "label":  "Prussia",
+                                                                    "leader":  "Frederick William III",
+                                                                    "fillColor":  "#8b8f9e",
+                                                                    "borderColor":  "#4c4f5c",
+                                                                    "info":  "Prussia was restored in 1815 and gained the Rhineland, Westphalia, Posen, northern Saxony and Swedish Pomerania; it was now the leading power in the German Confederation.",
+                                                                    "regionFilters":  [
+                                                                                          {
+                                                                                              "admin":  "Germany",
+                                                                                              "ids":  [
+                                                                                                          "saarland",
+                                                                                                          "rhineland-palatinate",
+                                                                                                          "saxony-anhalt",
+                                                                                                          "northrhine-westphalia",
+                                                                                                          "berlin",
+                                                                                                          "brandenburg"
+                                                                                                      ]
+                                                                                          },
+                                                                                          {
+                                                                                              "admin":  "Poland",
+                                                                                              "ids":  [
+                                                                                                          "opolevoivodeship",
+                                                                                                          "lowersilesianvoivodeship",
+                                                                                                          "silesianvoivodeship",
+                                                                                                          "lubuszvoivodeship",
+                                                                                                          "warmian-masurianvoivodeship",
+                                                                                                          "greaterpolandvoivodeship",
+                                                                                                          "kuyavian-pomeranianvoivodeship",
+                                                                                                          "pomeranianvoivodeship",
+                                                                                                          "westpomeranianvoivodeship"
+                                                                                                      ]
+                                                                                          },
+                                                                                          {
+                                                                                              "admin":  "Russia",
+                                                                                              "ids":  [
+                                                                                                          "kaliningrad"
+                                                                                                      ]
+                                                                                          }
+                                                                                      ],
+                                                                    "excludeIds":  [
+
+                                                                                   ]
+                                                                }
+                                             },
+                      "Kingdom of Prussia (East Prussia)":  {
+                                                                "provinces":  [
+
+                                                                              ],
+                                                                "properties":  {
+                                                                                   "regionFilters":  [
+
+                                                                                                     ]
+                                                                               }
+                                                            },
+                      "Kingdom of Prussia (Polish partition)":  {
+                                                                    "provinces":  [
+
+                                                                                  ],
+                                                                    "properties":  {
+                                                                                       "regionFilters":  [
+
+                                                                                                         ]
+                                                                                   }
+                                                                },
+                      "Kingdom of Prussia (Pomerania)":  {
+                                                             "provinces":  [
+
+                                                                           ],
+                                                             "properties":  {
+                                                                                "regionFilters":  [
+
+                                                                                                  ]
+                                                                            }
+                                                         },
+                      "Kingdom of Sardinia":  {
+                                                  "properties":  {
+                                                                     "realm":  "Kingdom of Sardinia",
+                                                                     "label":  "Sardinia",
+                                                                     "leader":  "Victor Emmanuel I",
+                                                                     "fillColor":  "#6b8fb5",
+                                                                     "borderColor":  "#3a5470",
+                                                                     "info":  "Restored in 1814, Sardinia regained Savoy and Nice and gained Genoa and Liguria at the Congress of Vienna.",
+                                                                     "regionFilters":  [
+                                                                                           {
+                                                                                               "admin":  "France",
+                                                                                               "ids":  [
+                                                                                                           "haute-savoie",
+                                                                                                           "savoie",
+                                                                                                           "alpes-maritimes"
+                                                                                                       ]
+                                                                                           },
+                                                                                           {
+                                                                                               "admin":  "Italy",
+                                                                                               "ids":  [
+                                                                                                           "alessandria",
+                                                                                                           "novara",
+                                                                                                           "vercelli",
+                                                                                                           "asti",
+                                                                                                           "turin",
+                                                                                                           "cuneo",
+                                                                                                           "aosta",
+                                                                                                           "biella",
+                                                                                                           "verbano-cusio-ossola",
+                                                                                                           "ogliastra",
+                                                                                                           "cagliari",
+                                                                                                           "mediocampidano",
+                                                                                                           "oristano",
+                                                                                                           "olbia-tempio",
+                                                                                                           "nuoro",
+                                                                                                           "sassari",
+                                                                                                           "carbonia-iglesias",
+                                                                                                           "savona",
+                                                                                                           "liguria",
+                                                                                                           "laspezia",
+                                                                                                           "imperia"
+                                                                                                       ]
+                                                                                           }
+                                                                                       ],
+                                                                     "excludeIds":  [
+
+                                                                                    ]
+                                                                 }
+                                              },
+                      "Kingdom of Sicily":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+                                                                                         {
+                                                                                             "admin":  "Italy",
+                                                                                             "ids":  [
+                                                                                                         "enna",
+                                                                                                         "catania",
+                                                                                                         "syracuse",
+                                                                                                         "ragusa",
+                                                                                                         "caltanissetta",
+                                                                                                         "agrigento",
+                                                                                                         "palermo",
+                                                                                                         "messina",
+                                                                                                         "trapani"
+                                                                                                     ]
+                                                                                         }
+                                                                                     ],
+                                                                   "leader":  "Ferdinand III",
+                                                                   "info":  "Sicily remained under Bourbon rule through the Napoleonic era, protected by the British; merged with Naples in 1816."
+                                                               }
+                                            },
+                      "Kingdom of Spain":  {
+                                               "properties":  {
+                                                                  "realm":  "Kingdom of Spain",
+                                                                  "label":  "Spain",
+                                                                  "leader":  "Ferdinand VII",
+                                                                  "fillColor":  "#a37d45",
+                                                                  "borderColor":  "#654d2b",
+                                                                  "info":  "Spain was restored under Ferdinand VII after the Peninsular War (1808-14); its American colonies were in revolt.",
+                                                                  "regionFilters":  [
+                                                                                        {
+                                                                                            "admin":  "Spain",
+                                                                                            "ids":  [
+                                                                                                        "valladolid",
+                                                                                                        "segovia",
+                                                                                                        "communityofmadrid",
+                                                                                                        "jaén",
+                                                                                                        "guadalajara",
+                                                                                                        "córdoba",
+                                                                                                        "ciudadreal",
+                                                                                                        "palencia",
+                                                                                                        "ávila",
+                                                                                                        "burgos",
+                                                                                                        "soria",
+                                                                                                        "león",
+                                                                                                        "toledo",
+                                                                                                        "cuenca",
+                                                                                                        "albacete",
+                                                                                                        "araba/álava",
+                                                                                                        "larioja",
+                                                                                                        "biscay",
+                                                                                                        "cantabria",
+                                                                                                        "asturias",
+                                                                                                        "lugo",
+                                                                                                        "acoruña",
+                                                                                                        "seville",
+                                                                                                        "murcia",
+                                                                                                        "huelva",
+                                                                                                        "pontevedra",
+                                                                                                        "zamora",
+                                                                                                        "salamanca",
+                                                                                                        "cáceres",
+                                                                                                        "ourense",
+                                                                                                        "cádiz",
+                                                                                                        "badajoz",
+                                                                                                        "gipuzkoa",
+                                                                                                        "teruel",
+                                                                                                        "zaragoza",
+                                                                                                        "balearicislands",
+                                                                                                        "alicante",
+                                                                                                        "valencia",
+                                                                                                        "castellón",
+                                                                                                        "tarragona",
+                                                                                                        "barcelona",
+                                                                                                        "girona",
+                                                                                                        "lleida",
+                                                                                                        "huesca",
+                                                                                                        "málaga",
+                                                                                                        "granada",
+                                                                                                        "almería",
+                                                                                                        "navarre"
+                                                                                                    ]
+                                                                                        }
+                                                                                    ],
+                                                                  "excludeIds":  [
+
+                                                                                 ]
+                                                              }
+                                           },
+                      "Ligurian Republic":  {
+                                                "provinces":  [
+
+                                                              ],
+                                                "properties":  {
+                                                                   "regionFilters":  [
+
+                                                                                     ]
+                                                               }
+                                            },
+                      "Nogai Horde (Caucasian steppe)":  {
+                                                             "provinces":  [
+
+                                                                           ],
+                                                             "properties":  {
+                                                                                "regionFilters":  [
+
+                                                                                                  ],
+                                                                                "fillColor":  "#1c3a22",
+                                                                                "borderColor":  "#0b1a10",
+                                                                                "label":  "",
+                                                                                "leader":  "Alexander I",
+                                                                                "info":  "Part of the Russian Empire."
+                                                                            }
+                                                         },
+                      "Nogai Horde (North Caucasus)":  {
+                                                           "provinces":  [
+
+                                                                         ],
+                                                           "properties":  {
+                                                                              "regionFilters":  [
+
+                                                                                                ],
+                                                                              "fillColor":  "#1c3a22",
+                                                                              "borderColor":  "#0b1a10",
+                                                                              "label":  "",
+                                                                              "leader":  "Alexander I",
+                                                                              "info":  "Part of the Russian Empire."
+                                                                          }
+                                                       },
+                      "Nogai Horde (Volga–Ural)":  {
+                                                       "provinces":  [
+
+                                                                     ],
+                                                       "properties":  {
+                                                                          "regionFilters":  [
+
+                                                                                            ],
+                                                                          "fillColor":  "#1c3a22",
+                                                                          "borderColor":  "#0b1a10",
+                                                                          "label":  "",
+                                                                          "leader":  "Alexander I",
+                                                                          "info":  "Part of the Russian Empire."
+                                                                      }
+                                                   },
+                      "North Italian signorie":  {
+                                                     "provinces":  [
+
+                                                                   ],
+                                                     "properties":  {
+                                                                        "regionFilters":  [
+
+                                                                                          ]
+                                                                    }
+                                                 },
+                      "Northern Finnic Frontierlands":  {
+                                                            "provinces":  [
+
+                                                                          ],
+                                                            "properties":  {
+                                                                               "regionFilters":  [
+
+                                                                                                 ],
+                                                                               "fillColor":  "#1c3a22",
+                                                                               "borderColor":  "#0b1a10",
+                                                                               "label":  "",
+                                                                               "leader":  "Alexander I",
+                                                                               "info":  "Part of the Russian Empire."
+                                                                           }
+                                                        },
+                      "Papal Enclave of Benevento":  {
+                                                         "provinces":  [
+
+                                                                       ],
+                                                         "properties":  {
+                                                                            "regionFilters":  [
+                                                                                                  {
+                                                                                                      "admin":  "Italy",
+                                                                                                      "ids":  [
+                                                                                                                  "benevento"
+                                                                                                              ]
+                                                                                                  }
+                                                                                              ]
+                                                                        }
+                                                     },
+                      "Papal States":  {
+                                           "properties":  {
+                                                              "realm":  "Papal States",
+                                                              "label":  "Papal States",
+                                                              "leader":  "Pius VII",
+                                                              "fillColor":  "#d7c7a1",
+                                                              "borderColor":  "#796b50",
+                                                              "info":  "The Papal States were restored in 1814-15 under Pius VII, including the Legations of Bologna and Ferrara.",
+                                                              "regionFilters":  [
+                                                                                    {
+                                                                                        "admin":  "Italy",
+                                                                                        "ids":  [
+                                                                                                    "forlì-cesena",
+                                                                                                    "bologna",
+                                                                                                    "ferrara",
+                                                                                                    "frosinone",
+                                                                                                    "perugia",
+                                                                                                    "terni",
+                                                                                                    "rieti",
+                                                                                                    "viterbo",
+                                                                                                    "rome",
+                                                                                                    "latina",
+                                                                                                    "ascolipiceno",
+                                                                                                    "fermo",
+                                                                                                    "macerata",
+                                                                                                    "ancona",
+                                                                                                    "ravenna",
+                                                                                                    "pesaroandurbino",
+                                                                                                    "rimini"
+                                                                                                ]
+                                                                                    }
+                                                                                ],
+                                                              "excludeIds":  [
+
+                                                                             ]
+                                                          }
+                                       },
+                      "Principality of Moldavia":  {
+                                                       "provinces":  [
+
+                                                                     ],
+                                                       "properties":  {
+                                                                          "regionFilters":  [
+                                                                                                {
+                                                                                                    "admin":  "Romania",
+                                                                                                    "ids":  [
+                                                                                                                "bacău",
+                                                                                                                "neamț",
+                                                                                                                "vrancea",
+                                                                                                                "suceava",
+                                                                                                                "galați",
+                                                                                                                "vaslui",
+                                                                                                                "iași",
+                                                                                                                "botoșani"
+                                                                                                            ]
+                                                                                                }
+                                                                                            ],
+                                                                          "leader":  "Scarlat Callimachi",
+                                                                          "info":  "Moldavia, reduced after Russia annexed Bessarabia in 1812, was an Ottoman vassal under a Phanariot hospodar."
+                                                                      }
+                                                   },
+                      "Principality of Transylvania":  {
+                                                           "provinces":  [
+
+                                                                         ],
+                                                           "properties":  {
+                                                                              "regionFilters":  [
+
+                                                                                                ],
+                                                                              "leader":  "Francis I",
+                                                                              "info":  "A Habsburg crown land: Francis I ruled it as king or archduke, in personal union with the Austrian Empire."
+                                                                          }
+                                                       },
+                      "Republic of Venice":  {
+                                                 "provinces":  [
+
+                                                               ],
+                                                 "properties":  {
+                                                                    "regionFilters":  [
+
+                                                                                      ]
+                                                                }
+                                             },
+                      "Republic of Venice (Aegean)":  {
+                                                          "provinces":  [
+
+                                                                        ],
+                                                          "properties":  {
+                                                                             "regionFilters":  [
+
+                                                                                               ]
+                                                                         }
+                                                      },
+                      "Royal Hungary (Habsburg)":  {
+                                                       "provinces":  [
+
+                                                                     ],
+                                                       "properties":  {
+                                                                          "regionFilters":  [
+
+                                                                                            ],
+                                                                          "leader":  "Francis I",
+                                                                          "info":  "A Habsburg crown land: Francis I ruled it as king or archduke, in personal union with the Austrian Empire."
+                                                                      }
+                                                   },
+                      "Royal Hungary (Reconquered)":  {
+                                                          "provinces":  [
+
+                                                                        ],
+                                                          "properties":  {
+                                                                             "regionFilters":  [
+
+                                                                                               ],
+                                                                             "leader":  "Francis I",
+                                                                             "info":  "A Habsburg crown land: Francis I ruled it as king or archduke, in personal union with the Austrian Empire."
+                                                                         }
+                                                      },
+                      "Russian Empire":  {
+                                             "properties":  {
+                                                                "realm":  "Russian Empire",
+                                                                "label":  "Russian Empire",
+                                                                "leader":  "Alexander I",
+                                                                "fillColor":  "#1c3a22",
+                                                                "borderColor":  "#0b1a10",
+                                                                "info":  "Alexander I's Russia emerged from the Napoleonic Wars as the dominant land power in Europe; it had annexed Finland (1809), Bessarabia (1812), Georgia (1801), northern Azerbaijan (1813) and most of Poland (1815).",
+                                                                "regionFilters":  [
+                                                                                      {
+                                                                                          "admin":  "Azerbaijan",
+                                                                                          "ids":  [
+                                                                                                      "aze-contiguous-azerbaijan"
+                                                                                                  ]
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Belarus"
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Estonia"
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Finland"
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Georgia"
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Latvia"
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Lithuania"
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Moldova"
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Russia",
+                                                                                          "ids":  [
+                                                                                                      "sevastopol",
+                                                                                                      "autonomousrepublicofcrimea",
+                                                                                                      "karelia",
+                                                                                                      "republicofadygea",
+                                                                                                      "republicofdagestan",
+                                                                                                      "chechenrepublic",
+                                                                                                      "republicofingushetia",
+                                                                                                      "krasnodarkrai",
+                                                                                                      "republicofnorthossetia-alania",
+                                                                                                      "kabardino-balkaria",
+                                                                                                      "karachay-cherkessrepublic",
+                                                                                                      "samara",
+                                                                                                      "permkrai",
+                                                                                                      "udmurtrepublic",
+                                                                                                      "kirov",
+                                                                                                      "marielrepublic",
+                                                                                                      "republicofmordovia",
+                                                                                                      "penza",
+                                                                                                      "ulyanovsk",
+                                                                                                      "sverdlovsk",
+                                                                                                      "bashkortostan",
+                                                                                                      "saratov",
+                                                                                                      "orenburg",
+                                                                                                      "chelyabinsk",
+                                                                                                      "kurgan",
+                                                                                                      "komirepublic",
+                                                                                                      "vologda",
+                                                                                                      "arkhangelsk",
+                                                                                                      "nenetsautonomousokrug",
+                                                                                                      "moscow",
+                                                                                                      "tver",
+                                                                                                      "tula",
+                                                                                                      "nizhnynovgorod",
+                                                                                                      "ivanovo",
+                                                                                                      "ryazan",
+                                                                                                      "vladimir",
+                                                                                                      "yaroslavl",
+                                                                                                      "kostroma",
+                                                                                                      "kaluga",
+                                                                                                      "oryol",
+                                                                                                      "tambov",
+                                                                                                      "lipetsk",
+                                                                                                      "bryansk",
+                                                                                                      "smolensk",
+                                                                                                      "murmansk",
+                                                                                                      "stavropolkrai",
+                                                                                                      "republicofkalmykia",
+                                                                                                      "volgograd",
+                                                                                                      "astrakhan",
+                                                                                                      "rostov",
+                                                                                                      "chuvashrepublic",
+                                                                                                      "republicoftatarstan",
+                                                                                                      "novgorod",
+                                                                                                      "saintpetersburg",
+                                                                                                      "leningrad",
+                                                                                                      "pskov",
+                                                                                                      "voronezh",
+                                                                                                      "belgorod",
+                                                                                                      "kursk"
+                                                                                                  ]
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Supplemental Islands",
+                                                                                          "ids":  [
+                                                                                                      "aland"
+                                                                                                  ]
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Ukraine",
+                                                                                          "ids":  [
+                                                                                                      "kirovohrad",
+                                                                                                      "dnipropetrovsk",
+                                                                                                      "poltava",
+                                                                                                      "mykolaiv",
+                                                                                                      "zaporizhzhia",
+                                                                                                      "kherson",
+                                                                                                      "donetsk",
+                                                                                                      "luhansk",
+                                                                                                      "kharkiv",
+                                                                                                      "sumy",
+                                                                                                      "odessa",
+                                                                                                      "kyiv",
+                                                                                                      "cherkasy",
+                                                                                                      "khmelnytskyi",
+                                                                                                      "vinnytsia",
+                                                                                                      "zhytomyr",
+                                                                                                      "rivne",
+                                                                                                      "volyn",
+                                                                                                      "chernihiv"
+                                                                                                  ]
+                                                                                      }
+                                                                                  ],
+                                                                "excludeIds":  [
+
+                                                                               ]
+                                                            }
+                                         },
+                      "Russian Empire (Courland)":  {
+                                                        "provinces":  [
+
+                                                                      ],
+                                                        "properties":  {
+                                                                           "regionFilters":  [
+
+                                                                                             ],
+                                                                           "leader":  "Alexander I",
+                                                                           "info":  "A province of the Russian Empire."
+                                                                       }
+                                                    },
+                      "Russian Empire (Crimea)":  {
+                                                      "provinces":  [
+
+                                                                    ],
+                                                      "properties":  {
+                                                                         "regionFilters":  [
+
+                                                                                           ],
+                                                                         "leader":  "Alexander I",
+                                                                         "info":  "A province of the Russian Empire."
+                                                                     }
+                                                  },
+                      "Russian Empire (Estonia)":  {
+                                                       "provinces":  [
+
+                                                                     ],
+                                                       "properties":  {
+                                                                          "regionFilters":  [
+
+                                                                                            ],
+                                                                          "leader":  "Alexander I",
+                                                                          "info":  "A province of the Russian Empire."
+                                                                      }
+                                                   },
+                      "Russian Empire (Lithuania)":  {
+                                                         "provinces":  [
+
+                                                                       ],
+                                                         "properties":  {
+                                                                            "regionFilters":  [
+
+                                                                                              ],
+                                                                            "leader":  "Alexander I",
+                                                                            "info":  "A province of the Russian Empire."
+                                                                        }
+                                                     },
+                      "Russian Empire (Partitioned Poland)":  {
+                                                                  "provinces":  [
+
+                                                                                ],
+                                                                  "properties":  {
+                                                                                     "regionFilters":  [
+
+                                                                                                       ],
+                                                                                     "leader":  "Alexander I",
+                                                                                     "info":  "A province of the Russian Empire."
+                                                                                 }
+                                                              },
+                      "Safavid Iran (Armenia)":  {
+                                                     "provinces":  [
+
+                                                                   ],
+                                                     "properties":  {
+                                                                        "regionFilters":  [
+
+                                                                                          ]
+                                                                    }
+                                                 },
+                      "Safavid Iran (Arran and Shirvan)":  {
+                                                               "provinces":  [
+
+                                                                             ],
+                                                               "properties":  {
+                                                                                  "regionFilters":  [
+
+                                                                                                    ]
+                                                                              }
+                                                           },
+                      "Sámi and Northern Frontierlands":  {
+                                                              "provinces":  [
+
+                                                                            ],
+                                                              "properties":  {
+                                                                                 "regionFilters":  [
+
+                                                                                                   ],
+                                                                                 "fillColor":  "#1c3a22",
+                                                                                 "borderColor":  "#0b1a10",
+                                                                                 "label":  "",
+                                                                                 "leader":  "Alexander I",
+                                                                                 "info":  "Part of the Russian Empire."
+                                                                             }
+                                                          },
+                      "Spanish Monarchy (Aragon)":  {
+                                                        "provinces":  [
+
+                                                                      ],
+                                                        "properties":  {
+                                                                           "regionFilters":  [
+
+                                                                                             ],
+                                                                           "leader":  "Ferdinand VII",
+                                                                           "info":  "A province of the Spanish monarchy."
+                                                                       }
+                                                    },
+                      "Spanish Monarchy (Granada)":  {
+                                                         "provinces":  [
+
+                                                                       ],
+                                                         "properties":  {
+                                                                            "regionFilters":  [
+
+                                                                                              ],
+                                                                            "leader":  "Ferdinand VII",
+                                                                            "info":  "A province of the Spanish monarchy."
+                                                                        }
+                                                     },
+                      "Spanish Monarchy (Navarre)":  {
+                                                         "provinces":  [
+
+                                                                       ],
+                                                         "properties":  {
+                                                                            "regionFilters":  [
+
+                                                                                              ],
+                                                                            "leader":  "Ferdinand VII",
+                                                                            "info":  "A province of the Spanish monarchy."
+                                                                        }
+                                                     },
+                      "Sweden":  {
+                                     "provinces":  [
+
+                                                   ],
+                                     "properties":  {
+                                                        "regionFilters":  [
+
+                                                                          ]
+                                                    }
+                                 },
+                      "Sweden (Scania)":  {
+                                              "provinces":  [
+
+                                                            ],
+                                              "properties":  {
+                                                                 "regionFilters":  [
+
+                                                                                   ]
+                                                             }
+                                          },
+                      "Sweden (Swedish Pomerania)":  {
+                                                         "properties":  {
+                                                                            "realm":  "Mecklenburg",
+                                                                            "label":  "Mecklenburg",
+                                                                            "leader":  "Frederick Francis I",
+                                                                            "fillColor":  "#b0845a",
+                                                                            "borderColor":  "#664a2c",
+                                                                            "info":  "The Mecklenburg duchies became grand duchies in 1815; Swedish Pomerania passed to Denmark and then Prussia."
+                                                                        }
+                                                     },
+                      "Tsardom of Russia (Astrakhan)":  {
+                                                            "provinces":  [
+
+                                                                          ],
+                                                            "properties":  {
+                                                                               "regionFilters":  [
+
+                                                                                                 ]
+                                                                           }
+                                                        },
+                      "Tsardom of Russia (Kazan)":  {
+                                                        "provinces":  [
+
+                                                                      ],
+                                                        "properties":  {
+                                                                           "regionFilters":  [
+
+                                                                                             ]
+                                                                       }
+                                                    },
+                      "Tsardom of Russia (Novgorod)":  {
+                                                           "provinces":  [
+
+                                                                         ],
+                                                           "properties":  {
+                                                                              "regionFilters":  [
+
+                                                                                                ]
+                                                                          }
+                                                       },
+                      "Tsardom of Russia (Seversk)":  {
+                                                          "provinces":  [
+
+                                                                        ],
+                                                          "properties":  {
+                                                                             "regionFilters":  [
+
+                                                                                               ]
+                                                                         }
+                                                      },
+                      "Ottoman Empire (Bulgaria)":  {
+                                                        "properties":  {
+                                                                           "fillColor":  "#d1a52e",
+                                                                           "borderColor":  "#7a5f12",
+                                                                           "leader":  "Mahmud II",
+                                                                           "info":  "An Ottoman province."
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Rumelia)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "leader":  "Mahmud II",
+                                                                          "info":  "An Ottoman province."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Bosnia)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12",
+                                                                         "leader":  "Mahmud II",
+                                                                         "info":  "An Ottoman province."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Egypt and Syria)":  {
+                                                               "properties":  {
+                                                                                  "fillColor":  "#d1a52e",
+                                                                                  "borderColor":  "#7a5f12",
+                                                                                  "leader":  "Mahmud II",
+                                                                                  "info":  "An Ottoman province."
+                                                                              }
+                                                           },
+                      "Ottoman Empire (Aleppo)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12",
+                                                                         "leader":  "Mahmud II",
+                                                                         "info":  "An Ottoman province."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Tunis)":  {
+                                                     "properties":  {
+                                                                        "fillColor":  "#d1a52e",
+                                                                        "borderColor":  "#7a5f12",
+                                                                        "leader":  "Mahmud II",
+                                                                        "info":  "An Ottoman province."
+                                                                    }
+                                                 },
+                      "Ottoman Empire (Hejaz)":  {
+                                                     "properties":  {
+                                                                        "fillColor":  "#d1a52e",
+                                                                        "borderColor":  "#7a5f12",
+                                                                        "leader":  "Mahmud II",
+                                                                        "info":  "An Ottoman province."
+                                                                    }
+                                                 },
+                      "Ottoman Empire (Medina)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12",
+                                                                         "leader":  "Mahmud II",
+                                                                         "info":  "An Ottoman province."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (al-Hasa)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "leader":  "Mahmud II",
+                                                                          "info":  "An Ottoman province."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Iraq)":  {
+                                                    "properties":  {
+                                                                       "fillColor":  "#d1a52e",
+                                                                       "borderColor":  "#7a5f12",
+                                                                       "leader":  "Mahmud II",
+                                                                       "info":  "An Ottoman province."
+                                                                   }
+                                                },
+                      "Ottoman Empire (Tunis interior)":  {
+                                                              "properties":  {
+                                                                                 "fillColor":  "#d1a52e",
+                                                                                 "borderColor":  "#7a5f12",
+                                                                                 "leader":  "Mahmud II",
+                                                                                 "info":  "An Ottoman province."
+                                                                             }
+                                                          },
+                      "Ottoman Empire (Serbia)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12",
+                                                                         "leader":  "Mahmud II",
+                                                                         "info":  "An Ottoman province."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Tripolitania)":  {
+                                                            "properties":  {
+                                                                               "fillColor":  "#d1a52e",
+                                                                               "borderColor":  "#7a5f12",
+                                                                               "leader":  "Mahmud II",
+                                                                               "info":  "An Ottoman province."
+                                                                           }
+                                                        },
+                      "Ottoman Empire (Cyrenaica)":  {
+                                                         "properties":  {
+                                                                            "fillColor":  "#d1a52e",
+                                                                            "borderColor":  "#7a5f12",
+                                                                            "label":  "Ottoman Empire",
+                                                                            "labelOwn":  true,
+                                                                            "leader":  "Mahmud II",
+                                                                            "info":  "An Ottoman province."
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Anatolia)":  {
+                                                        "properties":  {
+                                                                           "fillColor":  "#d1a52e",
+                                                                           "borderColor":  "#7a5f12",
+                                                                           "leader":  "Mahmud II",
+                                                                           "info":  "An Ottoman province."
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Trebizond)":  {
+                                                         "properties":  {
+                                                                            "fillColor":  "#d1a52e",
+                                                                            "borderColor":  "#7a5f12",
+                                                                            "leader":  "Mahmud II",
+                                                                            "info":  "An Ottoman province."
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Antioch)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "leader":  "Mahmud II",
+                                                                          "info":  "An Ottoman province."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Palestine coast)":  {
+                                                               "properties":  {
+                                                                                  "fillColor":  "#d1a52e",
+                                                                                  "borderColor":  "#7a5f12",
+                                                                                  "leader":  "Mahmud II",
+                                                                                  "info":  "An Ottoman province."
+                                                                              }
+                                                           },
+                      "Ottoman Empire (Cyprus)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12",
+                                                                         "leader":  "Mahmud II",
+                                                                         "info":  "An Ottoman province."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Cilicia)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "leader":  "Mahmud II",
+                                                                          "info":  "An Ottoman province."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Tripoli)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "leader":  "Mahmud II",
+                                                                          "info":  "An Ottoman province."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Upper Mesopotamia)":  {
+                                                                 "properties":  {
+                                                                                    "fillColor":  "#d1a52e",
+                                                                                    "borderColor":  "#7a5f12",
+                                                                                    "leader":  "Mahmud II",
+                                                                                    "info":  "An Ottoman province."
+                                                                                }
+                                                             },
+                      "Ottoman Empire (Erzurum)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "leader":  "Mahmud II",
+                                                                          "info":  "An Ottoman province."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Jazira)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12",
+                                                                         "leader":  "Mahmud II",
+                                                                         "info":  "An Ottoman province."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Algiers)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "leader":  "Mahmud II",
+                                                                          "info":  "An Ottoman province."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Albania)":  {
+                                                       "properties":  {
+                                                                          "fillColor":  "#d1a52e",
+                                                                          "borderColor":  "#7a5f12",
+                                                                          "leader":  "Mahmud II",
+                                                                          "info":  "An Ottoman province."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Thessaly)":  {
+                                                        "properties":  {
+                                                                           "fillColor":  "#d1a52e",
+                                                                           "borderColor":  "#7a5f12",
+                                                                           "leader":  "Mahmud II",
+                                                                           "info":  "An Ottoman province."
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Athens)":  {
+                                                      "properties":  {
+                                                                         "fillColor":  "#d1a52e",
+                                                                         "borderColor":  "#7a5f12",
+                                                                         "leader":  "Mahmud II",
+                                                                         "info":  "An Ottoman province."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Constantinople)":  {
+                                                              "properties":  {
+                                                                                 "fillColor":  "#d1a52e",
+                                                                                 "borderColor":  "#7a5f12",
+                                                                                 "leader":  "Mahmud II",
+                                                                                 "info":  "An Ottoman province."
+                                                                             }
+                                                          },
+                      "Ottoman Empire":  {
+                                             "properties":  {
+                                                                "fillColor":  "#d1a52e",
+                                                                "borderColor":  "#7a5f12",
+                                                                "leader":  "Mahmud II",
+                                                                "info":  "The Ottoman Empire still ruled the Balkans, Anatolia, the Levant and North Africa; Serbia rose in revolt in 1815 and Egypt was largely independent under Muhammad Ali."
+                                                            }
+                                         },
+                      "Ottoman Empire (Banat)":  {
+                                                     "properties":  {
+                                                                        "fillColor":  "#d1a52e",
+                                                                        "borderColor":  "#7a5f12",
+                                                                        "leader":  "Mahmud II",
+                                                                        "info":  "An Ottoman province."
+                                                                    }
+                                                 },
+                      "Wallachia":  {
+                                        "properties":  {
+                                                           "leader":  "Ioan Caragea",
+                                                           "info":  "Wallachia was an Ottoman vassal principality ruled by Phanariot Greek hospodars."
+                                                       }
+                                    },
+                      "Kingdom of Portugal":  {
+                                                  "properties":  {
+                                                                     "leader":  "John VI (Prince Regent)",
+                                                                     "info":  "The Portuguese court ruled from Brazil after 1807; Portugal became part of a united kingdom with Brazil in 1815."
+                                                                 }
+                                              },
+                      "United Kingdom of Great Britain":  {
+                                                              "properties":  {
+                                                                                 "leader":  "George III (Prince Regent George)",
+                                                                                 "info":  "The United Kingdom of Great Britain and Ireland (1801) emerged from the Napoleonic Wars as the leading naval and colonial power.",
+                                                                                 "realm":  "United Kingdom of Great Britain and Ireland",
+                                                                                 "label":  "United Kingdom"
+                                                                             }
+                                                          },
+                      "Finnic Tribal Lands":  {
+                                                  "properties":  {
+                                                                     "fillColor":  "#1c3a22",
+                                                                     "borderColor":  "#0b1a10",
+                                                                     "label":  "",
+                                                                     "leader":  "Alexander I",
+                                                                     "info":  "Part of the Russian Empire."
+                                                                 }
+                                              }
+                  },
+    "additions":  [
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Duchy of Parma",
+                                             "label":  "Parma",
+                                             "leader":  "Marie Louise",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "parma",
+                                                                                   "piacenza"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d98fa0",
+                                             "borderColor":  "#7a4a56",
+                                             "info":  "Parma was granted to Napoleon's wife Marie Louise for life."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Denmark",
+                                             "label":  "Denmark",
+                                             "leader":  "Frederick VI",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Denmark"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "schleswig-holstein"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Iceland"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Supplemental Islands",
+                                                                       "ids":  [
+                                                                                   "faroe-islands"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b1e2d",
+                                             "borderColor":  "#4b0d16",
+                                             "info":  "Denmark lost Norway to Sweden in 1814 but kept Schleswig, Holstein, Iceland and the Faroe Islands."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Thuringian states",
+                                             "label":  "Thuringian states",
+                                             "leader":  "Charles Augustus (Saxe-Weimar)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "thuringia"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#7fbfb0",
+                                             "borderColor":  "#3f7569",
+                                             "info":  "Thuringia was split into many small Saxon duchies and principalities, which joined the German Confederation in 1815."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Saxony",
+                                             "label":  "Saxony",
+                                             "leader":  "Frederick Augustus I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "saxony"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8fbf6f",
+                                             "borderColor":  "#4d7339",
+                                             "info":  "Saxony, a loyal ally of Napoleon, lost about half its territory to Prussia in 1815."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Free Cities of Hamburg and Bremen",
+                                             "label":  "Hamburg and Bremen",
+                                             "leader":  "City senates",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "hamburg",
+                                                                                   "freehanseaticbremen"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#b58fb0",
+                                             "borderColor":  "#684a63",
+                                             "info":  "Hamburg and Bremen regained their independence as free cities in 1814-15 after French occupation."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Hesse",
+                                             "label":  "Hesse",
+                                             "leader":  "William I (Hesse-Kassel)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "hesse"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#e0c36a",
+                                             "borderColor":  "#7d6a2c",
+                                             "info":  "Hesse was divided between the Electorate of Hesse-Kassel and the Grand Duchy of Hesse-Darmstadt, both members of the German Confederation."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Hanover",
+                                             "label":  "Hanover",
+                                             "leader":  "George III (Prince Regent George)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "lowersaxony"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d98c7a",
+                                             "borderColor":  "#7d463a",
+                                             "info":  "Hanover became a kingdom in 1814 and was in personal union with the British crown, gaining East Frisia and Hildesheim."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Württemberg and Baden",
+                                             "label":  "Württemberg and Baden",
+                                             "leader":  "Frederick I of Württemberg",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "baden-württemberg"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#c9a0dc",
+                                             "borderColor":  "#6f4a82",
+                                             "info":  "Napoleon's allies Württemberg (kingdom) and Baden (grand duchy) kept their enlarged territories and joined the German Confederation in 1815."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Bavaria",
+                                             "label":  "Bavaria",
+                                             "leader":  "Maximilian I Joseph",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Germany",
+                                                                       "ids":  [
+                                                                                   "bavaria"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#5aa5c8",
+                                             "borderColor":  "#2e6279",
+                                             "info":  "Bavaria became a kingdom in 1806 under Napoleon and in 1815 joined the German Confederation, gaining the Palatinate in 1816."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Austrian Empire",
+                                             "label":  "Austrian Empire",
+                                             "leader":  "Francis I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Austria"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Croatia"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Czech Republic"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Hungary"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "verona",
+                                                                                   "vicenza",
+                                                                                   "pavia",
+                                                                                   "lodi",
+                                                                                   "monzaandbrianza",
+                                                                                   "lecco",
+                                                                                   "milan",
+                                                                                   "cremona",
+                                                                                   "brescia",
+                                                                                   "bergamo",
+                                                                                   "como",
+                                                                                   "varese",
+                                                                                   "pordenone",
+                                                                                   "trentino",
+                                                                                   "trieste",
+                                                                                   "gorizia",
+                                                                                   "udine",
+                                                                                   "belluno",
+                                                                                   "trentino-southtyrol",
+                                                                                   "sondrio",
+                                                                                   "mantua",
+                                                                                   "rovigo",
+                                                                                   "padua",
+                                                                                   "treviso",
+                                                                                   "venice"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Poland",
+                                                                       "ids":  [
+                                                                                   "podkarpackievoivodeship",
+                                                                                   "lesserpolandvoivodeship"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Republic of Serbia",
+                                                                       "ids":  [
+                                                                                   "southbanat",
+                                                                                   "centralbanat",
+                                                                                   "northbanat",
+                                                                                   "southbačka",
+                                                                                   "srem",
+                                                                                   "westbačka",
+                                                                                   "northbačka"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Romania",
+                                                                       "ids":  [
+                                                                                   "caraș-severin",
+                                                                                   "timiș",
+                                                                                   "alba",
+                                                                                   "harghita",
+                                                                                   "mureș",
+                                                                                   "sibiu",
+                                                                                   "brașov",
+                                                                                   "covasna",
+                                                                                   "hunedoara",
+                                                                                   "sălaj",
+                                                                                   "bistrița-năsăud",
+                                                                                   "cluj",
+                                                                                   "maramureș",
+                                                                                   "bihor",
+                                                                                   "satumare",
+                                                                                   "arad"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Slovakia"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Slovenia"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Ukraine",
+                                                                       "ids":  [
+                                                                                   "ternopil",
+                                                                                   "lviv",
+                                                                                   "ivano-frankivsk",
+                                                                                   "chernivtsi",
+                                                                                   "zakarpattia"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#ffffff",
+                                             "borderColor":  "#8a8576",
+                                             "info":  "The Austrian Empire (proclaimed 1804; Austria-Hungary only came in 1867) included Bohemia, Hungary, Croatia, Transylvania and Galicia, and regained Lombardy-Venetia, Tyrol, Illyria and Galicia at the Congress of Vienna, but gave up the Holy Roman crown in 1806 and the Austrian Netherlands. Bohemia, Hungary, Croatia and Transylvania were ruled in personal union."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Ottoman Empire (annexed lands)",
+                                             "label":  "",
+                                             "leader":  "Mahmud II",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Albania",
+                                                                       "ids":  [
+                                                                                   "durrës",
+                                                                                   "tirana",
+                                                                                   "elbasan"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Greece",
+                                                                       "ids":  [
+                                                                                   "crete"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Turkey",
+                                                                       "ids":  [
+                                                                                   "artvin",
+                                                                                   "ardahan",
+                                                                                   "bitlis",
+                                                                                   "muş",
+                                                                                   "kars",
+                                                                                   "van",
+                                                                                   "ağrı",
+                                                                                   "iğdır"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d1a52e",
+                                             "borderColor":  "#7a5f12",
+                                             "info":  "These lands remained Ottoman."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Congress Poland",
+                                             "label":  "Congress Poland",
+                                             "leader":  "Alexander I (King of Poland)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Poland",
+                                                                       "ids":  [
+                                                                                   "świętokrzyskievoivodeship",
+                                                                                   "lublinvoivodeship",
+                                                                                   "łódźvoivodeship",
+                                                                                   "masovianvoivodeship",
+                                                                                   "podlaskievoivodeship"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#f08080",
+                                             "borderColor":  "#a84646",
+                                             "info":  "The Kingdom of Poland, created in 1815 from the Duchy of Warsaw, had its own constitution but was ruled by the Russian tsar as king."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "United Kingdom (Malta)",
+                                             "label":  "",
+                                             "leader":  "George III (Prince Regent George)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Malta"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#c0504d",
+                                             "borderColor":  "#7a3330",
+                                             "info":  "Malta was taken from the French in 1800 and confirmed as British in 1814."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Duchy of Modena",
+                                             "label":  "Modena",
+                                             "leader":  "Francis IV",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "modena",
+                                                                                   "reggioemilia",
+                                                                                   "massa-carrara"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8f9fc9",
+                                             "borderColor":  "#4a566e",
+                                             "info":  "The Austrian Archduke Francis IV ruled Modena, Reggio and Massa-Carrara."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Duchy of Lucca",
+                                             "label":  "Lucca",
+                                             "leader":  "Marie Louise of Bourbon",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "lucca"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#c9c27a",
+                                             "borderColor":  "#6f6a3c",
+                                             "info":  "Lucca was a small Bourbon duchy under Marie Louise until 1824, when it was absorbed into Tuscany."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Naples (Molise)",
+                                             "label":  "",
+                                             "leader":  "Ferdinand IV",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Italy",
+                                                                       "ids":  [
+                                                                                   "isernia",
+                                                                                   "campobasso"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#a09060",
+                                             "borderColor":  "#655738",
+                                             "info":  "Naples was restored under Ferdinand IV after Murat's fall; the two kingdoms were merged as the Two Sicilies in 1816."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "United States of the Ionian Islands",
+                                             "label":  "Ionian Islands",
+                                             "leader":  "British Lord High Commissioner",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Greece",
+                                                                       "ids":  [
+                                                                                   "ionianislands",
+                                                                                   "southaegean"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#7fb2d8",
+                                             "borderColor":  "#3a6482",
+                                             "info":  "The Ionian Islands became a British protectorate in 1815."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Qajar Iran (Armenia)",
+                                             "label":  "",
+                                             "leader":  "Fath-Ali Shah",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Armenia"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Azerbaijan",
+                                                                       "ids":  [
+                                                                                   "aze-nakhchivan-autonomous-republic"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#9a4a6a",
+                                             "borderColor":  "#5a2640",
+                                             "info":  "Armenia and Nakhchivan were still Persian until 1828."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Sweden–Norway",
+                                             "label":  "Sweden–Norway",
+                                             "leader":  "Charles XIII",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Norway",
+                                                                       "ids":  [
+                                                                                   "oppland",
+                                                                                   "møreogromsdal",
+                                                                                   "sognogfjordane",
+                                                                                   "hordaland",
+                                                                                   "rogaland",
+                                                                                   "vest-agder",
+                                                                                   "aust-agder",
+                                                                                   "telemark",
+                                                                                   "vestfold",
+                                                                                   "buskerud",
+                                                                                   "oslo",
+                                                                                   "østfold",
+                                                                                   "akershus",
+                                                                                   "hedmark",
+                                                                                   "sør-trøndelag",
+                                                                                   "nord-trøndelag",
+                                                                                   "finnmark",
+                                                                                   "nordland",
+                                                                                   "troms"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Sweden"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#102548",
+                                             "borderColor":  "#06142b",
+                                             "info":  "Sweden lost Finland to Russia (1809) and Swedish Pomerania, but gained Norway in 1814 in a personal union under one king."
+                                         }
+                      }
+                  ]
+}

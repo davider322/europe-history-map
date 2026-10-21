@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "realm": "Oman (Local Ibadi Powers)",
+    "leader": "Local Ibadi imams and rulers",
+    "info": "Oman had a strong Ibadi tradition and local imams, but control shifted between religious leaders in the interior and coastal dynasties. During the tenth century, the Buyids exercised influence over parts of the region. Modern administrative regions are only a rough geographic marker, not a unified state border.",
+    "regionFilters": [
+      {
+        "admin": "Oman"
+      }
+    ],
+    "fillColor": "#6d8b72",
+    "borderColor": "#435747"
+  },
+  "provinces": []
+}

@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "realm": "Karelian Frontierlands",
+    "leader": "Local Karelian communities",
+    "info": "Karelian communities and neighboring Finnic peoples lived around Karelia and Lake Ladoga. The region had no unified state and lay in a shifting frontier between local powers and Novgorod\u0027s growing influence. Modern regions are approximate map references.",
+    "regionFilters": [
+      {
+        "admin": "Finland",
+        "ids": ["northkarelia", "southkarelia"]
+      },
+      {
+        "admin": "Russia",
+        "ids": ["karelia"]
+      }
+    ],
+    "fillColor": "#a68b69",
+    "borderColor": "#6c5943"
+  },
+  "provinces": []
+}

@@ -1,0 +1,2132 @@
+{
+    "baseYear":  1918,
+    "note":  "Europe on 1 September 1939, immediately before the German invasion of Poland. Austria, the Sudetenland and Memel had been annexed by Germany; Bohemia and Moravia were a German protectorate; Slovakia was independent; Albania was under Italian rule. Poland, the Baltic states and Finland were still independent. Modern administrative regions are approximate territorial proxies.",
+    "overrides":  {
+                      "Russian SFSR":  {
+                                           "properties":  {
+                                                              "realm":  "Soviet Union",
+                                                              "label":  "Soviet Union",
+                                                              "regionFilters":  [
+
+                                                                                ],
+                                                              "excludeIds":  [
+
+                                                                             ],
+                                                              "leader":  "Joseph Stalin",
+                                                              "info":  "The Soviet Union under Joseph Stalin in 1939. The Baltic states remained independent and Poland had not yet been invaded.",
+                                                              "fillColor":  "#5a0b16",
+                                                              "borderColor":  "#2e050a"
+                                                          },
+                                           "provinces":  [
+                                                             "chernihiv",
+                                                             "gomel",
+                                                             "volyn",
+                                                             "brest",
+                                                             "rivne",
+                                                             "zhytomyr",
+                                                             "kyiv",
+                                                             "vitebsk",
+                                                             "grodno",
+                                                             "pskov",
+                                                             "krasnodarkrai",
+                                                             "karachay-cherkessrepublic",
+                                                             "kabardino-balkaria",
+                                                             "republicofnorthossetia-alania",
+                                                             "republicofingushetia",
+                                                             "chechenrepublic",
+                                                             "republicofdagestan",
+                                                             "murmansk",
+                                                             "karelia",
+                                                             "leningrad",
+                                                             "chernivtsi",
+                                                             "ivano-frankivsk",
+                                                             "odessa",
+                                                             "vinnytsia",
+                                                             "lviv",
+                                                             "smolensk",
+                                                             "mahilioŭ",
+                                                             "bryansk",
+                                                             "sumy",
+                                                             "kursk",
+                                                             "belgorod",
+                                                             "kharkiv",
+                                                             "luhansk",
+                                                             "voronezh",
+                                                             "rostov",
+                                                             "donetsk",
+                                                             "kurgan",
+                                                             "chelyabinsk",
+                                                             "orenburg",
+                                                             "saratov",
+                                                             "astrakhan",
+                                                             "volgograd",
+                                                             "autonomousrepublicofcrimea",
+                                                             "kherson",
+                                                             "zaporizhzhia",
+                                                             "sevastopol",
+                                                             "mykolaiv",
+                                                             "nenetsautonomousokrug",
+                                                             "saintpetersburg",
+                                                             "arkhangelsk",
+                                                             "republicofkalmykia",
+                                                             "poltava",
+                                                             "khmelnytskyi",
+                                                             "ternopil",
+                                                             "dnipropetrovsk",
+                                                             "cherkasy",
+                                                             "kirovohrad",
+                                                             "minsk",
+                                                             "bashkortostan",
+                                                             "sverdlovsk",
+                                                             "lipetsk",
+                                                             "tambov",
+                                                             "republicoftatarstan",
+                                                             "ulyanovsk",
+                                                             "penza",
+                                                             "oryol",
+                                                             "republicofmordovia",
+                                                             "kaluga",
+                                                             "kostroma",
+                                                             "yaroslavl",
+                                                             "vladimir",
+                                                             "ryazan",
+                                                             "ivanovo",
+                                                             "nizhnynovgorod",
+                                                             "tula",
+                                                             "chuvashrepublic",
+                                                             "vologda",
+                                                             "novgorod",
+                                                             "tver",
+                                                             "moscow",
+                                                             "marielrepublic",
+                                                             "kirov",
+                                                             "udmurtrepublic",
+                                                             "komirepublic",
+                                                             "permkrai",
+                                                             "samara",
+                                                             "stavropolkrai",
+                                                             "republicofadygea",
+                                                             "aland",
+                                                             "geo-abkhazia",
+                                                             "geo-kakheti",
+                                                             "geo-kvemo-kartli",
+                                                             "geo-tbilisi",
+                                                             "geo-mtskheta-mtianeti",
+                                                             "geo-samtskhe-javakheti",
+                                                             "geo-adjara",
+                                                             "geo-guria",
+                                                             "geo-shida-kartli",
+                                                             "geo-imereti",
+                                                             "geo-racha-lechkhumi-and-kvemo-svaneti",
+                                                             "geo-samegrelo-zemo-svaneti",
+                                                             "arm-gegharkunik",
+                                                             "arm-syunik",
+                                                             "arm-tavush",
+                                                             "arm-shirak",
+                                                             "arm-lori",
+                                                             "arm-kotayk",
+                                                             "arm-vayots-dzor",
+                                                             "arm-armavir",
+                                                             "arm-aragatsotn",
+                                                             "arm-yerevan",
+                                                             "arm-ararat",
+                                                             "aze-nakhchivan-autonomous-republic",
+                                                             "aze-contiguous-azerbaijan",
+                                                             "ua-crimea",
+                                                             "ua-sevastopol"
+                                                         ]
+                                       },
+                      "Ottoman Empire (Palestine coast)":  {
+                                                               "properties":  {
+                                                                                  "excludeIds":  [
+                                                                                                     "lbn-beyrouth",
+                                                                                                     "isr-tel-aviv",
+                                                                                                     "isr-haifa",
+                                                                                                     "isr-northern-district"
+                                                                                                 ],
+                                                                                  "realm":  "Republic of Turkey (Palestine coast)",
+                                                                                  "label":  "",
+                                                                                  "fillColor":  "#8a9c83",
+                                                                                  "borderColor":  "#465343",
+                                                                                  "leader":  "Ismet Inonu",
+                                                                                  "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                              }
+                                                           },
+                      "Arabian Tribal Polities":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "sau-najran-region",
+                                                                                            "sau-northern-borders-region",
+                                                                                            "sau-hayel-region",
+                                                                                            "sau-riyadh-region",
+                                                                                            "sau-asir-region",
+                                                                                            "sau-tabuk-region",
+                                                                                            "sau-al-qassim-region",
+                                                                                            "sau-al-bahah-region",
+                                                                                            "sau-jazan-region",
+                                                                                            "sau-al-jawf-region"
+                                                                                        ],
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Arabian Tribal Polities in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
+                      "Republic of Lithuania":  {
+                                                    "properties":  {
+                                                                       "excludeIds":  [
+                                                                                          "klaipėda"
+                                                                                      ],
+                                                                       "leader":  "Antanas Smetona",
+                                                                       "info":  "Republic of Lithuania in 1939, before the German invasion of Poland."
+                                                                   }
+                                                },
+                      "Russian SFSR (Kingdom of Georgia)":  {
+                                                                "properties":  {
+                                                                                   "excludeIds":  [
+                                                                                                      "geo-abkhazia",
+                                                                                                      "geo-kakheti",
+                                                                                                      "geo-kvemo-kartli",
+                                                                                                      "geo-tbilisi",
+                                                                                                      "geo-mtskheta-mtianeti",
+                                                                                                      "geo-samtskhe-javakheti",
+                                                                                                      "geo-adjara",
+                                                                                                      "geo-guria",
+                                                                                                      "geo-shida-kartli",
+                                                                                                      "geo-imereti",
+                                                                                                      "geo-racha-lechkhumi-and-kvemo-svaneti",
+                                                                                                      "geo-samegrelo-zemo-svaneti",
+                                                                                                      "ardahan",
+                                                                                                      "artvin"
+                                                                                                  ]
+                                                                               }
+                                                            },
+                      "Ottoman Empire (Hejaz)":  {
+                                                     "properties":  {
+                                                                        "excludeIds":  [
+                                                                                           "sau-makkah-region"
+                                                                                       ],
+                                                                        "realm":  "Republic of Turkey (Hejaz)",
+                                                                        "label":  "",
+                                                                        "fillColor":  "#8a9c83",
+                                                                        "borderColor":  "#465343",
+                                                                        "leader":  "Ismet Inonu",
+                                                                        "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                    }
+                                                 },
+                      "Republic of German-Austria":  {
+                                                         "properties":  {
+                                                                            "excludeIds":  [
+                                                                                               "loweraustria",
+                                                                                               "upperaustria",
+                                                                                               "burgenland",
+                                                                                               "vorarlberg",
+                                                                                               "tyrol",
+                                                                                               "salzburg",
+                                                                                               "carinthia",
+                                                                                               "styria",
+                                                                                               "vienna"
+                                                                                           ],
+                                                                            "leader":  "Local authorities",
+                                                                            "info":  "Republic of German-Austria in 1939, before the German invasion of Poland."
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Iraq)":  {
+                                                    "properties":  {
+                                                                       "excludeIds":  [
+                                                                                          "irq-al-anbar",
+                                                                                          "irq-karbala",
+                                                                                          "irq-an-najaf",
+                                                                                          "irq-babil",
+                                                                                          "irq-baghdad",
+                                                                                          "irq-al-qadisiyah",
+                                                                                          "irq-al-muthanna",
+                                                                                          "irq-dhi-qar",
+                                                                                          "irq-al-basrah",
+                                                                                          "irq-maysan",
+                                                                                          "irq-wasit",
+                                                                                          "irq-diyala"
+                                                                                      ],
+                                                                       "realm":  "Republic of Turkey (Iraq)",
+                                                                       "label":  "",
+                                                                       "fillColor":  "#8a9c83",
+                                                                       "borderColor":  "#465343",
+                                                                       "leader":  "Ismet Inonu",
+                                                                       "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                   }
+                                                },
+                      "Russian SFSR (Novgorod)":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "pskov",
+                                                                                            "leningrad",
+                                                                                            "saintpetersburg",
+                                                                                            "novgorod"
+                                                                                        ]
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Tripoli)":  {
+                                                       "properties":  {
+                                                                          "excludeIds":  [
+                                                                                             "syr-tartous",
+                                                                                             "lbn-liban-nord",
+                                                                                             "lbn-aakk-r"
+                                                                                         ],
+                                                                          "realm":  "Republic of Turkey (Tripoli)",
+                                                                          "label":  "",
+                                                                          "fillColor":  "#8a9c83",
+                                                                          "borderColor":  "#465343",
+                                                                          "leader":  "Ismet Inonu",
+                                                                          "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                      }
+                                                   },
+                      "Russian SFSR (Crimea) 2":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "autonomousrepublicofcrimea",
+                                                                                            "sevastopol"
+                                                                                        ]
+                                                                     }
+                                                  },
+                      "Ukrainian People's Republic":  {
+                                                               "properties":  {
+                                                                                  "excludeIds":  [
+                                                                                                     "zakarpattia",
+                                                                                                     "chernihiv",
+                                                                                                     "volyn",
+                                                                                                     "rivne",
+                                                                                                     "zhytomyr",
+                                                                                                     "kyiv",
+                                                                                                     "chernivtsi",
+                                                                                                     "ivano-frankivsk",
+                                                                                                     "odessa",
+                                                                                                     "vinnytsia",
+                                                                                                     "lviv",
+                                                                                                     "sumy",
+                                                                                                     "kharkiv",
+                                                                                                     "luhansk",
+                                                                                                     "donetsk",
+                                                                                                     "kherson",
+                                                                                                     "zaporizhzhia",
+                                                                                                     "mykolaiv",
+                                                                                                     "poltava",
+                                                                                                     "khmelnytskyi",
+                                                                                                     "ternopil",
+                                                                                                     "dnipropetrovsk",
+                                                                                                     "cherkasy",
+                                                                                                     "kirovohrad",
+                                                                                                     "ua-crimea",
+                                                                                                     "ua-sevastopol"
+                                                                                                 ]
+                                                                              }
+                                                           },
+                      "Ottoman Empire (al-Hasa)":  {
+                                                       "properties":  {
+                                                                          "excludeIds":  [
+                                                                                             "sau-eastern-region"
+                                                                                         ],
+                                                                          "realm":  "Republic of Turkey (al-Hasa)",
+                                                                          "label":  "",
+                                                                          "fillColor":  "#8a9c83",
+                                                                          "borderColor":  "#465343",
+                                                                          "leader":  "Ismet Inonu",
+                                                                          "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                      }
+                                                   },
+                      "Russian SFSR (Volga–Ural)":  {
+                                                        "properties":  {
+                                                                           "excludeIds":  [
+                                                                                              "kurgan",
+                                                                                              "chelyabinsk",
+                                                                                              "orenburg",
+                                                                                              "saratov",
+                                                                                              "bashkortostan",
+                                                                                              "sverdlovsk",
+                                                                                              "ulyanovsk",
+                                                                                              "penza",
+                                                                                              "republicofmordovia",
+                                                                                              "marielrepublic",
+                                                                                              "kirov",
+                                                                                              "udmurtrepublic",
+                                                                                              "permkrai",
+                                                                                              "samara"
+                                                                                          ]
+                                                                       }
+                                                    },
+                      "First Republic of Armenia":  {
+                                                        "properties":  {
+                                                                           "excludeIds":  [
+                                                                                              "arm-gegharkunik",
+                                                                                              "arm-syunik",
+                                                                                              "arm-tavush",
+                                                                                              "arm-shirak",
+                                                                                              "arm-lori",
+                                                                                              "arm-kotayk",
+                                                                                              "arm-vayots-dzor",
+                                                                                              "arm-armavir",
+                                                                                              "arm-aragatsotn",
+                                                                                              "arm-yerevan",
+                                                                                              "arm-ararat"
+                                                                                          ]
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Aleppo)":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "syr-aleppo",
+                                                                                            "syr-idleb"
+                                                                                        ],
+                                                                         "realm":  "Republic of Turkey (Aleppo)",
+                                                                         "label":  "",
+                                                                         "fillColor":  "#8a9c83",
+                                                                         "borderColor":  "#465343",
+                                                                         "leader":  "Ismet Inonu",
+                                                                         "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                     }
+                                                  },
+                      "Russian SFSR (Sámi and Northern Frontierlands)":  {
+                                                                             "properties":  {
+                                                                                                "excludeIds":  [
+                                                                                                                   "murmansk"
+                                                                                                               ]
+                                                                                            }
+                                                                         },
+                      "Russian SFSR (Seversk)":  {
+                                                     "properties":  {
+                                                                        "excludeIds":  [
+                                                                                           "kursk",
+                                                                                           "belgorod",
+                                                                                           "voronezh"
+                                                                                       ]
+                                                                    }
+                                                 },
+                      "Russian SFSR (Northern Finnic Frontierlands)":  {
+                                                                           "properties":  {
+                                                                                              "excludeIds":  [
+                                                                                                                 "nenetsautonomousokrug",
+                                                                                                                 "arkhangelsk",
+                                                                                                                 "vologda",
+                                                                                                                 "komirepublic"
+                                                                                                             ]
+                                                                                          }
+                                                                       },
+                      "Democratic Republic of Georgia":  {
+                                                             "properties":  {
+                                                                                "excludeIds":  [
+                                                                                                   "geo-abkhazia",
+                                                                                                   "geo-kakheti",
+                                                                                                   "geo-kvemo-kartli",
+                                                                                                   "geo-tbilisi",
+                                                                                                   "geo-mtskheta-mtianeti",
+                                                                                                   "geo-samtskhe-javakheti",
+                                                                                                   "geo-adjara",
+                                                                                                   "geo-guria",
+                                                                                                   "geo-shida-kartli",
+                                                                                                   "geo-imereti",
+                                                                                                   "geo-racha-lechkhumi-and-kvemo-svaneti",
+                                                                                                   "geo-samegrelo-zemo-svaneti"
+                                                                                               ]
+                                                                            }
+                                                         },
+                      "Russian SFSR (Finland)":  {
+                                                     "properties":  {
+                                                                        "excludeIds":  [
+                                                                                           "northernostrobothnia",
+                                                                                           "kainuu",
+                                                                                           "kymenlaakso",
+                                                                                           "uusimaa",
+                                                                                           "finlandproper",
+                                                                                           "satakunta",
+                                                                                           "ostrobothnia",
+                                                                                           "centralostrobothnia",
+                                                                                           "northernsavonia",
+                                                                                           "southernsavonia",
+                                                                                           "centralfinland",
+                                                                                           "southernostrobothnia",
+                                                                                           "pirkanmaa",
+                                                                                           "tavastiaproper",
+                                                                                           "paijannetavastia",
+                                                                                           "aland"
+                                                                                       ]
+                                                                    }
+                                                 },
+                      "Ottoman Empire (Medina)":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "sau-al-madinah-region"
+                                                                                        ],
+                                                                         "realm":  "Republic of Turkey (Medina)",
+                                                                         "label":  "",
+                                                                         "fillColor":  "#8a9c83",
+                                                                         "borderColor":  "#465343",
+                                                                         "leader":  "Ismet Inonu",
+                                                                         "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Jazira)":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "irq-ninawa",
+                                                                                            "irq-dohuk",
+                                                                                            "irq-salah-al-din",
+                                                                                            "irq-kirkuk",
+                                                                                            "irq-erbil",
+                                                                                            "irq-al-sulaimaniyah"
+                                                                                        ],
+                                                                         "realm":  "Republic of Turkey (Jazira)",
+                                                                         "label":  "",
+                                                                         "fillColor":  "#8a9c83",
+                                                                         "borderColor":  "#465343",
+                                                                         "leader":  "Ismet Inonu",
+                                                                         "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                     }
+                                                  },
+                      "Russian SFSR (Armenia)":  {
+                                                     "properties":  {
+                                                                        "excludeIds":  [
+                                                                                           "arm-gegharkunik",
+                                                                                           "arm-syunik",
+                                                                                           "arm-tavush",
+                                                                                           "arm-shirak",
+                                                                                           "arm-lori",
+                                                                                           "arm-kotayk",
+                                                                                           "arm-vayots-dzor",
+                                                                                           "arm-armavir",
+                                                                                           "arm-aragatsotn",
+                                                                                           "arm-yerevan",
+                                                                                           "arm-ararat",
+                                                                                           "aze-nakhchivan-autonomous-republic",
+                                                                                           "kars"
+                                                                                       ]
+                                                                    }
+                                                 },
+                      "Russian SFSR (Astrakhan)":  {
+                                                       "properties":  {
+                                                                          "excludeIds":  [
+                                                                                             "rostov",
+                                                                                             "astrakhan",
+                                                                                             "volgograd",
+                                                                                             "republicofkalmykia",
+                                                                                             "stavropolkrai"
+                                                                                         ]
+                                                                      }
+                                                   },
+                      "Russian SFSR (Karelian Frontierlands)":  {
+                                                                    "properties":  {
+                                                                                       "excludeIds":  [
+                                                                                                          "karelia"
+                                                                                                      ]
+                                                                                   }
+                                                                },
+                      "Azerbaijan Democratic Republic":  {
+                                                             "properties":  {
+                                                                                "excludeIds":  [
+                                                                                                   "aze-nakhchivan-autonomous-republic",
+                                                                                                   "aze-contiguous-azerbaijan"
+                                                                                               ]
+                                                                            }
+                                                         },
+                      "Czechoslovakia":  {
+                                             "properties":  {
+                                                                "excludeIds":  [
+                                                                                   "ústínadlabem",
+                                                                                   "liberec",
+                                                                                   "karlovyvary",
+                                                                                   "plzeň-",
+                                                                                   "southbohemian",
+                                                                                   "hradeckrálové",
+                                                                                   "olomouc",
+                                                                                   "pardubice",
+                                                                                   "moravian-silesian",
+                                                                                   "southmoravian",
+                                                                                   "zlín",
+                                                                                   "vysočina",
+                                                                                   "centralbohemian",
+                                                                                   "prague",
+                                                                                   "žilina",
+                                                                                   "prešov",
+                                                                                   "košice",
+                                                                                   "bratislava",
+                                                                                   "trnava",
+                                                                                   "trenčín",
+                                                                                   "banskábystrica",
+                                                                                   "nitra"
+                                                                               ],
+                                                                "leader":  "Local authorities",
+                                                                "info":  "Czechoslovakia in 1939, before the German invasion of Poland."
+                                                            }
+                                         },
+                      "Russian SFSR (Partitioned Poland)":  {
+                                                                "properties":  {
+                                                                                   "excludeIds":  [
+                                                                                                      "podlaskievoivodeship",
+                                                                                                      "chernihiv",
+                                                                                                      "volyn",
+                                                                                                      "rivne",
+                                                                                                      "zhytomyr",
+                                                                                                      "kyiv",
+                                                                                                      "vinnytsia",
+                                                                                                      "khmelnytskyi",
+                                                                                                      "cherkasy",
+                                                                                                      "brest",
+                                                                                                      "vitebsk",
+                                                                                                      "grodno",
+                                                                                                      "minsk"
+                                                                                                  ]
+                                                                               }
+                                                            },
+                      "Russian SFSR (Kazan)":  {
+                                                   "properties":  {
+                                                                      "excludeIds":  [
+                                                                                         "republicoftatarstan",
+                                                                                         "chuvashrepublic"
+                                                                                     ]
+                                                                  }
+                                               },
+                      "Russian SFSR (North Caucasus)":  {
+                                                            "properties":  {
+                                                                               "excludeIds":  [
+                                                                                                  "karachay-cherkessrepublic",
+                                                                                                  "kabardino-balkaria",
+                                                                                                  "republicofnorthossetia-alania"
+                                                                                              ]
+                                                                           }
+                                                        },
+                      "Russian SFSR (Caucasian steppe)":  {
+                                                              "properties":  {
+                                                                                 "excludeIds":  [
+                                                                                                    "krasnodarkrai",
+                                                                                                    "republicofingushetia",
+                                                                                                    "chechenrepublic",
+                                                                                                    "republicofdagestan",
+                                                                                                    "republicofadygea"
+                                                                                                ]
+                                                                             }
+                                                          },
+                      "Ottoman Empire (Egypt and Syria)":  {
+                                                               "properties":  {
+                                                                                  "excludeIds":  [
+                                                                                                     "syr-damascus",
+                                                                                                     "syr-rural-damascus",
+                                                                                                     "syr-homs",
+                                                                                                     "syr-hama",
+                                                                                                     "syr-lattakia",
+                                                                                                     "syr-al-hasakeh",
+                                                                                                     "syr-deir-ez-zor",
+                                                                                                     "syr-ar-raqqa",
+                                                                                                     "syr-dar-a",
+                                                                                                     "syr-as-sweida",
+                                                                                                     "syr-quneitra",
+                                                                                                     "lbn-baalbek-hermel",
+                                                                                                     "lbn-mont-liban",
+                                                                                                     "lbn-liban-sud",
+                                                                                                     "lbn-nabat-y",
+                                                                                                     "lbn-b-qaa",
+                                                                                                     "lbn-keserwan-jbeil",
+                                                                                                     "isr-southern-district",
+                                                                                                     "isr-central-district",
+                                                                                                     "isr-jerusalem-district",
+                                                                                                     "pse-west-bank",
+                                                                                                     "pse-gaza",
+                                                                                                     "jor-ma-an",
+                                                                                                     "jor-karak",
+                                                                                                     "jor-madaba",
+                                                                                                     "jor-balqa",
+                                                                                                     "jor-jerash",
+                                                                                                     "jor-ajloun",
+                                                                                                     "jor-irbid",
+                                                                                                     "jor-mafraq",
+                                                                                                     "jor-tafilah",
+                                                                                                     "jor-aqaba",
+                                                                                                     "jor-amman",
+                                                                                                     "jor-zarqa"
+                                                                                                 ],
+                                                                                  "realm":  "Republic of Turkey (Egypt and Syria)",
+                                                                                  "label":  "",
+                                                                                  "fillColor":  "#8a9c83",
+                                                                                  "borderColor":  "#465343",
+                                                                                  "leader":  "Ismet Inonu",
+                                                                                  "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                              }
+                                                           },
+                      "Principality of Albania":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "dibër",
+                                                                                            "kukës",
+                                                                                            "korçë",
+                                                                                            "elbasan",
+                                                                                            "gjirokastër",
+                                                                                            "vlorë",
+                                                                                            "shkodër",
+                                                                                            "fier",
+                                                                                            "tirana",
+                                                                                            "durrës",
+                                                                                            "lezhë",
+                                                                                            "berat"
+                                                                                        ],
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Principality of Albania in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
+                      "German Republic (Pomerania)":  {
+                                                          "properties":  {
+                                                                             "realm":  "German Reich (Pomerania)",
+                                                                             "leader":  "Adolf Hitler",
+                                                                             "info":  "The German Reich under Adolf Hitler in 1939, before the invasion of Poland."
+                                                                         }
+                                                      },
+                      "German Republic (Alsace)":  {
+                                                       "properties":  {
+                                                                          "realm":  "German Reich (Alsace)",
+                                                                          "leader":  "Adolf Hitler",
+                                                                          "info":  "The German Reich under Adolf Hitler in 1939, before the invasion of Poland."
+                                                                      }
+                                                   },
+                      "German Republic (Silesia)":  {
+                                                        "properties":  {
+                                                                           "realm":  "German Reich (Silesia)",
+                                                                           "leader":  "Adolf Hitler",
+                                                                           "info":  "The German Reich under Adolf Hitler in 1939, before the invasion of Poland."
+                                                                       }
+                                                    },
+                      "German Republic (East Prussia)":  {
+                                                             "properties":  {
+                                                                                "realm":  "German Reich (East Prussia)",
+                                                                                "leader":  "Adolf Hitler",
+                                                                                "info":  "The German Reich under Adolf Hitler in 1939, before the invasion of Poland."
+                                                                            }
+                                                         },
+                      "German Republic":  {
+                                              "properties":  {
+                                                                 "realm":  "German Reich",
+                                                                 "label":  "Germany",
+                                                                 "leader":  "Adolf Hitler",
+                                                                 "info":  "The German Reich under Adolf Hitler in 1939, before the invasion of Poland."
+                                                             }
+                                          },
+                      "German Republic (Polish partition)":  {
+                                                                 "properties":  {
+                                                                                    "realm":  "German Reich (Polish partition)",
+                                                                                    "leader":  "Adolf Hitler",
+                                                                                    "info":  "The German Reich under Adolf Hitler in 1939, before the invasion of Poland."
+                                                                                }
+                                                             },
+                      "German Republic (Kingdom of Prussia)":  {
+                                                                   "properties":  {
+                                                                                      "realm":  "German Reich (Kingdom of Prussia)",
+                                                                                      "leader":  "Adolf Hitler",
+                                                                                      "info":  "The German Reich under Adolf Hitler in 1939, before the invasion of Poland."
+                                                                                  }
+                                                               },
+                      "German Republic (Swedish Pomerania)":  {
+                                                                  "properties":  {
+                                                                                     "realm":  "German Reich (Swedish Pomerania)",
+                                                                                     "leader":  "Adolf Hitler",
+                                                                                     "info":  "The German Reich under Adolf Hitler in 1939, before the invasion of Poland."
+                                                                                 }
+                                                              },
+                      "German Republic (Rhineland)":  {
+                                                          "properties":  {
+                                                                             "realm":  "German Reich (Rhineland)",
+                                                                             "leader":  "Adolf Hitler",
+                                                                             "info":  "The German Reich under Adolf Hitler in 1939, before the invasion of Poland."
+                                                                         }
+                                                      },
+                      "Ottoman Empire (Rumelia)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Republic of Turkey (Rumelia)",
+                                                                          "label":  "",
+                                                                          "fillColor":  "#8a9c83",
+                                                                          "borderColor":  "#465343",
+                                                                          "leader":  "Ismet Inonu",
+                                                                          "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                      }
+                                                   },
+                      "Ottoman Empire":  {
+                                             "properties":  {
+                                                                "realm":  "Republic of Turkey",
+                                                                "label":  "Turkey",
+                                                                "fillColor":  "#8a9c83",
+                                                                "borderColor":  "#465343",
+                                                                "leader":  "Ismet Inonu",
+                                                                "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                            }
+                                         },
+                      "Ottoman Empire (Anatolia)":  {
+                                                        "properties":  {
+                                                                           "realm":  "Republic of Turkey (Anatolia)",
+                                                                           "label":  "",
+                                                                           "fillColor":  "#8a9c83",
+                                                                           "borderColor":  "#465343",
+                                                                           "leader":  "Ismet Inonu",
+                                                                           "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Serbia)":  {
+                                                      "properties":  {
+                                                                         "realm":  "Republic of Turkey (Serbia)",
+                                                                         "label":  "",
+                                                                         "fillColor":  "#8a9c83",
+                                                                         "borderColor":  "#465343",
+                                                                         "leader":  "Ismet Inonu",
+                                                                         "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Albania)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Republic of Turkey (Albania)",
+                                                                          "label":  "",
+                                                                          "fillColor":  "#8a9c83",
+                                                                          "borderColor":  "#465343",
+                                                                          "leader":  "Ismet Inonu",
+                                                                          "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Constantinople)":  {
+                                                              "properties":  {
+                                                                                 "realm":  "Republic of Turkey (Constantinople)",
+                                                                                 "label":  "",
+                                                                                 "fillColor":  "#8a9c83",
+                                                                                 "borderColor":  "#465343",
+                                                                                 "leader":  "Ismet Inonu",
+                                                                                 "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                             }
+                                                          },
+                      "Ottoman Empire (Trebizond)":  {
+                                                         "properties":  {
+                                                                            "realm":  "Republic of Turkey (Trebizond)",
+                                                                            "label":  "",
+                                                                            "fillColor":  "#8a9c83",
+                                                                            "borderColor":  "#465343",
+                                                                            "leader":  "Ismet Inonu",
+                                                                            "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Antioch)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Republic of Turkey (Antioch)",
+                                                                          "label":  "",
+                                                                          "fillColor":  "#8a9c83",
+                                                                          "borderColor":  "#465343",
+                                                                          "leader":  "Ismet Inonu",
+                                                                          "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Cilicia)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Republic of Turkey (Cilicia)",
+                                                                          "label":  "",
+                                                                          "fillColor":  "#8a9c83",
+                                                                          "borderColor":  "#465343",
+                                                                          "leader":  "Ismet Inonu",
+                                                                          "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Tunis)":  {
+                                                     "properties":  {
+                                                                        "realm":  "Republic of Turkey (Tunis)",
+                                                                        "label":  "",
+                                                                        "fillColor":  "#8a9c83",
+                                                                        "borderColor":  "#465343",
+                                                                        "leader":  "Ismet Inonu",
+                                                                        "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                    }
+                                                 },
+                      "Ottoman Empire (Tunis interior)":  {
+                                                              "properties":  {
+                                                                                 "realm":  "Republic of Turkey (Tunis interior)",
+                                                                                 "label":  "",
+                                                                                 "fillColor":  "#8a9c83",
+                                                                                 "borderColor":  "#465343",
+                                                                                 "leader":  "Ismet Inonu",
+                                                                                 "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                             }
+                                                          },
+                      "Ottoman Empire (Tripolitania)":  {
+                                                            "properties":  {
+                                                                               "realm":  "Republic of Turkey (Tripolitania)",
+                                                                               "label":  "",
+                                                                               "fillColor":  "#8a9c83",
+                                                                               "borderColor":  "#465343",
+                                                                               "leader":  "Ismet Inonu",
+                                                                               "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                           }
+                                                        },
+                      "Ottoman Empire (Cyrenaica)":  {
+                                                         "properties":  {
+                                                                            "realm":  "Republic of Turkey (Cyrenaica)",
+                                                                            "label":  "",
+                                                                            "fillColor":  "#8a9c83",
+                                                                            "borderColor":  "#465343",
+                                                                            "leader":  "Ismet Inonu",
+                                                                            "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Upper Mesopotamia)":  {
+                                                                 "properties":  {
+                                                                                    "realm":  "Republic of Turkey (Upper Mesopotamia)",
+                                                                                    "label":  "",
+                                                                                    "fillColor":  "#8a9c83",
+                                                                                    "borderColor":  "#465343",
+                                                                                    "leader":  "Ismet Inonu",
+                                                                                    "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                                }
+                                                             },
+                      "Ottoman Empire (Erzurum)":  {
+                                                       "properties":  {
+                                                                          "realm":  "Republic of Turkey (Erzurum)",
+                                                                          "label":  "",
+                                                                          "fillColor":  "#8a9c83",
+                                                                          "borderColor":  "#465343",
+                                                                          "leader":  "Ismet Inonu",
+                                                                          "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Banat)":  {
+                                                     "properties":  {
+                                                                        "realm":  "Republic of Turkey (Banat)",
+                                                                        "label":  "",
+                                                                        "fillColor":  "#8a9c83",
+                                                                        "borderColor":  "#465343",
+                                                                        "leader":  "Ismet Inonu",
+                                                                        "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                    }
+                                                 },
+                      "Ottoman Empire (Albania) 2":  {
+                                                         "properties":  {
+                                                                            "realm":  "Republic of Turkey (Albania) 2",
+                                                                            "label":  "",
+                                                                            "fillColor":  "#8a9c83",
+                                                                            "borderColor":  "#465343",
+                                                                            "leader":  "Ismet Inonu",
+                                                                            "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Aegean)":  {
+                                                      "properties":  {
+                                                                         "realm":  "Republic of Turkey (Aegean)",
+                                                                         "label":  "",
+                                                                         "fillColor":  "#8a9c83",
+                                                                         "borderColor":  "#465343",
+                                                                         "leader":  "Ismet Inonu",
+                                                                         "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                                     }
+                                                  },
+                      "Ottoman Empire 2":  {
+                                               "properties":  {
+                                                                  "realm":  "Republic of Turkey 2",
+                                                                  "label":  "",
+                                                                  "fillColor":  "#8a9c83",
+                                                                  "borderColor":  "#465343",
+                                                                  "leader":  "Ismet Inonu",
+                                                                  "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
+                                                              }
+                                           },
+                      "Kingdom of Spain":  {
+                                               "properties":  {
+                                                                  "realm":  "Spanish State",
+                                                                  "label":  "Spain",
+                                                                  "leader":  "Francisco Franco",
+                                                                  "info":  "The Spanish Civil War ended in April 1939 with Franco victorious.",
+                                                                  "regionFilters":  [
+                                                                                        {
+                                                                                            "admin":  "Spain",
+                                                                                            "ids":  [
+                                                                                                        "melilla",
+                                                                                                        "ceuta",
+                                                                                                        "valladolid",
+                                                                                                        "segovia",
+                                                                                                        "communityofmadrid",
+                                                                                                        "jaén",
+                                                                                                        "guadalajara",
+                                                                                                        "córdoba",
+                                                                                                        "ciudadreal",
+                                                                                                        "palencia",
+                                                                                                        "ávila",
+                                                                                                        "burgos",
+                                                                                                        "soria",
+                                                                                                        "león",
+                                                                                                        "toledo",
+                                                                                                        "cuenca",
+                                                                                                        "albacete",
+                                                                                                        "araba/álava",
+                                                                                                        "larioja",
+                                                                                                        "biscay",
+                                                                                                        "cantabria",
+                                                                                                        "asturias",
+                                                                                                        "lugo",
+                                                                                                        "acoruña",
+                                                                                                        "seville",
+                                                                                                        "murcia",
+                                                                                                        "huelva",
+                                                                                                        "pontevedra",
+                                                                                                        "zamora",
+                                                                                                        "salamanca",
+                                                                                                        "cáceres",
+                                                                                                        "ourense",
+                                                                                                        "cádiz",
+                                                                                                        "badajoz",
+                                                                                                        "gipuzkoa",
+                                                                                                        "teruel",
+                                                                                                        "zaragoza",
+                                                                                                        "balearicislands",
+                                                                                                        "alicante",
+                                                                                                        "valencia",
+                                                                                                        "castellón",
+                                                                                                        "tarragona",
+                                                                                                        "barcelona",
+                                                                                                        "girona",
+                                                                                                        "lleida",
+                                                                                                        "huesca",
+                                                                                                        "málaga",
+                                                                                                        "granada",
+                                                                                                        "almería",
+                                                                                                        "navarre"
+                                                                                                    ]
+                                                                                        },
+                                                                                        {
+                                                                                            "admin":  "Spain",
+                                                                                            "ids":  [
+                                                                                                        "santacruzdetenerife",
+                                                                                                        "laspalmas"
+                                                                                                    ]
+                                                                                        }
+                                                                                    ]
+                                                              }
+                                           },
+                      "Finnic Tribal Lands":  {
+                                                  "properties":  {
+                                                                     "leader":  "Local authorities",
+                                                                     "info":  "Finnic Tribal Lands in 1939, before the German invasion of Poland."
+                                                                 }
+                                              },
+                      "Karelian Frontierlands":  {
+                                                     "properties":  {
+                                                                        "leader":  "Local authorities",
+                                                                        "info":  "Karelian Frontierlands in 1939, before the German invasion of Poland."
+                                                                    }
+                                                 },
+                      "Sámi and Northern Frontierlands":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Local authorities",
+                                                                                 "info":  "Sámi and Northern Frontierlands in 1939, before the German invasion of Poland."
+                                                                             }
+                                                          },
+                      "Denmark":  {
+                                      "properties":  {
+                                                         "leader":  "Local authorities",
+                                                         "info":  "Denmark in 1939, before the German invasion of Poland."
+                                                     }
+                                  },
+                      "Holy Roman Empire":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Holy Roman Empire in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Duchy of Normandy":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Duchy of Normandy in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Principality of Capua":  {
+                                                    "properties":  {
+                                                                       "leader":  "Local authorities",
+                                                                       "info":  "Principality of Capua in 1939, before the German invasion of Poland."
+                                                                   }
+                                                },
+                      "Principality of Salerno":  {
+                                                      "properties":  {
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Principality of Salerno in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
+                      "Duchy of Naples":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Duchy of Naples in 1939, before the German invasion of Poland."
+                                                             }
+                                          },
+                      "Norway":  {
+                                     "properties":  {
+                                                        "leader":  "Local authorities",
+                                                        "info":  "Norway in 1939, before the German invasion of Poland."
+                                                    }
+                                 },
+                      "Saharan Frontier and Tribal Lands":  {
+                                                                "properties":  {
+                                                                                   "leader":  "Local authorities",
+                                                                                   "info":  "Saharan Frontier and Tribal Lands in 1939, before the German invasion of Poland."
+                                                                               }
+                                                            },
+                      "Kingdom of Abkhazia":  {
+                                                  "properties":  {
+                                                                     "leader":  "Local authorities",
+                                                                     "info":  "Kingdom of Abkhazia in 1939, before the German invasion of Poland."
+                                                                 }
+                                              },
+                      "Tao-Klarjeti (Bagratid Domain)":  {
+                                                             "properties":  {
+                                                                                "leader":  "Local authorities",
+                                                                                "info":  "Tao-Klarjeti (Bagratid Domain) in 1939, before the German invasion of Poland."
+                                                                            }
+                                                         },
+                      "Kakheti (Regional Kingdom)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Local authorities",
+                                                                            "info":  "Kakheti (Regional Kingdom) in 1939, before the German invasion of Poland."
+                                                                        }
+                                                     },
+                      "Emirate of Tbilisi":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Emirate of Tbilisi in 1939, before the German invasion of Poland."
+                                                                }
+                                             },
+                      "Marwanid Emirate":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Marwanid Emirate in 1939, before the German invasion of Poland."
+                                                              }
+                                           },
+                      "Caliphate of Córdoba":  {
+                                                   "properties":  {
+                                                                      "leader":  "Local authorities",
+                                                                      "info":  "Caliphate of Córdoba in 1939, before the German invasion of Poland."
+                                                                  }
+                                               },
+                      "Kingdom of Gwynedd":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Gwynedd in 1939, before the German invasion of Poland."
+                                                                }
+                                             },
+                      "Kingdom of Powys":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Kingdom of Powys in 1939, before the German invasion of Poland."
+                                                              }
+                                           },
+                      "Kingdom of Deheubarth":  {
+                                                    "properties":  {
+                                                                       "leader":  "Local authorities",
+                                                                       "info":  "Kingdom of Deheubarth in 1939, before the German invasion of Poland."
+                                                                   }
+                                                },
+                      "Kingdom of Leinster":  {
+                                                  "properties":  {
+                                                                     "leader":  "Local authorities",
+                                                                     "info":  "Kingdom of Leinster in 1939, before the German invasion of Poland."
+                                                                 }
+                                              },
+                      "Kingdom of Munster":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Munster in 1939, before the German invasion of Poland."
+                                                                }
+                                             },
+                      "Historical Microstates":  {
+                                                     "properties":  {
+                                                                        "leader":  "Local authorities",
+                                                                        "info":  "Historical Microstates in 1939, before the German invasion of Poland."
+                                                                    }
+                                                 },
+                      "Kingdom of Meath":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Kingdom of Meath in 1939, before the German invasion of Poland."
+                                                              }
+                                           },
+                      "Kingdom of Dublin":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Kingdom of Dublin in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "County of Roussillon":  {
+                                                   "properties":  {
+                                                                      "leader":  "Local authorities",
+                                                                      "info":  "County of Roussillon in 1939, before the German invasion of Poland."
+                                                                  }
+                                               },
+                      "Kingdom of Galicia":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Galicia in 1939, before the German invasion of Poland."
+                                                                }
+                                             },
+                      "Taifa of Seville":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Taifa of Seville in 1939, before the German invasion of Poland."
+                                                              }
+                                           },
+                      "Taifa of Badajoz":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Taifa of Badajoz in 1939, before the German invasion of Poland."
+                                                              }
+                                           },
+                      "Taifa of Toledo":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Taifa of Toledo in 1939, before the German invasion of Poland."
+                                                             }
+                                          },
+                      "Taifa of Granada":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Taifa of Granada in 1939, before the German invasion of Poland."
+                                                              }
+                                           },
+                      "Taifa of Murcia":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Taifa of Murcia in 1939, before the German invasion of Poland."
+                                                             }
+                                          },
+                      "Taifa of Valencia":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Taifa of Valencia in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Taifa of Zaragoza":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Taifa of Zaragoza in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Norman Apulia and Calabria":  {
+                                                         "properties":  {
+                                                                            "leader":  "Local authorities",
+                                                                            "info":  "Norman Apulia and Calabria in 1939, before the German invasion of Poland."
+                                                                        }
+                                                     },
+                      "Lordship of Glamorgan":  {
+                                                    "properties":  {
+                                                                       "leader":  "Local authorities",
+                                                                       "info":  "Lordship of Glamorgan in 1939, before the German invasion of Poland."
+                                                                   }
+                                                },
+                      "Norman Lordships of Gwent and Gwynllwg":  {
+                                                                     "properties":  {
+                                                                                        "leader":  "Local authorities",
+                                                                                        "info":  "Norman Lordships of Gwent and Gwynllwg in 1939, before the German invasion of Poland."
+                                                                                    }
+                                                                 },
+                      "Eastern Anatolian and Jazira Emirates":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Local authorities",
+                                                                                       "info":  "Eastern Anatolian and Jazira Emirates in 1939, before the German invasion of Poland."
+                                                                                   }
+                                                                },
+                      "County of Edessa":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "County of Edessa in 1939, before the German invasion of Poland."
+                                                              }
+                                           },
+                      "Kingdom of León":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Kingdom of León in 1939, before the German invasion of Poland."
+                                                             }
+                                          },
+                      "Kingdom of Portugal":  {
+                                                  "properties":  {
+                                                                     "leader":  "Antonio Oscar Carmona",
+                                                                     "info":  "Kingdom of Portugal in 1939, before the German invasion of Poland."
+                                                                 }
+                                              },
+                      "Lordship of Mecklenburg":  {
+                                                      "properties":  {
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Lordship of Mecklenburg in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
+                      "Danish Estonia":  {
+                                             "properties":  {
+                                                                "leader":  "Local authorities",
+                                                                "info":  "Danish Estonia in 1939, before the German invasion of Poland."
+                                                            }
+                                         },
+                      "Kingdom of Majorca":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Majorca in 1939, before the German invasion of Poland."
+                                                                }
+                                             },
+                      "Republic of Venice (Aegean)":  {
+                                                          "properties":  {
+                                                                             "leader":  "Local authorities",
+                                                                             "info":  "Republic of Venice (Aegean) in 1939, before the German invasion of Poland."
+                                                                         }
+                                                      },
+                      "Principality of Moldavia":  {
+                                                       "properties":  {
+                                                                          "leader":  "Local authorities",
+                                                                          "info":  "Principality of Moldavia in 1939, before the German invasion of Poland."
+                                                                      }
+                                                   },
+                      "Denmark–Norway":  {
+                                             "properties":  {
+                                                                "leader":  "Local authorities",
+                                                                "info":  "Denmark–Norway in 1939, before the German invasion of Poland."
+                                                            }
+                                         },
+                      "Denmark–Norway (Gotland)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Local authorities",
+                                                                          "info":  "Denmark–Norway (Gotland) in 1939, before the German invasion of Poland."
+                                                                      }
+                                                   },
+                      "France (Brittany)":  {
+                                                "properties":  {
+                                                                   "leader":  "Albert Lebrun (President)",
+                                                                   "info":  "France (Brittany) in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "France (Provence)":  {
+                                                "properties":  {
+                                                                   "leader":  "Albert Lebrun (President)",
+                                                                   "info":  "France (Provence) in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Sweden":  {
+                                     "properties":  {
+                                                        "leader":  "Local authorities",
+                                                        "info":  "Sweden in 1939, before the German invasion of Poland."
+                                                    }
+                                 },
+                      "Polish–Lithuanian Commonwealth":  {
+                                                             "properties":  {
+                                                                                "leader":  "Local authorities",
+                                                                                "info":  "Polish–Lithuanian Commonwealth in 1939, before the German invasion of Poland."
+                                                                            }
+                                                         },
+                      "Polish–Lithuanian Commonwealth (Pomerelia)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "Local authorities",
+                                                                                            "info":  "Polish–Lithuanian Commonwealth (Pomerelia) in 1939, before the German invasion of Poland."
+                                                                                        }
+                                                                     },
+                      "Polish–Lithuanian Commonwealth (Lithuania)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "Local authorities",
+                                                                                            "info":  "Polish–Lithuanian Commonwealth (Lithuania) in 1939, before the German invasion of Poland."
+                                                                                        }
+                                                                     },
+                      "Polish–Lithuanian Commonwealth (Sudovia)":  {
+                                                                       "properties":  {
+                                                                                          "leader":  "Local authorities",
+                                                                                          "info":  "Polish–Lithuanian Commonwealth (Sudovia) in 1939, before the German invasion of Poland."
+                                                                                      }
+                                                                   },
+                      "Polish–Lithuanian Commonwealth (Polotsk)":  {
+                                                                       "properties":  {
+                                                                                          "leader":  "Local authorities",
+                                                                                          "info":  "Polish–Lithuanian Commonwealth (Polotsk) in 1939, before the German invasion of Poland."
+                                                                                      }
+                                                                   },
+                      "Polish–Lithuanian Commonwealth (Ruthenia)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Local authorities",
+                                                                                           "info":  "Polish–Lithuanian Commonwealth (Ruthenia) in 1939, before the German invasion of Poland."
+                                                                                       }
+                                                                    },
+                      "Safavid Iran (Armenia)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Local authorities",
+                                                                        "info":  "Safavid Iran (Armenia) in 1939, before the German invasion of Poland."
+                                                                    }
+                                                 },
+                      "Spanish Monarchy (Granada)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Local authorities",
+                                                                            "info":  "Spanish Monarchy (Granada) in 1939, before the German invasion of Poland."
+                                                                        }
+                                                     },
+                      "Spanish Monarchy (Aragon)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Local authorities",
+                                                                           "info":  "Spanish Monarchy (Aragon) in 1939, before the German invasion of Poland."
+                                                                       }
+                                                    },
+                      "Spanish Monarchy (Navarre)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Local authorities",
+                                                                            "info":  "Spanish Monarchy (Navarre) in 1939, before the German invasion of Poland."
+                                                                        }
+                                                     },
+                      "Spanish Netherlands":  {
+                                                  "properties":  {
+                                                                     "leader":  "Local authorities",
+                                                                     "info":  "Spanish Netherlands in 1939, before the German invasion of Poland."
+                                                                 }
+                                              },
+                      "Spanish Netherlands (Brabant and Luxembourg)":  {
+                                                                           "properties":  {
+                                                                                              "leader":  "Local authorities",
+                                                                                              "info":  "Spanish Netherlands (Brabant and Luxembourg) in 1939, before the German invasion of Poland."
+                                                                                          }
+                                                                       },
+                      "Alaouite Sultanate":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Alaouite Sultanate in 1939, before the German invasion of Poland."
+                                                                }
+                                             },
+                      "Sweden (Scania)":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Sweden (Scania) in 1939, before the German invasion of Poland."
+                                                             }
+                                          },
+                      "Qajar Iran":  {
+                                         "properties":  {
+                                                            "leader":  "Local authorities",
+                                                            "info":  "Qajar Iran in 1939, before the German invasion of Poland."
+                                                        }
+                                     },
+                      "Kingdom of Sicily":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Kingdom of Sicily in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Kingdom of Naples":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Kingdom of Naples in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Ligurian Republic":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Ligurian Republic in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "French Republic (Gascony, Dauphiné and annexations)":  {
+                                                                                  "properties":  {
+                                                                                                     "leader":  "Albert Lebrun (President)",
+                                                                                                     "info":  "French Republic (Gascony, Dauphiné and annexations) in 1939, before the German invasion of Poland."
+                                                                                                 }
+                                                                              },
+                      "French Republic (Savoy)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Albert Lebrun (President)",
+                                                                         "info":  "French Republic (Savoy) in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
+                      "French Republic (Annexed Territories)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Albert Lebrun (President)",
+                                                                                       "info":  "French Republic (Annexed Territories) in 1939, before the German invasion of Poland."
+                                                                                   }
+                                                                },
+                      "Kingdom of Prussia (Polish partition)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Local authorities",
+                                                                                       "info":  "Kingdom of Prussia (Polish partition) in 1939, before the German invasion of Poland."
+                                                                                   }
+                                                                },
+                      "Habsburg Monarchy (Galicia)":  {
+                                                          "properties":  {
+                                                                             "leader":  "Local authorities",
+                                                                             "info":  "Habsburg Monarchy (Galicia) in 1939, before the German invasion of Poland."
+                                                                         }
+                                                      },
+                      "Netherlands":  {
+                                          "properties":  {
+                                                             "leader":  "Wilhelmina",
+                                                             "info":  "Netherlands in 1939, before the German invasion of Poland."
+                                                         }
+                                      },
+                      "Kingdom of Italy (Cisalpine Republic)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Victor Emmanuel III",
+                                                                                       "info":  "Kingdom of Italy (Cisalpine Republic) in 1939, before the German invasion of Poland."
+                                                                                   }
+                                                                },
+                      "Austria-Hungary (Hungarian crown)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "Local authorities",
+                                                                                   "info":  "Austria-Hungary (Hungarian crown) in 1939, before the German invasion of Poland."
+                                                                               }
+                                                            },
+                      "Denmark (Faroe Islands)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Denmark (Faroe Islands) in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
+                      "Denmark (Iceland)":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Denmark (Iceland) in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Switzerland":  {
+                                          "properties":  {
+                                                             "leader":  "Local authorities",
+                                                             "info":  "Switzerland in 1939, before the German invasion of Poland."
+                                                         }
+                                      },
+                      "France":  {
+                                     "properties":  {
+                                                        "leader":  "Albert Lebrun (President)",
+                                                        "info":  "France in 1939, before the German invasion of Poland."
+                                                    }
+                                 },
+                      "Kingdom of Italy (Grand Duchy of Tuscany)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Victor Emmanuel III",
+                                                                                           "info":  "Kingdom of Italy (Grand Duchy of Tuscany) in 1939, before the German invasion of Poland."
+                                                                                       }
+                                                                    },
+                      "Austria-Hungary (Banat)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Austria-Hungary (Banat) in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
+                      "Austria-Hungary (Kingdom of Bohemia)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Local authorities",
+                                                                                      "info":  "Austria-Hungary (Kingdom of Bohemia) in 1939, before the German invasion of Poland."
+                                                                                  }
+                                                               },
+                      "United Kingdom (Connacht)":  {
+                                                        "properties":  {
+                                                                           "leader":  "George VI",
+                                                                           "info":  "United Kingdom (Connacht) in 1939, before the German invasion of Poland."
+                                                                       }
+                                                    },
+                      "United Kingdom (Isle of Man)":  {
+                                                           "properties":  {
+                                                                              "leader":  "George VI",
+                                                                              "info":  "United Kingdom (Isle of Man) in 1939, before the German invasion of Poland."
+                                                                          }
+                                                       },
+                      "United Kingdom (Ulster)":  {
+                                                      "properties":  {
+                                                                         "leader":  "George VI",
+                                                                         "info":  "United Kingdom (Ulster) in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
+                      "Kingdom of Italy (Kingdom of Sardinia)":  {
+                                                                     "properties":  {
+                                                                                        "leader":  "Victor Emmanuel III",
+                                                                                        "info":  "Kingdom of Italy (Kingdom of Sardinia) in 1939, before the German invasion of Poland."
+                                                                                    }
+                                                                 },
+                      "United Kingdom (Northern Isles)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "George VI",
+                                                                                 "info":  "United Kingdom (Northern Isles) in 1939, before the German invasion of Poland."
+                                                                             }
+                                                          },
+                      "Kingdom of Italy (North Italian signorie)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Victor Emmanuel III",
+                                                                                           "info":  "Kingdom of Italy (North Italian signorie) in 1939, before the German invasion of Poland."
+                                                                                       }
+                                                                    },
+                      "France (Africa)":  {
+                                              "properties":  {
+                                                                 "leader":  "Albert Lebrun (President)",
+                                                                 "info":  "France (Africa) in 1939, before the German invasion of Poland."
+                                                             }
+                                          },
+                      "Kingdom of Greece":  {
+                                                "properties":  {
+                                                                   "leader":  "George II",
+                                                                   "info":  "Kingdom of Greece in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Austria-Hungary (Bosnia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Local authorities",
+                                                                          "info":  "Austria-Hungary (Bosnia) in 1939, before the German invasion of Poland."
+                                                                      }
+                                                   },
+                      "United Kingdom (Cyprus)":  {
+                                                      "properties":  {
+                                                                         "leader":  "George VI",
+                                                                         "info":  "United Kingdom (Cyprus) in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
+                      "Kingdom of Greece (Thessaly)":  {
+                                                           "properties":  {
+                                                                              "leader":  "George II",
+                                                                              "info":  "Kingdom of Greece (Thessaly) in 1939, before the German invasion of Poland."
+                                                                          }
+                                                       },
+                      "Kingdom of Italy (Papal Enclave of Benevento)":  {
+                                                                            "properties":  {
+                                                                                               "leader":  "Victor Emmanuel III",
+                                                                                               "info":  "Kingdom of Italy (Papal Enclave of Benevento) in 1939, before the German invasion of Poland."
+                                                                                           }
+                                                                        },
+                      "Kingdom of Italy":  {
+                                               "properties":  {
+                                                                  "leader":  "Victor Emmanuel III",
+                                                                  "info":  "Kingdom of Italy in 1939, before the German invasion of Poland."
+                                                              }
+                                           },
+                      "Austria-Hungary (Principality of Transylvania)":  {
+                                                                             "properties":  {
+                                                                                                "leader":  "Local authorities",
+                                                                                                "info":  "Austria-Hungary (Principality of Transylvania) in 1939, before the German invasion of Poland."
+                                                                                            }
+                                                                         },
+                      "Kingdom of Italy (Republic of Venice)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Victor Emmanuel III",
+                                                                                       "info":  "Kingdom of Italy (Republic of Venice) in 1939, before the German invasion of Poland."
+                                                                                   }
+                                                                },
+                      "Austria-Hungary":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Austria-Hungary in 1939, before the German invasion of Poland."
+                                                             }
+                                          },
+                      "Austria-Hungary (Reconquered)":  {
+                                                            "properties":  {
+                                                                               "leader":  "Local authorities",
+                                                                               "info":  "Austria-Hungary (Reconquered) in 1939, before the German invasion of Poland."
+                                                                           }
+                                                        },
+                      "United Kingdom":  {
+                                             "properties":  {
+                                                                "leader":  "George VI",
+                                                                "info":  "United Kingdom in 1939, before the German invasion of Poland."
+                                                            }
+                                         },
+                      "United Kingdom (Scotland)":  {
+                                                        "properties":  {
+                                                                           "leader":  "George VI",
+                                                                           "info":  "United Kingdom (Scotland) in 1939, before the German invasion of Poland."
+                                                                       }
+                                                    },
+                      "Kingdom of Romania":  {
+                                                 "properties":  {
+                                                                    "leader":  "Carol II",
+                                                                    "info":  "Kingdom of Romania in 1939, before the German invasion of Poland."
+                                                                }
+                                             },
+                      "Denmark 2":  {
+                                        "properties":  {
+                                                           "leader":  "Local authorities",
+                                                           "info":  "Denmark 2 in 1939, before the German invasion of Poland."
+                                                       }
+                                    },
+                      "Belgium":  {
+                                      "properties":  {
+                                                         "leader":  "Leopold III",
+                                                         "info":  "Belgium in 1939, before the German invasion of Poland."
+                                                     }
+                                  },
+                      "Luxembourg":  {
+                                         "properties":  {
+                                                            "leader":  "Local authorities",
+                                                            "info":  "Luxembourg in 1939, before the German invasion of Poland."
+                                                        }
+                                     },
+                      "France (Gascony, Dauphiné and annexations)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "Albert Lebrun (President)",
+                                                                                            "info":  "France (Gascony, Dauphiné and annexations) in 1939, before the German invasion of Poland."
+                                                                                        }
+                                                                     },
+                      "Kingdom of Italy (Savoy)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Victor Emmanuel III",
+                                                                          "info":  "Kingdom of Italy (Savoy) in 1939, before the German invasion of Poland."
+                                                                      }
+                                                   },
+                      "France (Savoy)":  {
+                                             "properties":  {
+                                                                "leader":  "Albert Lebrun (President)",
+                                                                "info":  "France (Savoy) in 1939, before the German invasion of Poland."
+                                                            }
+                                         },
+                      "Austria-Hungary (Galicia)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Local authorities",
+                                                                           "info":  "Austria-Hungary (Galicia) in 1939, before the German invasion of Poland."
+                                                                       }
+                                                    },
+                      "Austria-Hungary (Holy Roman Empire)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "Local authorities",
+                                                                                     "info":  "Austria-Hungary (Holy Roman Empire) in 1939, before the German invasion of Poland."
+                                                                                 }
+                                                              },
+                      "Switzerland (Holy Roman Empire)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Local authorities",
+                                                                                 "info":  "Switzerland (Holy Roman Empire) in 1939, before the German invasion of Poland."
+                                                                             }
+                                                          },
+                      "France (Lorraine)":  {
+                                                "properties":  {
+                                                                   "leader":  "Albert Lebrun (President)",
+                                                                   "info":  "France (Lorraine) in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Kingdom of Italy (Holy Roman Empire)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel III",
+                                                                                      "info":  "Kingdom of Italy (Holy Roman Empire) in 1939, before the German invasion of Poland."
+                                                                                  }
+                                                               },
+                      "Kingdom of Greece (Ionian Islands)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "George II",
+                                                                                    "info":  "Kingdom of Greece (Ionian Islands) in 1939, before the German invasion of Poland."
+                                                                                }
+                                                             },
+                      "Kingdom of Italy (Kingdom of Naples)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel III",
+                                                                                      "info":  "Kingdom of Italy (Kingdom of Naples) in 1939, before the German invasion of Poland."
+                                                                                  }
+                                                               },
+                      "Kingdom of Italy (Kingdom of Sicily)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel III",
+                                                                                      "info":  "Kingdom of Italy (Kingdom of Sicily) in 1939, before the German invasion of Poland."
+                                                                                  }
+                                                               },
+                      "United Kingdom (Malta)":  {
+                                                     "properties":  {
+                                                                        "leader":  "George VI",
+                                                                        "info":  "United Kingdom (Malta) in 1939, before the German invasion of Poland."
+                                                                    }
+                                                 },
+                      "Kingdom of Italy (Ligurian Republic)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel III",
+                                                                                      "info":  "Kingdom of Italy (Ligurian Republic) in 1939, before the German invasion of Poland."
+                                                                                  }
+                                                               },
+                      "France (Corsica)":  {
+                                               "properties":  {
+                                                                  "leader":  "Albert Lebrun (President)",
+                                                                  "info":  "France (Corsica) in 1939, before the German invasion of Poland."
+                                                              }
+                                           },
+                      "Kingdom of Greece (Albania)":  {
+                                                          "properties":  {
+                                                                             "leader":  "George II",
+                                                                             "info":  "Kingdom of Greece (Albania) in 1939, before the German invasion of Poland."
+                                                                         }
+                                                      },
+                      "Kingdom of Greece (Constantinople)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "George II",
+                                                                                    "info":  "Kingdom of Greece (Constantinople) in 1939, before the German invasion of Poland."
+                                                                                }
+                                                             },
+                      "Egypt (British occupation)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Farouk I",
+                                                                            "info":  "Egypt (British occupation) in 1939, before the German invasion of Poland."
+                                                                        }
+                                                     },
+                      "Kingdom of Serbia":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Kingdom of Serbia in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Austria-Hungary (Principality of Moldavia)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "Local authorities",
+                                                                                            "info":  "Austria-Hungary (Principality of Moldavia) in 1939, before the German invasion of Poland."
+                                                                                        }
+                                                                     },
+                      "Kingdom of Romania (Principality of Moldavia)":  {
+                                                                            "properties":  {
+                                                                                               "leader":  "Carol II",
+                                                                                               "info":  "Kingdom of Romania (Principality of Moldavia) in 1939, before the German invasion of Poland."
+                                                                                           }
+                                                                        },
+                      "Kingdom of Greece (Aegean)":  {
+                                                         "properties":  {
+                                                                            "leader":  "George II",
+                                                                            "info":  "Kingdom of Greece (Aegean) in 1939, before the German invasion of Poland."
+                                                                        }
+                                                     },
+                      "France (Roussillon)":  {
+                                                  "properties":  {
+                                                                     "leader":  "Albert Lebrun (President)",
+                                                                     "info":  "France (Roussillon) in 1939, before the German invasion of Poland."
+                                                                 }
+                                              },
+                      "Tsardom of Bulgaria":  {
+                                                  "properties":  {
+                                                                     "leader":  "Boris III",
+                                                                     "info":  "Tsardom of Bulgaria in 1939, before the German invasion of Poland."
+                                                                 }
+                                              },
+                      "Kingdom of Sweden":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Kingdom of Sweden in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Kingdom of Montenegro":  {
+                                                    "properties":  {
+                                                                       "leader":  "Local authorities",
+                                                                       "info":  "Kingdom of Montenegro in 1939, before the German invasion of Poland."
+                                                                   }
+                                                },
+                      "Kingdom of Norway":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Kingdom of Norway in 1939, before the German invasion of Poland."
+                                                               }
+                                            },
+                      "Kingdom of Italy (Libya)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Victor Emmanuel III",
+                                                                          "info":  "Kingdom of Italy (Libya) in 1939, before the German invasion of Poland."
+                                                                      }
+                                                   },
+                      "Hungarian People's Republic":  {
+                                                               "properties":  {
+                                                                                  "leader":  "MiklÃ³s Horthy (Regent)",
+                                                                                  "info":  "Hungarian People's Republic in 1939, before the German invasion of Poland."
+                                                                              }
+                                                           },
+                      "Kingdom of Serbs, Croats and Slovenes":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Peter II",
+                                                                                       "info":  "Kingdom of Serbs, Croats and Slovenes in 1939, before the German invasion of Poland."
+                                                                                   }
+                                                                },
+                      "Republic of Poland":  {
+                                                 "properties":  {
+                                                                    "leader":  "Ignacy Moscicki (President)",
+                                                                    "info":  "Republic of Poland in 1939, before the German invasion of Poland."
+                                                                }
+                                             },
+                      "Kingdom of Romania (Greater Romania)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Carol II",
+                                                                                      "info":  "Kingdom of Romania (Greater Romania) in 1939, before the German invasion of Poland."
+                                                                                  }
+                                                               },
+                      "Kingdom of Italy (Former Austrian Lands)":  {
+                                                                       "properties":  {
+                                                                                          "leader":  "Victor Emmanuel III",
+                                                                                          "info":  "Kingdom of Italy (Former Austrian Lands) in 1939, before the German invasion of Poland."
+                                                                                      }
+                                                                   },
+                      "France (Alsace-Lorraine)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Albert Lebrun (President)",
+                                                                          "info":  "France (Alsace-Lorraine) in 1939, before the German invasion of Poland."
+                                                                      }
+                                                   },
+                      "Finland":  {
+                                      "properties":  {
+                                                         "leader":  "Kyosti Kallio (President)",
+                                                         "info":  "Finland in 1939, before the German invasion of Poland."
+                                                     }
+                                  },
+                      "Republic of Estonia":  {
+                                                  "properties":  {
+                                                                     "leader":  "Konstantin Pats",
+                                                                     "info":  "Republic of Estonia in 1939, before the German invasion of Poland."
+                                                                 }
+                                              },
+                      "Republic of Latvia":  {
+                                                 "properties":  {
+                                                                    "leader":  "Karlis Ulmanis",
+                                                                    "info":  "Republic of Latvia in 1939, before the German invasion of Poland."
+                                                                }
+                                             }
+                  },
+    "additions":  [
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "German Reich (Anschluss)",
+                                             "label":  "",
+                                             "leader":  "Adolf Hitler",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Austria"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b8f9e",
+                                             "borderColor":  "#4c4f5c",
+                                             "info":  "Austria was annexed by Nazi Germany in the Anschluss of March 1938."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "German Reich (Sudetenland)",
+                                             "label":  "",
+                                             "leader":  "Adolf Hitler",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Czech Republic",
+                                                                       "ids":  [
+                                                                                   "ústínadlabem",
+                                                                                   "liberec",
+                                                                                   "karlovyvary"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b8f9e",
+                                             "borderColor":  "#4c4f5c",
+                                             "info":  "Germany annexed the Sudetenland under the Munich Agreement of 1938; modern regions are used as broad proxies."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "German Reich (Memel)",
+                                             "label":  "",
+                                             "leader":  "Adolf Hitler",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Lithuania",
+                                                                       "ids":  [
+                                                                                   "klaipėda"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b8f9e",
+                                             "borderColor":  "#4c4f5c",
+                                             "info":  "Germany annexed the Memel Territory from Lithuania in March 1939."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "German Reich (Protectorate of Bohemia and Moravia)",
+                                             "label":  "",
+                                             "leader":  "Adolf Hitler",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Czech Republic",
+                                                                       "excludeIds":  [
+                                                                                          "ústínadlabem",
+                                                                                          "liberec",
+                                                                                          "karlovyvary"
+                                                                                      ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8b8f9e",
+                                             "borderColor":  "#4c4f5c",
+                                             "info":  "Germany established the Protectorate of Bohemia and Moravia in March 1939; modern administrative regions are approximate."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Slovak Republic",
+                                             "label":  "Slovakia",
+                                             "leader":  "Jozef Tiso",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Slovakia",
+                                                                       "excludeIds":  [
+                                                                                          "nitra",
+                                                                                          "košice"
+                                                                                      ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#4a8c8a",
+                                             "borderColor":  "#2e5e5c",
+                                             "info":  "The Slovak Republic declared independence in March 1939 and was closely aligned with Germany."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Hungary (Territorial Gains)",
+                                             "label":  "",
+                                             "leader":  "Miklos Horthy (Regent)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Ukraine",
+                                                                       "ids":  [
+                                                                                   "zakarpattia",
+                                                                                   "nitra",
+                                                                                   "košice"
+                                                                               ]
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Slovakia",
+                                                                       "ids":  [
+                                                                                   "zakarpattia",
+                                                                                   "nitra",
+                                                                                   "košice"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8c5b68",
+                                             "borderColor":  "#5a3540",
+                                             "info":  "Hungary annexed Carpathian Ruthenia and gained southern Slovak territory in 1938-39; modern regions are broad proxies."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Italy (Albania)",
+                                             "label":  "",
+                                             "leader":  "Victor Emmanuel III",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Albania"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#5fa07e",
+                                             "borderColor":  "#2f5e46",
+                                             "info":  "Italy invaded and annexed Albania in April 1939; the Albanian crown was held by Victor Emmanuel III."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Iraq",
+                                             "label":  "Iraq",
+                                             "leader":  "Ghazi I",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Iraq"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#a28b70",
+                                             "borderColor":  "#695945",
+                                             "info":  "Iraq was an independent kingdom under King Ghazi in 1939."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "French Mandate (Syria and Lebanon)",
+                                             "label":  "",
+                                             "leader":  "Albert Lebrun (President)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Syria"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Lebanon"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#4169a1",
+                                             "borderColor":  "#203b61",
+                                             "info":  "Syria and Lebanon remained under the French Mandate in 1939."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "United Kingdom (Mandate of Palestine)",
+                                             "label":  "",
+                                             "leader":  "George VI",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Israel"
+                                                                   },
+                                                                   {
+                                                                       "admin":  "Palestine"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#c0504d",
+                                             "borderColor":  "#6e2927",
+                                             "info":  "The British Mandate for Palestine was in force in 1939."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "United Kingdom (Transjordan)",
+                                             "label":  "",
+                                             "leader":  "George VI",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Jordan"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#c0504d",
+                                             "borderColor":  "#6e2927",
+                                             "info":  "Transjordan was a self-governing emirate under British mandate in 1939."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Saudi Arabia",
+                                             "label":  "Saudi Arabia",
+                                             "leader":  "Abdulaziz Ibn Saud",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Saudi Arabia"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#557b55",
+                                             "borderColor":  "#314b36",
+                                             "info":  "The Kingdom of Saudi Arabia had been unified under Abdulaziz Ibn Saud in 1932."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Republic of Turkey (Kars, Ardahan and Artvin)",
+                                             "label":  "",
+                                             "leader":  "Ismet Inonu",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Turkey",
+                                                                       "ids":  [
+                                                                                   "kars",
+                                                                                   "ardahan",
+                                                                                   "artvin"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#8a9c83",
+                                             "borderColor":  "#465343",
+                                             "info":  "Turkey recovered Kars, Ardahan and Artvin from Soviet control under the 1921 Treaty of Kars."
+                                         }
+                      }
+                  ]
+}

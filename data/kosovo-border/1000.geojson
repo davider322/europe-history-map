@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "realm": "Kosovo Border Outline",
+    "leader": "Boundary marker",
+    "info": "Kosovo\u0027s authoritative polygon is shown on top of the other layers so that the visible map border follows the same geometry as Kosovo.",
+    "regionFilters": [
+      {
+        "admin": "Kosovo",
+        "ids": ["kosovo"]
+      }
+    ],
+    "fillColor": "#c78a36",
+    "borderColor": "#76501f",
+    "fillOpacity": 0
+  },
+  "provinces": []
+}

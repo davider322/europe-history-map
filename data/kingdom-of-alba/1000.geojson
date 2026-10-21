@@ -1,0 +1,47 @@
+{
+  "properties": {
+    "realm": "Kingdom of Alba (Scotland)",
+    "leader": "Cináed III (Kenneth III)",
+    "info": "Around 1000, the Kingdom of Alba encompassed the Scottish core. The northern and western island groups had strong Norse influence and are shown separately. Modern administrative regions provide only a rough map.",
+    "regionFilters": [
+      {
+        "admin": "United Kingdom",
+        "geonunit": "Scotland",
+        "ids": [
+          "scottishborders",
+          "dumfriesandgalloway",
+          "clackmannanshire",
+          "stirling",
+          "falkirk",
+          "westlothian",
+          "edinburgh",
+          "midlothian",
+          "eastlothian",
+          "southayrshire",
+          "northayrshire",
+          "inverclyde",
+          "renfrewshire",
+          "westdunbartonshire",
+          "argyllandbute",
+          "highland",
+          "moray",
+          "aberdeenshire",
+          "aberdeen",
+          "angus",
+          "dundee",
+          "perthandkinross",
+          "fife",
+          "northlanarkshire",
+          "eastdunbartonshire",
+          "glasgow",
+          "eastrenfrewshire",
+          "eastayrshire",
+          "southlanarkshire"
+        ]
+      }
+    ],
+    "fillColor": "#537ea8",
+    "borderColor": "#304b66"
+  },
+  "provinces": []
+}

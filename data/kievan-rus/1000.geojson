@@ -1,0 +1,53 @@
+{
+  "properties": {
+    "realm": "Kievan Rus\u0027",
+    "leader": "Vladimir the Great",
+    "info": "Around 1000, Vladimir the Great\u0027s realm included Kyiv and much of present-day Ukraine, with Novgorod and several northern and eastern principalities connected to the Rus\u0027 dynasty. This was a network of princely territories, not a uniformly centralized state. Polotsk is shown separately; the southern steppe is shown as Pecheneg frontierland. Modern oblasts are only rough map references.",
+    "regionFilters": [
+      {
+        "admin": "Ukraine",
+        "excludeIds": [
+          "odessa",
+          "mykolaiv",
+          "kherson",
+          "zaporizhzhia",
+          "donetsk",
+          "luhansk",
+          "ua-crimea",
+          "ua-sevastopol"
+        ]
+      },
+      {
+        "admin": "Belarus",
+        "excludeIds": ["vitebsk"]
+      },
+      {
+        "admin": "Russia",
+        "ids": [
+          "pskov",
+          "leningrad",
+          "saintpetersburg",
+          "novgorod",
+          "smolensk",
+          "bryansk",
+          "tver",
+          "kaluga",
+          "moscow",
+          "vladimir",
+          "yaroslavl",
+          "kostroma",
+          "ivanovo",
+          "nizhnynovgorod",
+          "ryazan",
+          "tula",
+          "oryol",
+          "lipetsk",
+          "tambov"
+        ]
+      }
+    ],
+    "fillColor": "#557b9b",
+    "borderColor": "#314b61"
+  },
+  "provinces": []
+}

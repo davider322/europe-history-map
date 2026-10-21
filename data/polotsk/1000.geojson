@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Principality of Polotsk",
+    "leader": "Izyaslav Vladimirovich",
+    "info": "Polotsk was a distinct East Slavic principality with its own dynasty. After Vladimir the Great installed his son Izyaslav there around 988, the principality had close ties to Kievan Rus\u0027 but retained a distinct political position. Present-day Vitebsk Region is used only as an approximate marker.",
+    "regionFilters": [
+      {
+        "admin": "Belarus",
+        "ids": ["vitebsk"]
+      }
+    ],
+    "fillColor": "#7391a8",
+    "borderColor": "#465a6c"
+  },
+  "provinces": []
+}

@@ -1,0 +1,27 @@
+{
+  "properties": {
+    "realm": "Central Arabia (Local Tribal Lands)",
+    "leader": "Local tribal leaders; no unified king",
+    "info": "Around 1000, Najd and much of the northern and southern interior lacked a centralized state with the borders of modern Saudi Arabia. Local tribes and minor chieftains predominated; the color marks a sparsely documented frontier and settlement zone, not a unified realm.",
+    "regionFilters": [
+      {
+        "admin": "Saudi Arabia",
+        "ids": [
+          "sau-riyadh-region",
+          "sau-al-qassim-region",
+          "sau-hayel-region",
+          "sau-tabuk-region",
+          "sau-northern-borders-region",
+          "sau-jazan-region",
+          "sau-najran-region",
+          "sau-al-bahah-region",
+          "sau-al-jawf-region",
+          "sau-asir-region"
+        ]
+      }
+    ],
+    "fillColor": "#a58f68",
+    "borderColor": "#68583d"
+  },
+  "provinces": []
+}

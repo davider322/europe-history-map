@@ -1,0 +1,32 @@
+{
+    "properties":  {
+                       "realm":  "Sweden",
+                       "leader":  "Olof Skötkonung",
+                       "info":  "Around 1000, Sweden is shown using modern regions as an approximate map. Gästrikland is associated with the Swedish core, while Sámi and northern frontierlands are shown separately farther north, where royal control was sparse and uncertain. These are not exact historical borders. Åland is shown within Sweden\u0027s color using its modern boundary as a cartographic proxy, not as an exact outline of the realm around 1000.",
+                       "fillColor":  "#102548",
+                       "borderColor":  "#06142b",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Supplemental Islands",
+                                                 "ids":  [
+                                                             "aland"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+                      "uppsala",
+                      "stockholm",
+                      "sodermanland",
+                      "vastmanland",
+                      "orebro",
+                      "ostergotland",
+                      "vastragotaland",
+                      "jonkoping",
+                      "kronoberg",
+                      "kalmar",
+                      "dalarna",
+                      "varmland",
+                      "gavleborg"
+                  ]
+}

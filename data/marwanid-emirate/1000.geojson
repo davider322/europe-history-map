@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "realm": "Marwanid Emirate",
+    "leader": "Abu Ali al-Hasan ibn Marwan",
+    "info": "Around 1000, the Kurdish Marwanid Emirate ruled parts of Upper Mesopotamia and southeastern Anatolia, centered on Amid (present-day Diyarbakır). The layer marks a cautious regional core; modern provinces are rough map references and borders shifted.",
+    "regionFilters": [
+      {
+        "admin": "Turkey",
+        "ids": [
+          "batman",
+          "diyarbak\u0131r",
+          "mardin",
+          "siirt",
+          "\u015f\u0131rnak",
+          "\u015fanl\u0131urfa"
+        ]
+      }
+    ],
+    "fillColor": "#9a795d",
+    "borderColor": "#614d3b"
+  },
+  "provinces": []
+}

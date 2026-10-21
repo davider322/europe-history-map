@@ -1,0 +1,145 @@
+{
+    "properties":  {
+                       "realm":  "Pecheneg and Northern Danubian Frontierlands",
+                       "leader":  "Pecheneg chieftains and local powers",
+                       "info":  "A schematic map of the steppe and frontierlands north of the lower Danube, around the Black Sea and toward the North Caucasus around 1000, where Pecheneg confederations and other steppe peoples exerted influence. This was not a centralized realm with modern borders. Present-day Moldova and parts of Romania, Ukraine and Stavropol are used as rough map references; local powers and control varied. Moldova uses the original base provinces.",
+                       "fillColor":  "#a99161",
+                       "borderColor":  "#6b5834",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Moldova",
+                                                 "excludeIds":  [
+                                                                    "strășeni",
+                                                                    "chișinău",
+                                                                    "ialoveni",
+                                                                    "cimișlia",
+                                                                    "basarabeasca",
+                                                                    "briceni",
+                                                                    "edineț",
+                                                                    "telenești",
+                                                                    "călărași",
+                                                                    "rîșcani",
+                                                                    "glodeni",
+                                                                    "ungheni",
+                                                                    "nisporeni",
+                                                                    "fălești",
+                                                                    "sîngerei",
+                                                                    "bălți",
+                                                                    "cahul",
+                                                                    "taraclia",
+                                                                    "rezina",
+                                                                    "orhei",
+                                                                    "ocnița",
+                                                                    "dondușeni",
+                                                                    "drochia",
+                                                                    "transnistria",
+                                                                    "criuleni",
+                                                                    "grigoriopol",
+                                                                    "aneniinoi",
+                                                                    "hîncești",
+                                                                    "leova",
+                                                                    "cantemir",
+                                                                    "camenca",
+                                                                    "șoldănești",
+                                                                    "soroca",
+                                                                    "florești",
+                                                                    "căușeni",
+                                                                    "bender",
+                                                                    "ștefanvodă"
+                                                                ]
+                                             },
+                                             {
+                                                 "admin":  "Romania",
+                                                 "excludeIds":  [
+                                                                    "alba",
+                                                                    "arad",
+                                                                    "bihor",
+                                                                    "bistrița-năsăud",
+                                                                    "brașov",
+                                                                    "caraș-severin",
+                                                                    "cluj",
+                                                                    "constanța",
+                                                                    "covasna",
+                                                                    "harghita",
+                                                                    "hunedoara",
+                                                                    "maramureș",
+                                                                    "mureș",
+                                                                    "sălaj",
+                                                                    "sibiu",
+                                                                    "timiș",
+                                                                    "tulcea"
+                                                                ]
+                                             },
+                                             {
+                                                 "admin":  "Ukraine",
+                                                 "ids":  [
+                                                             "odessa",
+                                                             "mykolaiv",
+                                                             "kherson",
+                                                             "zaporizhzhia",
+                                                             "donetsk",
+                                                             "luhansk"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "Russia",
+                                                 "ids":  [
+                                                             "kursk",
+                                                             "belgorod",
+                                                             "voronezh",
+                                                             "rostov",
+                                                             "volgograd",
+                                                             "astrakhan",
+                                                             "republicofkalmykia",
+                                                             "stavropolkrai"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "Moldova",
+                                                 "geonunit":  "Moldova",
+                                                 "ids":  [
+                                                             "aneniinoi",
+                                                             "bălți",
+                                                             "basarabeasca",
+                                                             "bender",
+                                                             "briceni",
+                                                             "cahul",
+                                                             "călărași",
+                                                             "camenca",
+                                                             "cantemir",
+                                                             "căușeni",
+                                                             "chișinău",
+                                                             "cimișlia",
+                                                             "criuleni",
+                                                             "dondușeni",
+                                                             "drochia",
+                                                             "edineț",
+                                                             "fălești",
+                                                             "florești",
+                                                             "glodeni",
+                                                             "grigoriopol",
+                                                             "hîncești",
+                                                             "ialoveni",
+                                                             "leova",
+                                                             "nisporeni",
+                                                             "ocnița",
+                                                             "orhei",
+                                                             "rezina",
+                                                             "rîșcani",
+                                                             "sîngerei",
+                                                             "șoldănești",
+                                                             "soroca",
+                                                             "ștefanvodă",
+                                                             "strășeni",
+                                                             "taraclia",
+                                                             "telenești",
+                                                             "transnistria",
+                                                             "ungheni"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+
+                  ]
+}

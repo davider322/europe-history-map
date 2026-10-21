@@ -1,0 +1,35 @@
+﻿{
+    "properties":  {
+                       "realm":  "Emirate of Sicily",
+                       "leader":  "Ja\u0027far al-Kalbi",
+                       "info":  "Around 1000, Sicily was ruled by the Muslim Kalbid Emirate. Malta had a Muslim population and was probably within the Kalbid Sicilian sphere, although its local government is poorly documented. The islands are shown using modern administrative regions, not exact historical borders. The relevant areas of southern Italy use the original base provinces; the realm\u0027s political extent is unchanged.",
+                       "regionAdmins":  [
+                                            "Italy"
+                                        ],
+                       "fillColor":  "#557a46",
+                       "borderColor":  "#30472a",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Malta"
+                                             },
+                                             {
+                                                 "admin":  "Italy",
+                                                 "geonunit":  "Italy",
+                                                 "ids":  [
+                                                             "agrigento",
+                                                             "caltanissetta",
+                                                             "catania",
+                                                             "enna",
+                                                             "messina",
+                                                             "palermo",
+                                                             "ragusa",
+                                                             "syracuse",
+                                                             "trapani"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+
+                  ]
+}

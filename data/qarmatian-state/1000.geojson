@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "realm": "Qarmatian State in al-Bahrayn",
+    "leader": "Local Qarmatian rulers",
+    "info": "Around 1000, Qarmatian rulers held an independent territory in al-Ahsa and eastern Arabia, having previously dominated the Bahrain region. Modern Bahrain, Qatar and Saudi Arabia\u0027s Eastern Province are a broad approximation; borders and local control are uncertain.",
+    "regionFilters": [
+      {
+        "admin": "Bahrain"
+      },
+      {
+        "admin": "Qatar"
+      },
+      {
+        "admin": "Saudi Arabia",
+        "ids": ["sau-eastern-region"]
+      }
+    ],
+    "fillColor": "#a45e49",
+    "borderColor": "#663c2e"
+  },
+  "provinces": []
+}

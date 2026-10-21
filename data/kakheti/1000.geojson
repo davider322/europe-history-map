@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Kakheti (Regional Kingdom)",
+    "leader": "David of Kakheti",
+    "info": "Around 1000, Kakheti in eastern Georgia was ruled by its own local dynasty and was not part of Bagrat III\u0027s still incomplete unification. Present-day Kakheti is a rough approximation.",
+    "regionFilters": [
+      {
+        "admin": "Georgia",
+        "ids": ["geo-kakheti"]
+      }
+    ],
+    "fillColor": "#8d9859",
+    "borderColor": "#596038"
+  },
+  "provinces": []
+}

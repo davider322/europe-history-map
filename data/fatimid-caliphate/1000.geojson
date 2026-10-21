@@ -1,0 +1,31 @@
+{
+  "properties": {
+    "realm": "Fatimid Caliphate",
+    "leader": "Al-Hakim bi-Amr Allah",
+    "info": "Around 1000, the Fatimid Caliphate ruled Egypt and exercised suzerainty or strong influence over Palestine and the Hijaz. The southern Levant, Jordan and parts of Syria are shown as an approximate sphere of influence; local dynasties and Byzantine rivalry made control uneven. Sinai belonged to Egypt\u0027s core territory.",
+    "regionFilters": [
+      {
+        "admin": "Egypt"
+      },
+      {
+        "admin": "Israel"
+      },
+      {
+        "admin": "Palestine"
+      },
+      {
+        "admin": "Jordan"
+      },
+      {
+        "admin": "Lebanon"
+      },
+      {
+        "admin": "Syria",
+        "excludeIds": ["syr-aleppo"]
+      }
+    ],
+    "fillColor": "#397887",
+    "borderColor": "#234c56"
+  },
+  "provinces": []
+}

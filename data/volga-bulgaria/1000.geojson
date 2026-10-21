@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Volga Bulgaria",
+    "leader": "Volga Bulgar rulers",
+    "info": "Volga Bulgaria was a real political power around the middle Volga and Kama rivers. Tatarstan and Chuvashia are used as rough modern map references; its borders were not the same as those of today\u0027s regions.",
+    "regionFilters": [
+      {
+        "admin": "Russia",
+        "ids": ["republicoftatarstan", "chuvashrepublic"]
+      }
+    ],
+    "fillColor": "#88799e",
+    "borderColor": "#574d66"
+  },
+  "provinces": []
+}

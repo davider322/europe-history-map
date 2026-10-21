@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "realm": "Papal States",
+    "leader": "Pope Sylvester II",
+    "info": "An approximate map of the Papal States around 1000 using modern regions in central Italy. The borders are not exact historical borders.",
+    "regionAdmins": ["Italy"],
+    "fillColor": "#d7c7a1",
+    "borderColor": "#796b50"
+  },
+  "provinces": [
+    "rome",
+    "viterbo",
+    "rieti",
+    "latina",
+    "frosinone",
+    "perugia",
+    "terni",
+    "pesaroandurbino",
+    "ancona",
+    "macerata",
+    "fermo",
+    "ascolipiceno",
+    "rimini",
+    "ravenna"
+  ]
+}

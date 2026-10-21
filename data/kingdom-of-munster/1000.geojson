@@ -1,0 +1,18 @@
+{
+  "properties": {
+    "realm": "Kingdom of Munster",
+    "leader": "Brian Boru",
+    "info": "Munster was ruled by Brian Boru, who around 1000 became the strongest contender for supremacy over Ireland. He was not yet the undisputed ruler of the whole island. Its extent is shown using modern counties as a rough approximation.",
+    "regionAdmins": ["Ireland"],
+    "fillColor": "#9c654d",
+    "borderColor": "#60402f"
+  },
+  "provinces": [
+    "clare",
+    "cork",
+    "kerry",
+    "limerick",
+    "tipperary",
+    "waterford"
+  ]
+}

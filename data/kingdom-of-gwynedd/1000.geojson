@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "realm": "Kingdom of Gwynedd",
+    "leader": "Welsh princely dynasty; ruler in 1000 uncertain",
+    "info": "One of several Welsh kingdoms, centered in northwestern Wales. This is an approximate grouping of modern areas, not a secure reconstruction of historical borders.",
+    "regionFilters": [
+      {
+        "admin": "United Kingdom",
+        "geonunit": "Wales",
+        "ids": ["anglesey", "gwynedd", "conwy", "denbighshire", "flintshire"]
+      }
+    ],
+    "fillColor": "#669b83",
+    "borderColor": "#3d5e4f"
+  },
+  "provinces": []
+}

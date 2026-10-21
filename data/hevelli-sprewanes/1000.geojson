@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "realm": "Heveller and Sprewaner Lands",
+    "leader": "Local princes; no shared ruler is securely attested",
+    "info": "A schematic map of West Slavic lands in present-day Brandenburg and Berlin around 1000. The Heveller were centered farther west around the Havel, while the Sprewaner lived around the Spree. After the revolt of 983, the area was no longer under lasting Ottonian control. The boundary and political relationship between the two groups cannot be reliably represented using modern regions; the shared color means only that the map does not distinguish them at this scale.",
+    "regionAdmins": ["Germany"],
+    "fillColor": "#718b72",
+    "borderColor": "#405542"
+  },
+  "provinces": [
+    "berlin",
+    "brandenburg"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "realm": "Kingdom of Alania",
+    "leader": "Alanian kings",
+    "info": "The Christian Kingdom of Alania was a regional power in the North Caucasus around 1000. Present-day North Ossetia, Kabardino-Balkaria and Karachay-Cherkessia are used as approximate geographic markers; the historical extent was not identical to these regions.",
+    "regionFilters": [
+      {
+        "admin": "Russia",
+        "ids": [
+          "republicofnorthossetia-alania",
+          "kabardino-balkaria",
+          "karachay-cherkessrepublic"
+        ]
+      }
+    ],
+    "fillColor": "#8d7d9f",
+    "borderColor": "#5c5068"
+  },
+  "provinces": []
+}

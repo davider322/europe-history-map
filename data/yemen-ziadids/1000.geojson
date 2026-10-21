@@ -1,0 +1,21 @@
+{
+  "properties": {
+    "realm": "Ziyadid Dynasty in Tihama",
+    "leader": "Local Ziyadid rulers",
+    "info": "The Ziyadid dynasty was centered on Zabid and controlled parts of the Tihama coastal plain around 1000. The modern map uses coastal governorates as an approximation; the interior was ruled by other dynasties and tribal leaders.",
+    "regionFilters": [
+      {
+        "admin": "Yemen",
+        "ids": [
+          "yem-al-hudaydah-governorate",
+          "yem-hajjah-governorate",
+          "yem-al-mahwit-governorate",
+          "yem-raymah-governorate"
+        ]
+      }
+    ],
+    "fillColor": "#a67a4e",
+    "borderColor": "#694c30"
+  },
+  "provinces": []
+}

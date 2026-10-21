@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Crimea (Byzantine Coastal Enclaves and Steppe Frontier)",
+    "leader": "Local powers; control varied",
+    "info": "Around 1000, Crimea was politically divided among Byzantine coastal enclaves, local rulers and steppe peoples. The entire peninsula cannot be described as one realm; modern Crimea and Sevastopol boundaries are used only as a rough marker of this disputed frontier.",
+    "regionFilters": [
+      {
+        "admin": "Russia",
+        "ids": ["autonomousrepublicofcrimea", "sevastopol"]
+      }
+    ],
+    "fillColor": "#9b8291",
+    "borderColor": "#62505c"
+  },
+  "provinces": []
+}

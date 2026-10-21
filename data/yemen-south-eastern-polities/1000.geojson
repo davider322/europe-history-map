@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "realm": "Southern and Eastern Arabia (Local Dynasties)",
+    "leader": "Several local dynasties and tribal leaders",
+    "info": "Around 1000, southern and eastern Yemen consisted of several local powers and tribal lands. Hadramawt, Aden and the southern highlands had shifting regional rulers; the map groups them as an uncertain sphere of power, not a unified Yemeni kingdom.",
+    "regionFilters": [
+      {
+        "admin": "Yemen",
+        "ids": [
+          "yem-lahij-governorate",
+          "yem-adan-governorate",
+          "yem-ta-izz-governorate",
+          "yem-shabwah-governorate",
+          "yem-hadhramaut",
+          "yem-abyan-governorate",
+          "yem-ad-dali-governorate",
+          "yem-al-mahrah-governorate",
+          "yem-socotra"
+        ]
+      }
+    ],
+    "fillColor": "#8e705e",
+    "borderColor": "#5c493d"
+  },
+  "provinces": []
+}

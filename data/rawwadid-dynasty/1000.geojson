@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Rawadid Dynasty in Azerbaijan",
+    "leader": "Abu\u0027l-Hayja Muhammad ibn Husayn",
+    "info": "The Rawadid dynasty was centered around Tabriz and ruled parts of historical Azerbaijan around 1000. Modern provinces in northwestern Iran are a broad approximation; local powers and borders shifted.",
+    "regionFilters": [
+      {
+        "admin": "Iran",
+        "ids": ["irn-west-azerbaijan", "irn-east-azerbaijan", "irn-ardabil"]
+      }
+    ],
+    "fillColor": "#96704f",
+    "borderColor": "#624a34"
+  },
+  "provinces": []
+}

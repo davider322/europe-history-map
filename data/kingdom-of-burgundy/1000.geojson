@@ -1,0 +1,39 @@
+{
+  "properties": {
+    "realm": "Kingdom of Burgundy",
+    "leader": "Rudolf III",
+    "info": "An approximate map of the Kingdom of Burgundy around 1000 across parts of present-day eastern and southeastern France and western Switzerland. It was a separate kingdom from West Francia; local counts, bishops and other rulers were highly influential. Modern departmental and cantonal borders are not historical borders.",
+    "regionAdmins": ["France", "Switzerland"],
+    "fillColor": "#8d6ba8",
+    "borderColor": "#503a62"
+  },
+  "provinces": [
+    "valais",
+    "jura",
+    "geneva",
+    "vaud",
+    "neuchâtel",
+    "bern",
+    "fribourg",
+    "solothurn",
+    "basel-stadt",
+    "basel-landschaft",
+    "doubs",
+    "jura",
+    "haute-saône",
+    "territoiredebelfort",
+    "ain",
+    "rhône",
+    "savoie",
+    "haute-savoie",
+    "isère",
+    "drôme",
+    "ardèche",
+    "hautes-alpes",
+    "alpes-de-haute-provence",
+    "alpes-maritimes",
+    "bouches-du-rhône",
+    "vaucluse",
+    "var"
+  ]
+}

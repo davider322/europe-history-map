@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Yotvingian Frontierlands",
+    "leader": "Local Yotvingian chieftains",
+    "info": "The Yotvingians (Sudovians) were a Baltic people in the frontier between Prussian, Lithuanian and Polish powers. The area had no unified state; present-day Podlasie is shown only as an approximate marker.",
+    "regionFilters": [
+      {
+        "admin": "Poland",
+        "ids": ["podlaskievoivodeship"]
+      }
+    ],
+    "fillColor": "#8f815f",
+    "borderColor": "#5d543e"
+  },
+  "provinces": []
+}

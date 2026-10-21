@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "realm": "Gotlandic Assembly",
+    "leader": "Local chieftains and the assembly",
+    "info": "Around 1000, Gotland had a strong local identity, self-government and extensive trade networks. The island was not a modern Swedish province; its political relationship with the Swedish kings developed gradually and is disputed. The map shows the island as a distinct local polity.",
+    "regionAdmins": ["Sweden"],
+    "fillColor": "#4f8b83",
+    "borderColor": "#2e544f"
+  },
+  "provinces": [
+    "gotland"
+  ]
+}

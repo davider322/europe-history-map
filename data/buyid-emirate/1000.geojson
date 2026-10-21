@@ -1,0 +1,43 @@
+{
+  "properties": {
+    "realm": "Buyid Iraq",
+    "leader": "Baha al-Dawla",
+    "info": "Around 1000, the Buyid emir Baha al-Dawla held actual political and military power in Iraq, including Baghdad. The Abbasid caliph retained religious standing and formal dignity. The Buyid Iranian domain included western and central parts of present-day Iran. Kuwait and modern provinces are rough map references; these were not modern administrative borders.",
+    "regionFilters": [
+      {
+        "admin": "Iraq"
+      },
+      {
+        "admin": "Kuwait"
+      },
+      {
+        "admin": "Iran",
+        "ids": [
+          "irn-kerman",
+          "irn-ilam",
+          "irn-lorestan",
+          "irn-markazi",
+          "irn-chaharmahal-and-bakhtiari",
+          "irn-kermanshah",
+          "irn-hamadan",
+          "irn-qazvin",
+          "irn-zanjan",
+          "irn-isfahan",
+          "irn-kohgiluyeh-and-boyer-ahmad",
+          "irn-kurdistan",
+          "irn-fars",
+          "irn-bushehr",
+          "irn-qom",
+          "irn-alborz",
+          "irn-yazd",
+          "irn-hormozgan",
+          "irn-khuzestan",
+          "irn-tehran"
+        ]
+      }
+    ],
+    "fillColor": "#896b4d",
+    "borderColor": "#57412d"
+  },
+  "provinces": []
+}

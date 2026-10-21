@@ -1,0 +1,27 @@
+{
+  "properties": {
+    "realm": "Kingdom of Leinster",
+    "leader": "Donnchad mac Domnaill Cláin",
+    "info": "Leinster was a regional kingdom in eastern Ireland. Dublin\u0027s Norse rulers were a separate power, and the city\u0027s suzerainty changed around 1000; modern county borders provide only a rough picture.",
+    "regionAdmins": ["Ireland"],
+    "fillColor": "#b89955",
+    "borderColor": "#706033"
+  },
+  "provinces": [
+    "carlow",
+    "dublin",
+    "dúnlaoghaire–rathdown",
+    "fingal",
+    "louth",
+    "meath",
+    "kildare",
+    "kilkenny",
+    "laois",
+    "offaly",
+    "westmeath",
+    "wicklow",
+    "wexford",
+    "southdublin",
+    "longford"
+  ]
+}

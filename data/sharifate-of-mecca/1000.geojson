@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Sharifate of Mecca",
+    "leader": "Abu al-Futuh al-Hasan ibn Ja\u0027far",
+    "info": "Mecca was ruled by a local sharif who around 1000 acknowledged Fatimid suzerainty. Medina and the surrounding Hijaz are shown as a cautious regional approximation; local autonomy was substantial.",
+    "regionFilters": [
+      {
+        "admin": "Saudi Arabia",
+        "ids": ["sau-makkah-region", "sau-al-madinah-region"]
+      }
+    ],
+    "fillColor": "#c2a15d",
+    "borderColor": "#79633a"
+  },
+  "provinces": []
+}

@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "realm": "Icelandic Commonwealth",
+    "leader": "The Althing and local chieftains",
+    "info": "Around 1000, Iceland was a self-governing commonwealth without a king, where chieftains and the Althing held political influence. Christianity was adopted by a decision of the Althing around this time. Modern Icelandic regions are used only as map references.",
+    "regionFilters": [
+      {
+        "admin": "Iceland"
+      }
+    ],
+    "fillColor": "#8a9a63",
+    "borderColor": "#58613d"
+  },
+  "provinces": []
+}

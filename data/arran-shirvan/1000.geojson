@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Arran and Shirvan (Local Dynasties)",
+    "leader": "Shaddadids and Shirvanshahs; multiple rulers",
+    "info": "Around 1000, present-day Azerbaijan contained several powers, including the Shaddadids around Ganja and the Shirvanshahs farther east. They are shown together because the available regional data does not distinguish their historical borders. Nakhchivan is shown separately among the Armenian and Caucasian centers of power; exact control was disputed.",
+    "regionFilters": [
+      {
+        "admin": "Azerbaijan",
+        "ids": ["aze-contiguous-azerbaijan"]
+      }
+    ],
+    "fillColor": "#93795a",
+    "borderColor": "#5e4d3a"
+  },
+  "provinces": []
+}

@@ -1,0 +1,35 @@
+{
+  "properties": {
+    "realm": "Saharan Frontier and Tribal Lands",
+    "leader": "Local Amazigh, Sanhaja and Tuareg groups",
+    "info": "Around 1000, the Sahara and its margins consisted of vast areas of local Amazigh, Sanhaja and Tuareg communities and trade networks, not a single state. Modern administrative regions are used only as approximate geographic markers for the areas visible in the map.",
+    "regionFilters": [
+      {
+        "admin": "Morocco",
+        "ids": ["oueded-dahab"]
+      },
+      {
+        "admin": "Algeria",
+        "ids": ["adrar", "tamanghasset", "tindouf", "ouargla", "illizi"]
+      },
+      {
+        "admin": "Libya",
+        "ids": [
+          "ghadames",
+          "kufra",
+          "murzuq",
+          "ashshati",
+          "ghat",
+          "jafara",
+          "mizdah",
+          "jufra",
+          "sabha",
+          "wadialhayaa"
+        ]
+      }
+    ],
+    "fillColor": "#a89d84",
+    "borderColor": "#6c6452"
+  },
+  "provinces": []
+}

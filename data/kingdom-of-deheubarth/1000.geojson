@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "realm": "Kingdom of Deheubarth",
+    "leader": "Welsh princely dynasty; ruler in 1000 uncertain",
+    "info": "One of the most important Welsh kingdoms in the southwest. Modern areas are used only as an approximate map.",
+    "regionFilters": [
+      {
+        "admin": "United Kingdom",
+        "geonunit": "Wales",
+        "ids": ["pembrokeshire", "carmarthenshire", "ceredigion"]
+      }
+    ],
+    "fillColor": "#b08b5a",
+    "borderColor": "#70583a"
+  },
+  "provinces": []
+}

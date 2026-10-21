@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "realm": "Yemeni Highlands (Zaydi and Local Powers)",
+    "leader": "Zaydi imams and local dynasties",
+    "info": "Around 1000, Yemen\u0027s northern highlands were shaped by the Zaydi imamate tradition, local dynasties and tribal confederations. No ruler controlled all of modern Yemen. Modern governorates are a very rough approximation of a politically fragmented region.",
+    "regionFilters": [
+      {
+        "admin": "Yemen",
+        "ids": [
+          "yem-san-a",
+          "yem-san-a-governorate",
+          "yem-sa-dah-governorate",
+          "yem-amran-governorate",
+          "yem-al-jawf-governorate",
+          "yem-dhamar-governorate",
+          "yem-ma-rib-governorate",
+          "yem-al-bayda-governorate",
+          "yem-ibb-governorate"
+        ]
+      }
+    ],
+    "fillColor": "#7e6eaa",
+    "borderColor": "#4e436c"
+  },
+  "provinces": []
+}

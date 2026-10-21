@@ -1,0 +1,28 @@
+﻿{
+    "properties":  {
+                       "realm":  "Principality of Capua",
+                       "leader":  "Landulf VII",
+                       "info":  "A Lombard principality centered on Capua. Landulf VII was restored as prince around 1000. Its extent is shown approximately using modern administrative regions. The relevant areas of southern Italy use the original base provinces; the realm\u0027s political extent is unchanged.",
+                       "regionAdmins":  [
+                                            "Italy"
+                                        ],
+                       "fillColor":  "#d08a2e",
+                       "borderColor":  "#80501a",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Italy",
+                                                 "geonunit":  "Italy",
+                                                 "ids":  [
+                                                             "caserta",
+                                                             "chieti",
+                                                             "l\u0027aquila",
+                                                             "pescara",
+                                                             "teramo"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+
+                  ]
+}

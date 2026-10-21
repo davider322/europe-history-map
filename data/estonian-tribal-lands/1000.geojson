@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "realm": "Estonian Lands",
+    "leader": "Local Estonian chieftains",
+    "info": "Around 1000, present-day Estonia consisted of several independent lands and local chiefdoms, not a unified state. It is therefore marked as an approximate cultural region; modern counties are only map references.",
+    "regionFilters": [
+      {
+        "admin": "Estonia"
+      }
+    ],
+    "fillColor": "#9d9973",
+    "borderColor": "#666247"
+  },
+  "provinces": []
+}

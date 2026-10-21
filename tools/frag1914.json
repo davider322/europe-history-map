@@ -1,0 +1,1487 @@
+{
+    "baseYear":  1900,
+    "note":  "Europe in 1914 after the Balkan Wars and before the First World War: independent Norway and Albania, enlarged Serbia, Greece and Romania, and Italian Libya. Modern provinces are approximate territorial proxies.",
+    "overrides":  {
+                      "Ottoman Empire (Serbia)":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "dibër",
+                                                                                            "centaržupa",
+                                                                                            "mavrovoandrostuša",
+                                                                                            "gostivar",
+                                                                                            "kukës",
+                                                                                            "novoselo",
+                                                                                            "dojran",
+                                                                                            "valandovo",
+                                                                                            "strumica",
+                                                                                            "bogdanci",
+                                                                                            "gevgelija",
+                                                                                            "kavadarci",
+                                                                                            "lipkovo",
+                                                                                            "čučer-sandevo",
+                                                                                            "gjorčepetrov",
+                                                                                            "saraj",
+                                                                                            "jegunovce",
+                                                                                            "tearce",
+                                                                                            "tetovo",
+                                                                                            "bogovinje",
+                                                                                            "vrapčište",
+                                                                                            "krivapalanka",
+                                                                                            "rankovce",
+                                                                                            "staronagoričane",
+                                                                                            "kumanovo",
+                                                                                            "delčevo",
+                                                                                            "makedonskakamenica",
+                                                                                            "berovo",
+                                                                                            "pehčevo",
+                                                                                            "shkodër",
+                                                                                            "lezhë",
+                                                                                            "želino",
+                                                                                            "brvenica",
+                                                                                            "oslomej",
+                                                                                            "sopište",
+                                                                                            "karpoš",
+                                                                                            "šutoorizari",
+                                                                                            "butel",
+                                                                                            "čair",
+                                                                                            "centar",
+                                                                                            "zajas",
+                                                                                            "čaška",
+                                                                                            "rosoman",
+                                                                                            "negotino",
+                                                                                            "drugovo",
+                                                                                            "gazibaba",
+                                                                                            "kruševo",
+                                                                                            "aerodrom",
+                                                                                            "studeničani",
+                                                                                            "kiselavoda",
+                                                                                            "probištip",
+                                                                                            "češinovo-obleševo",
+                                                                                            "aračinovo",
+                                                                                            "zelenikovo",
+                                                                                            "vraneštica",
+                                                                                            "skopje",
+                                                                                            "lozovo",
+                                                                                            "svetinikole",
+                                                                                            "gradsko",
+                                                                                            "kratovo",
+                                                                                            "ilinden",
+                                                                                            "karbinci",
+                                                                                            "štip",
+                                                                                            "kočani",
+                                                                                            "zrnovci",
+                                                                                            "veles",
+                                                                                            "demirkapija",
+                                                                                            "vinica",
+                                                                                            "bosilovo",
+                                                                                            "radoviš",
+                                                                                            "vasilevo",
+                                                                                            "konče",
+                                                                                            "kosovo"
+                                                                                        ],
+                                                                         "leader":  "Mehmed V",
+                                                                         "info":  "Ottoman Empire (Serbia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Cyrenaica)":  {
+                                                         "properties":  {
+                                                                            "excludeIds":  [
+                                                                                               "butnan",
+                                                                                               "ajdabiya",
+                                                                                               "sirte",
+                                                                                               "alqubbah",
+                                                                                               "jabalalakhdar",
+                                                                                               "marj",
+                                                                                               "benghazi"
+                                                                                           ],
+                                                                            "leader":  "Mehmed V",
+                                                                            "info":  "Ottoman Empire (Cyrenaica) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Kingdom of Greece (Thessaly)":  {
+                                                           "properties":  {
+                                                                              "excludeIds":  [
+                                                                                                 "thessalia"
+                                                                                             ],
+                                                                              "leader":  "Constantine I",
+                                                                              "info":  "Kingdom of Greece (Thessaly) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                          }
+                                                       },
+                      "Ottoman Empire (Aegean)":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "crete"
+                                                                                        ],
+                                                                         "leader":  "Mehmed V",
+                                                                         "info":  "Ottoman Empire (Aegean) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Ottoman Empire (Albania)":  {
+                                                       "properties":  {
+                                                                          "excludeIds":  [
+                                                                                             "korçë",
+                                                                                             "epirus",
+                                                                                             "gjirokastër",
+                                                                                             "vlorë"
+                                                                                         ],
+                                                                          "leader":  "Mehmed V",
+                                                                          "info":  "Ottoman Empire (Albania) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Kingdom of Greece (Ionian Islands)":  {
+                                                                 "properties":  {
+                                                                                    "excludeIds":  [
+                                                                                                       "ionianislands"
+                                                                                                   ],
+                                                                                    "leader":  "Constantine I",
+                                                                                    "info":  "Kingdom of Greece (Ionian Islands) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                }
+                                                             },
+                      "Ottoman Empire (Rumelia)":  {
+                                                       "properties":  {
+                                                                          "excludeIds":  [
+                                                                                             "istanbul",
+                                                                                             "struga",
+                                                                                             "debar",
+                                                                                             "vevčani",
+                                                                                             "ohrid",
+                                                                                             "debarca",
+                                                                                             "resen",
+                                                                                             "westmacedonia",
+                                                                                             "centremacedonia",
+                                                                                             "novaci",
+                                                                                             "prilep",
+                                                                                             "bitola",
+                                                                                             "eastmacedoniaandthrace",
+                                                                                             "mountathos",
+                                                                                             "fier",
+                                                                                             "northaegean",
+                                                                                             "berat",
+                                                                                             "makedonskibrod",
+                                                                                             "dolneni",
+                                                                                             "krivogaštani",
+                                                                                             "mogila",
+                                                                                             "demirhisar",
+                                                                                             "kičevo",
+                                                                                             "plasnica"
+                                                                                         ],
+                                                                          "leader":  "Mehmed V",
+                                                                          "info":  "Ottoman Empire (Rumelia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Kingdom of Greece (Aegean)":  {
+                                                         "properties":  {
+                                                                            "excludeIds":  [
+                                                                                               "southaegean"
+                                                                                           ],
+                                                                            "leader":  "Constantine I",
+                                                                            "info":  "Kingdom of Greece (Aegean) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Saharan Frontier and Tribal Lands":  {
+                                                                "properties":  {
+                                                                                   "excludeIds":  [
+                                                                                                      "ghadames",
+                                                                                                      "kufra",
+                                                                                                      "murzuq",
+                                                                                                      "ashshati",
+                                                                                                      "ghat",
+                                                                                                      "jafara",
+                                                                                                      "mizdah",
+                                                                                                      "jufra",
+                                                                                                      "sabha",
+                                                                                                      "wadialhayaa"
+                                                                                                  ],
+                                                                                   "leader":  "Local authorities",
+                                                                                   "info":  "Saharan Frontier and Tribal Lands in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                               }
+                                                            },
+                      "Ottoman Empire (Tripolitania)":  {
+                                                            "properties":  {
+                                                                               "excludeIds":  [
+                                                                                                  "nuqatalkhams",
+                                                                                                  "misrata",
+                                                                                                  "murqub",
+                                                                                                  "tripolidistrict",
+                                                                                                  "zawiya"
+                                                                                              ],
+                                                                               "leader":  "Mehmed V",
+                                                                               "info":  "Ottoman Empire (Tripolitania) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                           }
+                                                        },
+                      "Kingdom of Greece (Constantinople)":  {
+                                                                 "properties":  {
+                                                                                    "excludeIds":  [
+                                                                                                       "peloponnese"
+                                                                                                   ],
+                                                                                    "leader":  "Constantine I",
+                                                                                    "info":  "Kingdom of Greece (Constantinople) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                }
+                                                             },
+                      "Principality of Bulgaria":  {
+                                                       "properties":  {
+                                                                          "excludeIds":  [
+                                                                                             "silistra",
+                                                                                             "dobrich"
+                                                                                         ],
+                                                                          "realm":  "Tsardom of Bulgaria",
+                                                                          "label":  "Bulgaria",
+                                                                          "fillColor":  "#5f9ea0",
+                                                                          "borderColor":  "#2f5e60",
+                                                                          "leader":  "Ferdinand I",
+                                                                          "info":  "Bulgaria had become a tsardom in 1908 and ceded southern Dobruja to Romania after the Second Balkan War."
+                                                                      }
+                                                   },
+                      "Kingdom of Greece (Albania)":  {
+                                                          "properties":  {
+                                                                             "excludeIds":  [
+                                                                                                "westgreece"
+                                                                                            ],
+                                                                             "leader":  "Constantine I",
+                                                                             "info":  "Kingdom of Greece (Albania) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                         }
+                                                      },
+                      "Ottoman Empire (Albania) 2":  {
+                                                         "properties":  {
+                                                                            "excludeIds":  [
+                                                                                               "elbasan",
+                                                                                               "tirana",
+                                                                                               "durrës"
+                                                                                           ],
+                                                                            "leader":  "Mehmed V",
+                                                                            "info":  "Ottoman Empire (Albania) 2 in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Kingdom of Italy (Kingdom of Sardinia)":  {
+                                                                     "properties":  {
+                                                                                        "leader":  "Victor Emmanuel III",
+                                                                                        "info":  "Kingdom of Italy (Kingdom of Sardinia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                    }
+                                                                 },
+                      "French Republic (Annexed Territories)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Raymond PoincarÃ© (President)",
+                                                                                       "info":  "French Republic (Annexed Territories) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                   }
+                                                                },
+                      "Russian Empire (Crimea) 2":  {
+                                                        "properties":  {
+                                                                           "leader":  "Nicholas II",
+                                                                           "info":  "Russian Empire (Crimea) 2 in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "Historical Microstates":  {
+                                                     "properties":  {
+                                                                        "leader":  "Local authorities",
+                                                                        "info":  "Historical Microstates in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                    }
+                                                 },
+                      "Taifa of Zaragoza":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Taifa of Zaragoza in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Kingdom of Romania":  {
+                                                 "properties":  {
+                                                                    "realm":  "Kingdom of Romania",
+                                                                    "label":  "Romania",
+                                                                    "fillColor":  "#cc8f6a",
+                                                                    "borderColor":  "#7a4a32",
+                                                                    "leader":  "Carol I",
+                                                                    "info":  "Romania acquired southern Dobruja from Bulgaria in 1913; modern provinces are approximate borders.",
+                                                                    "regionFilters":  [
+                                                                                          {
+                                                                                              "admin":  "Bulgaria",
+                                                                                              "ids":  [
+                                                                                                          "dobrich",
+                                                                                                          "silistra"
+                                                                                                      ]
+                                                                                          }
+                                                                                      ]
+                                                                }
+                                             },
+                      "Tao-Klarjeti (Bagratid Domain)":  {
+                                                             "properties":  {
+                                                                                "leader":  "Local authorities",
+                                                                                "info":  "Tao-Klarjeti (Bagratid Domain) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                            }
+                                                         },
+                      "Russian Empire (Estonia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Nicholas II",
+                                                                          "info":  "Russian Empire (Estonia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Austria-Hungary (Banat)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Franz Joseph I",
+                                                                         "info":  "Austria-Hungary (Banat) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Duchy of Naples":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Duchy of Naples in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                             }
+                                          },
+                      "Kingdom of Abkhazia":  {
+                                                  "properties":  {
+                                                                     "leader":  "Local authorities",
+                                                                     "info":  "Kingdom of Abkhazia in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                 }
+                                              },
+                      "Arabian Tribal Polities":  {
+                                                      "properties":  {
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Arabian Tribal Polities in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Russian Empire (Volga–Ural)":  {
+                                                          "properties":  {
+                                                                             "leader":  "Nicholas II",
+                                                                             "info":  "Russian Empire (Volga–Ural) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                         }
+                                                      },
+                      "Kingdom of Powys":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Kingdom of Powys in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "France (Africa)":  {
+                                              "properties":  {
+                                                                 "leader":  "Raymond PoincarÃ© (President)",
+                                                                 "info":  "France (Africa) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                             }
+                                          },
+                      "Ottoman Empire (Antioch)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Mehmed V",
+                                                                          "info":  "Ottoman Empire (Antioch) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Ottoman Empire":  {
+                                             "properties":  {
+                                                                "leader":  "Mehmed V",
+                                                                "info":  "Ottoman Empire in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                            }
+                                         },
+                      "Switzerland (Holy Roman Empire)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Local authorities",
+                                                                                 "info":  "Switzerland (Holy Roman Empire) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                             }
+                                                          },
+                      "Kingdom of León":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Kingdom of León in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                             }
+                                          },
+                      "United Kingdom (Cyprus)":  {
+                                                      "properties":  {
+                                                                         "leader":  "George V",
+                                                                         "info":  "United Kingdom (Cyprus) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "France (Corsica)":  {
+                                               "properties":  {
+                                                                  "leader":  "Raymond PoincarÃ© (President)",
+                                                                  "info":  "France (Corsica) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "Ottoman Empire (Egypt and Syria)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "Mehmed V",
+                                                                                  "info":  "Ottoman Empire (Egypt and Syria) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                              }
+                                                           },
+                      "Kingdom of Italy (Republic of Venice)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Victor Emmanuel III",
+                                                                                       "info":  "Kingdom of Italy (Republic of Venice) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                   }
+                                                                },
+                      "Marwanid Emirate":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Marwanid Emirate in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "Kingdom of Leinster":  {
+                                                  "properties":  {
+                                                                     "leader":  "Local authorities",
+                                                                     "info":  "Kingdom of Leinster in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                 }
+                                              },
+                      "Austria-Hungary (Galicia)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Franz Joseph I",
+                                                                           "info":  "Austria-Hungary (Galicia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "German Empire (Pomerania)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Wilhelm II",
+                                                                           "info":  "German Empire (Pomerania) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "County of Roussillon":  {
+                                                   "properties":  {
+                                                                      "leader":  "Local authorities",
+                                                                      "info":  "County of Roussillon in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                  }
+                                               },
+                      "France (Gascony, Dauphiné and annexations)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "Raymond PoincarÃ© (President)",
+                                                                                            "info":  "France (Gascony, Dauphiné and annexations) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                        }
+                                                                     },
+                      "United Kingdom (Scotland)":  {
+                                                        "properties":  {
+                                                                           "leader":  "George V",
+                                                                           "info":  "United Kingdom (Scotland) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Banat)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Mehmed V",
+                                                                        "info":  "Ottoman Empire (Banat) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                    }
+                                                 },
+                      "Russian Empire (Finland)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Nicholas II",
+                                                                          "info":  "Russian Empire (Finland) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Iraq)":  {
+                                                    "properties":  {
+                                                                       "leader":  "Mehmed V",
+                                                                       "info":  "Ottoman Empire (Iraq) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                   }
+                                                },
+                      "Ottoman Empire (Trebizond)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Mehmed V",
+                                                                            "info":  "Ottoman Empire (Trebizond) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Tunis)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Mehmed V",
+                                                                        "info":  "Ottoman Empire (Tunis) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                    }
+                                                 },
+                      "Polish–Lithuanian Commonwealth (Ruthenia)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Local authorities",
+                                                                                           "info":  "Polish–Lithuanian Commonwealth (Ruthenia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                       }
+                                                                    },
+                      "Denmark–Norway (Gotland)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Christian X",
+                                                                          "info":  "Denmark–Norway (Gotland) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Principality of Salerno":  {
+                                                      "properties":  {
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Principality of Salerno in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "French Republic (Savoy)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Raymond PoincarÃ© (President)",
+                                                                         "info":  "French Republic (Savoy) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Sámi and Northern Frontierlands":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Local authorities",
+                                                                                 "info":  "Sámi and Northern Frontierlands in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                             }
+                                                          },
+                      "Netherlands":  {
+                                          "properties":  {
+                                                             "leader":  "Wilhelmina",
+                                                             "info":  "Netherlands in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                         }
+                                      },
+                      "German Empire (Polish partition)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "Wilhelm II",
+                                                                                  "info":  "German Empire (Polish partition) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                              }
+                                                           },
+                      "German Empire (Swedish Pomerania)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "Wilhelm II",
+                                                                                   "info":  "German Empire (Swedish Pomerania) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                               }
+                                                            },
+                      "Russian Empire (Sámi and Northern Frontierlands)":  {
+                                                                               "properties":  {
+                                                                                                  "leader":  "Nicholas II",
+                                                                                                  "info":  "Russian Empire (Sámi and Northern Frontierlands) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                              }
+                                                                           },
+                      "Danish Estonia":  {
+                                             "properties":  {
+                                                                "leader":  "Local authorities",
+                                                                "info":  "Danish Estonia in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                            }
+                                         },
+                      "Duchy of Normandy":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Duchy of Normandy in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Russian Empire":  {
+                                             "properties":  {
+                                                                "leader":  "Nicholas II",
+                                                                "info":  "Russian Empire in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                            }
+                                         },
+                      "Kingdom of Prussia (Polish partition)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Local authorities",
+                                                                                       "info":  "Kingdom of Prussia (Polish partition) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                   }
+                                                                },
+                      "Ottoman Empire (Upper Mesopotamia)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "Mehmed V",
+                                                                                    "info":  "Ottoman Empire (Upper Mesopotamia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                }
+                                                             },
+                      "United Kingdom (Northern Isles)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "George V",
+                                                                                 "info":  "United Kingdom (Northern Isles) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                             }
+                                                          },
+                      "Denmark (Iceland)":  {
+                                                "properties":  {
+                                                                   "leader":  "Christian X",
+                                                                   "info":  "Denmark (Iceland) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Taifa of Granada":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Taifa of Granada in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "Spanish Monarchy (Navarre)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Local authorities",
+                                                                            "info":  "Spanish Monarchy (Navarre) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Denmark (Faroe Islands)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Christian X",
+                                                                         "info":  "Denmark (Faroe Islands) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Russian Empire (Novgorod)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Nicholas II",
+                                                                           "info":  "Russian Empire (Novgorod) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "Kingdom of Greece":  {
+                                                "properties":  {
+                                                                   "realm":  "Kingdom of Greece",
+                                                                   "label":  "Greece",
+                                                                   "fillColor":  "#6fa8d8",
+                                                                   "borderColor":  "#35607f",
+                                                                   "leader":  "Constantine I",
+                                                                   "info":  "Greece expanded into Epirus, Macedonia, Crete and the Aegean islands after the Balkan Wars of 1912-13.",
+                                                                   "regionFilters":  [
+                                                                                         {
+                                                                                             "admin":  "Greece"
+                                                                                         }
+                                                                                     ]
+                                                               }
+                                            },
+                      "Holy Roman Empire":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Holy Roman Empire in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Russian Empire (Lithuania)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Nicholas II",
+                                                                            "info":  "Russian Empire (Lithuania) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Ottoman Empire (Palestine coast)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "Mehmed V",
+                                                                                  "info":  "Ottoman Empire (Palestine coast) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                              }
+                                                           },
+                      "Kingdom of Deheubarth":  {
+                                                    "properties":  {
+                                                                       "leader":  "Local authorities",
+                                                                       "info":  "Kingdom of Deheubarth in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                   }
+                                                },
+                      "Ottoman Empire (Erzurum)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Mehmed V",
+                                                                          "info":  "Ottoman Empire (Erzurum) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "France (Provence)":  {
+                                                "properties":  {
+                                                                   "leader":  "Raymond PoincarÃ© (President)",
+                                                                   "info":  "France (Provence) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Ottoman Empire (Hejaz)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Mehmed V",
+                                                                        "info":  "Ottoman Empire (Hejaz) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                    }
+                                                 },
+                      "Russian Empire (Arran and Shirvan)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "Nicholas II",
+                                                                                    "info":  "Russian Empire (Arran and Shirvan) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                }
+                                                             },
+                      "Kingdom of Serbia":  {
+                                                "properties":  {
+                                                                   "realm":  "Kingdom of Serbia",
+                                                                   "label":  "Serbia",
+                                                                   "fillColor":  "#8e6aa8",
+                                                                   "borderColor":  "#4f3a63",
+                                                                   "leader":  "Peter I",
+                                                                   "info":  "Serbia had gained Kosovo and most of Vardar Macedonia in the Balkan Wars; modern provinces are approximate borders.",
+                                                                   "regionFilters":  [
+                                                                                         {
+                                                                                             "admin":  "Republic of Serbia",
+                                                                                             "ids":  [
+                                                                                                         "kolubara",
+                                                                                                         "moravica",
+                                                                                                         "šumadija",
+                                                                                                         "pomoravski",
+                                                                                                         "nišava",
+                                                                                                         "podunavlje",
+                                                                                                         "belgrade",
+                                                                                                         "braničevo",
+                                                                                                         "mačva",
+                                                                                                         "zlatibor",
+                                                                                                         "toplica",
+                                                                                                         "rasina",
+                                                                                                         "raška",
+                                                                                                         "jablanica",
+                                                                                                         "pirot",
+                                                                                                         "zaječar",
+                                                                                                         "bor",
+                                                                                                         "pčinja"
+                                                                                                     ]
+                                                                                         },
+                                                                                         {
+                                                                                             "admin":  "Kosovo"
+                                                                                         },
+                                                                                         {
+                                                                                             "admin":  "Macedonia"
+                                                                                         }
+                                                                                     ]
+                                                               }
+                                            },
+                      "Russian Empire (Astrakhan)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Nicholas II",
+                                                                            "info":  "Russian Empire (Astrakhan) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Austria-Hungary (Bosnia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Franz Joseph I",
+                                                                          "info":  "Austria-Hungary (Bosnia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Kingdom of Italy (Savoy)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Victor Emmanuel III",
+                                                                          "info":  "Kingdom of Italy (Savoy) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Austria-Hungary (Hungarian crown)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "Franz Joseph I",
+                                                                                   "info":  "Austria-Hungary (Hungarian crown) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                               }
+                                                            },
+                      "Ottoman Empire (al-Hasa)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Mehmed V",
+                                                                          "info":  "Ottoman Empire (al-Hasa) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Taifa of Seville":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Taifa of Seville in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "Sweden–Norway":  {
+                                            "properties":  {
+                                                               "realm":  "Kingdom of Sweden",
+                                                               "label":  "Sweden",
+                                                               "fillColor":  "#102548",
+                                                               "borderColor":  "#06142b",
+                                                               "leader":  "Gustaf V",
+                                                               "info":  "Sweden was an independent kingdom under Gustaf V after the union with Norway dissolved in 1905.",
+                                                               "regionFilters":  [
+                                                                                     {
+                                                                                         "admin":  "Sweden"
+                                                                                     }
+                                                                                 ]
+                                                           },
+                                            "provinces":  [
+
+                                                          ]
+                                        },
+                      "Norman Apulia and Calabria":  {
+                                                         "properties":  {
+                                                                            "leader":  "Local authorities",
+                                                                            "info":  "Norman Apulia and Calabria in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Polish–Lithuanian Commonwealth":  {
+                                                             "properties":  {
+                                                                                "leader":  "Local authorities",
+                                                                                "info":  "Polish–Lithuanian Commonwealth in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                            }
+                                                         },
+                      "Russian Empire (Seversk)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Nicholas II",
+                                                                          "info":  "Russian Empire (Seversk) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Austria-Hungary":  {
+                                              "properties":  {
+                                                                 "leader":  "Franz Joseph I",
+                                                                 "info":  "Austria-Hungary in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                             }
+                                          },
+                      "French Republic (Gascony, Dauphiné and annexations)":  {
+                                                                                  "properties":  {
+                                                                                                     "leader":  "Raymond PoincarÃ© (President)",
+                                                                                                     "info":  "French Republic (Gascony, Dauphiné and annexations) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                                 }
+                                                                              },
+                      "Austria-Hungary (Principality of Moldavia)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "Franz Joseph I",
+                                                                                            "info":  "Austria-Hungary (Principality of Moldavia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                        }
+                                                                     },
+                      "Belgium":  {
+                                      "properties":  {
+                                                         "leader":  "Albert I",
+                                                         "info":  "Belgium in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                     }
+                                  },
+                      "Kingdom of Meath":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Kingdom of Meath in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "France (Lorraine)":  {
+                                                "properties":  {
+                                                                   "leader":  "Raymond PoincarÃ© (President)",
+                                                                   "info":  "France (Lorraine) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Principality of Capua":  {
+                                                    "properties":  {
+                                                                       "leader":  "Local authorities",
+                                                                       "info":  "Principality of Capua in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                   }
+                                                },
+                      "Russian Empire (Caucasian steppe)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "Nicholas II",
+                                                                                   "info":  "Russian Empire (Caucasian steppe) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                               }
+                                                            },
+                      "France (Savoy)":  {
+                                             "properties":  {
+                                                                "leader":  "Raymond PoincarÃ© (President)",
+                                                                "info":  "France (Savoy) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                            }
+                                         },
+                      "Qajar Iran":  {
+                                         "properties":  {
+                                                            "leader":  "Ahmad Shah Qajar",
+                                                            "info":  "Qajar Iran in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                        }
+                                     },
+                      "Kingdom of Italy (Cisalpine Republic)":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Victor Emmanuel III",
+                                                                                       "info":  "Kingdom of Italy (Cisalpine Republic) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                   }
+                                                                },
+                      "Eastern Anatolian and Jazira Emirates":  {
+                                                                    "properties":  {
+                                                                                       "leader":  "Local authorities",
+                                                                                       "info":  "Eastern Anatolian and Jazira Emirates in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                   }
+                                                                },
+                      "German Empire (Kingdom of Prussia)":  {
+                                                                 "properties":  {
+                                                                                    "leader":  "Wilhelm II",
+                                                                                    "info":  "German Empire (Kingdom of Prussia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                }
+                                                             },
+                      "Russian Empire (Kingdom of Georgia)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "Nicholas II",
+                                                                                     "info":  "Russian Empire (Kingdom of Georgia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                 }
+                                                              },
+                      "Kingdom of Italy (North Italian signorie)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Victor Emmanuel III",
+                                                                                           "info":  "Kingdom of Italy (North Italian signorie) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                       }
+                                                                    },
+                      "Kingdom of Italy (Papal Enclave of Benevento)":  {
+                                                                            "properties":  {
+                                                                                               "leader":  "Victor Emmanuel III",
+                                                                                               "info":  "Kingdom of Italy (Papal Enclave of Benevento) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                           }
+                                                                        },
+                      "Russian Empire (Crimea)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Nicholas II",
+                                                                         "info":  "Russian Empire (Crimea) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Kingdom of Gwynedd":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Gwynedd in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                }
+                                             },
+                      "Spanish Monarchy (Granada)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Local authorities",
+                                                                            "info":  "Spanish Monarchy (Granada) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Polish–Lithuanian Commonwealth (Pomerelia)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "Local authorities",
+                                                                                            "info":  "Polish–Lithuanian Commonwealth (Pomerelia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                        }
+                                                                     },
+                      "Taifa of Murcia":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Taifa of Murcia in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                             }
+                                          },
+                      "Ottoman Empire (Tripoli)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Mehmed V",
+                                                                          "info":  "Ottoman Empire (Tripoli) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "German Empire (Alsace)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Wilhelm II",
+                                                                        "info":  "German Empire (Alsace) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                    }
+                                                 },
+                      "Kingdom of Dublin":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Kingdom of Dublin in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "United Kingdom (Isle of Man)":  {
+                                                           "properties":  {
+                                                                              "leader":  "George V",
+                                                                              "info":  "United Kingdom (Isle of Man) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                          }
+                                                       },
+                      "Kingdom of Munster":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Munster in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                }
+                                             },
+                      "United Kingdom":  {
+                                             "properties":  {
+                                                                "leader":  "George V",
+                                                                "info":  "United Kingdom in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                            }
+                                         },
+                      "France":  {
+                                     "properties":  {
+                                                        "leader":  "Raymond PoincarÃ© (President)",
+                                                        "info":  "France in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                    }
+                                 },
+                      "Russian Empire (Finland) – Karelian Frontierlands":  {
+                                                                                "properties":  {
+                                                                                                   "leader":  "Nicholas II",
+                                                                                                   "info":  "Russian Empire (Finland) – Karelian Frontierlands in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                               }
+                                                                            },
+                      "Kingdom of Italy (Grand Duchy of Tuscany)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Victor Emmanuel III",
+                                                                                           "info":  "Kingdom of Italy (Grand Duchy of Tuscany) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                       }
+                                                                    },
+                      "France (Roussillon)":  {
+                                                  "properties":  {
+                                                                     "leader":  "Raymond PoincarÃ© (President)",
+                                                                     "info":  "France (Roussillon) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                 }
+                                              },
+                      "German Empire (East Prussia)":  {
+                                                           "properties":  {
+                                                                              "leader":  "Wilhelm II",
+                                                                              "info":  "German Empire (East Prussia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                          }
+                                                       },
+                      "Kingdom of Sicily":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Kingdom of Sicily in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Denmark–Norway":  {
+                                             "properties":  {
+                                                                "leader":  "Christian X",
+                                                                "info":  "Denmark–Norway in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                            }
+                                         },
+                      "Emirate of Tbilisi":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Emirate of Tbilisi in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                }
+                                             },
+                      "Ottoman Empire (Constantinople)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Mehmed V",
+                                                                                 "info":  "Ottoman Empire (Constantinople) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                             }
+                                                          },
+                      "Ottoman Empire (Medina)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Mehmed V",
+                                                                         "info":  "Ottoman Empire (Medina) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Kakheti (Regional Kingdom)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Local authorities",
+                                                                            "info":  "Kakheti (Regional Kingdom) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Russian Empire (Partitioned Poland)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "Nicholas II",
+                                                                                     "info":  "Russian Empire (Partitioned Poland) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                 }
+                                                              },
+                      "Polish–Lithuanian Commonwealth (Sudovia)":  {
+                                                                       "properties":  {
+                                                                                          "leader":  "Local authorities",
+                                                                                          "info":  "Polish–Lithuanian Commonwealth (Sudovia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                      }
+                                                                   },
+                      "United Kingdom (Malta)":  {
+                                                     "properties":  {
+                                                                        "leader":  "George V",
+                                                                        "info":  "United Kingdom (Malta) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                    }
+                                                 },
+                      "German Empire (Silesia)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Wilhelm II",
+                                                                         "info":  "German Empire (Silesia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Sweden":  {
+                                     "properties":  {
+                                                        "leader":  "Gustaf V",
+                                                        "info":  "Sweden in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                    }
+                                 },
+                      "United Kingdom (Connacht)":  {
+                                                        "properties":  {
+                                                                           "leader":  "George V",
+                                                                           "info":  "United Kingdom (Connacht) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "Kingdom of Italy":  {
+                                               "properties":  {
+                                                                  "leader":  "Victor Emmanuel III",
+                                                                  "info":  "Kingdom of Italy in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "German Empire (Rhineland)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Wilhelm II",
+                                                                           "info":  "German Empire (Rhineland) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "Lordship of Glamorgan":  {
+                                                    "properties":  {
+                                                                       "leader":  "Local authorities",
+                                                                       "info":  "Lordship of Glamorgan in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                   }
+                                                },
+                      "Russian Empire (Kazan)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Nicholas II",
+                                                                        "info":  "Russian Empire (Kazan) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                    }
+                                                 },
+                      "Kingdom of Portugal":  {
+                                                  "properties":  {
+                                                                     "leader":  "Manuel de Arriaga (President)",
+                                                                     "info":  "Kingdom of Portugal in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                 }
+                                              },
+                      "Austria-Hungary (Principality of Transylvania)":  {
+                                                                             "properties":  {
+                                                                                                "leader":  "Franz Joseph I",
+                                                                                                "info":  "Austria-Hungary (Principality of Transylvania) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                            }
+                                                                         },
+                      "Ottoman Empire (Aleppo)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Mehmed V",
+                                                                         "info":  "Ottoman Empire (Aleppo) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Ottoman Empire 2":  {
+                                               "properties":  {
+                                                                  "leader":  "Mehmed V",
+                                                                  "info":  "Ottoman Empire 2 in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "Finnic Tribal Lands":  {
+                                                  "properties":  {
+                                                                     "leader":  "Local authorities",
+                                                                     "info":  "Finnic Tribal Lands in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                 }
+                                              },
+                      "Kingdom of Italy (Kingdom of Sicily)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel III",
+                                                                                      "info":  "Kingdom of Italy (Kingdom of Sicily) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                  }
+                                                               },
+                      "Alaouite Sultanate":  {
+                                                 "properties":  {
+                                                                    "leader":  "Yusef",
+                                                                    "info":  "Alaouite Sultanate in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                }
+                                             },
+                      "Kingdom of Romania (Principality of Moldavia)":  {
+                                                                            "properties":  {
+                                                                                               "leader":  "Carol I",
+                                                                                               "info":  "Kingdom of Romania (Principality of Moldavia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                           }
+                                                                        },
+                      "Republic of Venice (Aegean)":  {
+                                                          "properties":  {
+                                                                             "leader":  "Local authorities",
+                                                                             "info":  "Republic of Venice (Aegean) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                         }
+                                                      },
+                      "Austria-Hungary (Kingdom of Bohemia)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Franz Joseph I",
+                                                                                      "info":  "Austria-Hungary (Kingdom of Bohemia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                  }
+                                                               },
+                      "Spanish Monarchy (Aragon)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Local authorities",
+                                                                           "info":  "Spanish Monarchy (Aragon) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "Ottoman Empire (Cilicia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Mehmed V",
+                                                                          "info":  "Ottoman Empire (Cilicia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Taifa of Valencia":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Taifa of Valencia in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Kingdom of Spain":  {
+                                               "properties":  {
+                                                                  "leader":  "Alfonso XIII",
+                                                                  "info":  "Kingdom of Spain in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "Principality of Montenegro":  {
+                                                         "properties":  {
+                                                                            "realm":  "Kingdom of Montenegro",
+                                                                            "label":  "Montenegro",
+                                                                            "fillColor":  "#b0607a",
+                                                                            "borderColor":  "#63303f",
+                                                                            "leader":  "Nicholas I",
+                                                                            "info":  "Montenegro became a kingdom in 1910 and expanded in the Balkan Wars."
+                                                                        }
+                                                     },
+                      "Russian Empire (North Caucasus)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Nicholas II",
+                                                                                 "info":  "Russian Empire (North Caucasus) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                             }
+                                                          },
+                      "Ottoman Empire (Anatolia)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Mehmed V",
+                                                                           "info":  "Ottoman Empire (Anatolia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "United Kingdom (Ulster)":  {
+                                                      "properties":  {
+                                                                         "leader":  "George V",
+                                                                         "info":  "United Kingdom (Ulster) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Norman Lordships of Gwent and Gwynllwg":  {
+                                                                     "properties":  {
+                                                                                        "leader":  "Local authorities",
+                                                                                        "info":  "Norman Lordships of Gwent and Gwynllwg in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                    }
+                                                                 },
+                      "Taifa of Toledo":  {
+                                              "properties":  {
+                                                                 "leader":  "Local authorities",
+                                                                 "info":  "Taifa of Toledo in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                             }
+                                          },
+                      "Russian Empire (Finland) – Sámi and Northern Frontierlands":  {
+                                                                                         "properties":  {
+                                                                                                            "leader":  "Nicholas II",
+                                                                                                            "info":  "Russian Empire (Finland) – Sámi and Northern Frontierlands in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                                        }
+                                                                                     },
+                      "Kingdom of Naples":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Kingdom of Naples in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Polish–Lithuanian Commonwealth (Lithuania)":  {
+                                                                         "properties":  {
+                                                                                            "leader":  "Local authorities",
+                                                                                            "info":  "Polish–Lithuanian Commonwealth (Lithuania) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                        }
+                                                                     },
+                      "Russian Empire (Karelian Frontierlands)":  {
+                                                                      "properties":  {
+                                                                                         "leader":  "Nicholas II",
+                                                                                         "info":  "Russian Empire (Karelian Frontierlands) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                     }
+                                                                  },
+                      "Ottoman Empire (Jazira)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Mehmed V",
+                                                                         "info":  "Ottoman Empire (Jazira) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Kingdom of Majorca":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Majorca in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                }
+                                             },
+                      "German Empire":  {
+                                            "properties":  {
+                                                               "leader":  "Wilhelm II",
+                                                               "info":  "German Empire in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                           }
+                                        },
+                      "Luxembourg":  {
+                                         "properties":  {
+                                                            "leader":  "Local authorities",
+                                                            "info":  "Luxembourg in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                        }
+                                     },
+                      "Ligurian Republic":  {
+                                                "properties":  {
+                                                                   "leader":  "Local authorities",
+                                                                   "info":  "Ligurian Republic in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Spanish Netherlands (Brabant and Luxembourg)":  {
+                                                                           "properties":  {
+                                                                                              "leader":  "Local authorities",
+                                                                                              "info":  "Spanish Netherlands (Brabant and Luxembourg) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                          }
+                                                                       },
+                      "Safavid Iran (Armenia)":  {
+                                                     "properties":  {
+                                                                        "leader":  "Local authorities",
+                                                                        "info":  "Safavid Iran (Armenia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                    }
+                                                 },
+                      "County of Edessa":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "County of Edessa in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "France (Brittany)":  {
+                                                "properties":  {
+                                                                   "leader":  "Raymond PoincarÃ© (President)",
+                                                                   "info":  "France (Brittany) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                               }
+                                            },
+                      "Taifa of Badajoz":  {
+                                               "properties":  {
+                                                                  "leader":  "Local authorities",
+                                                                  "info":  "Taifa of Badajoz in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                              }
+                                           },
+                      "Sweden (Scania)":  {
+                                              "properties":  {
+                                                                 "leader":  "Gustaf V",
+                                                                 "info":  "Sweden (Scania) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                             }
+                                          },
+                      "Russian Empire (Armenia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Nicholas II",
+                                                                          "info":  "Russian Empire (Armenia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Ottoman Empire (Tunis interior)":  {
+                                                              "properties":  {
+                                                                                 "leader":  "Mehmed V",
+                                                                                 "info":  "Ottoman Empire (Tunis interior) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                             }
+                                                          },
+                      "Norway":  {
+                                     "properties":  {
+                                                        "leader":  "Haakon VII",
+                                                        "info":  "Norway in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                    }
+                                 },
+                      "Austria-Hungary (Holy Roman Empire)":  {
+                                                                  "properties":  {
+                                                                                     "leader":  "Franz Joseph I",
+                                                                                     "info":  "Austria-Hungary (Holy Roman Empire) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                 }
+                                                              },
+                      "Kingdom of Italy (Kingdom of Naples)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel III",
+                                                                                      "info":  "Kingdom of Italy (Kingdom of Naples) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                  }
+                                                               },
+                      "Austria-Hungary (Reconquered)":  {
+                                                            "properties":  {
+                                                                               "leader":  "Franz Joseph I",
+                                                                               "info":  "Austria-Hungary (Reconquered) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                           }
+                                                        },
+                      "Denmark":  {
+                                      "properties":  {
+                                                         "leader":  "Christian X",
+                                                         "info":  "Denmark in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                     }
+                                  },
+                      "Caliphate of Córdoba":  {
+                                                   "properties":  {
+                                                                      "leader":  "Local authorities",
+                                                                      "info":  "Caliphate of Córdoba in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                  }
+                                               },
+                      "Lordship of Mecklenburg":  {
+                                                      "properties":  {
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Lordship of Mecklenburg in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                     }
+                                                  },
+                      "Spanish Netherlands":  {
+                                                  "properties":  {
+                                                                     "leader":  "Local authorities",
+                                                                     "info":  "Spanish Netherlands in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                 }
+                                              },
+                      "Egypt (British occupation)":  {
+                                                         "properties":  {
+                                                                            "leader":  "Abbas II (Khedive)",
+                                                                            "info":  "Egypt (British occupation) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                        }
+                                                     },
+                      "Denmark 2":  {
+                                        "properties":  {
+                                                           "leader":  "Christian X",
+                                                           "info":  "Denmark 2 in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                       }
+                                    },
+                      "Russian Empire (Courland)":  {
+                                                        "properties":  {
+                                                                           "leader":  "Nicholas II",
+                                                                           "info":  "Russian Empire (Courland) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                       }
+                                                    },
+                      "Principality of Moldavia":  {
+                                                       "properties":  {
+                                                                          "leader":  "Local authorities",
+                                                                          "info":  "Principality of Moldavia in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Switzerland":  {
+                                          "properties":  {
+                                                             "leader":  "Local authorities",
+                                                             "info":  "Switzerland in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                         }
+                                      },
+                      "Russian Empire (Galicia)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Nicholas II",
+                                                                          "info":  "Russian Empire (Galicia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                      }
+                                                   },
+                      "Karelian Frontierlands":  {
+                                                     "properties":  {
+                                                                        "leader":  "Local authorities",
+                                                                        "info":  "Karelian Frontierlands in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                    }
+                                                 },
+                      "Russian Empire (Principality of Moldavia)":  {
+                                                                        "properties":  {
+                                                                                           "leader":  "Nicholas II",
+                                                                                           "info":  "Russian Empire (Principality of Moldavia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                       }
+                                                                    },
+                      "Kingdom of Galicia":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Galicia in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                }
+                                             },
+                      "Russian Empire (Polish partition)":  {
+                                                                "properties":  {
+                                                                                   "leader":  "Nicholas II",
+                                                                                   "info":  "Russian Empire (Polish partition) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                               }
+                                                            },
+                      "Polish–Lithuanian Commonwealth (Polotsk)":  {
+                                                                       "properties":  {
+                                                                                          "leader":  "Local authorities",
+                                                                                          "info":  "Polish–Lithuanian Commonwealth (Polotsk) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                      }
+                                                                   },
+                      "Kingdom of Italy (Holy Roman Empire)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel III",
+                                                                                      "info":  "Kingdom of Italy (Holy Roman Empire) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                  }
+                                                               },
+                      "Habsburg Monarchy (Galicia)":  {
+                                                          "properties":  {
+                                                                             "leader":  "Local authorities",
+                                                                             "info":  "Habsburg Monarchy (Galicia) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                         }
+                                                      },
+                      "Russian Empire (Northern Finnic Frontierlands)":  {
+                                                                             "properties":  {
+                                                                                                "leader":  "Nicholas II",
+                                                                                                "info":  "Russian Empire (Northern Finnic Frontierlands) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                            }
+                                                                         },
+                      "Kingdom of Italy (Ligurian Republic)":  {
+                                                                   "properties":  {
+                                                                                      "leader":  "Victor Emmanuel III",
+                                                                                      "info":  "Kingdom of Italy (Ligurian Republic) in 1914. Modern administrative regions are used as approximate map units, not exact historical frontiers."
+                                                                                  }
+                                                               }
+                  },
+    "additions":  [
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Norway",
+                                             "label":  "Norway",
+                                             "leader":  "Haakon VII",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Norway"
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+                                                                "svalbard",
+                                                                "bouvetisland"
+                                                            ],
+                                             "fillColor":  "#3d7891",
+                                             "borderColor":  "#214654",
+                                             "info":  "Norway was an independent kingdom under Haakon VII after the dissolution of its union with Sweden in 1905."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Principality of Albania",
+                                             "label":  "Albania",
+                                             "leader":  "William of Wied",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Albania"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#d49771",
+                                             "borderColor":  "#82533b",
+                                             "info":  "Albania was recognised as an independent principality in 1913; William of Wied arrived in 1914. Modern provinces are approximate borders."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kingdom of Italy (Libya)",
+                                             "label":  "",
+                                             "leader":  "Victor Emmanuel III",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Libya"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#5fa07e",
+                                             "borderColor":  "#2f5e46",
+                                             "info":  "Italy occupied Tripolitania and Cyrenaica in 1911-12; control in the interior remained contested."
+                                         }
+                      }
+                  ]
+}

@@ -1,0 +1,26 @@
+﻿{
+    "properties":  {
+                       "realm":  "Principality of Benevento",
+                       "leader":  "Landulf V (co-ruler Pandulf II)",
+                       "info":  "An independent Lombard principality in southern Italy. Around 1000, it was ruled by Landulf V together with his father Pandulf II. The region is shown approximately using modern administrative borders. The relevant areas of southern Italy use the original base provinces; the realm\u0027s political extent is unchanged.",
+                       "regionAdmins":  [
+                                            "Italy"
+                                        ],
+                       "fillColor":  "#a64b32",
+                       "borderColor":  "#632d20",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Italy",
+                                                 "geonunit":  "Italy",
+                                                 "ids":  [
+                                                             "benevento",
+                                                             "campobasso",
+                                                             "isernia"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+
+                  ]
+}

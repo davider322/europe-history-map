@@ -1,0 +1,41 @@
+﻿{
+    "properties":  {
+                       "realm":  "Kingdom of Croatia",
+                       "leader":  "Krešimir III and Gojslav",
+                       "info":  "Croatia was a kingdom, but around 1000 it was shaped by a dynastic conflict between the brothers Krešimir III and Gojslav. The map uses modern Croatian regions as a rough approximation; Istria and the coastal cities had shifting or special status, and the color should not be read as uniform direct royal control. Modern borders are cartographic references, not historical ones.",
+                       "regionAdmins":  [
+                                            "Croatia"
+                                        ],
+                       "fillColor":  "#a34d61",
+                       "borderColor":  "#65313d",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Croatia",
+                                                 "geonunit":  "Croatia",
+                                                 "ids":  [
+                                                             "bjelovar-bilogora",
+                                                             "brod-posavina",
+                                                             "koprivnica-križevci",
+                                                             "krapina-zagorje",
+                                                             "međimurje",
+                                                             "osijek-baranja",
+                                                             "požega-slavonia",
+                                                             "varaždin",
+                                                             "vukovar-syrmia",
+                                                             "zagreb"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+                      "dubrovnik-neretva",
+                      "karlovac",
+                      "lika-senj",
+                      "primorje-gorski",
+                      "sisak-moslavina",
+                      "split-dalmatia",
+                      "virovitica-podravina",
+                      "zadar",
+                      "šibenik-knin"
+                  ]
+}

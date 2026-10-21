@@ -1,0 +1,22 @@
+{
+  "properties": {
+    "realm": "North Caucasian Local Polities",
+    "leader": "Local mountain peoples and chieftains",
+    "info": "The North Caucasus was home to many different peoples and local powers, including Circassian, Vainakh and Dagestani communities. They should not be interpreted as a single state. Alania is shown separately; modern regions are only rough map references.",
+    "regionFilters": [
+      {
+        "admin": "Russia",
+        "ids": [
+          "republicofingushetia",
+          "chechenrepublic",
+          "republicofdagestan",
+          "republicofadygea",
+          "krasnodarkrai"
+        ]
+      }
+    ],
+    "fillColor": "#9a8b75",
+    "borderColor": "#665b4c"
+  },
+  "provinces": []
+}

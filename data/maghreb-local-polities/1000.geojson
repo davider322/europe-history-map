@@ -1,0 +1,44 @@
+{
+  "properties": {
+    "realm": "Local Polities of the Maghreb",
+    "leader": "Maghrawa, Zenata and other regional dynasties",
+    "info": "Around 1000, the western Maghreb was divided among several Berber dynasties and local powers, including the Maghrawa and Banu Ifran, with shifting Umayyad and Fatimid influence. It was not a unified Moroccan or Algerian kingdom. Modern regions are rough map references; the southernmost Saharan regions are omitted.",
+    "regionFilters": [
+      {
+        "admin": "Morocco",
+        "excludeIds": ["oueded-dahab"]
+      },
+      {
+        "admin": "Algeria",
+        "excludeIds": [
+          "adrar",
+          "tamanghasset",
+          "tindouf",
+          "ouargla",
+          "illizi",
+          "eltarf",
+          "t\u00c3\u00a9bessa",
+          "soukahras",
+          "annaba",
+          "skikda",
+          "jijel",
+          "b\u00c3\u00a9ja\u00c3\u00afa",
+          "tiziouzou",
+          "boumerd\u00c3\u00a8s",
+          "s\u00c3\u00a9tif",
+          "bordjbouarr\u00c3\u00a9ridj",
+          "bou\u00c3\u00afra",
+          "guelma",
+          "constantine",
+          "mila",
+          "oumelbouaghi",
+          "batna",
+          "khenchela"
+        ]
+      }
+    ],
+    "fillColor": "#a17a63",
+    "borderColor": "#684f40"
+  },
+  "provinces": []
+}

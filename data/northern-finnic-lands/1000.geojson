@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Northern Finnic Frontierlands",
+    "leader": "Local Finnic and Samoyedic communities",
+    "info": "North of Novgorod\u0027s more densely settled lands lived several Finnic and Samoyedic peoples, including the Komi and Nenets. There was no unified state control here. Modern regions are very large and are used only as broad geographic markers.",
+    "regionFilters": [
+      {
+        "admin": "Russia",
+        "ids": ["arkhangelsk", "nenetsautonomousokrug", "komirepublic", "vologda"]
+      }
+    ],
+    "fillColor": "#a3a88b",
+    "borderColor": "#666a56"
+  },
+  "provinces": []
+}

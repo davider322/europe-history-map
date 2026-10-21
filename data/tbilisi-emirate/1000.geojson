@@ -1,0 +1,16 @@
+{
+  "properties": {
+    "realm": "Emirate of Tbilisi",
+    "leader": "Local emir; name uncertain",
+    "info": "Around 1000, Tbilisi and its immediate surroundings were still ruled by a Muslim emir. The city\u0027s political position differed from that of the Christian Georgian kingdoms around it; modern Tbilisi Region is only a rough approximation.",
+    "regionFilters": [
+      {
+        "admin": "Georgia",
+        "ids": ["geo-tbilisi"]
+      }
+    ],
+    "fillColor": "#9a754c",
+    "borderColor": "#634a30"
+  },
+  "provinces": []
+}

@@ -1,0 +1,32 @@
+{
+  "properties": {
+    "realm": "Poland",
+    "leader": "Bolesław I Chrobry",
+    "info": "An approximate map of Bolesław I\u0027s Polish realm around 1000. Modern regions are map references, not historical borders. Warmia-Masuria and Podlasie are not shown as securely Polish territory; borders with the Baltic and East Slavic peoples were uncertain. Moravia is shown separately here as an area under Polish control or suzerainty around the turn of the millennium, a disputed and temporary situation.",
+    "regionAdmins": ["Poland"],
+    "regionFilters": [
+      {
+        "admin": "Czech Republic",
+        "ids": ["olomouc", "moravian-silesian", "southmoravian", "zlín"]
+      }
+    ],
+    "fillColor": "#f08080",
+    "borderColor": "#a84646"
+  },
+  "provinces": [
+    "silesianvoivodeship",
+    "lesserpolandvoivodeship",
+    "podkarpackievoivodeship",
+    "lowersilesianvoivodeship",
+    "opolevoivodeship",
+    "lubuszvoivodeship",
+    "westpomeranianvoivodeship",
+    "lublinvoivodeship",
+    "pomeranianvoivodeship",
+    "masovianvoivodeship",
+    "łódźvoivodeship",
+    "kuyavian-pomeranianvoivodeship",
+    "greaterpolandvoivodeship",
+    "świętokrzyskievoivodeship"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "properties": {
+    "realm": "Sámi and Northern Frontierlands",
+    "leader": "Sámi communities and local northern chieftains",
+    "info": "Sápmi was an extensive Sámi cultural region, not a unified kingdom. Sámi communities lived across present-day national borders; Nordic settlements and local chieftains were also present along the northern coasts. The coloring marks an approximate frontier, not an exact ethnic or political boundary. Modern administrative regions are only rough map references.",
+    "regionFilters": [
+      {
+        "admin": "Norway",
+        "ids": ["nordland", "troms", "finnmark"]
+      },
+      {
+        "admin": "Sweden",
+        "ids": ["norrbotten", "vasterbotten", "jamtland", "vasternorrland"]
+      },
+      {
+        "admin": "Finland",
+        "ids": ["lapland"]
+      },
+      {
+        "admin": "Russia",
+        "ids": ["murmansk"]
+      }
+    ],
+    "fillColor": "#b9a27e",
+    "borderColor": "#77674f"
+  },
+  "provinces": []
+}

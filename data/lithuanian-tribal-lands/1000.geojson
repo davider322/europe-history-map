@@ -1,0 +1,15 @@
+{
+  "properties": {
+    "realm": "Lithuanian Tribal Lands",
+    "leader": "Local Baltic chieftains",
+    "info": "Around 1000, present-day Lithuania consisted of Baltic tribes and local powers. The later Grand Duchy of Lithuania had not yet been formed; modern administrative regions are only rough map references.",
+    "regionFilters": [
+      {
+        "admin": "Lithuania"
+      }
+    ],
+    "fillColor": "#ffeb00",
+    "borderColor": "#8a7600"
+  },
+  "provinces": []
+}

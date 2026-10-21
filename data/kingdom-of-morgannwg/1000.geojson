@@ -1,0 +1,30 @@
+{
+  "properties": {
+    "realm": "Kingdom of Morgannwg (Glywysing)",
+    "leader": "Welsh princely dynasty; ruler in 1000 uncertain",
+    "info": "Southeastern Wales consisted of smaller Welsh polities and dynasties. Morgannwg/Glywysing is shown as a simplified grouping of modern areas, not as a unified modern territory.",
+    "regionFilters": [
+      {
+        "admin": "United Kingdom",
+        "geonunit": "Wales",
+        "ids": [
+          "monmouthshire",
+          "newport",
+          "cardiff",
+          "valeofglamorgan",
+          "bridgend",
+          "neathporttalbot",
+          "swansea",
+          "caerphilly",
+          "rhonddacynontaf",
+          "blaenaugwent",
+          "torfaen",
+          "merthyrtydfil"
+        ]
+      }
+    ],
+    "fillColor": "#a96872",
+    "borderColor": "#67404a"
+  },
+  "provinces": []
+}

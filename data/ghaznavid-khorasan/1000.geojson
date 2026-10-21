@@ -1,0 +1,20 @@
+{
+  "properties": {
+    "realm": "Ghaznavids in Khorasan",
+    "leader": "Mahmud of Ghazni",
+    "info": "Around 999, Mahmud of Ghazni took control of Khorasan from the Samanids. The three modern Khorasan provinces are shown as an approximate map of the eastern Iranian sphere of power; historical borders extended far beyond them.",
+    "regionFilters": [
+      {
+        "admin": "Iran",
+        "ids": [
+          "irn-north-khorasan",
+          "irn-razavi-khorasan",
+          "irn-south-khorasan"
+        ]
+      }
+    ],
+    "fillColor": "#6c789b",
+    "borderColor": "#444c67"
+  },
+  "provinces": []
+}

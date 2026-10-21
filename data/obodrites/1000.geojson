@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "realm": "Obotrite Lands",
+    "leader": "Mstivoj",
+    "info": "A simplified map of Obotrite lands in present-day Mecklenburg around 1000. The Obotrites were a West Slavic tribal confederation with their own princes and regional centers of power, not a centralized realm with borders matching modern Mecklenburg-Vorpommern. After the revolt of 983, the area was no longer under lasting Ottonian control; the modern region is only a rough map reference.",
+    "regionAdmins": ["Germany"],
+    "fillColor": "#7489a6",
+    "borderColor": "#43556e"
+  },
+  "provinces": [
+    "mecklenburg-westernpomerania"
+  ]
+}

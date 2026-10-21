@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "realm": "Duchy of Normandy",
+    "leader": "Richard II",
+    "info": "Around 1000, Normandy was a duchy ruled by Richard II, with its own local ruler within the West Frankish political order. Jersey and Guernsey belonged to the Norman sphere. Modern regions and island boundaries are map references only, not exact historical borders.",
+    "regionAdmins": ["France"],
+    "regionFilters": [
+      {
+        "admin": "Supplemental Islands",
+        "ids": ["jersey", "guernsey"]
+      }
+    ],
+    "fillColor": "#607fa8",
+    "borderColor": "#344c68"
+  },
+  "provinces": [
+    "manche",
+    "calvados",
+    "eure",
+    "seine-maritime",
+    "orne"
+  ]
+}

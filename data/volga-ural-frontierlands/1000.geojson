@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "realm": "Volga–Ural Frontierlands",
+    "leader": "Local Finnic and Turkic communities",
+    "info": "Outside Volga Bulgaria\u0027s core, the middle Volga and Ural regions were home to various Finnic and Turkic peoples, local chiefdoms and shifting tributary relationships. Modern regions are rough map references; the colored area does not represent a unified state.",
+    "regionFilters": [
+      {
+        "admin": "Russia",
+        "ids": [
+          "bashkortostan",
+          "ulyanovsk",
+          "penza",
+          "republicofmordovia",
+          "marielrepublic",
+          "kirov",
+          "udmurtrepublic",
+          "samara",
+          "saratov"
+        ]
+      }
+    ],
+    "fillColor": "#a79a78",
+    "borderColor": "#6f654e"
+  },
+  "provinces": []
+}

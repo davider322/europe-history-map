@@ -1,0 +1,43 @@
+﻿{
+    "properties":  {
+                       "realm":  "Bosnia (regional polity)",
+                       "leader":  "Local elites; ruler not securely known",
+                       "info":  "Bosnia is attested as a small regional polity in the tenth century, but its political status around 1000 is disputed. It may have shifted between independence and the suzerainty of Croatia, Serbia, Bulgaria, Byzantium or Duklja; the sources do not establish a single ruler or stable realm. Present-day Bosnia and Herzegovina is used as a rough geographic proxy and should not be read as a secure historical border. Bosnia uses the original base provinces.",
+                       "fillColor":  "#a17b56",
+                       "borderColor":  "#644d36",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Bosnia and Herzegovina",
+                                                 "excludeIds":  [
+                                                                    "bijeljina",
+                                                                    "posavinacanton",
+                                                                    "brčko",
+                                                                    "sarajevo-romanija",
+                                                                    "sarajevocanton",
+                                                                    "bosnianpodrinjecanton"
+                                                                ]
+                                             },
+                                             {
+                                                 "admin":  "Bosnia and Herzegovina",
+                                                 "geonunit":  "Bosnia and Herzegovina",
+                                                 "ids":  [
+                                                             "bosnianpodrinjecanton",
+                                                             "posavinacanton",
+                                                             "sarajevocanton"
+                                                         ]
+                                             },
+                                             {
+                                                 "admin":  "Bosnia and Herzegovina",
+                                                 "geonunit":  "Republic Srpska",
+                                                 "ids":  [
+                                                             "bijeljina",
+                                                             "brčko",
+                                                             "sarajevo-romanija"
+                                                         ]
+                                             }
+                                         ]
+                   },
+    "provinces":  [
+
+                  ]
+}

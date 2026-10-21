@@ -1,0 +1,24 @@
+{
+    "properties":  {
+                       "realm":  "Historical Microstates",
+                       "label":  "",
+                       "leader":  "Local princes and bishops",
+                       "info":  "Andorra, Monaco and Liechtenstein are shown as small territories with modern borders. San Marino follows the older map\u0027s inner outline as a cartographic interpretation; its political status around 1000 is uncertain.",
+                       "regionFilters":  [
+                                             {
+                                                 "admin":  "Supplemental Microstates",
+                                                 "ids":  [
+                                                             "andorra",
+                                                             "monaco",
+                                                             "liechtenstein",
+                                                             "san-marino"
+                                                         ]
+                                             }
+                                         ],
+                       "fillColor":  "#d9894a",
+                       "borderColor":  "#75451f"
+                   },
+    "provinces":  [
+
+                  ]
+}
