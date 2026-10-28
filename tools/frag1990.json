@@ -1,6 +1,6 @@
 {
     "baseYear":  1955,
-    "note":  "Europe at the end of 1990. Germany was reunified on 3 October when the German Democratic Republic acceded to the Federal Republic. The Saar had joined West Germany in 1957; the Soviet Union remained intact while communist governments across Eastern Europe had fallen. Berlin is shown as a single region because the available map data has no separate city sectors.",
+    "note":  "Europe and North Africa at the end of 1990. Algeria, Tunisia, Libya and Egypt are independent states; Morocco administers most of Western Sahara, whose status remained disputed. Germany was reunified on 3 October, while the Soviet Union remained intact. Borders use available administrative regions and cannot show the Sahrawi-controlled area or the separation line.",
     "overrides":  {
                       "Finnic Tribal Lands":  {
                                                   "properties":  {
@@ -64,9 +64,19 @@
                                  },
                       "Saharan Frontier and Tribal Lands":  {
                                                                 "properties":  {
-                                                                                   "leader":  "National government",
-                                                                                   "info":  "Saharan Frontier and Tribal Lands at the end of 1990."
-                                                                               }
+                                                                                   "leader":  "Former state or administration",
+                                                                                   "info":  "No separate Saharan frontier territory is represented by the available regional boundaries in 1990.",
+                                                                                   "label":  "",
+                                                                                   "regionFilters":  [
+
+                                                                                                     ],
+                                                                                   "excludeIds":  [
+
+                                                                                                  ]
+                                                                               },
+                                                                "provinces":  [
+
+                                                                              ]
                                                             },
                       "Kingdom of Abkhazia":  {
                                                   "properties":  {
@@ -388,9 +398,40 @@
                                                                        },
                       "Alaouite Sultanate":  {
                                                  "properties":  {
-                                                                    "leader":  "National government",
-                                                                    "info":  "Alaouite Sultanate at the end of 1990."
-                                                                }
+                                                                    "leader":  "Hassan II (King)",
+                                                                    "info":  "Morocco was independent under King Hassan II. It administered most of Western Sahara, whose sovereignty was disputed by the Sahrawi Arab Democratic Republic and the Polisario Front. Available modern administrative regions cannot show the separation line or the Sahrawi-controlled area.",
+                                                                    "realm":  "Kingdom of Morocco",
+                                                                    "label":  "Morocco",
+                                                                    "regionFilters":  [
+                                                                                          {
+                                                                                              "admin":  "Morocco",
+                                                                                              "ids":  [
+                                                                                                          "guelmim-essemara",
+                                                                                                          "laâyoune-boujdour-sakiaelhamra",
+                                                                                                          "oueded-dahab",
+                                                                                                          "tangier-tetouan",
+                                                                                                          "oriental",
+                                                                                                          "meknès-tafilalet",
+                                                                                                          "suss-massa-draa",
+                                                                                                          "taza-alhoceïma-taounate",
+                                                                                                          "gharb-chrarda-bénihssen",
+                                                                                                          "rabat-salé-zemmour-zaër",
+                                                                                                          "chaouia-ouardigha",
+                                                                                                          "grandcasablanca",
+                                                                                                          "doukkalaabda",
+                                                                                                          "marrakesh-tensift-elhaouz",
+                                                                                                          "fès-méknas-boulmane",
+                                                                                                          "tadla-azilal"
+                                                                                                      ]
+                                                                                          }
+                                                                                      ],
+                                                                    "excludeIds":  [
+
+                                                                                   ]
+                                                                },
+                                                 "provinces":  [
+
+                                                               ]
                                              },
                       "Sweden (Scania)":  {
                                               "properties":  {
@@ -550,9 +591,19 @@
                                                                     },
                       "France (Africa)":  {
                                               "properties":  {
-                                                                 "leader":  "National government",
-                                                                 "info":  "France (Africa) at the end of 1990."
-                                                             }
+                                                                 "leader":  "Former state or administration",
+                                                                 "info":  "French rule over Algeria and the Tunisian protectorate had ended before 1990.",
+                                                                 "label":  "",
+                                                                 "regionFilters":  [
+
+                                                                                   ],
+                                                                 "excludeIds":  [
+
+                                                                                ]
+                                                             },
+                                              "provinces":  [
+
+                                                            ]
                                           },
                       "Kingdom of Greece":  {
                                                 "properties":  {
@@ -746,12 +797,6 @@
                                                                                     "info":  "Kingdom of Greece (Constantinople) at the end of 1990."
                                                                                 }
                                                              },
-                      "Egypt (British occupation)":  {
-                                                         "properties":  {
-                                                                            "leader":  "National government",
-                                                                            "info":  "Egypt (British occupation) at the end of 1990."
-                                                                        }
-                                                     },
                       "Kingdom of Serbia":  {
                                                 "properties":  {
                                                                    "leader":  "National government",
@@ -806,12 +851,6 @@
                                                                          "info":  "Principality of Albania at the end of 1990."
                                                                      }
                                                   },
-                      "Kingdom of Italy (Libya)":  {
-                                                       "properties":  {
-                                                                          "leader":  "National government",
-                                                                          "info":  "Kingdom of Italy (Libya) at the end of 1990."
-                                                                      }
-                                                   },
                       "Russian SFSR (Galicia)":  {
                                                      "properties":  {
                                                                         "leader":  "National government",
@@ -1420,6 +1459,22 @@
                                                                                    "info":  "France (Alsace-Lorraine Restored) at the end of 1990."
                                                                                }
                                                             },
+                      "Republic of Egypt":  {
+                                                "properties":  {
+                                                                   "leader":  "Former state or administration",
+                                                                   "info":  "Egypt had been an independent republic since 1953; the former British base presence ended in 1956.",
+                                                                   "label":  "",
+                                                                   "regionFilters":  [
+
+                                                                                     ],
+                                                                   "excludeIds":  [
+
+                                                                                  ]
+                                                               },
+                                                "provinces":  [
+
+                                                              ]
+                                            },
                       "People's Republic of Bulgaria":  {
                                                                  "properties":  {
                                                                                     "leader":  "Zhelyu Zhelev (President)",
@@ -1428,6 +1483,22 @@
                                                                                     "label":  "Bulgaria"
                                                                                 }
                                                              },
+                      "Kingdom of Libya":  {
+                                               "properties":  {
+                                                                  "leader":  "Former state or administration",
+                                                                  "info":  "Libya had been independent since 1951; the 1990 map uses its own state entry.",
+                                                                  "label":  "",
+                                                                  "regionFilters":  [
+
+                                                                                    ],
+                                                                  "excludeIds":  [
+
+                                                                                 ]
+                                                              },
+                                               "provinces":  [
+
+                                                             ]
+                                           },
                       "Polish People's Republic":  {
                                                             "properties":  {
                                                                                "leader":  "Lech Walesa (President-elect)",
@@ -1540,9 +1611,236 @@
                                                                      "leader":  "Kurt Waldheim (President)",
                                                                      "info":  "Austria remained a sovereign, permanently neutral republic."
                                                                  }
-                                              }
+                                              },
+                      "Spanish Sahara":  {
+                                             "properties":  {
+                                                                "leader":  "Former state or administration",
+                                                                "info":  "Spain withdrew from Western Sahara in 1975. Its status remained disputed at the end of 1990.",
+                                                                "label":  "",
+                                                                "regionFilters":  [
+
+                                                                                  ],
+                                                                "excludeIds":  [
+
+                                                                               ]
+                                                            },
+                                             "provinces":  [
+
+                                                           ]
+                                         }
                   },
     "additions":  [
+                      {
+                          "provinces":  [
 
+                                        ],
+                          "properties":  {
+                                             "realm":  "Algeria",
+                                             "label":  "Algeria",
+                                             "leader":  "Chadli Bendjedid (President)",
+                                             "info":  "Algeria had been independent since 1962. President Chadli Bendjedid remained in office at the end of 1990.",
+                                             "fillColor":  "#4169a1",
+                                             "borderColor":  "#203b61",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Algeria",
+                                                                       "ids":  [
+                                                                                   "adrar",
+                                                                                   "tamanghasset",
+                                                                                   "tindouf",
+                                                                                   "béchar",
+                                                                                   "eltarf",
+                                                                                   "eloued",
+                                                                                   "tébessa",
+                                                                                   "soukahras",
+                                                                                   "ouargla",
+                                                                                   "illizi",
+                                                                                   "naama",
+                                                                                   "tlemcen",
+                                                                                   "annaba",
+                                                                                   "skikda",
+                                                                                   "jijel",
+                                                                                   "béjaïa",
+                                                                                   "tiziouzou",
+                                                                                   "boumerdès",
+                                                                                   "algiers",
+                                                                                   "tipasa",
+                                                                                   "chlef",
+                                                                                   "mostaganem",
+                                                                                   "oran",
+                                                                                   "aïntémouchent",
+                                                                                   "sétif",
+                                                                                   "bordjbouarréridj",
+                                                                                   "bouïra",
+                                                                                   "blida",
+                                                                                   "tissemsilt",
+                                                                                   "aïndefla",
+                                                                                   "relizane",
+                                                                                   "elbayadh",
+                                                                                   "saïda",
+                                                                                   "sidibelabbès",
+                                                                                   "mascara",
+                                                                                   "ghardaïa",
+                                                                                   "laghouat",
+                                                                                   "médéa",
+                                                                                   "tiaret",
+                                                                                   "m'sila",
+                                                                                   "batna",
+                                                                                   "khenchela",
+                                                                                   "guelma",
+                                                                                   "constantine",
+                                                                                   "mila",
+                                                                                   "oumelbouaghi",
+                                                                                   "biskra",
+                                                                                   "djelfa"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Tunisia",
+                                             "label":  "Tunisia",
+                                             "leader":  "Zine El Abidine Ben Ali (President)",
+                                             "info":  "Tunisia had been independent since 1956. Zine El Abidine Ben Ali had been president since 1987.",
+                                             "fillColor":  "#4169a1",
+                                             "borderColor":  "#203b61",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Tunisia",
+                                                                       "ids":  [
+                                                                                   "tataouine",
+                                                                                   "medenine",
+                                                                                   "jendouba",
+                                                                                   "kebili",
+                                                                                   "tozeur",
+                                                                                   "gafsa",
+                                                                                   "kasserine",
+                                                                                   "kef",
+                                                                                   "gabès",
+                                                                                   "sfax",
+                                                                                   "mahdia",
+                                                                                   "monastir",
+                                                                                   "sousse",
+                                                                                   "nabeul",
+                                                                                   "benarous",
+                                                                                   "tunis",
+                                                                                   "manouba",
+                                                                                   "bizerte",
+                                                                                   "beja",
+                                                                                   "siliana",
+                                                                                   "sidibouzid",
+                                                                                   "kairouan",
+                                                                                   "zaghouan"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Libya",
+                                             "label":  "Libya",
+                                             "leader":  "Muammar Gaddafi (Leader)",
+                                             "info":  "Libya was an independent state under Muammar Gaddafi.",
+                                             "fillColor":  "#5fa07e",
+                                             "borderColor":  "#2f5e46",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Libya",
+                                                                       "ids":  [
+                                                                                   "ghadames",
+                                                                                   "nuqatalkhams",
+                                                                                   "kufra",
+                                                                                   "murzuq",
+                                                                                   "butnan",
+                                                                                   "ajdabiya",
+                                                                                   "ashshati",
+                                                                                   "ghat",
+                                                                                   "sirte",
+                                                                                   "misrata",
+                                                                                   "murqub",
+                                                                                   "tripolidistrict",
+                                                                                   "zawiya",
+                                                                                   "alqubbah",
+                                                                                   "jabalalakhdar",
+                                                                                   "marj",
+                                                                                   "benghazi",
+                                                                                   "jafara",
+                                                                                   "mizdah",
+                                                                                   "jufra",
+                                                                                   "sabha",
+                                                                                   "wadialhayaa"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Egypt",
+                                             "label":  "Egypt",
+                                             "leader":  "Hosni Mubarak (President)",
+                                             "info":  "Egypt was an independent republic under President Hosni Mubarak.",
+                                             "fillColor":  "#d08a86",
+                                             "borderColor":  "#7a4a48",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Egypt",
+                                                                       "ids":  [
+                                                                                   "northsinai",
+                                                                                   "aswan",
+                                                                                   "redsea",
+                                                                                   "matrouh",
+                                                                                   "newvalley",
+                                                                                   "suez",
+                                                                                   "southsinai",
+                                                                                   "portsaid",
+                                                                                   "dakahlia",
+                                                                                   "alsharqia",
+                                                                                   "ismailia",
+                                                                                   "damietta",
+                                                                                   "kafrel-sheikh",
+                                                                                   "beheira",
+                                                                                   "alexandria",
+                                                                                   "cairo",
+                                                                                   "giza",
+                                                                                   "minya",
+                                                                                   "faiyum",
+                                                                                   "benisuef",
+                                                                                   "monufia",
+                                                                                   "qalyubia",
+                                                                                   "gharbia",
+                                                                                   "sohag",
+                                                                                   "qena",
+                                                                                   "asyut",
+                                                                                   "luxor"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      }
                   ]
 }

@@ -1,6 +1,6 @@
 {
     "baseYear":  1945,
-    "note":  "Europe at the end of 1955. The Federal Republic of Germany joined NATO and the German Democratic Republic joined the Warsaw Pact; the Warsaw Pact was founded in May. Austria regained sovereignty and declared permanent neutrality, while the Saar Protectorate remained separate pending its later union with West Germany. Berlin and Vienna are shown as whole regions rather than divided sectors, and modern administrative regions approximate several borders.",
+    "note":  "Europe and North Africa at the end of 1955. Libya was independent, Egypt was a republic with the British Suez base withdrawal still underway, Morocco remained under French and Spanish protectorates, Tunisia had internal autonomy under French protection, and Algeria remained French amid the war of independence. The map uses modern administrative regions as approximate historical boundaries.",
     "overrides":  {
                       "Finnic Tribal Lands":  {
                                                   "properties":  {
@@ -64,9 +64,19 @@
                                  },
                       "Saharan Frontier and Tribal Lands":  {
                                                                 "properties":  {
-                                                                                   "leader":  "National government",
-                                                                                   "info":  "Saharan Frontier and Tribal Lands at the end of 1955."
-                                                                               }
+                                                                                   "leader":  "Former frontier polities",
+                                                                                   "info":  "The available modern administrative regions cannot represent the historic Saharan frontier as a separate political territory in 1955.",
+                                                                                   "label":  "",
+                                                                                   "regionFilters":  [
+
+                                                                                                     ],
+                                                                                   "excludeIds":  [
+
+                                                                                                  ]
+                                                                               },
+                                                                "provinces":  [
+
+                                                                              ]
                                                             },
                       "Kingdom of Abkhazia":  {
                                                   "properties":  {
@@ -388,8 +398,8 @@
                                                                        },
                       "Alaouite Sultanate":  {
                                                  "properties":  {
-                                                                    "leader":  "National government",
-                                                                    "info":  "Alaouite Sultanate at the end of 1955."
+                                                                    "leader":  "Mohammed V (Sultan)",
+                                                                    "info":  "The Sultan returned from exile in November 1955. Morocco remained under French and Spanish protectorates at year-end; independence followed in 1956. The map shows the Sultanate as a proxy and cannot distinguish the protectorate zones."
                                                                 }
                                              },
                       "Sweden (Scania)":  {
@@ -551,7 +561,7 @@
                       "France (Africa)":  {
                                               "properties":  {
                                                                  "leader":  "Edgar Faure (Prime Minister)",
-                                                                 "info":  "France (Africa) at the end of 1955."
+                                                                 "info":  "French rule continued in Algeria, where the war of independence had begun in 1954. Tunisia received internal autonomy in 1955 but remained a French protectorate until independence in March 1956."
                                                              }
                                           },
                       "Kingdom of Greece":  {
@@ -749,7 +759,9 @@
                       "Egypt (British occupation)":  {
                                                          "properties":  {
                                                                             "leader":  "Gamal Abdel Nasser (Prime Minister)",
-                                                                            "info":  "Egypt (British occupation) at the end of 1955."
+                                                                            "info":  "Egypt was a republic under Gamal Abdel Nasser. The 1954 Anglo-Egyptian agreement provided for British withdrawal from the Suez Canal base; the final troops left in 1956.",
+                                                                            "realm":  "Republic of Egypt",
+                                                                            "label":  "Egypt"
                                                                         }
                                                      },
                       "Kingdom of Serbia":  {
@@ -816,8 +828,10 @@
                                                   },
                       "Kingdom of Italy (Libya)":  {
                                                        "properties":  {
-                                                                          "leader":  "Giovanni Gronchi (President)",
-                                                                          "info":  "Kingdom of Italy (Libya) at the end of 1955."
+                                                                          "leader":  "Idris I (King)",
+                                                                          "info":  "The Kingdom of Libya had been independent since 24 December 1951 under King Idris I.",
+                                                                          "realm":  "Kingdom of Libya",
+                                                                          "label":  "Libya"
                                                                       }
                                                    },
                       "Russian SFSR (Galicia)":  {
@@ -1656,6 +1670,27 @@
                                                                                    "carinthia",
                                                                                    "styria",
                                                                                    "vienna"
+                                                                               ]
+                                                                   }
+                                                               ]
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Spanish Sahara",
+                                             "label":  "Spanish Sahara",
+                                             "leader":  "Francisco Franco (Head of State)",
+                                             "info":  "Rio de Oro, including the Dakhla region proxy, was administered by Spain as Spanish Sahara. The available modern region is only an approximate boundary.",
+                                             "fillColor":  "#a37d45",
+                                             "borderColor":  "#654d2b",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Morocco",
+                                                                       "ids":  [
+                                                                                   "oueded-dahab"
                                                                                ]
                                                                    }
                                                                ]

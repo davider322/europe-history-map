@@ -78,13 +78,7 @@
                                          ],
                        "fillColor":  "#55306f",
                        "borderColor":  "#2d1b3a",
-                       "label":  "Byzantium",
-                       "labelPosition":  [
-                                             39.5,
-                                             29.0
-                                         ],
-                       "labelFontSize":  75,
-                       "labelLetterSpacing":  3
+                       "label":  "Byzantium"
                    },
     "provinces":  [
 

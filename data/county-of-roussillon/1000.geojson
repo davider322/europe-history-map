@@ -1,0 +1,14 @@
+{
+  "properties": {
+    "realm": "County of Roussillon",
+    "leader": "Guislabert I",
+    "info": "Around 1000, Roussillon was a separate county ruled by Guislabert I. The existing Pyrénées-Orientales province is a rough map proxy, not an exact historical border.",
+    "regionAdmins": ["France"],
+    "fillColor": "#bb7042",
+    "borderColor": "#714326",
+    "label": "Roussillon"
+  },
+  "provinces": [
+    "pyrénées-orientales"
+  ]
+}

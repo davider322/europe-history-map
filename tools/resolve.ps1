@@ -54,12 +54,14 @@ if ($Mode -eq "list") {
 }
 if ($Mode -eq "check" -or $Mode -eq "assign" -or $Mode -eq "summary") {
     $feats = @()
-    foreach ($f in "europe-provinces","europe-kosovo","europe-small-islands","middle-east-caucasus-provinces","europe-microstates","europe-historical-regions") {
+    foreach ($f in "europe-provinces","europe-kosovo","europe-small-islands","middle-east-caucasus-provinces","europe-microstates","europe-historical-regions","europe-pomerania-1700") {
         $g = Get-Content "$root\$f.geojson" -Raw -Encoding UTF8 | ConvertFrom-Json
         $feats += $g.features.properties
     }
     $over = @{}; $none = @(); $sum=@{}
     foreach ($p in $feats) {
+        if ($p.activeYears -and $p.activeYears -notcontains $Year) { continue }
+        if ($p.inactiveYears -and $p.inactiveYears -contains $Year) { continue }
         $m = @()
         foreach ($r in $realms) {
             $hit = $false

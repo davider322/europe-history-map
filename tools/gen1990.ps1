@@ -63,6 +63,40 @@ function Get-Override([string]$name) {
     return $script:overrides[$name]
 }
 
+function Set-YearEntry([string]$text, [string]$year, [string]$json) {
+    $pattern = '(?m)^  "' + [regex]::Escape($year) + '"\s*:\s*'
+    $match = [regex]::Match($text, $pattern)
+    if ($match.Success) {
+        $openBrace = $text.IndexOf('{', $match.Index + $match.Length)
+        if ($openBrace -lt 0) { throw "Could not find the start of year $year data." }
+        $depth = 0
+        $inString = $false
+        $escaped = $false
+        $end = -1
+        for ($i = $openBrace; $i -lt $text.Length; $i++) {
+            $character = $text[$i]
+            if ($inString) {
+                if ($escaped) { $escaped = $false }
+                elseif ($character -eq '\') { $escaped = $true }
+                elseif ($character -eq '"') { $inString = $false }
+                continue
+            }
+            if ($character -eq '"') { $inString = $true }
+            elseif ($character -eq '{') { $depth++ }
+            elseif ($character -eq '}') {
+                $depth--
+                if ($depth -eq 0) { $end = $i + 1; break }
+            }
+        }
+        if ($end -lt 0) { throw "Could not find the end of year $year data." }
+        return $text.Substring(0, $match.Index) + "  `"$year`": $json" + $text.Substring($end)
+    }
+
+    $lastBrace = $text.LastIndexOf('}')
+    if ($lastBrace -lt 0) { throw 'Could not find the end of years.json.' }
+    return $text.Substring(0, $lastBrace).TrimEnd() + ",`r`n  `"$year`": $json`r`n}"
+}
+
 $realms = @(Get-Realms '1955')
 $features = @()
 foreach ($file in @(
@@ -78,6 +112,7 @@ foreach ($file in @(
 }
 
 $overrides = [ordered]@{}
+$additions = New-Object System.Collections.ArrayList
 foreach ($realm in $realms) {
     $override = Get-Override $realm.realm
     $override.properties.leader = 'National government'
@@ -208,11 +243,105 @@ foreach ($state in $yearSpecific) {
     }
 }
 
+$inactiveNorthAfricanRealms = @(
+    [ordered]@{
+        name = 'France (Africa)'
+        info = 'French rule over Algeria and the Tunisian protectorate had ended before 1990.'
+    },
+    [ordered]@{
+        name = 'Kingdom of Libya'
+        info = 'Libya had been independent since 1951; the 1990 map uses its own state entry.'
+    },
+    [ordered]@{
+        name = 'Republic of Egypt'
+        info = 'Egypt had been an independent republic since 1953; the former British base presence ended in 1956.'
+    },
+    [ordered]@{
+        name = 'Spanish Sahara'
+        info = 'Spain withdrew from Western Sahara in 1975. Its status remained disputed at the end of 1990.'
+    },
+    [ordered]@{
+        name = 'Saharan Frontier and Tribal Lands'
+        info = 'No separate Saharan frontier territory is represented by the available regional boundaries in 1990.'
+    }
+)
+foreach ($state in $inactiveNorthAfricanRealms) {
+    $realm = $realms | Where-Object { $_.realm -eq $state.name } | Select-Object -First 1
+    if (-not $realm) { throw "Expected North African predecessor realm not found: $($state.name)." }
+    $override = Get-Override $state.name
+    $override.provinces = @()
+    $override.properties.label = ''
+    $override.properties.leader = 'Former state or administration'
+    $override.properties.info = $state.info
+    $override.properties.regionFilters = @()
+    $override.properties.excludeIds = @()
+}
+
+$morocco = $realms | Where-Object { $_.realm -eq 'Alaouite Sultanate' } | Select-Object -First 1
+if (-not $morocco) { throw 'Expected Alaouite Sultanate predecessor not found.' }
+$moroccoIds = @($features | Where-Object { $_.admin -eq 'Morocco' } | ForEach-Object { [string]$_.id })
+if ($moroccoIds.Count -ne 16) { throw "Expected 16 Moroccan map regions, found $($moroccoIds.Count)." }
+$moroccoOverride = Get-Override $morocco.realm
+$moroccoOverride.provinces = @()
+$moroccoOverride.properties.realm = 'Kingdom of Morocco'
+$moroccoOverride.properties.label = 'Morocco'
+$moroccoOverride.properties.leader = 'Hassan II (King)'
+$moroccoOverride.properties.info = 'Morocco was independent under King Hassan II. It administered most of Western Sahara, whose sovereignty was disputed by the Sahrawi Arab Democratic Republic and the Polisario Front. Available modern administrative regions cannot show the separation line or the Sahrawi-controlled area.'
+$moroccoOverride.properties.regionFilters = @([ordered]@{ admin = 'Morocco'; ids = $moroccoIds })
+$moroccoOverride.properties.excludeIds = @()
+
+$northAfricanStates = @(
+    [ordered]@{
+        realm = 'Algeria'; label = 'Algeria'; admin = 'Algeria'
+        leader = 'Chadli Bendjedid (President)'
+        info = 'Algeria had been independent since 1962. President Chadli Bendjedid remained in office at the end of 1990.'
+        fill = '#4169a1'; border = '#203b61'
+    },
+    [ordered]@{
+        realm = 'Tunisia'; label = 'Tunisia'; admin = 'Tunisia'
+        leader = 'Zine El Abidine Ben Ali (President)'
+        info = 'Tunisia had been independent since 1956. Zine El Abidine Ben Ali had been president since 1987.'
+        fill = '#4169a1'; border = '#203b61'
+    },
+    [ordered]@{
+        realm = 'Libya'; label = 'Libya'; admin = 'Libya'
+        leader = 'Muammar Gaddafi (Leader)'
+        info = 'Libya was an independent state under Muammar Gaddafi.'
+        fill = '#5fa07e'; border = '#2f5e46'
+    },
+    [ordered]@{
+        realm = 'Egypt'; label = 'Egypt'; admin = 'Egypt'
+        leader = 'Hosni Mubarak (President)'
+        info = 'Egypt was an independent republic under President Hosni Mubarak.'
+        fill = '#d08a86'; border = '#7a4a48'
+    }
+)
+foreach ($state in $northAfricanStates) {
+    if (@($realms | Where-Object { $_.realm -eq $state.realm }).Count -gt 0) {
+        throw "North African state $($state.realm) already exists in the 1955 base."
+    }
+    $ids = @($features | Where-Object { $_.admin -eq $state.admin } | ForEach-Object { [string]$_.id })
+    if ($ids.Count -eq 0) { throw "No mapped regions found for $($state.realm)." }
+    [void]$additions.Add([ordered]@{
+        provinces = @()
+        properties = [ordered]@{
+            realm = $state.realm
+            label = $state.label
+            leader = $state.leader
+            info = $state.info
+            fillColor = $state.fill
+            borderColor = $state.border
+            regionFilters = @([ordered]@{ admin = $state.admin; ids = $ids })
+            excludeIds = @()
+        }
+    })
+}
+
 $block = [ordered]@{
     baseYear = 1955
-    note = 'Europe at the end of 1990. Germany was reunified on 3 October when the German Democratic Republic acceded to the Federal Republic. The Saar had joined West Germany in 1957; the Soviet Union remained intact while communist governments across Eastern Europe had fallen. Berlin is shown as a single region because the available map data has no separate city sectors.'
+    note = 'Europe and North Africa at the end of 1990. Algeria, Tunisia, Libya and Egypt are independent states; Morocco administers most of Western Sahara, whose status remained disputed. Germany was reunified on 3 October, while the Soviet Union remained intact. Borders use available administrative regions and cannot show the Sahrawi-controlled area or the separation line.'
     overrides = $overrides
-    additions = @()
+    additions = @($additions.ToArray())
 }
 $json = ConvertTo-Json $block -Depth 20
 $json = $json -replace '\\u0027', "'"
@@ -222,16 +351,7 @@ Write-Host "1990 fragment generated: $($overrides.Count) overrides."
 
 if ($Insert) {
     $text = [IO.File]::ReadAllText($yearsPath, [Text.Encoding]::UTF8)
-    $lastBrace = $text.LastIndexOf('}')
-    if ($lastBrace -lt 0) { throw 'Could not find the end of years.json.' }
-    $yearMarker = $text.LastIndexOf('"1990"')
-    if ($yearMarker -ge 0) {
-        $comma = $text.LastIndexOf(',', $yearMarker)
-        if ($comma -lt 0) { throw 'Could not locate the existing 1990 year entry.' }
-        $updated = $text.Substring(0, $comma) + ",`r`n  `"1990`": $json`r`n}"
-    } else {
-        $updated = $text.Substring(0, $lastBrace).TrimEnd() + ",`r`n  `"1990`": $json`r`n}"
-    }
+    $updated = Set-YearEntry $text '1990' $json
     [IO.File]::WriteAllText($yearsPath, $updated, (New-Object Text.UTF8Encoding($false)))
-    Write-Host 'Inserted or updated year 1990 after the final year.'
+    Write-Host 'Inserted or updated year 1990 in years.json.'
 }

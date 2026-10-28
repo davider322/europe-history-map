@@ -133,6 +133,40 @@ function Add-State([string]$name, [string]$label, [string]$leader, [string]$info
     })
 }
 
+function Set-YearEntry([string]$text, [string]$year, [string]$json) {
+    $pattern = '(?m)^  "' + [regex]::Escape($year) + '"\s*:\s*'
+    $match = [regex]::Match($text, $pattern)
+    if ($match.Success) {
+        $openBrace = $text.IndexOf('{', $match.Index + $match.Length)
+        if ($openBrace -lt 0) { throw "Could not find the start of year $year data." }
+        $depth = 0
+        $inString = $false
+        $escaped = $false
+        $end = -1
+        for ($i = $openBrace; $i -lt $text.Length; $i++) {
+            $character = $text[$i]
+            if ($inString) {
+                if ($escaped) { $escaped = $false }
+                elseif ($character -eq '\') { $escaped = $true }
+                elseif ($character -eq '"') { $inString = $false }
+                continue
+            }
+            if ($character -eq '"') { $inString = $true }
+            elseif ($character -eq '{') { $depth++ }
+            elseif ($character -eq '}') {
+                $depth--
+                if ($depth -eq 0) { $end = $i + 1; break }
+            }
+        }
+        if ($end -lt 0) { throw "Could not find the end of year $year data." }
+        return $text.Substring(0, $match.Index) + "  `"$year`": $json" + $text.Substring($end)
+    }
+
+    $lastBrace = $text.LastIndexOf('}')
+    if ($lastBrace -lt 0) { throw 'Could not find the end of years.json.' }
+    return $text.Substring(0, $lastBrace).TrimEnd() + ",`r`n  `"$year`": $json`r`n}"
+}
+
 foreach ($realm in $realms) {
     $override = Get-Override $realm.realm
     $override.properties.leader = Get-Leader1955 $realm.realm
@@ -186,12 +220,33 @@ Add-State 'Republic of Austria' 'Austria' 'Adolf Schaerf (President)' `
     'Austria regained full sovereignty under the State Treaty of 1955 and declared permanent neutrality. Vienna is shown as a whole-region proxy rather than divided occupation sectors.' `
     '#ffffff' '#8a8576' ([ordered]@{ admin = 'Austria'; ids = $austrianIds })
 
+$saharanFrontier = $realms | Where-Object { $_.realm -eq 'Saharan Frontier and Tribal Lands' } | Select-Object -First 1
+if (-not $saharanFrontier) { throw 'Expected Saharan frontier realm not found.' }
+$saharanOverride = Get-Override $saharanFrontier.realm
+$saharanOverride.provinces = @()
+$saharanOverride.properties.label = ''
+$saharanOverride.properties.regionFilters = @()
+$saharanOverride.properties.excludeIds = @()
+$saharanOverride.properties.leader = 'Former frontier polities'
+$saharanOverride.properties.info = 'The available modern administrative regions cannot represent the historic Saharan frontier as a separate political territory in 1955.'
+
+$moroccoIds = @($features | Where-Object { $_.admin -eq 'Morocco' } | ForEach-Object { [string]$_.id })
+$spanishSaharaIds = @('oueded-dahab')
+if ($moroccoIds.Count -ne 16 -or @($spanishSaharaIds | Where-Object { $_ -notin $moroccoIds }).Count -gt 0) {
+    throw 'Moroccan region data does not match the expected 1955 partition.'
+}
+Add-State 'Spanish Sahara' 'Spanish Sahara' 'Francisco Franco (Head of State)' `
+    'Rio de Oro, including the Dakhla region proxy, was administered by Spain as Spanish Sahara. The available modern region is only an approximate boundary.' `
+    '#a37d45' '#654d2b' ([ordered]@{ admin = 'Morocco'; ids = $spanishSaharaIds })
+
 $renames = @(
     [ordered]@{ old = 'Republic of Poland'; new = 'Polish People''s Republic'; label = 'Poland'; leader = 'Boleslaw Bierut (Chairman of the Council of State)'; info = 'The Polish People''s Republic was established in 1952. Its western borders are shown with modern administrative regions.' },
     [ordered]@{ old = 'Hungarian Republic'; new = 'Hungarian People''s Republic'; label = 'Hungary'; leader = 'Matyas Rakosi (General Secretary)'; info = 'Hungary was a one-party socialist state and a founding member of the Warsaw Pact in 1955.' },
     [ordered]@{ old = 'Tsardom of Bulgaria'; new = 'People''s Republic of Bulgaria'; label = 'Bulgaria'; leader = 'Valko Chervenkov (Prime Minister)'; info = 'Bulgaria was a one-party socialist state and a founding member of the Warsaw Pact in 1955.' },
     [ordered]@{ old = 'Democratic Government of Albania'; new = 'People''s Republic of Albania'; label = 'Albania'; leader = 'Enver Hoxha (Prime Minister)'; info = 'Albania was a one-party socialist state and a founding member of the Warsaw Pact in 1955.' },
-    [ordered]@{ old = 'Democratic Federal Yugoslavia'; new = 'Federal People''s Republic of Yugoslavia'; label = 'Yugoslavia'; leader = 'Josip Broz Tito (President)'; info = 'Yugoslavia followed an independent socialist path outside the Soviet-led Warsaw Pact.' }
+    [ordered]@{ old = 'Democratic Federal Yugoslavia'; new = 'Federal People''s Republic of Yugoslavia'; label = 'Yugoslavia'; leader = 'Josip Broz Tito (President)'; info = 'Yugoslavia followed an independent socialist path outside the Soviet-led Warsaw Pact.' },
+    [ordered]@{ old = 'Kingdom of Italy (Libya)'; new = 'Kingdom of Libya'; label = 'Libya'; leader = 'Idris I (King)'; info = 'The Kingdom of Libya had been independent since 24 December 1951 under King Idris I.' },
+    [ordered]@{ old = 'Egypt (British occupation)'; new = 'Republic of Egypt'; label = 'Egypt'; leader = 'Gamal Abdel Nasser (Prime Minister)'; info = 'Egypt was a republic under Gamal Abdel Nasser. The 1954 Anglo-Egyptian agreement provided for British withdrawal from the Suez Canal base; the final troops left in 1956.' }
 )
 foreach ($state in $renames) {
     $realm = $realms | Where-Object { $_.realm -eq $state.old } | Select-Object -First 1
@@ -202,6 +257,17 @@ foreach ($state in $renames) {
     $override.properties.leader = $state.leader
     $override.properties.info = $state.info
 }
+
+$morocco = $realms | Where-Object { $_.realm -eq 'Alaouite Sultanate' } | Select-Object -First 1
+if (-not $morocco) { throw 'Expected Alaouite Sultanate realm not found.' }
+$moroccoOverride = Get-Override $morocco.realm
+$moroccoOverride.properties.leader = 'Mohammed V (Sultan)'
+$moroccoOverride.properties.info = 'The Sultan returned from exile in November 1955. Morocco remained under French and Spanish protectorates at year-end; independence followed in 1956. The map shows the Sultanate as a proxy and cannot distinguish the protectorate zones.'
+
+$franceAfrica = $realms | Where-Object { $_.realm -eq 'France (Africa)' } | Select-Object -First 1
+if (-not $franceAfrica) { throw 'Expected France (Africa) realm not found.' }
+$franceAfricaOverride = Get-Override $franceAfrica.realm
+$franceAfricaOverride.properties.info = 'French rule continued in Algeria, where the war of independence had begun in 1954. Tunisia received internal autonomy in 1955 but remained a French protectorate until independence in March 1956.'
 
 foreach ($state in @(
     [ordered]@{ old = 'Kingdom of Romania (Greater Romania)'; leader = 'Gheorghe Gheorghiu-Dej (First Secretary)'; info = 'Romania became a one-party socialist state in 1947. Its postwar borders are shown with modern administrative regions.' },
@@ -226,7 +292,7 @@ foreach ($state in @(
 
 $block = [ordered]@{
     baseYear = 1945
-    note = 'Europe at the end of 1955. The Federal Republic of Germany joined NATO and the German Democratic Republic joined the Warsaw Pact; the Warsaw Pact was founded in May. Austria regained sovereignty and declared permanent neutrality, while the Saar Protectorate remained separate pending its later union with West Germany. Berlin and Vienna are shown as whole regions rather than divided sectors, and modern administrative regions approximate several borders.'
+    note = 'Europe and North Africa at the end of 1955. Libya was independent, Egypt was a republic with the British Suez base withdrawal still underway, Morocco remained under French and Spanish protectorates, Tunisia had internal autonomy under French protection, and Algeria remained French amid the war of independence. The map uses modern administrative regions as approximate historical boundaries.'
     overrides = $overrides
     additions = $additions
 }
@@ -238,10 +304,7 @@ Write-Host "1955 fragment generated: $($overrides.Count) overrides, $($additions
 
 if ($Insert) {
     $text = [IO.File]::ReadAllText($yearsPath, [Text.Encoding]::UTF8)
-    if ($text -match '"1955"\s*:') { throw 'Year 1955 already exists in years.json.' }
-    $lastBrace = $text.LastIndexOf('}')
-    if ($lastBrace -lt 0) { throw 'Could not find the end of years.json.' }
-    $updated = $text.Substring(0, $lastBrace).TrimEnd() + ",`r`n  `"1955`": $json`r`n}"
+    $updated = Set-YearEntry $text '1955' $json
     [IO.File]::WriteAllText($yearsPath, $updated, (New-Object Text.UTF8Encoding($false)))
-    Write-Host 'Inserted year 1955 after the final year.'
+    Write-Host 'Inserted or updated year 1955 in years.json.'
 }

@@ -5,9 +5,15 @@
     <title>Map of Europe</title>
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:ital,wght@0,400;0,500;1,400&display=swap">
     <style>
+            :root { --body-font: 'Inter', 'Segoe UI', Arial, sans-serif; }
         body { margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #111; color: #fff; }
         #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; z-index: 1; }
+        /* Matches the Esri relief sea colour, so tiles that are still loading look like water. */
+        #map.leaflet-container { background: #9ebcd8; }
         
         #timeline-container {
             --timeline-surface: #f1e2c6;
@@ -64,18 +70,124 @@
             right: -8px;
         }
 
+        .leaflet-container .leaflet-control-attribution {
+            margin: 0;
+            padding: 1px 8px;
+            border: 1px solid #b18a5d;
+            border-right: none;
+            border-bottom: none;
+            background: #f1e2c6;
+            box-shadow: 0 -2px 6px rgba(65, 43, 20, 0.15);
+            color: #4a3520;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+            font-size: 10px;
+            line-height: 1.5;
+        }
+
+        .leaflet-container .leaflet-control-attribution a {
+            color: #80603c;
+            text-decoration: none;
+        }
+
+        .leaflet-container .leaflet-control-attribution a:hover {
+            color: #4a3520;
+            text-decoration: underline;
+        }
+
+        .leaflet-control-zoom.leaflet-bar {
+            position: relative;
+            margin-top: 18px;
+            margin-left: 16px;
+            border: 1px solid #b18a5d;
+            border-radius: 0;
+            background: #f1e2c6;
+            box-shadow:
+                inset 0 1px 0 rgba(255, 248, 229, 0.9),
+                0 4px 14px rgba(65, 43, 20, 0.2);
+            overflow: visible;
+        }
+
+        .leaflet-control-zoom.leaflet-bar::before,
+        .leaflet-control-zoom.leaflet-bar::after {
+            position: absolute;
+            left: -4px;
+            right: -4px;
+            height: 10px;
+            border: 1px solid #9e7447;
+            border-radius: 6px;
+            background: linear-gradient(180deg, #a77b4b 0, #e6c99a 35%, #f5e8ca 55%, #c69c64 100%);
+            box-shadow: inset 0 1px 2px rgba(255, 248, 229, 0.8), 0 1px 3px rgba(65, 43, 20, 0.22);
+            content: '';
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        .leaflet-control-zoom.leaflet-bar::before {
+            top: -8px;
+        }
+
+        .leaflet-control-zoom.leaflet-bar::after {
+            bottom: -8px;
+        }
+
+        .leaflet-control-zoom.leaflet-bar a {
+            width: 32px;
+            height: 30px;
+            line-height: 30px;
+            background: transparent;
+            border-bottom: 1px solid rgba(177, 138, 93, 0.55);
+            border-radius: 0;
+            color: #4a3520;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            text-indent: 0;
+        }
+
+        .leaflet-control-zoom.leaflet-bar a:last-child {
+            border-bottom: none;
+        }
+
+        .leaflet-control-zoom.leaflet-bar a:hover,
+        .leaflet-control-zoom.leaflet-bar a:focus-visible {
+            background: rgba(177, 132, 80, 0.18);
+            color: #2e2010;
+        }
+
+        .leaflet-control-zoom.leaflet-bar a.leaflet-disabled {
+            background: transparent;
+            color: rgba(74, 53, 32, 0.35);
+        }
+
         #year-display {
-            font-family: Georgia, 'Times New Roman', serif;
-            font-size: 1.15rem;
-            font-weight: bold;
-            letter-spacing: 0.06em;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
             color: var(--timeline-year-color);
+            transition: opacity 200ms ease;
+        }
+
+        #year-display.is-pending {
+            opacity: 0.5;
+        }
+
+        .year-pane {
+            transition: opacity 800ms ease-in-out;
+            will-change: opacity;
+        }
+
+        .year-pane.is-dimmed {
+            opacity: 0.3;
+            transition-duration: 300ms;
         }
 
         #year-note {
             color: #755b3e;
-            font-size: 0.68rem;
-            line-height: 1.2;
+            font-family: var(--body-font);
+            font-size: 0.82rem;
+            font-weight: 400;
+            line-height: 1.35;
             text-align: center;
         }
 
@@ -86,11 +198,123 @@
             transform: translateX(-50%);
             z-index: 1000;
             max-width: min(600px, calc(100vw - 40px));
-            padding: 10px 14px;
-            border-radius: 8px;
-            background: rgba(20, 20, 20, 0.9);
-            color: #fff;
+            padding: 8px 16px;
+            border: 1px solid #b18a5d;
+            background: #f1e2c6;
+            box-shadow: 0 4px 14px rgba(65, 43, 20, 0.2);
+            color: #4a3520;
+            font-family: var(--body-font);
             text-align: center;
+        }
+
+        #map-status[hidden] {
+            display: none;
+        }
+
+        #intro {
+            position: fixed;
+            inset: 0;
+            z-index: 5000;
+            display: grid;
+            place-items: start center;
+            padding-top: 14vh;
+            overflow: hidden;
+            background: #9ebcd8;
+            transition: opacity 1600ms ease-in-out;
+        }
+
+        /* A saved snapshot of the coloured first year, blurred, so colour shows instantly. */
+        #intro::before {
+            position: absolute;
+            inset: -40px;
+            background: url('data/intro-preview.jpg') center / cover no-repeat;
+            filter: blur(12px);
+            content: '';
+        }
+
+        .intro__scroll {
+            z-index: 1;
+        }
+
+        #intro.is-done {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        #intro.is-done .intro__scroll {
+            opacity: 0;
+            transform: translateY(-6px);
+        }
+
+        .intro__scroll {
+            position: relative;
+            display: flex;
+            align-items: baseline;
+            gap: 2px;
+            padding: 7px 22px 8px;
+            border: 1px solid #b18a5d;
+            background: #f1e2c6;
+            box-shadow:
+                inset 0 1px 0 rgba(255, 248, 229, 0.9),
+                0 6px 24px rgba(65, 43, 20, 0.3);
+            color: #4a3520;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+            font-size: 1.05rem;
+            font-weight: 600;
+            letter-spacing: 0.04em;
+            transition: opacity 500ms ease, transform 500ms ease;
+        }
+
+        .intro__scroll::before,
+        .intro__scroll::after {
+            position: absolute;
+            top: -4px;
+            bottom: -4px;
+            width: 10px;
+            border: 1px solid #9e7447;
+            border-radius: 6px;
+            background: linear-gradient(90deg, #a77b4b 0, #e6c99a 35%, #f5e8ca 55%, #c69c64 100%);
+            box-shadow: inset 1px 0 2px rgba(255, 248, 229, 0.8), 0 1px 3px rgba(65, 43, 20, 0.22);
+            content: '';
+        }
+
+        .intro__scroll::before { left: -8px; }
+        .intro__scroll::after { right: -8px; }
+
+        .intro__dots i {
+            display: inline-block;
+            width: 3px;
+            height: 3px;
+            margin-left: 2px;
+            border-radius: 50%;
+            background: currentColor;
+            animation: intro-dot 1.2s ease-in-out infinite;
+        }
+
+        .intro__dots i:nth-child(2) { animation-delay: 0.2s; }
+        .intro__dots i:nth-child(3) { animation-delay: 0.4s; }
+
+        @keyframes intro-dot {
+            0%, 80%, 100% { opacity: 0.2; }
+            40% { opacity: 1; }
+        }
+
+        #intro.has-error .intro__dots { display: none; }
+        #intro.has-error .intro__scroll {
+            max-width: min(560px, calc(100vw - 80px));
+            font-family: var(--body-font);
+            font-size: 1rem;
+            font-weight: 400;
+            letter-spacing: 0;
+        }
+
+        /* The map starts slightly muted, then gains full colour as the intro fades. */
+        #map.is-intro {
+            filter: saturate(0.75);
+        }
+
+        #map.is-revealing {
+            transition: filter 2200ms ease-out;
         }
 
         .leaflet-popup-content-wrapper,
@@ -141,13 +365,14 @@
         }
 
         .realm-popup {
-            font-family: Georgia, 'Times New Roman', serif;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
             text-align: center;
         }
 
         .realm-popup__title {
             display: block;
             max-width: 260px;
+            margin: 0 auto;
             padding: 0;
             border: 0;
             background: none;
@@ -170,7 +395,7 @@
             display: block;
             margin-top: 5px;
             color: #755b3e;
-            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-family: var(--body-font);
             font-size: 0.82rem;
         }
 
@@ -191,7 +416,7 @@
                 #f1e2c6;
             box-shadow: 0 12px 36px rgba(0, 0, 0, 0.32);
             color: #4a3520;
-            font-family: Georgia, 'Times New Roman', serif;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
         }
 
         #realm-panel::before,
@@ -246,7 +471,7 @@
         .realm-panel__eyebrow {
             margin: 8px 42px 8px 0;
             color: #755b3e;
-            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
             font-size: 0.75rem;
             font-weight: 700;
             letter-spacing: 0.14em;
@@ -277,6 +502,7 @@
             padding: 8px 12px;
             border: 1px solid rgba(158, 116, 71, 0.45);
             background: rgba(255, 248, 229, 0.92);
+            font-family: var(--body-font);
             font-size: 0.92rem;
             font-style: italic;
         }
@@ -289,7 +515,7 @@
             display: block;
             margin-bottom: 4px;
             color: #755b3e;
-            font-family: 'Segoe UI', Tahoma, sans-serif;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
             font-size: 0.72rem;
             font-weight: 700;
             letter-spacing: 0.12em;
@@ -299,7 +525,8 @@
         #realm-panel-ruler,
         #realm-panel-info {
             margin: 0;
-            font-size: 1rem;
+            font-family: var(--body-font);
+            font-size: 0.98rem;
             line-height: 1.6;
         }
 
@@ -411,9 +638,16 @@
 </head>
 <body>
 
-    <div id="map"></div>
+    <div id="map" class="is-intro"></div>
 
-    <div id="map-status" role="status" aria-live="polite">Loading map...</div>
+    <div id="map-status" role="status" aria-live="polite" hidden></div>
+
+    <div id="intro" aria-hidden="true">
+        <div class="intro__scroll">
+            <span id="intro-text">Loading</span>
+            <span class="intro__dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        </div>
+    </div>
 
     <aside id="realm-panel" aria-labelledby="realm-panel-title" aria-hidden="true" hidden>
         <button class="realm-panel__close" type="button" aria-label="Close realm information">×</button>
@@ -455,10 +689,15 @@
 
         // Esri World Shaded Relief: no modern labels or borders
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
-            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ | Boundaries &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL 1.0), <a href="https://www.geoboundaries.org/">geoBoundaries</a> (mixed licenses; see feature metadata), and <a href="https://gisco-services.ec.europa.eu/">Eurostat GISCO</a> (NUTS 2021, CC BY 4.0)',
+            attribution: 'Tiles &copy; Esri | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> (ODbL), <a href="https://www.geoboundaries.org/">geoBoundaries</a>, <a href="https://gisco-services.ec.europa.eu/">Eurostat GISCO</a> (CC BY 4.0)',
             maxZoom: 13,
-            maxNativeZoom: 13
+            maxNativeZoom: 13,
+            keepBuffer: 4,
+            updateWhenZooming: false
         }).addTo(map);
+        map.attributionControl.setPrefix(
+            '&copy; 2026 David Ericson | <a href="https://leafletjs.com">Leaflet</a>'
+        );
 
         let activeLayers = [];
         let europeRegionsData = null;
@@ -468,9 +707,35 @@
         let middleEastRegions = null;
         let microstateRegions = null;
         let historicalRegionData = null;
+        let pomeraniaDistrictData = null;
         let availableYears = [];
         let currentLoad = 0;
         let realmLabelSequence = 0;
+        const LABEL_FONT_NAME = "'Barlow Semi Condensed'";
+        const LABEL_FONT_STACK = "'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif";
+        const LABEL_FONT_WEIGHT = '600';
+        const LABEL_LETTER_SPACING = 0.04;
+        const YEAR_FADE_MS = 800;
+        const yearPanes = ['yearPaneA', 'yearPaneB'].map(name => {
+            const pane = map.createPane(name);
+            pane.classList.add('year-pane');
+            pane.style.zIndex = '400';
+            // A larger padding keeps realms drawn beyond the viewport, so zooming
+            // out or panning doesn't reveal empty rectangles before the redraw.
+            const renderer = L.svg({ pane: name, padding: 0.6 });
+            return { name, element: pane, layers: [], renderer };
+        });
+        let activePaneIndex = 0;
+        let fadeTimer = null;
+        let fadeFrame = 0;
+        const FILL_OPACITY = 0.85;
+        const yearLayerCache = new Map();
+        // Every year is kept (~6.5 MB each) so jumps across the timeline never rebuild.
+        const YEAR_CACHE_LIMIT = Infinity;
+        const pendingYearBuilds = new Map();
+        let requestedYearKey = null;
+        let prefetchToken = 0;
+        let prefetchTimer = null;
         const realmPanel = document.getElementById('realm-panel');
 
         function openRealmPanel(props) {
@@ -489,48 +754,388 @@
             realmPanel.setAttribute('aria-hidden', 'true');
         }
 
-        function clearMap() {
-            activeLayers.forEach(layer => map.removeLayer(layer));
-            activeLayers = [];
+        function clearPane(paneState) {
+            paneState.layers.forEach(layer => {
+                map.removeLayer(layer);
+                releaseProjectedData(layer);
+            });
+            paneState.layers = [];
+        }
+
+        // Leaflet keeps projected pixel rings on removed paths; they are rebuilt
+        // on the next add, so drop them while the layer sits in the year cache.
+        function releaseProjectedData(layer) {
+            if (typeof layer.eachLayer === 'function') layer.eachLayer(releaseProjectedData);
+            delete layer._rings;
+            delete layer._parts;
+            delete layer._pxBounds;
+        }
+
+        // Every year reuses the same province coordinates, so share one LatLng per
+        // coordinate instead of creating new copies for each cached year.
+        const sharedLatLngs = new WeakMap();
+        function sharedCoordsToLatLng(coords) {
+            let latLng = sharedLatLngs.get(coords);
+            if (!latLng) {
+                latLng = L.latLng(coords[1], coords[0], coords[2]);
+                sharedLatLngs.set(coords, latLng);
+            }
+            return latLng;
+        }
+
+        function assignPane(layer, paneName, renderer) {
+            layer.options.pane = paneName;
+            if (renderer) layer.options.renderer = renderer;
+            if (typeof layer.eachLayer === 'function') {
+                layer.eachLayer(child => assignPane(child, paneName, renderer));
+            }
+        }
+
+        function nextFrame() {
+            // rAF is paused in hidden tabs, so fall back to a timeout.
+            return new Promise(resolve => {
+                const timer = setTimeout(resolve, 100);
+                requestAnimationFrame(() => requestAnimationFrame(() => {
+                    clearTimeout(timer);
+                    resolve();
+                }));
+            });
+        }
+
+        function yieldToBrowser() {
+            return new Promise(resolve => {
+                const channel = new MessageChannel();
+                channel.port1.onmessage = () => resolve();
+                channel.port2.postMessage(null);
+            });
+        }
+
+        function cacheYearLayers(yearKey, result) {
+            yearLayerCache.delete(yearKey);
+            yearLayerCache.set(yearKey, result);
+            for (const [key, entry] of yearLayerCache) {
+                if (yearLayerCache.size <= YEAR_CACHE_LIMIT) break;
+                const onMap = yearPanes.some(pane => pane.layers === entry.layers);
+                if (!onMap && key !== yearKey) yearLayerCache.delete(key);
+            }
+        }
+
+        // Shared by user loads and background prefetches, so a year that is
+        // already being prepared is never built twice.
+        function buildYear(yearKey, isStale) {
+            if (pendingYearBuilds.has(yearKey)) return pendingYearBuilds.get(yearKey);
+            const promise = (async () => {
+                const configs = await resolveYearConfigs(yearKey);
+                if (isStale()) return null;
+                const result = await buildYearLayers(yearKey, configs, isStale);
+                if (result) cacheYearLayers(yearKey, result);
+                return result;
+            })().finally(() => pendingYearBuilds.delete(yearKey));
+            pendingYearBuilds.set(yearKey, promise);
+            return promise;
+        }
+
+        function schedulePrefetch(year) {
+            clearTimeout(prefetchTimer);
+            const token = ++prefetchToken;
+            const index = availableYears.indexOf(Number(year));
+            // Nearest years first, then the rest, so any later jump is instant.
+            const neighbours = availableYears
+                .map((value, i) => ({ key: String(value), distance: Math.abs(i - index) }))
+                .filter(entry => entry.distance > 0)
+                .sort((a, b) => a.distance - b.distance)
+                .map(entry => entry.key);
+            prefetchTimer = setTimeout(async () => {
+                for (const yearKey of neighbours) {
+                    if (token !== prefetchToken) return;
+                    if (yearLayerCache.has(yearKey)) continue;
+                    try {
+                        await buildYear(yearKey, () =>
+                            token !== prefetchToken && requestedYearKey !== yearKey
+                        );
+                    } catch (error) {
+                        console.warn(`Could not prefetch ${yearKey}:`, error);
+                    }
+                }
+            }, YEAR_FADE_MS + 100);
+        }
+
+        function showYearLayers(layers) {
+            clearTimeout(fadeTimer);
+            cancelAnimationFrame(fadeFrame);
+            const outgoing = yearPanes[activePaneIndex];
+            if (layers === outgoing.layers) {
+                outgoing.element.classList.remove('is-dimmed');
+                outgoing.element.style.opacity = '';
+                outgoing.element.style.transition = '';
+                clearPane(yearPanes[1 - activePaneIndex]);
+                return;
+            }
+            const incomingIndex = 1 - activePaneIndex;
+            const incoming = yearPanes[incomingIndex];
+
+            const outgoingStart = Number(getComputedStyle(outgoing.element).opacity) || 0;
+            outgoing.element.style.transition = 'none';
+            outgoing.element.style.opacity = String(outgoingStart);
+            outgoing.element.classList.remove('is-dimmed');
+
+            clearPane(incoming);
+            incoming.element.classList.remove('is-dimmed');
+            incoming.element.style.transition = 'none';
+            incoming.element.style.opacity = '0';
+            layers.forEach(layer => {
+                assignPane(layer, incoming.name, incoming.renderer);
+                layer.addTo(map);
+            });
+            incoming.layers = layers;
+            incoming.element.style.zIndex = '401';
+            outgoing.element.style.zIndex = '400';
+
+            activePaneIndex = incomingIndex;
+            activeLayers = layers;
+            const finishFade = () => {
+                cancelAnimationFrame(fadeFrame);
+                clearPane(outgoing);
+                outgoing.element.style.opacity = '0';
+                outgoing.element.style.transition = '';
+                incoming.element.style.opacity = '';
+                incoming.element.style.transition = '';
+            };
+            // Hidden tabs don't run animation frames, and the very first year is
+            // revealed by the intro, so swap instantly in both cases.
+            if (document.hidden || outgoing.layers.length === 0) {
+                finishFade();
+                return;
+            }
+            // Fills are semi-transparent, so two stacked panes look more saturated.
+            // Fade the old pane so the combined coverage stays at FILL_OPACITY
+            // throughout, avoiding a colour jump when the old pane is removed.
+            const startTime = performance.now();
+            const step = now => {
+                const t = Math.min(1, (now - startTime) / YEAR_FADE_MS);
+                const eased = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+                const outgoingOpacity = (1 - eased) / (1 - FILL_OPACITY * eased);
+                incoming.element.style.opacity = String(eased);
+                outgoing.element.style.opacity = String(outgoingStart * outgoingOpacity);
+                if (t < 1) {
+                    fadeFrame = requestAnimationFrame(step);
+                } else {
+                    finishFade();
+                }
+            };
+            fadeFrame = requestAnimationFrame(step);
+            fadeTimer = setTimeout(finishFade, YEAR_FADE_MS + 500);
+        }
+
+        // Yields to the browser between chunks so slider input and fades stay smooth.
+        // Returns null if isStale() reports that the result is no longer wanted.
+        async function buildYearLayers(year, configs, isStale = () => false) {
+            let sliceStart = performance.now();
+            const shouldStop = async () => {
+                if (performance.now() - sliceStart < 12) return false;
+                await yieldToBrowser();
+                sliceStart = performance.now();
+                return isStale();
+            };
+            const missingIds = [];
+            const nextLayers = [];
+            const realmBoundaryLayers = [];
+            const boundaryGroups = new Map();
+            const realmMarkerLayers = [];
+            const realmLabelLayers = [];
+            for (const realmConfig of configs) {
+                if (await shouldStop()) return null;
+                const allowedIds = Array.isArray(realmConfig.provinces)
+                    ? realmConfig.provinces
+                    : [];
+                const props = realmConfig.properties || {};
+                const allowedIdSet = new Set(allowedIds);
+                const regionFilters = Array.isArray(props.regionFilters)
+                    ? props.regionFilters
+                    : [];
+                const realmFeatures = europeRegionsData.features.filter(feature => {
+                    const featureProps = feature.properties || {};
+                    if (Array.isArray(featureProps.activeYears) &&
+                        !featureProps.activeYears.includes(String(year))) return false;
+                    if (Array.isArray(featureProps.inactiveYears) &&
+                        featureProps.inactiveYears.includes(String(year))) return false;
+                    const matchesId = allowedIdSet.has(featureProps.id) &&
+                        (!Array.isArray(props.regionAdmins) ||
+                            props.regionAdmins.includes(featureProps.admin));
+                    const matchesFilter = regionFilters.some(regionFilter => {
+                        const matchesProperties = Object.entries(regionFilter)
+                            .filter(([key]) => key !== 'ids' && key !== 'excludeIds')
+                            .every(([key, value]) => featureProps[key] === value);
+                        return matchesProperties &&
+                            (!Array.isArray(regionFilter.ids) ||
+                                regionFilter.ids.includes(featureProps.id)) &&
+                            (!Array.isArray(regionFilter.excludeIds) ||
+                                !regionFilter.excludeIds.includes(featureProps.id));
+                    });
+                    return (matchesId || matchesFilter) &&
+                        !(Array.isArray(props.excludeIds) &&
+                            props.excludeIds.includes(featureProps.id));
+                });
+                const matchedIds = new Set(
+                    realmFeatures.map(feature => feature.properties.id)
+                );
+                missingIds.push(...allowedIds.filter(id => !matchedIds.has(id) &&
+                    !(Array.isArray(props.excludeIds) && props.excludeIds.includes(id))));
+
+                if (realmFeatures.length > 0) {
+                    const layer = L.geoJSON({
+                        type: 'FeatureCollection',
+                        features: realmFeatures
+                    }, {
+                        coordsToLatLng: sharedCoordsToLatLng,
+                        style: {
+                            fillColor: vividColor(props.fillColor || '#1e3d59'),
+                            color: props.borderColor || '#0a131c',
+                            weight: 0.8,
+                            opacity: 0.28,
+                            fillOpacity: Number.isFinite(props.fillOpacity)
+                                ? props.fillOpacity
+                                : FILL_OPACITY
+                        },
+                        onEachFeature: (feature, featureLayer) => {
+                            const popup = createRealmPopup(
+                                feature.properties.name || 'Unknown region',
+                                props,
+                                year
+                            );
+                            featureLayer.bindPopup(popup);
+                        }
+                    });
+                    nextLayers.push(layer);
+                    const groupKey = [
+                        String(props.borderGroup || props.realm || '').replace(/\s*\(.*$/, '').replace(/\s+\d+$/, ''),
+                        props.fillColor || '',
+                        props.borderColor || ''
+                    ].join('|');
+                    if (!boundaryGroups.has(groupKey)) {
+                        boundaryGroups.set(groupKey, { props, features: [], bounds: null, labelled: [] });
+                    }
+                    const group = boundaryGroups.get(groupKey);
+                    group.features.push(...realmFeatures);
+                    const realmBounds = layer.getBounds();
+                    group.bounds = group.bounds
+                        ? group.bounds.extend(realmBounds)
+                        : L.latLngBounds(realmBounds.getSouthWest(), realmBounds.getNorthEast());
+                    if (typeof props.label === 'string' ? props.label : props.realm) {
+                        group.labelled.push({ props, features: realmFeatures, bounds: realmBounds });
+                    }
+                }
+
+                if (Array.isArray(props.markers)) {
+                    props.markers.forEach(markerInfo => {
+                        const marker = L.circleMarker(
+                            [markerInfo.lat, markerInfo.lng],
+                            {
+                                radius: 7,
+                                color: props.borderColor || '#0a131c',
+                                fillColor: props.fillColor || '#1e3d59',
+                                fillOpacity: 0.9,
+                                weight: 2
+                            }
+                        );
+                        marker.bindPopup(createRealmPopup(markerInfo.name, props, year));
+                        realmMarkerLayers.push(marker);
+                    });
+                }
+            }
+
+            for (const group of boundaryGroups.values()) {
+                if (await shouldStop()) return null;
+                realmBoundaryLayers.push(
+                    ...createRealmBoundaryLayers(group.features, group.props)
+                );
+                // A realm split into several pieces gets one label over the whole group.
+                const own = group.labelled.filter(l => l.props.labelOwn);
+                const shared = group.labelled.filter(l => !l.props.labelOwn);
+                const labelTargets = shared.length === 1
+                    ? [{ props: shared[0].props, features: group.features, bounds: group.bounds }, ...own]
+                    : group.labelled;
+                labelTargets.forEach(target => {
+                    const label = getRealmLabelLayer(target.features, target.bounds, target.props);
+                    if (label) realmLabelLayers.push(label);
+                });
+            }
+
+            nextLayers.push(
+                ...realmBoundaryLayers,
+                ...realmMarkerLayers,
+                ...realmLabelLayers
+            );
+            return { layers: nextLayers, missingIds };
+        }
+
+        const featureEdgeCache = new WeakMap();
+
+        // Per-province edge keys and grid cells never change, so compute them once.
+        function getFeatureEdgeData(feature) {
+            let data = featureEdgeCache.get(feature);
+            if (data) return data;
+            const EPS = 0.04;
+            const CELL = 0.1;
+            const pk = p => `${Number(p[0]).toFixed(7)},${Number(p[1]).toFixed(7)}`;
+            const geometry = feature.geometry || {};
+            const polygons = geometry.type === 'Polygon'
+                ? [geometry.coordinates]
+                : geometry.type === 'MultiPolygon'
+                    ? geometry.coordinates
+                    : [];
+            const box = [Infinity, Infinity, -Infinity, -Infinity];
+            const edges = [];
+            polygons.forEach(polygon => polygon.forEach(ring => {
+                for (let i = 0; i < ring.length - 1; i++) {
+                    const start = ring[i];
+                    const end = ring[i + 1];
+                    box[0] = Math.min(box[0], start[0]); box[1] = Math.min(box[1], start[1]);
+                    box[2] = Math.max(box[2], start[0]); box[3] = Math.max(box[3], start[1]);
+                    const startKey = pk(start);
+                    const endKey = pk(end);
+                    const cells = [];
+                    const x0 = Math.floor((Math.min(start[0], end[0]) - EPS) / CELL);
+                    const x1 = Math.floor((Math.max(start[0], end[0]) + EPS) / CELL);
+                    const y0 = Math.floor((Math.min(start[1], end[1]) - EPS) / CELL);
+                    const y1 = Math.floor((Math.max(start[1], end[1]) + EPS) / CELL);
+                    for (let x = x0; x <= x1; x++) {
+                        for (let y = y0; y <= y1; y++) cells.push(`${x},${y}`);
+                    }
+                    edges.push({
+                        start,
+                        end,
+                        startKey,
+                        endKey,
+                        key: startKey < endKey ? `${startKey}|${endKey}` : `${endKey}|${startKey}`,
+                        cells
+                    });
+                }
+            }));
+            data = { box, edges };
+            featureEdgeCache.set(feature, data);
+            return data;
         }
 
         function pruneInternalSeams(lines, features) {
             const EPS = 0.04;
             const CELL = 0.1;
             const pk = p => `${p[0].toFixed(7)},${p[1].toFixed(7)}`;
-            const polygonsFor = geometry => {
-                if (geometry.type === 'Polygon') return [geometry.coordinates];
-                if (geometry.type === 'MultiPolygon') return geometry.coordinates;
-                return [];
-            };
             const grid = new Map();
             const owner = new Map();
             const boxes = features.map(() => [Infinity, Infinity, -Infinity, -Infinity]);
             features.forEach((feature, fi) => {
-                polygonsFor(feature.geometry).forEach(polygon => polygon.forEach(ring => {
-                    for (let i = 0; i < ring.length - 1; i++) {
-                        const a = ring[i];
-                        const b = ring[i + 1];
-                        const box = boxes[fi];
-                        box[0] = Math.min(box[0], a[0]); box[1] = Math.min(box[1], a[1]);
-                        box[2] = Math.max(box[2], a[0]); box[3] = Math.max(box[3], a[1]);
-                        const k1 = pk(a);
-                        const k2 = pk(b);
-                        const ek = k1 < k2 ? `${k1}|${k2}` : `${k2}|${k1}`;
-                        if (!owner.has(ek)) owner.set(ek, fi);
-                        const x0 = Math.floor((Math.min(a[0], b[0]) - EPS) / CELL);
-                        const x1 = Math.floor((Math.max(a[0], b[0]) + EPS) / CELL);
-                        const y0 = Math.floor((Math.min(a[1], b[1]) - EPS) / CELL);
-                        const y1 = Math.floor((Math.max(a[1], b[1]) + EPS) / CELL);
-                        for (let x = x0; x <= x1; x++) {
-                            for (let y = y0; y <= y1; y++) {
-                                const ck = `${x},${y}`;
-                                if (!grid.has(ck)) grid.set(ck, []);
-                                grid.get(ck).push({ a, b, fi });
-                            }
-                        }
-                    }
-                }));
+                const data = getFeatureEdgeData(feature);
+                boxes[fi] = data.box;
+                data.edges.forEach(edge => {
+                    if (!owner.has(edge.key)) owner.set(edge.key, fi);
+                    const entry = { a: edge.start, b: edge.end, fi };
+                    edge.cells.forEach(ck => {
+                        const bucket = grid.get(ck);
+                        if (bucket) bucket.push(entry);
+                        else grid.set(ck, [entry]);
+                    });
+                });
             });
             const dist2 = (p, a, b) => {
                 const dx = b[0] - a[0];
@@ -554,10 +1159,7 @@
                     const box = boxes[other];
                     return other !== fi &&
                         mid[0] >= box[0] && mid[0] <= box[2] && mid[1] >= box[1] && mid[1] <= box[3] &&
-                        polygonsFor(feature.geometry).some(polygon =>
-                            pointInRing(mid[0], mid[1], polygon[0]) &&
-                            !polygon.slice(1).some(hole => pointInRing(mid[0], mid[1], hole))
-                        );
+                        isPointInFeature(mid[0], mid[1], feature);
                 });
             };
 
@@ -578,15 +1180,61 @@
             return result;
         }
 
+        const featureUids = new WeakMap();
+        let nextFeatureUid = 0;
+        const boundaryLineMemo = new Map();
+        const labelMemo = new Map();
+
+        function featureSetKey(features) {
+            return features.map(feature => {
+                if (!featureUids.has(feature)) featureUids.set(feature, ++nextFeatureUid);
+                return featureUids.get(feature);
+            }).sort((a, b) => a - b).join(',');
+        }
+
         function getRealmBoundaryLines(features) {
-            const lines = getRawRealmBoundaryLines(features);
-            return features.length > 1 ? pruneInternalSeams(lines, features) : lines;
+            const key = featureSetKey(features);
+            if (!boundaryLineMemo.has(key)) {
+                const lines = getRawRealmBoundaryLines(features);
+                boundaryLineMemo.set(
+                    key,
+                    features.length > 1 ? pruneInternalSeams(lines, features) : lines
+                );
+            }
+            return boundaryLineMemo.get(key);
+        }
+
+        // Label placement is pure geometry, so identical realms in other years
+        // reuse it. Each use gets a clone with fresh SVG ids.
+        function getRealmLabelLayer(features, bounds, props) {
+            const labelProps = Object.fromEntries(
+                Object.entries(props).filter(([key]) => key.startsWith('label'))
+            );
+            const key = `${featureSetKey(features)}|${props.realm}|${JSON.stringify(labelProps)}`;
+            if (!labelMemo.has(key)) {
+                labelMemo.set(key, createRealmLabelLayer(features, bounds, props));
+            }
+            const cached = labelMemo.get(key);
+            if (!cached) return null;
+            return L.svgOverlay(cloneLabelSvg(cached.svg), cached.bounds, { interactive: false });
+        }
+
+        function cloneLabelSvg(source) {
+            const svg = source.cloneNode(true);
+            svg.querySelectorAll('[id]').forEach(element => {
+                const oldId = element.id;
+                const newId = `${oldId.replace(/-\d+$/, '')}-${++realmLabelSequence}`;
+                element.id = newId;
+                svg.querySelectorAll(`[clip-path="url(#${oldId})"]`).forEach(user =>
+                    user.setAttribute('clip-path', `url(#${newId})`));
+                svg.querySelectorAll(`[href="#${oldId}"]`).forEach(user =>
+                    user.setAttribute('href', `#${newId}`));
+            });
+            return svg;
         }
 
         function getRawRealmBoundaryLines(features) {
             const edges = new Map();
-            const pointKey = point =>
-                `${Number(point[0]).toFixed(7)},${Number(point[1]).toFixed(7)}`;
             const polygonsFor = geometry => {
                 if (geometry.type === 'Polygon') return [geometry.coordinates];
                 if (geometry.type === 'MultiPolygon') return geometry.coordinates;
@@ -594,32 +1242,20 @@
             };
 
             features.forEach(feature => {
-                polygonsFor(feature.geometry).forEach(polygon => {
-                    polygon.forEach(ring => {
-                        for (let i = 0; i < ring.length - 1; i++) {
-                            const start = ring[i];
-                            const end = ring[i + 1];
-                            const startKey = pointKey(start);
-                            const endKey = pointKey(end);
-                            if (startKey === endKey) continue;
-
-                            const key = startKey < endKey
-                                ? `${startKey}|${endKey}`
-                                : `${endKey}|${startKey}`;
-                            const edge = edges.get(key);
-                            if (edge) {
-                                edge.count++;
-                            } else {
-                                edges.set(key, {
-                                    count: 1,
-                                    start,
-                                    end,
-                                    startKey,
-                                    endKey
-                                });
-                            }
-                        }
-                    });
+                getFeatureEdgeData(feature).edges.forEach(({ start, end, startKey, endKey, key }) => {
+                    if (startKey === endKey) return;
+                    const edge = edges.get(key);
+                    if (edge) {
+                        edge.count++;
+                    } else {
+                        edges.set(key, {
+                            count: 1,
+                            start,
+                            end,
+                            startKey,
+                            endKey
+                        });
+                    }
                 });
             });
 
@@ -717,6 +1353,48 @@
             return result;
         }
 
+        const FILL_SATURATION_BOOST = 1.45;
+        const vividColorCache = new Map();
+
+        // Boosts the saturation of realm colours so they stay strong on top of
+        // the beige relief tiles. Greys and white are left untouched.
+        function vividColor(color) {
+            if (vividColorCache.has(color)) return vividColorCache.get(color);
+            const match = /^#?([\da-f]{6})$/i.exec(color || '');
+            if (!match) return color;
+            const [r, g, b] = match[1].match(/.{2}/g).map(value => parseInt(value, 16) / 255);
+            const max = Math.max(r, g, b);
+            const min = Math.min(r, g, b);
+            const lightness = (max + min) / 2;
+            const delta = max - min;
+            if (delta < 0.04) {
+                vividColorCache.set(color, color);
+                return color;
+            }
+            let saturation = delta / (1 - Math.abs(2 * lightness - 1));
+            let hue = max === r
+                ? ((g - b) / delta) % 6
+                : max === g
+                    ? (b - r) / delta + 2
+                    : (r - g) / delta + 4;
+            hue = (hue * 60 + 360) % 360;
+            saturation = Math.min(1, saturation * FILL_SATURATION_BOOST);
+            const chroma = (1 - Math.abs(2 * lightness - 1)) * saturation;
+            const x = chroma * (1 - Math.abs((hue / 60) % 2 - 1));
+            const m = lightness - chroma / 2;
+            const [r1, g1, b1] = hue < 60 ? [chroma, x, 0]
+                : hue < 120 ? [x, chroma, 0]
+                    : hue < 180 ? [0, chroma, x]
+                        : hue < 240 ? [0, x, chroma]
+                            : hue < 300 ? [x, 0, chroma]
+                                : [chroma, 0, x];
+            const result = `#${[r1, g1, b1]
+                .map(value => Math.round((value + m) * 255).toString(16).padStart(2, '0'))
+                .join('')}`;
+            vividColorCache.set(color, result);
+            return result;
+        }
+
         function blendColors(firstColor, secondColor, ratio) {
             const first = /^#?([\da-f]{6})$/i.exec(firstColor || '');
             const second = /^#?([\da-f]{6})$/i.exec(secondColor || '');
@@ -745,15 +1423,44 @@
             return inside;
         }
 
-        function isPointInFeature(longitude, latitude, feature) {
-            const geometry = feature.geometry;
+        const featureGeometryIndex = new WeakMap();
+
+        function getFeatureGeometryIndex(feature) {
+            let index = featureGeometryIndex.get(feature);
+            if (index) return index;
+            const geometry = feature.geometry || {};
             const polygons = geometry.type === 'Polygon'
                 ? [geometry.coordinates]
                 : geometry.type === 'MultiPolygon'
                     ? geometry.coordinates
                     : [];
-            return polygons.some(rings =>
-                rings.length > 0 &&
+            const box = [Infinity, Infinity, -Infinity, -Infinity];
+            const parts = polygons.filter(rings => rings.length > 0).map(rings => {
+                const partBox = [Infinity, Infinity, -Infinity, -Infinity];
+                rings[0].forEach(([x, y]) => {
+                    if (x < partBox[0]) partBox[0] = x;
+                    if (y < partBox[1]) partBox[1] = y;
+                    if (x > partBox[2]) partBox[2] = x;
+                    if (y > partBox[3]) partBox[3] = y;
+                });
+                box[0] = Math.min(box[0], partBox[0]);
+                box[1] = Math.min(box[1], partBox[1]);
+                box[2] = Math.max(box[2], partBox[2]);
+                box[3] = Math.max(box[3], partBox[3]);
+                return { box: partBox, rings };
+            });
+            index = { box, parts };
+            featureGeometryIndex.set(feature, index);
+            return index;
+        }
+
+        function isPointInFeature(longitude, latitude, feature) {
+            const { box, parts } = getFeatureGeometryIndex(feature);
+            if (longitude < box[0] || longitude > box[2] ||
+                latitude < box[1] || latitude > box[3]) return false;
+            return parts.some(({ box: partBox, rings }) =>
+                longitude >= partBox[0] && longitude <= partBox[2] &&
+                latitude >= partBox[1] && latitude <= partBox[3] &&
                 pointInRing(longitude, latitude, rings[0]) &&
                 !rings.slice(1).some(ring => pointInRing(longitude, latitude, ring))
             );
@@ -1224,7 +1931,7 @@
 
             const label = document.createElementNS(namespace, 'text');
             label.textContent = labelText.toLocaleUpperCase('en');
-            label.setAttribute('font-family', "Georgia, 'Times New Roman', serif");
+            label.setAttribute('font-family', LABEL_FONT_STACK);
             const unitsPerRadian = 1000 / ((east - west) * Math.PI / 180);
             const thicknessLimit = autoLabel
                 ? autoLabel.thickness * unitsPerRadian * 0.8
@@ -1236,7 +1943,7 @@
                 : Number.isFinite(props.labelFontSize)
                     ? props.labelFontSize
                     : Math.min(94, 700 / labelText.length);
-            label.setAttribute('font-weight', '700');
+            label.setAttribute('font-weight', LABEL_FONT_WEIGHT);
             const configuredLetterSpacing = Number.isFinite(props.labelLetterSpacing)
                 ? props.labelLetterSpacing
                 : null;
@@ -1246,7 +1953,10 @@
             );
             label.setAttribute('text-anchor', 'middle');
             label.setAttribute('dominant-baseline', 'central');
-            label.setAttribute('fill', '#000000');
+            label.setAttribute('fill', '#111111');
+            label.setAttribute('stroke', 'rgba(250, 240, 215, 0.72)');
+            label.setAttribute('stroke-linejoin', 'round');
+            label.setAttribute('paint-order', 'stroke');
             const angle = Number.isFinite(props.labelAngle) ? props.labelAngle : 0;
             const canvas = document.createElement('canvas');
             const context = canvas.getContext('2d');
@@ -1265,9 +1975,9 @@
                 fontSize -= Math.max(2, Math.round(maxFontSize / 24))
             ) {
                 const letterSpacing = configuredLetterSpacing === null
-                    ? fontSize * 0.12
+                    ? fontSize * LABEL_LETTER_SPACING
                     : configuredLetterSpacing;
-                context.font = `700 ${fontSize}px Georgia`;
+                context.font = `${LABEL_FONT_WEIGHT} ${fontSize}px ${LABEL_FONT_STACK}`;
                 const textWidth = context.measureText(label.textContent).width +
                     letterSpacing * Math.max(0, labelText.length - 1);
                 const halfWidth = textWidth / 2;
@@ -1398,8 +2108,9 @@
             if (!chosenPosition) return null;
             label.setAttribute('font-size', String(chosenFontSize));
             if (configuredLetterSpacing === null) {
-                label.setAttribute('letter-spacing', String(chosenFontSize * 0.12));
+                label.setAttribute('letter-spacing', String(chosenFontSize * LABEL_LETTER_SPACING));
             }
+            label.setAttribute('stroke-width', String(Math.max(0.6, chosenFontSize * 0.14)));
             if (!ignoreRealmGeometry) {
                 label.setAttribute('clip-path', `url(#${clipPathId})`);
             }
@@ -1444,11 +2155,15 @@
             }
             svg.appendChild(label);
 
-            return L.svgOverlay(
-                svg,
-                labelBounds,
-                { interactive: false }
-            );
+            return { svg, bounds: labelBounds };
+        }
+
+        const boundaryLatLngMemo = new WeakMap();
+        function getBoundaryLatLngs(lines) {
+            if (!boundaryLatLngMemo.has(lines)) {
+                boundaryLatLngMemo.set(lines, lines.map(line => line.map(sharedCoordsToLatLng)));
+            }
+            return boundaryLatLngMemo.get(lines);
         }
 
         function createRealmBoundaryLayers(features, props) {
@@ -1458,8 +2173,7 @@
                 props.fillColor || '#1e3d59',
                 0.55
             );
-            const boundaryLines = getRealmBoundaryLines(features)
-                .map(line => line.map(([longitude, latitude]) => [latitude, longitude]));
+            const boundaryLines = getBoundaryLatLngs(getRealmBoundaryLines(features));
 
             return [
                 L.polyline(boundaryLines, {
@@ -1487,6 +2201,35 @@
             status.hidden = !message;
         }
 
+        let introDone = false;
+        function finishIntro() {
+            if (introDone) return;
+            introDone = true;
+            const intro = document.getElementById('intro');
+            const mapElement = document.getElementById('map');
+            // Wait two frames so the first year is painted before the reveal starts.
+            requestAnimationFrame(() => requestAnimationFrame(() => {
+                mapElement.classList.add('is-revealing');
+                mapElement.classList.remove('is-intro');
+                intro.classList.add('is-done');
+                setTimeout(() => {
+                    intro.remove();
+                    // A lingering filter forces costly repaints, so drop it entirely.
+                    mapElement.classList.remove('is-revealing');
+                }, 2400);
+            }));
+        }
+
+        function showIntroError(message) {
+            const intro = document.getElementById('intro');
+            if (!intro || introDone) {
+                setStatus(message);
+                return;
+            }
+            intro.classList.add('has-error');
+            document.getElementById('intro-text').textContent = message;
+        }
+
         async function fetchJson(file) {
             const response = await fetch(file);
             if (!response.ok) {
@@ -1497,21 +2240,23 @@
 
         async function loadEuropeData() {
             try {
-                [europeRegionsData, timelineDatabase, supplementalRegions, supplementalIslands, middleEastRegions, microstateRegions, historicalRegionData] = await Promise.all([
+                [europeRegionsData, timelineDatabase, supplementalRegions, supplementalIslands, middleEastRegions, microstateRegions, historicalRegionData, pomeraniaDistrictData] = await Promise.all([
                     fetchJson('data/europe-provinces.geojson'),
                     fetchJson('data/years.json'),
                     fetchJson('data/europe-kosovo.geojson'),
                     fetchJson('data/europe-small-islands.geojson'),
                     fetchJson('data/middle-east-caucasus-provinces.geojson'),
                     fetchJson('data/europe-microstates.geojson'),
-                    fetchJson('data/europe-historical-regions.geojson')
+                    fetchJson('data/europe-historical-regions.geojson'),
+                    fetchJson('data/europe-pomerania-1700.geojson')
                 ]);
                 europeRegionsData.features.push(
                     ...supplementalRegions.features,
                     ...supplementalIslands.features,
                     ...middleEastRegions.features,
                     ...microstateRegions.features,
-                    ...historicalRegionData.features
+                    ...historicalRegionData.features,
+                    ...pomeraniaDistrictData.features
                 );
                 availableYears = Object.keys(timelineDatabase)
                     .map(Number)
@@ -1537,10 +2282,17 @@
                     );
                     return mark;
                 }));
+                // Label widths are measured on canvas, so the webfont must be ready first.
+                if (document.fonts && document.fonts.load) {
+                    await Promise.race([
+                        document.fonts.load(`600 40px ${LABEL_FONT_NAME}`).catch(() => {}),
+                        new Promise(resolve => setTimeout(resolve, 3000))
+                    ]);
+                }
                 await loadYear(availableYears[0]);
             } catch (error) {
                 console.error('Could not start the map:', error);
-                setStatus(`The map could not be loaded: ${error.message}`);
+                showIntroError(`The map could not be loaded: ${error.message}`);
             }
         }
 
@@ -1629,150 +2381,60 @@
 
         async function loadYear(year) {
             const loadId = ++currentLoad;
-            clearMap();
-            closeRealmPanel();
+            const yearKey = String(year);
+            const isStale = () => loadId !== currentLoad;
+            const yearDisplay = document.getElementById('year-display');
+            const isFirstLoad = activeLayers.length === 0;
+            const cached = yearLayerCache.get(yearKey);
+            requestedYearKey = yearKey;
+            clearTimeout(prefetchTimer);
+            prefetchToken++;
+
             document.getElementById('current-year').textContent = year;
-            const yearNote = document.getElementById('year-note');
-            yearNote.textContent = timelineDatabase[String(year)]?.note || '';
-            yearNote.hidden = !yearNote.textContent;
-            setStatus('Loading historical regions...');
+            if (!isFirstLoad && !cached) {
+                yearDisplay.classList.add('is-pending');
+                yearPanes[activePaneIndex].element.classList.add('is-dimmed');
+            }
 
             try {
-                const configs = await resolveYearConfigs(year);
-                if (loadId !== currentLoad) return;
+                let result = cached;
+                if (!result) {
+                    // Let the dimmed state paint before building.
+                    await nextFrame();
+                    if (isStale()) return;
+                    const buildIsStale = () => requestedYearKey !== yearKey;
+                    result = await buildYear(yearKey, buildIsStale);
+                    if (!result && !isStale()) result = await buildYear(yearKey, buildIsStale);
+                    if (isStale() || !result) return;
+                }
 
-                const missingIds = [];
-                const realmBoundaryLayers = [];
-                const boundaryGroups = new Map();
-                const realmMarkerLayers = [];
-                const realmLabelLayers = [];
-                configs.forEach(realmConfig => {
-                    const allowedIds = Array.isArray(realmConfig.provinces)
-                        ? realmConfig.provinces
-                        : [];
-                    const props = realmConfig.properties || {};
-                    const allowedIdSet = new Set(allowedIds);
-                    const regionFilters = Array.isArray(props.regionFilters)
-                        ? props.regionFilters
-                        : [];
-                    const realmFeatures = europeRegionsData.features.filter(feature => {
-                        const featureProps = feature.properties || {};
-                        const matchesId = allowedIdSet.has(featureProps.id) &&
-                            (!Array.isArray(props.regionAdmins) ||
-                                props.regionAdmins.includes(featureProps.admin));
-                        const matchesFilter = regionFilters.some(regionFilter => {
-                            const matchesProperties = Object.entries(regionFilter)
-                                .filter(([key]) => key !== 'ids' && key !== 'excludeIds')
-                                .every(([key, value]) => featureProps[key] === value);
-                            return matchesProperties &&
-                                (!Array.isArray(regionFilter.ids) ||
-                                    regionFilter.ids.includes(featureProps.id)) &&
-                                (!Array.isArray(regionFilter.excludeIds) ||
-                                    !regionFilter.excludeIds.includes(featureProps.id));
-                        });
-                        return (matchesId || matchesFilter) &&
-                            !(Array.isArray(props.excludeIds) &&
-                                props.excludeIds.includes(featureProps.id));
-                    });
-                    const matchedIds = new Set(
-                        realmFeatures.map(feature => feature.properties.id)
-                    );
-                    missingIds.push(...allowedIds.filter(id => !matchedIds.has(id) &&
-                        !(Array.isArray(props.excludeIds) && props.excludeIds.includes(id))));
+                closeRealmPanel();
+                map.closePopup();
+                showYearLayers(result.layers);
+                cacheYearLayers(yearKey, result);
+                yearDisplay.classList.remove('is-pending');
+                const yearNote = document.getElementById('year-note');
+                yearNote.textContent = timelineDatabase[String(year)]?.note || '';
+                yearNote.hidden = !yearNote.textContent;
 
-                    if (realmFeatures.length > 0) {
-                        const layer = L.geoJSON({
-                            type: 'FeatureCollection',
-                            features: realmFeatures
-                        }, {
-                            style: {
-                                fillColor: props.fillColor || '#1e3d59',
-                                color: props.borderColor || '#0a131c',
-                                weight: 0.8,
-                                opacity: 0.28,
-                                fillOpacity: Number.isFinite(props.fillOpacity)
-                                    ? props.fillOpacity
-                                    : 0.5
-                            },
-                            onEachFeature: (feature, featureLayer) => {
-                                const popup = createRealmPopup(
-                                    feature.properties.name || 'Unknown region',
-                                    props,
-                                    year
-                                );
-                                featureLayer.bindPopup(popup);
-                            }
-                        });
-                        layer.addTo(map);
-                        activeLayers.push(layer);
-                        const groupKey = [
-                            String(props.borderGroup || props.realm || '').replace(/\s*\(.*$/, '').replace(/\s+\d+$/, ''),
-                            props.fillColor || '',
-                            props.borderColor || ''
-                        ].join('|');
-                        if (!boundaryGroups.has(groupKey)) {
-                            boundaryGroups.set(groupKey, { props, features: [], bounds: null, labelled: [] });
-                        }
-                        const group = boundaryGroups.get(groupKey);
-                        group.features.push(...realmFeatures);
-                        const realmBounds = layer.getBounds();
-                        group.bounds = group.bounds
-                            ? group.bounds.extend(realmBounds)
-                            : L.latLngBounds(realmBounds.getSouthWest(), realmBounds.getNorthEast());
-                        if (typeof props.label === 'string' ? props.label : props.realm) {
-                            group.labelled.push({ props, features: realmFeatures, bounds: realmBounds });
-                        }
-                    }
-
-                    if (Array.isArray(props.markers)) {
-                        props.markers.forEach(markerInfo => {
-                            const marker = L.circleMarker(
-                                [markerInfo.lat, markerInfo.lng],
-                                {
-                                    radius: 7,
-                                    color: props.borderColor || '#0a131c',
-                                    fillColor: props.fillColor || '#1e3d59',
-                                    fillOpacity: 0.9,
-                                    weight: 2
-                                }
-                            );
-                            marker.bindPopup(createRealmPopup(markerInfo.name, props, year));
-                            realmMarkerLayers.push(marker);
-                        });
-                    }
-                });
-
-                boundaryGroups.forEach(group => {
-                    realmBoundaryLayers.push(
-                        ...createRealmBoundaryLayers(group.features, group.props)
-                    );
-                    // A realm split into several pieces gets one label over the whole group.
-                    const own = group.labelled.filter(l => l.props.labelOwn);
-                    const shared = group.labelled.filter(l => !l.props.labelOwn);
-                    const labelTargets = shared.length === 1
-                        ? [{ props: shared[0].props, features: group.features, bounds: group.bounds }, ...own]
-                        : group.labelled;
-                    labelTargets.forEach(target => {
-                        const label = createRealmLabelLayer(target.features, target.bounds, target.props);
-                        if (label) realmLabelLayers.push(label);
-                    });
-                });
-
-                [...realmBoundaryLayers, ...realmMarkerLayers, ...realmLabelLayers].forEach(layer => {
-                    layer.addTo(map);
-                    activeLayers.push(layer);
-                });
-
-                if (missingIds.length > 0) {
-                    console.warn(`Region IDs are missing from the map registry for ${year}:`, missingIds);
-                    setStatus(`The map loaded, but ${missingIds.length} region(s) are missing from the registry.`);
+                if (result.missingIds.length > 0) {
+                    console.warn(`Region IDs are missing from the map registry for ${year}:`, result.missingIds);
+                    setStatus(`The map loaded, but ${result.missingIds.length} region(s) are missing from the registry.`);
                 } else {
                     setStatus('');
                 }
+                schedulePrefetch(year);
+                if (isFirstLoad) finishIntro();
             } catch (error) {
                 if (loadId !== currentLoad) return;
+                yearDisplay.classList.remove('is-pending');
+                yearPanes[activePaneIndex].element.classList.remove('is-dimmed');
                 console.error(`Could not load map data for ${year}:`, error);
-                setStatus(`Map data for ${year} could not be loaded: ${error.message}`);
+                if (isFirstLoad) {
+                    showIntroError(`Map data for ${year} could not be loaded: ${error.message}`);
+                } else {
+                    setStatus(`Map data for ${year} could not be loaded: ${error.message}`);
+                }
             }
         }
 
