@@ -74,6 +74,11 @@ for ($i = 0; $i -lt $feats.Count; $i++) {
         $rx = $pr["excludeIds"]; if ($hit -and $rx -and ($rx -contains $p["id"])) { $hit = $false }
         if ($hit) { $m += $r.realm }
     }
+    # This modern combined polygon is inactive in 1800 but belongs to Germany by 1900.
+    if ($p["id"] -eq 'mecklenburg-westernpomerania') {
+        $assign[$i] = 'Holy Roman Empire'
+        continue
+    }
     if ($m.Count -gt 1) { $multi++ }
     if ($m.Count -ge 1) { $assign[$i] = $m[0] }
 }
@@ -253,6 +258,7 @@ foreach ($m in $inst) {
     if ($m.kind -eq 'rename') {
         $sp = $S[$m.key]
         $props = [ordered]@{ realm = $m.name; label = $m.label; leader = $sp.leader; fillColor = $sp.fill; borderColor = $sp.border; info = $sp.info }
+        if ($m.key -eq 'DK' -and $m.old -match 'Iceland') { $props['label'] = 'Denmark'; $props['labelOwn'] = $true }
         if ($m.merged) { $props['regionFilters'] = (Make-Filters $m.idxs) }
         $overrides[$m.old] = [ordered]@{ properties = $props }
         continue
@@ -260,6 +266,7 @@ foreach ($m in $inst) {
     if ($m.kind -eq 'add') {
         $sp = $S[$m.key]
         $props = [ordered]@{ realm = $m.name; label = $m.label; leader = $sp.leader; regionFilters = (Make-Filters $m.idxs); fillColor = $sp.fill; borderColor = $sp.border; info = $sp.info }
+        if ($m.key -eq 'DK') { $props['labelOwn'] = $true; $props['labelPosition'] = @(56, 10) }
         $additions += , ([ordered]@{ provinces = @(); properties = $props })
         continue
     }

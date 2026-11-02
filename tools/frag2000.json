@@ -316,6 +316,22 @@
                                                                                      ]
                                                                   }
                                                },
+                      "County of Roussillon":  {
+                                                   "provinces":  [
+
+                                                                 ],
+                                                   "properties":  {
+                                                                      "label":  "",
+                                                                      "leader":  "Former government",
+                                                                      "info":  "County of Roussillon no longer governed territory shown on the map at the end of 2000.",
+                                                                      "regionFilters":  [
+
+                                                                                        ],
+                                                                      "excludeIds":  [
+
+                                                                                     ]
+                                                                  }
+                                               },
                       "Kingdom of Gwynedd":  {
                                                  "provinces":  [
 
@@ -396,22 +412,6 @@
                                                                                    ]
                                                                 }
                                              },
-                      "Historical Microstates":  {
-                                                     "provinces":  [
-
-                                                                   ],
-                                                     "properties":  {
-                                                                        "label":  "",
-                                                                        "leader":  "Former government",
-                                                                        "info":  "Historical Microstates no longer governed territory shown on the map at the end of 2000.",
-                                                                        "regionFilters":  [
-
-                                                                                          ],
-                                                                        "excludeIds":  [
-
-                                                                                       ]
-                                                                    }
-                                                 },
                       "Arabian Tribal Polities":  {
                                                       "provinces":  [
 
@@ -460,22 +460,6 @@
                                                                                   ]
                                                                }
                                             },
-                      "County of Roussillon":  {
-                                                   "provinces":  [
-
-                                                                 ],
-                                                   "properties":  {
-                                                                      "label":  "",
-                                                                      "leader":  "Former government",
-                                                                      "info":  "County of Roussillon no longer governed territory shown on the map at the end of 2000.",
-                                                                      "regionFilters":  [
-
-                                                                                        ],
-                                                                      "excludeIds":  [
-
-                                                                                     ]
-                                                                  }
-                                               },
                       "Kingdom of Galicia":  {
                                                  "provinces":  [
 
@@ -764,6 +748,52 @@
                                                                                    ]
                                                                 }
                                              },
+                      "Andorra":  {
+                                      "provinces":  [
+
+                                                    ],
+                                      "properties":  {
+                                                         "label":  "Andorra",
+                                                         "leader":  "Marc Forne Molne (Head of Government)",
+                                                         "info":  "Andorra at the end of 2000. Boundaries use the available administrative map regions as approximations.",
+                                                         "fillColor":  "#d9894a",
+                                                         "borderColor":  "#75451f",
+                                                         "regionFilters":  [
+                                                                               {
+                                                                                   "admin":  "Supplemental Microstates",
+                                                                                   "ids":  [
+                                                                                               "andorra"
+                                                                                           ]
+                                                                               }
+                                                                           ],
+                                                         "excludeIds":  [
+
+                                                                        ]
+                                                     }
+                                  },
+                      "San Marino":  {
+                                         "provinces":  [
+
+                                                       ],
+                                         "properties":  {
+                                                            "label":  "San Marino",
+                                                            "leader":  "Captains Regent",
+                                                            "info":  "San Marino at the end of 2000. Boundaries use the available administrative map regions as approximations.",
+                                                            "fillColor":  "#d9894a",
+                                                            "borderColor":  "#75451f",
+                                                            "regionFilters":  [
+                                                                                  {
+                                                                                      "admin":  "Supplemental Microstates",
+                                                                                      "ids":  [
+                                                                                                  "san-marino"
+                                                                                              ]
+                                                                                  }
+                                                                              ],
+                                                            "excludeIds":  [
+
+                                                                           ]
+                                                        }
+                                     },
                       "Republic of Venice (Aegean)":  {
                                                           "provinces":  [
 
@@ -788,38 +818,6 @@
                                                                           "label":  "",
                                                                           "leader":  "Former government",
                                                                           "info":  "Principality of Moldavia no longer governed territory shown on the map at the end of 2000.",
-                                                                          "regionFilters":  [
-
-                                                                                            ],
-                                                                          "excludeIds":  [
-
-                                                                                         ]
-                                                                      }
-                                                   },
-                      "Denmark–Norway":  {
-                                             "provinces":  [
-
-                                                           ],
-                                             "properties":  {
-                                                                "label":  "",
-                                                                "leader":  "Former government",
-                                                                "info":  "Denmark–Norway no longer governed territory shown on the map at the end of 2000.",
-                                                                "regionFilters":  [
-
-                                                                                  ],
-                                                                "excludeIds":  [
-
-                                                                               ]
-                                                            }
-                                         },
-                      "Denmark–Norway (Gotland)":  {
-                                                       "provinces":  [
-
-                                                                     ],
-                                                       "properties":  {
-                                                                          "label":  "",
-                                                                          "leader":  "Former government",
-                                                                          "info":  "Denmark–Norway (Gotland) no longer governed territory shown on the map at the end of 2000.",
                                                                           "regionFilters":  [
 
                                                                                             ],
@@ -860,41 +858,21 @@
                                                                                   ]
                                                                }
                                             },
-                      "Sweden":  {
+                      "Monaco":  {
                                      "provinces":  [
 
                                                    ],
                                      "properties":  {
-                                                        "label":  "Sweden",
-                                                        "leader":  "Goran Persson (Prime Minister)",
-                                                        "info":  "Sweden at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                                        "fillColor":  "#102548",
-                                                        "borderColor":  "#06142b",
+                                                        "label":  "Monaco",
+                                                        "leader":  "Rainier III (Prince)",
+                                                        "info":  "Monaco at the end of 2000. Boundaries use the available administrative map regions as approximations.",
+                                                        "fillColor":  "#d9894a",
+                                                        "borderColor":  "#75451f",
                                                         "regionFilters":  [
                                                                               {
-                                                                                  "admin":  "Sweden",
+                                                                                  "admin":  "Supplemental Microstates",
                                                                                   "ids":  [
-                                                                                              "blekinge",
-                                                                                              "dalarna",
-                                                                                              "gavleborg",
-                                                                                              "gotland",
-                                                                                              "halland",
-                                                                                              "jamtland",
-                                                                                              "jonkoping",
-                                                                                              "kalmar",
-                                                                                              "kronoberg",
-                                                                                              "norrbotten",
-                                                                                              "orebro",
-                                                                                              "ostergotland",
-                                                                                              "skane",
-                                                                                              "sodermanland",
-                                                                                              "stockholm",
-                                                                                              "uppsala",
-                                                                                              "varmland",
-                                                                                              "vasterbotten",
-                                                                                              "vasternorrland",
-                                                                                              "vastmanland",
-                                                                                              "vastragotaland"
+                                                                                              "monaco"
                                                                                           ]
                                                                               }
                                                                           ],
@@ -999,6 +977,38 @@
                                                                                                           ]
                                                                                        }
                                                                     },
+                      "Denmark–Norway":  {
+                                             "provinces":  [
+
+                                                           ],
+                                             "properties":  {
+                                                                "label":  "",
+                                                                "leader":  "Former government",
+                                                                "info":  "Denmark–Norway no longer governed territory shown on the map at the end of 2000.",
+                                                                "regionFilters":  [
+
+                                                                                  ],
+                                                                "excludeIds":  [
+
+                                                                               ]
+                                                            }
+                                         },
+                      "Denmark–Norway (Gotland)":  {
+                                                       "provinces":  [
+
+                                                                     ],
+                                                       "properties":  {
+                                                                          "label":  "",
+                                                                          "leader":  "Former government",
+                                                                          "info":  "Denmark–Norway (Gotland) no longer governed territory shown on the map at the end of 2000.",
+                                                                          "regionFilters":  [
+
+                                                                                            ],
+                                                                          "excludeIds":  [
+
+                                                                                         ]
+                                                                      }
+                                                   },
                       "Safavid Iran (Armenia)":  {
                                                      "provinces":  [
 
@@ -1095,6 +1105,49 @@
                                                                                                              ]
                                                                                           }
                                                                        },
+                      "Sweden":  {
+                                     "provinces":  [
+
+                                                   ],
+                                     "properties":  {
+                                                        "label":  "Sweden",
+                                                        "leader":  "Goran Persson (Prime Minister)",
+                                                        "info":  "Sweden at the end of 2000. Boundaries use the available administrative map regions as approximations.",
+                                                        "fillColor":  "#102548",
+                                                        "borderColor":  "#06142b",
+                                                        "regionFilters":  [
+                                                                              {
+                                                                                  "admin":  "Sweden",
+                                                                                  "ids":  [
+                                                                                              "blekinge",
+                                                                                              "dalarna",
+                                                                                              "gavleborg",
+                                                                                              "gotland",
+                                                                                              "halland",
+                                                                                              "jamtland",
+                                                                                              "jonkoping",
+                                                                                              "kalmar",
+                                                                                              "kronoberg",
+                                                                                              "norrbotten",
+                                                                                              "orebro",
+                                                                                              "ostergotland",
+                                                                                              "skane",
+                                                                                              "sodermanland",
+                                                                                              "stockholm",
+                                                                                              "uppsala",
+                                                                                              "varmland",
+                                                                                              "vasterbotten",
+                                                                                              "vasternorrland",
+                                                                                              "vastmanland",
+                                                                                              "vastragotaland"
+                                                                                          ]
+                                                                              }
+                                                                          ],
+                                                        "excludeIds":  [
+
+                                                                       ]
+                                                    }
+                                 },
                       "Sweden (Scania)":  {
                                               "provinces":  [
 
@@ -1127,6 +1180,22 @@
                                                                            ]
                                                         }
                                      },
+                      "Russian Empire (Ingria)":  {
+                                                      "provinces":  [
+
+                                                                    ],
+                                                      "properties":  {
+                                                                         "label":  "",
+                                                                         "leader":  "Former government",
+                                                                         "info":  "Russian Empire (Ingria) no longer governed territory shown on the map at the end of 2000.",
+                                                                         "regionFilters":  [
+
+                                                                                           ],
+                                                                         "excludeIds":  [
+
+                                                                                        ]
+                                                                     }
+                                                  },
                       "Kingdom of Sicily":  {
                                                 "provinces":  [
 
@@ -1337,22 +1406,6 @@
                                                                                         ]
                                                                      }
                                                   },
-                      "Denmark (Iceland)":  {
-                                                "provinces":  [
-
-                                                              ],
-                                                "properties":  {
-                                                                   "label":  "",
-                                                                   "leader":  "Former government",
-                                                                   "info":  "Denmark (Iceland) no longer governed territory shown on the map at the end of 2000.",
-                                                                   "regionFilters":  [
-
-                                                                                     ],
-                                                                   "excludeIds":  [
-
-                                                                                  ]
-                                                               }
-                                            },
                       "Switzerland":  {
                                           "provinces":  [
 
@@ -1846,7 +1899,7 @@
                                              "properties":  {
                                                                 "label":  "United Kingdom",
                                                                 "leader":  "Tony Blair (Prime Minister)",
-                                                                "info":  "United Kingdom at the end of 2000. Boundaries use the available administrative map regions as approximations.",
+                                                                "info":  "The United Kingdom at the end of 2000, including Scotland as a constituent country.",
                                                                 "fillColor":  "#c0504d",
                                                                 "borderColor":  "#6e2927",
                                                                 "regionFilters":  [
@@ -2542,6 +2595,29 @@
                                                                                     ]
                                                                  }
                                               },
+                      "Liechtenstein":  {
+                                            "provinces":  [
+
+                                                          ],
+                                            "properties":  {
+                                                               "label":  "Liechtenstein",
+                                                               "leader":  "Hans-Adam II (Prince)",
+                                                               "info":  "Liechtenstein at the end of 2000. Boundaries use the available administrative map regions as approximations.",
+                                                               "fillColor":  "#d9894a",
+                                                               "borderColor":  "#75451f",
+                                                               "regionFilters":  [
+                                                                                     {
+                                                                                         "admin":  "Supplemental Microstates",
+                                                                                         "ids":  [
+                                                                                                     "liechtenstein"
+                                                                                                 ]
+                                                                                     }
+                                                                                 ],
+                                                               "excludeIds":  [
+
+                                                                              ]
+                                                           }
+                                        },
                       "Kingdom of Sweden":  {
                                                 "provinces":  [
 
@@ -2846,6 +2922,22 @@
                                                                                         ]
                                                                      }
                                                   },
+                      "Kingdom of Iceland":  {
+                                                 "provinces":  [
+
+                                                               ],
+                                                 "properties":  {
+                                                                    "label":  "",
+                                                                    "leader":  "Former government",
+                                                                    "info":  "Kingdom of Iceland no longer governed territory shown on the map at the end of 2000.",
+                                                                    "regionFilters":  [
+
+                                                                                      ],
+                                                                    "excludeIds":  [
+
+                                                                                   ]
+                                                                }
+                                             },
                       "Russian SFSR (Caucasian steppe)":  {
                                                               "provinces":  [
 
@@ -4060,6 +4152,57 @@
                                                                                                               ]
                                                                                            }
                                                                         },
+                      "Ireland":  {
+                                      "provinces":  [
+
+                                                    ],
+                                      "properties":  {
+                                                         "label":  "Ireland",
+                                                         "leader":  "Mary McAleese (President)",
+                                                         "info":  "Ireland was an independent republic, having left the Commonwealth in 1949.",
+                                                         "fillColor":  "#2f8f55",
+                                                         "borderColor":  "#1a5734",
+                                                         "regionFilters":  [
+                                                                               {
+                                                                                   "admin":  "Ireland",
+                                                                                   "ids":  [
+                                                                                               "carlow",
+                                                                                               "cavan",
+                                                                                               "clare",
+                                                                                               "cork",
+                                                                                               "donegal",
+                                                                                               "dublin",
+                                                                                               "dúnlaoghaire–rathdown",
+                                                                                               "fingal",
+                                                                                               "galway",
+                                                                                               "kerry",
+                                                                                               "kildare",
+                                                                                               "kilkenny",
+                                                                                               "laois",
+                                                                                               "leitrim",
+                                                                                               "limerick",
+                                                                                               "longford",
+                                                                                               "louth",
+                                                                                               "mayo",
+                                                                                               "meath",
+                                                                                               "monaghan",
+                                                                                               "offaly",
+                                                                                               "roscommon",
+                                                                                               "sligo",
+                                                                                               "southdublin",
+                                                                                               "tipperary",
+                                                                                               "waterford",
+                                                                                               "westmeath",
+                                                                                               "wexford",
+                                                                                               "wicklow"
+                                                                                           ]
+                                                                               }
+                                                                           ],
+                                                         "excludeIds":  [
+
+                                                                        ]
+                                                     }
+                                  },
                       "Soviet Occupation Zone (Germany)":  {
                                                                "provinces":  [
 
@@ -4743,8 +4886,8 @@
                                              "label":  "Albania",
                                              "leader":  "Rexhep Meidani (President)",
                                              "info":  "Albania at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#5b8c55",
-                                             "borderColor":  "#36533a",
+                                             "fillColor":  "#d18a4a",
+                                             "borderColor":  "#744923",
                                              "regionFilters":  [
                                                                    {
                                                                        "admin":  "Albania",
@@ -4761,30 +4904,6 @@
                                                                                    "shkodër",
                                                                                    "tirana",
                                                                                    "vlorë"
-                                                                               ]
-                                                                   }
-                                                               ],
-                                             "excludeIds":  [
-
-                                                            ]
-                                         }
-                      },
-                      {
-                          "provinces":  [
-
-                                        ],
-                          "properties":  {
-                                             "realm":  "Andorra",
-                                             "label":  "Andorra",
-                                             "leader":  "Marc Forne Molne (Head of Government)",
-                                             "info":  "Andorra at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#d9894a",
-                                             "borderColor":  "#75451f",
-                                             "regionFilters":  [
-                                                                   {
-                                                                       "admin":  "Supplemental Microstates",
-                                                                       "ids":  [
-                                                                                   "andorra"
                                                                                ]
                                                                    }
                                                                ],
@@ -4949,8 +5068,8 @@
                                              "label":  "Bosnia and Herzegovina",
                                              "leader":  "Presidency of Bosnia and Herzegovina",
                                              "info":  "Bosnia and Herzegovina at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#8e6aa8",
-                                             "borderColor":  "#4f3a63",
+                                             "fillColor":  "#557b9b",
+                                             "borderColor":  "#314b61",
                                              "regionFilters":  [
                                                                    {
                                                                        "admin":  "Bosnia and Herzegovina",
@@ -5040,8 +5159,8 @@
                                              "label":  "Croatia",
                                              "leader":  "Stjepan Mesic (President)",
                                              "info":  "Croatia at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#8e6aa8",
-                                             "borderColor":  "#4f3a63",
+                                             "fillColor":  "#c0504d",
+                                             "borderColor":  "#6e2927",
                                              "regionFilters":  [
                                                                    {
                                                                        "admin":  "Croatia",
@@ -5090,6 +5209,7 @@
                                                                        "admin":  "Cyprus",
                                                                        "ids":  [
                                                                                    "famagusta",
+                                                                                   "kyrenia",
                                                                                    "larnaca",
                                                                                    "limassol",
                                                                                    "nicosia",
@@ -5560,58 +5680,6 @@
 
                                         ],
                           "properties":  {
-                                             "realm":  "Ireland",
-                                             "label":  "Ireland",
-                                             "leader":  "Mary McAleese (President)",
-                                             "info":  "Ireland at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#c0504d",
-                                             "borderColor":  "#6e2927",
-                                             "regionFilters":  [
-                                                                   {
-                                                                       "admin":  "Ireland",
-                                                                       "ids":  [
-                                                                                   "carlow",
-                                                                                   "cavan",
-                                                                                   "clare",
-                                                                                   "cork",
-                                                                                   "donegal",
-                                                                                   "dublin",
-                                                                                   "dúnlaoghaire–rathdown",
-                                                                                   "fingal",
-                                                                                   "galway",
-                                                                                   "kerry",
-                                                                                   "kildare",
-                                                                                   "kilkenny",
-                                                                                   "laois",
-                                                                                   "leitrim",
-                                                                                   "limerick",
-                                                                                   "longford",
-                                                                                   "louth",
-                                                                                   "mayo",
-                                                                                   "meath",
-                                                                                   "monaghan",
-                                                                                   "offaly",
-                                                                                   "roscommon",
-                                                                                   "sligo",
-                                                                                   "southdublin",
-                                                                                   "tipperary",
-                                                                                   "waterford",
-                                                                                   "westmeath",
-                                                                                   "wexford",
-                                                                                   "wicklow"
-                                                                               ]
-                                                                   }
-                                                               ],
-                                             "excludeIds":  [
-
-                                                            ]
-                                         }
-                      },
-                      {
-                          "provinces":  [
-
-                                        ],
-                          "properties":  {
                                              "realm":  "Israel",
                                              "label":  "Israel",
                                              "leader":  "Ehud Barak (Prime Minister)",
@@ -5813,8 +5881,8 @@
                                              "label":  "Kosovo (UN administration)",
                                              "leader":  "Bernard Kouchner (UN Special Representative)",
                                              "info":  "Kosovo was administered by the United Nations Interim Administration Mission in Kosovo under Security Council Resolution 1244; it was not yet an independent state.",
-                                             "fillColor":  "#8e6aa8",
-                                             "borderColor":  "#4f3a63",
+                                             "fillColor":  "#a28b70",
+                                             "borderColor":  "#695945",
                                              "regionFilters":  [
                                                                    {
                                                                        "admin":  "Kosovo",
@@ -5969,30 +6037,6 @@
                                                                                    "lbn-liban-sud",
                                                                                    "lbn-mont-liban",
                                                                                    "lbn-nabat-y"
-                                                                               ]
-                                                                   }
-                                                               ],
-                                             "excludeIds":  [
-
-                                                            ]
-                                         }
-                      },
-                      {
-                          "provinces":  [
-
-                                        ],
-                          "properties":  {
-                                             "realm":  "Liechtenstein",
-                                             "label":  "Liechtenstein",
-                                             "leader":  "Hans-Adam II (Prince)",
-                                             "info":  "Liechtenstein at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#d9894a",
-                                             "borderColor":  "#75451f",
-                                             "regionFilters":  [
-                                                                   {
-                                                                       "admin":  "Supplemental Microstates",
-                                                                       "ids":  [
-                                                                                   "liechtenstein"
                                                                                ]
                                                                    }
                                                                ],
@@ -6191,30 +6235,6 @@
 
                                         ],
                           "properties":  {
-                                             "realm":  "Monaco",
-                                             "label":  "Monaco",
-                                             "leader":  "Rainier III (Prince)",
-                                             "info":  "Monaco at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#d9894a",
-                                             "borderColor":  "#75451f",
-                                             "regionFilters":  [
-                                                                   {
-                                                                       "admin":  "Supplemental Microstates",
-                                                                       "ids":  [
-                                                                                   "monaco"
-                                                                               ]
-                                                                   }
-                                                               ],
-                                             "excludeIds":  [
-
-                                                            ]
-                                         }
-                      },
-                      {
-                          "provinces":  [
-
-                                        ],
-                          "properties":  {
                                              "realm":  "Morocco",
                                              "label":  "Morocco",
                                              "leader":  "Mohammed VI (King)",
@@ -6329,6 +6349,7 @@
                                                                        "admin":  "Portugal",
                                                                        "ids":  [
                                                                                    "aveiro",
+                                                                                   "azores",
                                                                                    "beja",
                                                                                    "braga",
                                                                                    "bragança",
@@ -6339,6 +6360,7 @@
                                                                                    "guarda",
                                                                                    "leiria",
                                                                                    "lisbon",
+                                                                                   "madeira",
                                                                                    "portalegre",
                                                                                    "porto",
                                                                                    "santarém",
@@ -6363,8 +6385,8 @@
                                              "label":  "Macedonia",
                                              "leader":  "Boris Trajkovski (President)",
                                              "info":  "The Republic of Macedonia was independent after the breakup of Yugoslavia. Its constitutional name at the time was Republic of Macedonia.",
-                                             "fillColor":  "#8e6aa8",
-                                             "borderColor":  "#4f3a63",
+                                             "fillColor":  "#d6b55d",
+                                             "borderColor":  "#8a7030",
                                              "regionFilters":  [
                                                                    {
                                                                        "admin":  "Macedonia",
@@ -6549,30 +6571,6 @@
 
                                         ],
                           "properties":  {
-                                             "realm":  "San Marino",
-                                             "label":  "San Marino",
-                                             "leader":  "Captains Regent",
-                                             "info":  "San Marino at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#d9894a",
-                                             "borderColor":  "#75451f",
-                                             "regionFilters":  [
-                                                                   {
-                                                                       "admin":  "Supplemental Microstates",
-                                                                       "ids":  [
-                                                                                   "san-marino"
-                                                                               ]
-                                                                   }
-                                                               ],
-                                             "excludeIds":  [
-
-                                                            ]
-                                         }
-                      },
-                      {
-                          "provinces":  [
-
-                                        ],
-                          "properties":  {
                                              "realm":  "Saudi Arabia",
                                              "label":  "Saudi Arabia",
                                              "leader":  "Fahd bin Abdulaziz (King)",
@@ -6613,8 +6611,8 @@
                                              "label":  "Slovakia",
                                              "leader":  "Rudolf Schuster (President)",
                                              "info":  "Slovakia at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#4a8c8a",
-                                             "borderColor":  "#2e5e5c",
+                                             "fillColor":  "#d9894a",
+                                             "borderColor":  "#75451f",
                                              "regionFilters":  [
                                                                    {
                                                                        "admin":  "Slovakia",
@@ -6644,8 +6642,8 @@
                                              "label":  "Slovenia",
                                              "leader":  "Milan Kucan (President)",
                                              "info":  "Slovenia at the end of 2000. Boundaries use the available administrative map regions as approximations.",
-                                             "fillColor":  "#8e6aa8",
-                                             "borderColor":  "#4f3a63",
+                                             "fillColor":  "#5f9ea0",
+                                             "borderColor":  "#2f5e60",
                                              "regionFilters":  [
                                                                    {
                                                                        "admin":  "Slovenia",

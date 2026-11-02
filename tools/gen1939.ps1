@@ -221,6 +221,12 @@ $states = @(
         admins = @('Turkey'); ids = @('kars', 'ardahan', 'artvin')
         color = '#8a9c83'; border = '#465343'; leader = 'Ismet Inonu'
         info = 'Turkey recovered Kars, Ardahan and Artvin from Soviet control under the 1921 Treaty of Kars.'
+    },
+    [ordered]@{
+        realm = 'Ireland'; label = 'Ireland'
+        admins = @('Ireland'); color = '#2f8f55'; border = '#1a5734'
+        leader = 'Eamon de Valera (Taoiseach)'
+        info = 'Ireland had gained self-government in 1922, and the 1937 Constitution described the state as Ireland. Northern Ireland remained part of the United Kingdom.'
     }
 )
 
@@ -241,6 +247,7 @@ foreach ($state in $states) {
     if ($hasSpecificIds) { $stateIds = @($state.ids) }
     foreach ($feature in $features) {
         $matchesState = $state.admins -contains $feature.admin
+        if ($state.Contains('geonunit') -and $state.geonunit -ne $feature.geonunit) { $matchesState = $false }
         if ($hasSpecificIds -and $stateIds -notcontains $feature.id) { $matchesState = $false }
         if (-not $matchesState) { continue }
         if (-not $stateTransferIds.Contains($feature.id)) {
@@ -264,6 +271,7 @@ foreach ($state in $states) {
     $filters = New-Object System.Collections.ArrayList
     foreach ($admin in $state.admins) {
         $filter = [ordered]@{ admin = $admin }
+        if ($state.Contains('geonunit')) { $filter.geonunit = $state.geonunit }
         if ($hasSpecificIds) { $filter.ids = $stateIds }
         if ($state.excludeIds) { $filter.excludeIds = @($state.excludeIds) }
         [void]$filters.Add($filter)
@@ -385,6 +393,41 @@ foreach ($realm in $realms) {
     $override = Get-Override $oldName
     $override.properties.leader = Get-Leader $oldName
     $override.properties.info = "$oldName in 1939, before the German invasion of Poland."
+}
+
+$scotlandIds = @($features | Where-Object {
+    $_.admin -eq 'United Kingdom' -and $_.geonunit -eq 'Scotland'
+} | ForEach-Object { [string]$_.id } | Sort-Object -Unique)
+if ($scotlandIds.Count -eq 0) { throw 'No mapped Scottish regions were found for the United Kingdom.' }
+$ukRealm = $realms | Where-Object { $_.realm -eq 'United Kingdom' } | Select-Object -First 1
+if (-not $ukRealm) { throw 'Could not find the United Kingdom base realm.' }
+$ukOverride = Get-Override 'United Kingdom'
+$ukFilters = New-Object System.Collections.ArrayList
+foreach ($filter in @($ukRealm.props.regionFilters)) {
+    if ($filter) { [void]$ukFilters.Add($filter) }
+}
+[void]$ukFilters.Add([ordered]@{
+    admin = 'United Kingdom'
+    geonunit = 'Scotland'
+    ids = $scotlandIds
+})
+$ukOverride.properties.regionFilters = $ukFilters
+$ukExcludedIds = @($ukRealm.props.excludeIds)
+if ($ukOverride.properties.Contains('excludeIds')) {
+    $ukExcludedIds = @($ukOverride.properties.excludeIds)
+}
+$ukOverride.properties.excludeIds = @($ukExcludedIds | Where-Object { $scotlandIds -notcontains $_ })
+$ukOverride.properties.info = 'The United Kingdom, including Scotland, Wales, England and Northern Ireland, in 1939.'
+
+foreach ($name in @('United Kingdom (Scotland)', 'United Kingdom (Northern Isles)')) {
+    $realm = $realms | Where-Object { $_.realm -eq $name } | Select-Object -First 1
+    if (-not $realm) { throw "Expected United Kingdom region not found: $name." }
+    $override = Get-Override $name
+    $override.provinces = @()
+    $override.properties.label = ''
+    $override.properties.regionFilters = @()
+    $override.properties.excludeIds = @()
+    $override.properties.info = "$name is included in the United Kingdom."
 }
 
 $block = [ordered]@{

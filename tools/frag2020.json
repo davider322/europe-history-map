@@ -1,0 +1,646 @@
+{
+    "baseYear":  2000,
+    "note":  "Europe and adjoining mapped regions at the end of 2020. Montenegro had been independent from Serbia since 2006; Kosovo declared independence in 2008, though its status remained disputed; and the country formerly known as the Republic of Macedonia became North Macedonia in 2019. Crimea remained internationally recognized as part of Ukraine but was occupied and claimed by Russia. Western Sahara remained disputed. The map uses modern administrative regions as approximations and cannot show every disputed boundary or area of control.",
+    "overrides":  {
+                      "Denmark":  {
+                                      "properties":  {
+                                                         "leader":  "Margrethe II (Queen)",
+                                                         "info":  "Denmark at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Norway":  {
+                                     "properties":  {
+                                                        "leader":  "Harald V (King)",
+                                                        "info":  "Norway at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "Andorra":  {
+                                      "properties":  {
+                                                         "leader":  "Joan Enric Vives i Sicilia and Emmanuel Macron (Co-Princes)",
+                                                         "info":  "Andorra at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "San Marino":  {
+                                         "properties":  {
+                                                            "leader":  "Alessandro Cardelli and Grazia Zafferani (Captains Regent)",
+                                                            "info":  "San Marino at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                        }
+                                     },
+                      "Monaco":  {
+                                     "properties":  {
+                                                        "leader":  "Albert II (Prince)",
+                                                        "info":  "Monaco at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "Sweden":  {
+                                     "properties":  {
+                                                        "leader":  "Stefan Lofven (Prime Minister)",
+                                                        "info":  "Sweden at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "Netherlands":  {
+                                          "properties":  {
+                                                             "leader":  "Mark Rutte (Prime Minister)",
+                                                             "info":  "Netherlands at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                         }
+                                      },
+                      "Switzerland":  {
+                                          "properties":  {
+                                                             "leader":  "Simonetta Sommaruga (President)",
+                                                             "info":  "Switzerland at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                         }
+                                      },
+                      "France":  {
+                                     "properties":  {
+                                                        "leader":  "Emmanuel Macron (President)",
+                                                        "info":  "France at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "United Kingdom":  {
+                                             "properties":  {
+                                                                "leader":  "Elizabeth II (Queen)",
+                                                                "info":  "The United Kingdom at the end of 2020, including Scotland as a constituent country."
+                                                            }
+                                         },
+                      "Belgium":  {
+                                      "properties":  {
+                                                         "leader":  "Philippe (King)",
+                                                         "info":  "Belgium at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Luxembourg":  {
+                                         "properties":  {
+                                                            "leader":  "Henri (Grand Duke)",
+                                                            "info":  "Luxembourg at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                        }
+                                     },
+                      "Liechtenstein":  {
+                                            "properties":  {
+                                                               "leader":  "Hans-Adam II (Prince)",
+                                                               "info":  "Liechtenstein at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                           }
+                                        },
+                      "Finland":  {
+                                      "properties":  {
+                                                         "leader":  "Sauli Niinisto (President)",
+                                                         "info":  "Finland at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Ireland":  {
+                                      "properties":  {
+                                                         "leader":  "Michael D. Higgins (President)",
+                                                         "info":  "Ireland was an independent republic at the end of 2020."
+                                                     }
+                                  },
+                      "Romania":  {
+                                      "properties":  {
+                                                         "leader":  "Klaus Iohannis (President)",
+                                                         "info":  "Romania at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Algeria":  {
+                                      "properties":  {
+                                                         "leader":  "Abdelmadjid Tebboune (President)",
+                                                         "info":  "Algeria at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Tunisia":  {
+                                      "properties":  {
+                                                         "leader":  "Kais Saied (President)",
+                                                         "info":  "Tunisia at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Libya":  {
+                                    "properties":  {
+                                                       "leader":  "Fayez al-Sarraj (Prime Minister and Chairman of the Presidential Council)",
+                                                       "info":  "Libya remained divided amid civil conflict. Fayez al-Sarraj headed the internationally recognized Government of National Accord; the map uses whole administrative regions and cannot show the fragmented front lines."
+                                                   }
+                                },
+                      "Egypt":  {
+                                    "properties":  {
+                                                       "leader":  "Abdel Fattah el-Sisi (President)",
+                                                       "info":  "Egypt at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                   }
+                                },
+                      "Albania":  {
+                                      "properties":  {
+                                                         "leader":  "Ilir Meta (President)",
+                                                         "info":  "Albania at the end of 2020. Boundaries use available administrative regions as approximate map units.",
+                                                         "fillColor":  "#d18a4a",
+                                                         "borderColor":  "#744923"
+                                                     }
+                                  },
+                      "Armenia":  {
+                                      "properties":  {
+                                                         "leader":  "Armen Sarkissian (President)",
+                                                         "info":  "Armenia at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Austria":  {
+                                      "properties":  {
+                                                         "leader":  "Alexander Van der Bellen (President)",
+                                                         "info":  "Austria at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Azerbaijan":  {
+                                         "properties":  {
+                                                            "leader":  "Ilham Aliyev (President)",
+                                                            "info":  "Azerbaijan at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                        }
+                                     },
+                      "Bahrain":  {
+                                      "properties":  {
+                                                         "leader":  "Hamad bin Isa Al Khalifa (King)",
+                                                         "info":  "Bahrain at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Belarus":  {
+                                      "properties":  {
+                                                         "leader":  "Alexander Lukashenko (President)",
+                                                         "info":  "Belarus at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Bosnia and Herzegovina":  {
+                                                     "properties":  {
+                                                                        "leader":  "Milorad Dodik (Chair of the Presidency)",
+                                                                        "info":  "Bosnia and Herzegovina retained its post-Dayton structure of two entities and the Brcko District. These internal boundaries are not represented by the available regional map units.",
+                                                                        "fillColor":  "#557b9b",
+                                                                        "borderColor":  "#314b61"
+                                                                    }
+                                                 },
+                      "Bulgaria":  {
+                                       "properties":  {
+                                                          "leader":  "Rumen Radev (President)",
+                                                          "info":  "Bulgaria at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                      }
+                                   },
+                      "Croatia":  {
+                                      "properties":  {
+                                                         "leader":  "Zoran Milanovic (President)",
+                                                         "info":  "Croatia at the end of 2020. Boundaries use available administrative regions as approximate map units.",
+                                                         "fillColor":  "#c0504d",
+                                                         "borderColor":  "#6e2927"
+                                                     }
+                                  },
+                      "Cyprus":  {
+                                     "properties":  {
+                                                        "leader":  "Nicos Anastasiades (President)",
+                                                        "info":  "The Republic of Cyprus controlled the south of the island; the north was administered by the self-declared Turkish Republic of Northern Cyprus, recognized only by Turkey. The island is divided using the available administrative regions."
+                                                    }
+                                 },
+                      "Czech Republic":  {
+                                             "properties":  {
+                                                                "leader":  "Milos Zeman (President)",
+                                                                "info":  "Czech Republic at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                            }
+                                         },
+                      "Estonia":  {
+                                      "properties":  {
+                                                         "leader":  "Kersti Kaljulaid (President)",
+                                                         "info":  "Estonia at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Federal Republic of Yugoslavia":  {
+                                                             "properties":  {
+                                                                                "leader":  "Aleksandar Vucic (President)",
+                                                                                "info":  "Serbia was independent from Montenegro after their 2006 separation. Kosovo declared independence in 2008; Serbia did not recognize it. The map shows Kosovo separately and uses modern administrative boundaries.",
+                                                                                "realm":  "Serbia",
+                                                                                "label":  "Serbia",
+                                                                                "fillColor":  "#c2ad83",
+                                                                                "borderColor":  "#756547",
+                                                                                "regionFilters":  [
+                                                                                                      {
+                                                                                                          "admin":  "Republic of Serbia",
+                                                                                                          "ids":  [
+                                                                                                                      "belgrade",
+                                                                                                                      "bor",
+                                                                                                                      "braničevo",
+                                                                                                                      "centralbanat",
+                                                                                                                      "jablanica",
+                                                                                                                      "kolubara",
+                                                                                                                      "mačva",
+                                                                                                                      "moravica",
+                                                                                                                      "nišava",
+                                                                                                                      "northbačka",
+                                                                                                                      "northbanat",
+                                                                                                                      "pčinja",
+                                                                                                                      "pirot",
+                                                                                                                      "podunavlje",
+                                                                                                                      "pomoravski",
+                                                                                                                      "rasina",
+                                                                                                                      "raška",
+                                                                                                                      "southbačka",
+                                                                                                                      "southbanat",
+                                                                                                                      "srem",
+                                                                                                                      "šumadija",
+                                                                                                                      "toplica",
+                                                                                                                      "westbačka",
+                                                                                                                      "zaječar",
+                                                                                                                      "zlatibor"
+                                                                                                                  ]
+                                                                                                      }
+                                                                                                  ],
+                                                                                "excludeIds":  [
+
+                                                                                               ]
+                                                                            }
+                                                         },
+                      "Georgia":  {
+                                      "properties":  {
+                                                         "leader":  "Salome Zourabichvili (President)",
+                                                         "info":  "Georgia at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Germany":  {
+                                      "properties":  {
+                                                         "leader":  "Frank-Walter Steinmeier (President)",
+                                                         "info":  "Germany at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Greece":  {
+                                     "properties":  {
+                                                        "leader":  "Katerina Sakellaropoulou (President)",
+                                                        "info":  "Greece at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "Hungary":  {
+                                      "properties":  {
+                                                         "leader":  "Janos Ader (President)",
+                                                         "info":  "Hungary at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Iceland":  {
+                                      "properties":  {
+                                                         "leader":  "Gudni Th. Johannesson (President)",
+                                                         "info":  "Iceland at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Iran":  {
+                                   "properties":  {
+                                                      "leader":  "Ali Khamenei (Supreme Leader)",
+                                                      "info":  "Iran at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                  }
+                               },
+                      "Iraq":  {
+                                   "properties":  {
+                                                      "leader":  "Barham Salih (President)",
+                                                      "info":  "Iraq at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                  }
+                               },
+                      "Israel":  {
+                                     "properties":  {
+                                                        "leader":  "Reuven Rivlin (President)",
+                                                        "info":  "Israel at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "Italy":  {
+                                    "properties":  {
+                                                       "leader":  "Sergio Mattarella (President)",
+                                                       "info":  "Italy at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                   }
+                                },
+                      "Jordan":  {
+                                     "properties":  {
+                                                        "leader":  "Abdullah II (King)",
+                                                        "info":  "Jordan at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "Kosovo under UN administration":  {
+                                                             "properties":  {
+                                                                                "leader":  "Vjosa Osmani (Acting President)",
+                                                                                "info":  "Kosovo declared independence in 2008 and was governed by its own institutions at the end of 2020. Its status was not universally recognized; the map uses the available Kosovo boundary data.",
+                                                                                "realm":  "Kosovo",
+                                                                                "label":  "Kosovo",
+                                                                                "fillColor":  "#4b83c6",
+                                                                                "borderColor":  "#2d4d75"
+                                                                            }
+                                                         },
+                      "Latvia":  {
+                                     "properties":  {
+                                                        "leader":  "Egils Levits (President)",
+                                                        "info":  "Latvia at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "Lebanon":  {
+                                      "properties":  {
+                                                         "leader":  "Michel Aoun (President)",
+                                                         "info":  "Lebanon at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                     }
+                                  },
+                      "Lithuania":  {
+                                        "properties":  {
+                                                           "leader":  "Gitanas Nauseda (President)",
+                                                           "info":  "Lithuania at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                       }
+                                    },
+                      "Malta":  {
+                                    "properties":  {
+                                                       "leader":  "George Vella (President)",
+                                                       "info":  "Malta at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                   }
+                                },
+                      "Moldova":  {
+                                      "properties":  {
+                                                         "leader":  "Maia Sandu (President)",
+                                                         "info":  "Moldova remained internationally recognized within its borders, while Transnistria continued to function as a de facto separate administration. The map cannot show this internal division."
+                                                     }
+                                  },
+                      "Morocco":  {
+                                      "properties":  {
+                                                         "leader":  "Mohammed VI (King)",
+                                                         "info":  "Morocco administered most of Western Sahara at the end of 2020, while the Sahrawi Arab Democratic Republic and Polisario Front maintained a competing claim. Available administrative boundaries cannot show the separation line or areas of control."
+                                                     }
+                                  },
+                      "Palestinian National Authority":  {
+                                                             "properties":  {
+                                                                                "leader":  "Mahmoud Abbas (President)",
+                                                                                "info":  "The Palestinian Authority administered parts of the West Bank, while Hamas governed Gaza. The mapped regions are broad approximations and do not represent the complex boundaries of control."
+                                                                            }
+                                                         },
+                      "Poland":  {
+                                     "properties":  {
+                                                        "leader":  "Andrzej Duda (President)",
+                                                        "info":  "Poland at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "Portugal":  {
+                                       "properties":  {
+                                                          "leader":  "Marcelo Rebelo de Sousa (President)",
+                                                          "info":  "Portugal at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                      }
+                                   },
+                      "Republic of Macedonia":  {
+                                                    "properties":  {
+                                                                       "leader":  "Stevo Pendarovski (President)",
+                                                                       "info":  "The country adopted the name North Macedonia in 2019 under the Prespa Agreement.",
+                                                                       "realm":  "North Macedonia",
+                                                                       "label":  "North Macedonia",
+                                                                       "fillColor":  "#d6b55d",
+                                                                       "borderColor":  "#8a7030"
+                                                                   }
+                                                },
+                      "Russian Federation":  {
+                                                 "properties":  {
+                                                                    "leader":  "Vladimir Putin (President)",
+                                                                    "info":  "Russian Federation at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                                }
+                                             },
+                      "Saudi Arabia":  {
+                                           "properties":  {
+                                                              "leader":  "Salman bin Abdulaziz Al Saud (King)",
+                                                              "info":  "Saudi Arabia at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                          }
+                                       },
+                      "Slovakia":  {
+                                       "properties":  {
+                                                          "leader":  "Zuzana Caputova (President)",
+                                                          "info":  "Slovakia at the end of 2020. Boundaries use available administrative regions as approximate map units.",
+                                                          "fillColor":  "#d9894a",
+                                                          "borderColor":  "#75451f"
+                                                      }
+                                   },
+                      "Slovenia":  {
+                                       "properties":  {
+                                                          "leader":  "Borut Pahor (President)",
+                                                          "info":  "Slovenia at the end of 2020. Boundaries use available administrative regions as approximate map units.",
+                                                          "fillColor":  "#5f9ea0",
+                                                          "borderColor":  "#2f5e60"
+                                                      }
+                                   },
+                      "Spain":  {
+                                    "properties":  {
+                                                       "leader":  "Felipe VI (King)",
+                                                       "info":  "Spain at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                   }
+                                },
+                      "Syria":  {
+                                    "properties":  {
+                                                       "leader":  "Bashar al-Assad (President)",
+                                                       "info":  "Syria at the end of 2020. Boundaries use available administrative regions as approximate map units."
+                                                   }
+                                },
+                      "Turkey":  {
+                                     "properties":  {
+                                                        "leader":  "Recep Tayyip Erdogan (President)",
+                                                        "info":  "Turkey at the end of 2020. The map uses available administrative regions as approximate map units."
+                                                    }
+                                 },
+                      "Ukraine":  {
+                                      "properties":  {
+                                                         "leader":  "Volodymyr Zelenskyy (President)",
+                                                         "info":  "Ukraine remained internationally recognized within its borders, including Crimea, which Russia had occupied and claimed to annex since 2014. The map cannot show the frontline in eastern Ukraine."
+                                                     }
+                                  }
+                  },
+    "additions":  [
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Montenegro",
+                                             "label":  "Montenegro",
+                                             "leader":  "Milo Djukanovic (President)",
+                                             "info":  "Montenegro became independent from Serbia in 2006. The map uses its modern administrative regions.",
+                                             "fillColor":  "#641f35",
+                                             "borderColor":  "#35101c",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Montenegro",
+                                                                       "ids":  [
+                                                                                   "andrijevica",
+                                                                                   "bar",
+                                                                                   "berane",
+                                                                                   "bijelopolje",
+                                                                                   "budva",
+                                                                                   "cetinje",
+                                                                                   "danilovgrad",
+                                                                                   "hercegnovi",
+                                                                                   "kolašin",
+                                                                                   "kotor",
+                                                                                   "mojkovac",
+                                                                                   "nikšić",
+                                                                                   "plav",
+                                                                                   "pljevlja",
+                                                                                   "plužine",
+                                                                                   "podgorica",
+                                                                                   "rožaje",
+                                                                                   "šavnik",
+                                                                                   "tivat",
+                                                                                   "ulcinj",
+                                                                                   "žabljak"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Kuwait",
+                                             "label":  "Kuwait",
+                                             "leader":  "Nawaf Al-Ahmad Al-Jaber Al-Sabah (Emir)",
+                                             "info":  "Nawaf Al-Ahmad Al-Jaber Al-Sabah became Emir of Kuwait in September 2020.",
+                                             "fillColor":  "#a28b70",
+                                             "borderColor":  "#695945",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Kuwait",
+                                                                       "ids":  [
+                                                                                   "kwt-ahmadi",
+                                                                                   "kwt-al-asimah",
+                                                                                   "kwt-farwaniya",
+                                                                                   "kwt-hawalli",
+                                                                                   "kwt-jahra",
+                                                                                   "kwt-mubarak-al-kabeer"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Oman",
+                                             "label":  "Oman",
+                                             "leader":  "Haitham bin Tariq (Sultan)",
+                                             "info":  "Haitham bin Tariq became Sultan of Oman in January 2020.",
+                                             "fillColor":  "#5f9a79",
+                                             "borderColor":  "#345c48",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Oman",
+                                                                       "ids":  [
+                                                                                   "omn-ad-dakhiliyah",
+                                                                                   "omn-al-batinah",
+                                                                                   "omn-al-wusta",
+                                                                                   "omn-ash-sharqiyah",
+                                                                                   "omn-az-zahirah",
+                                                                                   "omn-dhofar",
+                                                                                   "omn-muscat"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Qatar",
+                                             "label":  "Qatar",
+                                             "leader":  "Tamim bin Hamad Al Thani (Emir)",
+                                             "info":  "Qatar at the end of 2020. Boundaries use available administrative regions as approximate map units.",
+                                             "fillColor":  "#9a4a6a",
+                                             "borderColor":  "#5a2640",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Qatar",
+                                                                       "ids":  [
+                                                                                   "qat-al-daayen",
+                                                                                   "qat-al-khor-and-al-thakhira",
+                                                                                   "qat-al-rayyan",
+                                                                                   "qat-al-shamal",
+                                                                                   "qat-al-sheehaniya",
+                                                                                   "qat-al-wakra",
+                                                                                   "qat-doha",
+                                                                                   "qat-umm-slal"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "United Arab Emirates",
+                                             "label":  "United Arab Emirates",
+                                             "leader":  "Khalifa bin Zayed Al Nahyan (President)",
+                                             "info":  "The United Arab Emirates at the end of 2020. Boundaries use available administrative regions as approximate map units.",
+                                             "fillColor":  "#557b55",
+                                             "borderColor":  "#314b36",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "United Arab Emirates",
+                                                                       "ids":  [
+                                                                                   "are-abu-dhabi",
+                                                                                   "are-ajman",
+                                                                                   "are-dubai",
+                                                                                   "are-fujairah",
+                                                                                   "are-ras-al-khaimah",
+                                                                                   "are-sharjah",
+                                                                                   "are-umm-al-quwain"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Yemen",
+                                             "label":  "Yemen",
+                                             "leader":  "Abdrabbuh Mansur Hadi (President)",
+                                             "info":  "Yemen remained divided by civil war at the end of 2020. The map shows the internationally recognized state outline and cannot represent the changing areas of control.",
+                                             "fillColor":  "#d08a86",
+                                             "borderColor":  "#7a4a48",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Yemen",
+                                                                       "ids":  [
+                                                                                   "yem-abyan-governorate",
+                                                                                   "yem-adan-governorate",
+                                                                                   "yem-ad-dali-governorate",
+                                                                                   "yem-al-bayda-governorate",
+                                                                                   "yem-al-hudaydah-governorate",
+                                                                                   "yem-al-jawf-governorate",
+                                                                                   "yem-al-mahrah-governorate",
+                                                                                   "yem-al-mahwit-governorate",
+                                                                                   "yem-amran-governorate",
+                                                                                   "yem-dhamar-governorate",
+                                                                                   "yem-hadhramaut",
+                                                                                   "yem-hajjah-governorate",
+                                                                                   "yem-ibb-governorate",
+                                                                                   "yem-lahij-governorate",
+                                                                                   "yem-ma-rib-governorate",
+                                                                                   "yem-raymah-governorate",
+                                                                                   "yem-sa-dah-governorate",
+                                                                                   "yem-san-a",
+                                                                                   "yem-san-a-governorate",
+                                                                                   "yem-shabwah-governorate",
+                                                                                   "yem-socotra",
+                                                                                   "yem-ta-izz-governorate"
+                                                                               ]
+                                                                   }
+                                                               ],
+                                             "excludeIds":  [
+
+                                                            ]
+                                         }
+                      }
+                  ]
+}

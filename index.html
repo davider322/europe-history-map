@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Map of Europe</title>
+    <title>Epoch Map — Europe through time</title>
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +14,60 @@
         #map { width: 100vw; height: 100vh; position: absolute; top: 0; left: 0; z-index: 1; }
         /* Matches the Esri relief sea colour, so tiles that are still loading look like water. */
         #map.leaflet-container { background: #9ebcd8; }
+
+        #site-brand {
+            position: absolute;
+            top: 14px;
+            left: 50%;
+            z-index: 1100;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 250px;
+            box-sizing: border-box;
+            padding: 7px 18px 8px;
+            transform: translateX(-50%);
+            border: 1px solid rgba(177, 138, 93, 0.8);
+            background: rgba(241, 226, 198, 0.94);
+            box-shadow: 0 3px 10px rgba(65, 43, 20, 0.18);
+            color: #4a3520;
+            pointer-events: none;
+            white-space: nowrap;
+        }
+
+        #site-brand::before,
+        #site-brand::after {
+            position: absolute;
+            top: -4px;
+            bottom: -4px;
+            width: 10px;
+            border: 1px solid #9e7447;
+            border-radius: 6px;
+            background: linear-gradient(90deg, #a77b4b 0, #e6c99a 35%, #f5e8ca 55%, #c69c64 100%);
+            box-shadow: inset 1px 0 2px rgba(255, 248, 229, 0.8), 0 1px 3px rgba(65, 43, 20, 0.22);
+            content: '';
+        }
+
+        #site-brand::before { left: -8px; }
+        #site-brand::after { right: -8px; }
+
+        #site-brand__name {
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+            font-size: 1.55rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            line-height: 1;
+        }
+
+        #site-brand__tagline {
+            margin-top: 7px;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+            font-size: 0.58rem;
+            font-weight: 600;
+            letter-spacing: 0.12em;
+            line-height: 1;
+            text-transform: uppercase;
+        }
         
         #timeline-container {
             --timeline-surface: #f1e2c6;
@@ -182,15 +236,6 @@
             transition-duration: 300ms;
         }
 
-        #year-note {
-            color: #755b3e;
-            font-family: var(--body-font);
-            font-size: 0.82rem;
-            font-weight: 400;
-            line-height: 1.35;
-            text-align: center;
-        }
-
         #map-status {
             position: absolute;
             top: 20px;
@@ -209,6 +254,72 @@
 
         #map-status[hidden] {
             display: none;
+        }
+
+        #realm-search {
+            position: absolute;
+            top: 66px;
+            right: 18px;
+            z-index: 1000;
+            width: min(270px, calc(100vw - 36px));
+            box-sizing: border-box;
+            padding: 8px;
+            border: 1px solid #b18a5d;
+            background: #f1e2c6;
+            box-shadow: 0 4px 14px rgba(65, 43, 20, 0.2);
+            color: #4a3520;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+        }
+
+        #realm-search[hidden] {
+            display: none;
+        }
+
+        #realm-search label {
+            display: block;
+            margin: 0 0 5px 2px;
+            color: #755b3e;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .realm-search__controls {
+            display: flex;
+            gap: 5px;
+        }
+
+        #realm-search-input {
+            min-width: 0;
+            flex: 1;
+            box-sizing: border-box;
+            padding: 6px 8px;
+            border: 1px solid #b18a5d;
+            border-radius: 0;
+            background: #fff8e9;
+            color: #4a3520;
+            font: 0.9rem var(--body-font);
+        }
+
+        #realm-search-input:focus-visible,
+        #realm-search-submit:focus-visible {
+            outline: 2px solid #80603c;
+            outline-offset: 2px;
+        }
+
+        #realm-search-submit {
+            padding: 5px 9px;
+            border: 1px solid #9e7447;
+            border-radius: 0;
+            background: #e6c99a;
+            color: #4a3520;
+            font: 600 0.85rem 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+            cursor: pointer;
+        }
+
+        #realm-search-submit:hover {
+            background: #f5e8ca;
         }
 
         #intro {
@@ -328,6 +439,18 @@
             border: 1px solid #b18a5d;
             border-radius: 5px;
             box-shadow: 0 5px 18px rgba(65, 43, 20, 0.24);
+            animation: selection-popup-in 180ms ease-out both;
+        }
+
+        @keyframes selection-popup-in {
+            from {
+                opacity: 0;
+                transform: translateY(4px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         .leaflet-popup-content-wrapper::before,
@@ -419,8 +542,105 @@
             font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
         }
 
+        #realm-panel.is-opening {
+            animation: realm-panel-in 200ms ease-out both;
+        }
+
+        #realm-search.is-opening,
+        #map-info-panel.is-opening,
+        #year-context-panel.is-opening {
+            animation: control-panel-in 200ms ease-out both;
+        }
+
+        @keyframes realm-panel-in {
+            from {
+                opacity: 0;
+                transform: translateX(-6px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes control-panel-in {
+            from {
+                opacity: 0;
+                transform: translateY(-5px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        #map-info-button,
+        #year-context-button,
+        #realm-search-toggle {
+            position: absolute;
+            z-index: 1200;
+            top: 18px;
+            width: 38px;
+            height: 38px;
+            box-sizing: border-box;
+            display: grid;
+            place-items: center;
+            padding: 0;
+            border: 1px solid #b18a5d;
+            border-radius: 50%;
+            background: #f1e2c6;
+            box-shadow:
+                inset 0 1px 0 rgba(255, 248, 229, 0.9),
+                0 4px 14px rgba(65, 43, 20, 0.2);
+            color: #4a3520;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        #map-info-button { right: 18px; }
+        #year-context-button { right: 62px; }
+        #realm-search-toggle { right: 106px; }
+
+        #map-info-button:hover,
+        #map-info-button:focus-visible,
+        #year-context-button:hover,
+        #year-context-button:focus-visible,
+        #realm-search-toggle:hover,
+        #realm-search-toggle:focus-visible {
+            background: #f5e8ca;
+            outline: 2px solid #80603c;
+            outline-offset: 2px;
+        }
+
+        #map-info-panel,
+        #year-context-panel {
+            position: absolute;
+            z-index: 1200;
+            top: 66px;
+            right: 24px;
+            width: min(390px, calc(100vw - 48px));
+            max-height: calc(100vh - 90px);
+            box-sizing: border-box;
+            overflow-y: auto;
+            padding: 26px;
+            border: 1px solid #b18a5d;
+            border-radius: 8px;
+            background:
+                linear-gradient(90deg, rgba(126, 91, 49, 0.08), transparent 18px),
+                #f1e2c6;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, 0.32);
+            color: #4a3520;
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+        }
+
         #realm-panel::before,
-        #realm-panel::after {
+        #realm-panel::after,
+        #map-info-panel::before,
+        #map-info-panel::after,
+        #year-context-panel::before,
+        #year-context-panel::after {
             position: absolute;
             left: 0;
             right: 0;
@@ -440,17 +660,26 @@
             pointer-events: none;
         }
 
-        #realm-panel::before {
+        #realm-panel::before,
+        #map-info-panel::before,
+        #year-context-panel::before {
             top: 0;
             box-shadow:
                 inset 0 2px 3px rgba(255, 248, 229, 0.9);
         }
 
-        #realm-panel::after {
+        #realm-panel::after,
+        #map-info-panel::after,
+        #year-context-panel::after {
             bottom: 0;
         }
 
         #realm-panel[hidden] {
+            display: none;
+        }
+
+        #map-info-panel[hidden],
+        #year-context-panel[hidden] {
             display: none;
         }
 
@@ -460,12 +689,59 @@
             right: 12px;
             width: 34px;
             height: 34px;
+            box-sizing: border-box;
+            display: grid;
+            place-items: center;
+            padding: 0;
             border: 1px solid #b18a5d;
             border-radius: 50%;
             background: #f5e8ca;
             color: #4a3520;
             font-size: 1.3rem;
             cursor: pointer;
+        }
+
+        .map-info__title {
+            margin: 8px 42px 18px 0;
+            color: #4a3520;
+            font-size: 1.8rem;
+            line-height: 1.08;
+        }
+
+        .map-info__section {
+            margin: 0 0 17px;
+        }
+
+        .map-info__section h3 {
+            margin: 0 0 4px;
+            color: #755b3e;
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+        }
+
+        .map-info__section p {
+            margin: 0;
+            font-family: var(--body-font);
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .year-context__year {
+            margin: 8px 42px 18px 0;
+            color: #755b3e;
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.14em;
+            text-transform: uppercase;
+        }
+
+        #year-context-note {
+            margin: 0;
+            font-family: var(--body-font);
+            font-size: 0.98rem;
+            line-height: 1.6;
         }
 
         .realm-panel__eyebrow {
@@ -547,6 +823,22 @@
             position: absolute;
             top: 50%;
             left: var(--mark-position);
+            width: 26px;
+            height: 32px;
+            transform: translate(-50%, -50%);
+            cursor: default;
+            pointer-events: auto;
+            touch-action: none;
+        }
+
+        .timeline-period-mark:hover {
+            cursor: pointer;
+        }
+
+        .timeline-period-mark::before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
             width: 4px;
             height: 8px;
             transform: translate(-50%, -50%);
@@ -554,6 +846,34 @@
             border-radius: 3px;
             background: var(--timeline-mark-gradient);
             box-shadow: var(--timeline-mark-shadow);
+            content: '';
+        }
+
+        .timeline-period-mark::after {
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            z-index: 5;
+            padding: 5px 9px;
+            transform: translate(-50%, 2px);
+            border: 1px solid #b18a5d;
+            background: #f1e2c6;
+            box-shadow: 0 2px 6px rgba(65, 43, 20, 0.2);
+            color: #4a3520;
+            content: attr(data-year);
+            font-family: 'Barlow Semi Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            line-height: 1.2;
+            opacity: 0;
+            pointer-events: none;
+            white-space: nowrap;
+            transition: none;
+        }
+
+        .timeline-period-mark:hover::after {
+            transform: translate(-50%, 0);
+            opacity: 1;
         }
 
         .slider {
@@ -600,19 +920,104 @@
         }
 
         @media (max-width: 600px) {
+            #site-brand {
+                top: 12px;
+                left: 64px;
+                width: min(158px, calc(100vw - 218px));
+                padding: 7px 4px;
+                transform: none;
+            }
+
+            #site-brand__name {
+                font-size: 1.1rem;
+                letter-spacing: 0.045em;
+            }
+
+            #site-brand__tagline {
+                display: none;
+            }
+
+            .leaflet-control-zoom.leaflet-bar {
+                margin-top: 12px;
+                margin-left: 16px;
+            }
+
+            #map-info-button,
+            #year-context-button,
+            #realm-search-toggle {
+                top: 12px;
+                width: 42px;
+                height: 42px;
+            }
+
+            #map-info-button { right: 12px; }
+            #year-context-button { right: 62px; }
+            #realm-search-toggle { right: 112px; }
+
+            #realm-search {
+                top: 84px;
+                right: 12px;
+                width: calc(100vw - 24px);
+            }
+
+            #realm-search-input {
+                font-size: 16px;
+            }
+
             #timeline-container {
-                bottom: 16px;
-                width: calc(100vw - 48px);
-                padding: 6px 18px 7px;
+                bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+                width: calc(100vw - 32px);
+                padding: 9px 18px 10px;
             }
 
             #year-display {
-                font-size: 1rem;
+                font-size: 1.1rem;
             }
+
+            .timeline-track,
+            .slider {
+                height: 30px;
+            }
+
+            .slider {
+                background: linear-gradient(
+                    to bottom,
+                    transparent 0,
+                    transparent 13px,
+                    var(--timeline-track-color) 13px,
+                    var(--timeline-track-color) 17px,
+                    transparent 17px
+                );
+            }
+
+            .slider::-webkit-slider-thumb {
+                width: 22px;
+                height: 22px;
+            }
+
+            .slider::-moz-range-thumb {
+                width: 18px;
+                height: 18px;
+            }
+
+            .timeline-period-mark {
+                height: 40px;
+            }
+
         }
 
         .slider::-webkit-slider-thumb:hover {
             transform: scale(1.2);
+        }
+
+        @media (max-width: 360px) {
+            #site-brand {
+                width: calc(100vw - 230px);
+            }
+
+            #site-brand__name {
+                font-size: 1rem;
+            }
         }
 
         /* Add this class to #timeline-container to restore the saved gray variant. */
@@ -634,11 +1039,25 @@
                 inset 0 1px 0 rgba(255, 255, 255, 0.95),
                 0 4px 14px rgba(33, 39, 42, 0.2);
         }
+
+        @media (prefers-reduced-motion: reduce) {
+            #realm-panel.is-opening,
+            #realm-search.is-opening,
+            #map-info-panel.is-opening,
+            #year-context-panel.is-opening,
+            .leaflet-popup-content-wrapper {
+                animation: none;
+            }
+        }
     </style>
 </head>
 <body>
 
     <div id="map" class="is-intro"></div>
+    <header id="site-brand" aria-label="Epoch Map — Europe through time">
+        <span id="site-brand__name">Epoch Map</span>
+        <span id="site-brand__tagline">Europe through time</span>
+    </header>
 
     <div id="map-status" role="status" aria-live="polite" hidden></div>
 
@@ -648,6 +1067,49 @@
             <span class="intro__dots" aria-hidden="true"><i></i><i></i><i></i></span>
         </div>
     </div>
+
+    <button id="year-context-button" type="button" aria-label="Historical context for the selected year" aria-controls="year-context-panel" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true" focusable="false">
+            <path d="M3 5.5c2.8-1 5.8-.5 9 1.4 3.2-1.9 6.2-2.4 9-1.4v12c-2.8-1-5.8-.5-9 1.4-3.2-1.9-6.2-2.4-9-1.4zM12 6.9v12" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/>
+        </svg>
+    </button>
+    <button id="map-info-button" type="button" aria-label="About this map" aria-controls="map-info-panel" aria-expanded="false">i</button>
+    <button id="realm-search-toggle" type="button" aria-label="Find a realm" aria-controls="realm-search" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="21" height="21" aria-hidden="true" focusable="false">
+            <circle cx="10.8" cy="10.8" r="6.3" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <path d="m15.4 15.4 4.2 4.2" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.8"/>
+        </svg>
+    </button>
+    <form id="realm-search" role="search" aria-label="Find a realm" hidden>
+        <label for="realm-search-input">Find a realm</label>
+        <div class="realm-search__controls">
+            <input id="realm-search-input" type="search" list="realm-search-options" placeholder="Type a realm name" autocomplete="off">
+            <button id="realm-search-submit" type="submit">Go</button>
+        </div>
+        <datalist id="realm-search-options"></datalist>
+    </form>
+    <aside id="year-context-panel" aria-labelledby="year-context-title" aria-hidden="true" hidden>
+        <button class="realm-panel__close" type="button" aria-label="Close year context">×</button>
+        <h2 id="year-context-title" class="map-info__title">Year context</h2>
+        <p class="year-context__year">Historical background · <span id="year-context-year"></span></p>
+        <p id="year-context-note"></p>
+    </aside>
+    <aside id="map-info-panel" aria-labelledby="map-info-title" aria-hidden="true" hidden>
+        <button class="realm-panel__close" type="button" aria-label="Close map information">×</button>
+        <h2 id="map-info-title" class="map-info__title">About this map</h2>
+        <section class="map-info__section">
+            <h3>Explore</h3>
+            <p>Use the timeline at the bottom to move between years. Select a realm on the map to read about its ruler and history. Zoom with the buttons or scroll, and drag to move around.</p>
+        </section>
+        <section class="map-info__section">
+            <h3>Historical boundaries</h3>
+            <p>This map is a simplified overview. Modern administrative regions are often used to approximate historical borders, which could be uncertain and change over time.</p>
+        </section>
+        <section class="map-info__section">
+            <h3>Sources</h3>
+            <p>Map data sources and acknowledgements are listed at the bottom right.</p>
+        </section>
+    </aside>
 
     <aside id="realm-panel" aria-labelledby="realm-panel-title" aria-hidden="true" hidden>
         <button class="realm-panel__close" type="button" aria-label="Close realm information">×</button>
@@ -668,7 +1130,6 @@
 
     <div id="timeline-container">
         <div id="year-display">Year: <span id="current-year">1000</span></div>
-        <div id="year-note" hidden></div>
         <div class="timeline-track">
             <div class="timeline-period-marks" aria-hidden="true"></div>
             <input type="range" min="0" max="0" value="0" step="1" class="slider" id="year-slider" aria-label="Select year" disabled>
@@ -679,12 +1140,28 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script>
         const europeBounds = L.latLngBounds([[24, -30], [72, 50]]);
+        const sharedViewParams = new URLSearchParams(window.location.search);
+        const sharedLatitude = Number(sharedViewParams.get('lat'));
+        const sharedLongitude = Number(sharedViewParams.get('lng'));
+        const sharedZoom = Number(sharedViewParams.get('zoom'));
+        const sharedMapView =
+            sharedViewParams.has('lat') &&
+            sharedViewParams.has('lng') &&
+            sharedViewParams.has('zoom') &&
+            Number.isFinite(sharedLatitude) &&
+            Number.isFinite(sharedLongitude) &&
+            Number.isFinite(sharedZoom) &&
+            sharedZoom >= 4 &&
+            sharedZoom <= 13
+                ? { center: [sharedLatitude, sharedLongitude], zoom: sharedZoom }
+                : null;
         const map = L.map('map', {
             maxBounds: europeBounds,
             maxBoundsViscosity: 1,
             minZoom: 4
         });
         map.fitBounds(europeBounds, { padding: [16, 16] });
+        if (sharedMapView) map.setView(sharedMapView.center, sharedMapView.zoom);
         const status = document.getElementById('map-status');
 
         // Esri World Shaded Relief: no modern labels or borders
@@ -737,8 +1214,109 @@
         let prefetchToken = 0;
         let prefetchTimer = null;
         const realmPanel = document.getElementById('realm-panel');
+        const realmSearchForm = document.getElementById('realm-search');
+        const realmSearchInput = document.getElementById('realm-search-input');
+        const realmSearchOptions = document.getElementById('realm-search-options');
+        const realmSearchToggle = document.getElementById('realm-search-toggle');
+        const yearContextPanel = document.getElementById('year-context-panel');
+        const yearContextButton = document.getElementById('year-context-button');
+        const mapInfoPanel = document.getElementById('map-info-panel');
+        const mapInfoButton = document.getElementById('map-info-button');
+        let activeSearchRealms = [];
+
+        function updateYearInUrl(year) {
+            try {
+                const url = new URL(window.location.href);
+                url.searchParams.set('year', String(year));
+                const center = map.getCenter();
+                url.searchParams.set('lat', center.lat.toFixed(5));
+                url.searchParams.set('lng', center.lng.toFixed(5));
+                url.searchParams.set('zoom', String(map.getZoom()));
+                window.history.replaceState(window.history.state, '', url);
+            } catch (error) {
+                console.error('Could not update the shareable year URL:', error);
+                setStatus('The map loaded, but the year could not be added to the URL.');
+            }
+        }
+
+        map.on('moveend', () => {
+            const year = Number(document.getElementById('current-year').textContent);
+            if (availableYears.includes(year)) updateYearInUrl(year);
+        });
+
+        function updateRealmSearchOptions(searchRealms) {
+            activeSearchRealms = searchRealms;
+            realmSearchOptions.replaceChildren(...searchRealms.map(realm => {
+                const option = document.createElement('option');
+                option.value = realm.name;
+                return option;
+            }));
+            if (!searchRealms.some(realm =>
+                realm.name.toLowerCase() === realmSearchInput.value.trim().toLowerCase()
+            )) {
+                realmSearchInput.value = '';
+            }
+        }
+
+        function closeRealmSearch(restoreFocus = true) {
+            realmSearchForm.hidden = true;
+            realmSearchToggle.setAttribute('aria-expanded', 'false');
+            if (restoreFocus) realmSearchToggle.focus();
+        }
+
+        function showAnimatedPanel(panel) {
+            panel.classList.remove('is-opening');
+            panel.hidden = false;
+            void panel.offsetWidth;
+            panel.classList.add('is-opening');
+        }
+
+        function toggleRealmSearch() {
+            if (realmSearchForm.hidden) {
+                showAnimatedPanel(realmSearchForm);
+                realmSearchToggle.setAttribute('aria-expanded', 'true');
+                realmSearchInput.focus();
+            } else {
+                closeRealmSearch();
+            }
+        }
+
+        function goToSearchedRealm(event) {
+            event.preventDefault();
+            const query = realmSearchInput.value.trim();
+            const selectedRealm = activeSearchRealms.find(realm =>
+                realm.name.toLowerCase() === query.toLowerCase()
+            );
+            if (!selectedRealm) {
+                setStatus(`No realm named "${query}" is shown in ${document.getElementById('current-year').textContent}.`);
+                realmSearchInput.focus();
+                return;
+            }
+
+            setStatus('');
+            closeRealmSearch();
+            map.closePopup();
+            openRealmPanel(selectedRealm.properties);
+            const mapSize = map.getSize();
+            if (mapSize.x >= 700) {
+                const leftPadding = Math.min(realmPanel.offsetWidth + 32, mapSize.x * 0.4);
+                map.fitBounds(selectedRealm.bounds, {
+                    maxZoom: 7,
+                    paddingTopLeft: [leftPadding, 48],
+                    paddingBottomRight: [24, mapSize.y * 0.16]
+                });
+            } else {
+                map.fitBounds(selectedRealm.bounds, {
+                    maxZoom: 7,
+                    padding: [40, 40]
+                });
+            }
+        }
 
         function openRealmPanel(props) {
+            closeMapInfoPanel(false);
+            closeYearContextPanel(false);
+            realmPanel.classList.remove('is-opening');
             document.getElementById('realm-panel-title').textContent =
                 props.realm || 'Unknown realm';
             document.getElementById('realm-panel-ruler').textContent =
@@ -747,11 +1325,59 @@
                 props.info || 'No historical information has been added yet.';
             realmPanel.hidden = false;
             realmPanel.setAttribute('aria-hidden', 'false');
+            void realmPanel.offsetWidth;
+            realmPanel.classList.add('is-opening');
+        }
+
+        function showRegionPopup(latLng, regionName, year) {
+            const content = document.createElement('div');
+            content.className = 'realm-popup';
+            const selection = document.createElement('span');
+            selection.className = 'realm-popup__province';
+            selection.textContent = `${regionName || 'Unknown region'} · ${year}`;
+            content.append(selection);
+            L.popup({ closeButton: false, autoPan: false })
+                .setLatLng(latLng)
+                .setContent(content)
+                .openOn(map);
         }
 
         function closeRealmPanel() {
             realmPanel.hidden = true;
             realmPanel.setAttribute('aria-hidden', 'true');
+            map.closePopup();
+        }
+
+        function openMapInfoPanel() {
+            closeYearContextPanel(false);
+            closeRealmPanel();
+            showAnimatedPanel(mapInfoPanel);
+            mapInfoPanel.setAttribute('aria-hidden', 'false');
+            mapInfoButton.setAttribute('aria-expanded', 'true');
+            mapInfoPanel.querySelector('.realm-panel__close').focus();
+        }
+
+        function closeMapInfoPanel(restoreFocus = true) {
+            mapInfoPanel.hidden = true;
+            mapInfoPanel.setAttribute('aria-hidden', 'true');
+            mapInfoButton.setAttribute('aria-expanded', 'false');
+            if (restoreFocus) mapInfoButton.focus();
+        }
+
+        function openYearContextPanel() {
+            closeMapInfoPanel(false);
+            closeRealmPanel();
+            showAnimatedPanel(yearContextPanel);
+            yearContextPanel.setAttribute('aria-hidden', 'false');
+            yearContextButton.setAttribute('aria-expanded', 'true');
+            yearContextPanel.querySelector('.realm-panel__close').focus();
+        }
+
+        function closeYearContextPanel(restoreFocus = true) {
+            yearContextPanel.hidden = true;
+            yearContextPanel.setAttribute('aria-hidden', 'true');
+            yearContextButton.setAttribute('aria-expanded', 'false');
+            if (restoreFocus) yearContextButton.focus();
         }
 
         function clearPane(paneState) {
@@ -943,6 +1569,7 @@
             const boundaryGroups = new Map();
             const realmMarkerLayers = [];
             const realmLabelLayers = [];
+            const searchRealms = [];
             for (const realmConfig of configs) {
                 if (await shouldStop()) return null;
                 const allowedIds = Array.isArray(realmConfig.provinces)
@@ -953,6 +1580,7 @@
                 const regionFilters = Array.isArray(props.regionFilters)
                     ? props.regionFilters
                     : [];
+                let realmBounds = null;
                 const realmFeatures = europeRegionsData.features.filter(feature => {
                     const featureProps = feature.properties || {};
                     if (Array.isArray(featureProps.activeYears) &&
@@ -998,12 +1626,14 @@
                                 : FILL_OPACITY
                         },
                         onEachFeature: (feature, featureLayer) => {
-                            const popup = createRealmPopup(
-                                feature.properties.name || 'Unknown region',
-                                props,
-                                year
-                            );
-                            featureLayer.bindPopup(popup);
+                            featureLayer.on('click', event => {
+                                openRealmPanel(props);
+                                showRegionPopup(
+                                    event.latlng,
+                                    feature.properties.name,
+                                    year
+                                );
+                            });
                         }
                     });
                     nextLayers.push(layer);
@@ -1017,10 +1647,11 @@
                     }
                     const group = boundaryGroups.get(groupKey);
                     group.features.push(...realmFeatures);
-                    const realmBounds = layer.getBounds();
+                    const layerBounds = layer.getBounds();
                     group.bounds = group.bounds
-                        ? group.bounds.extend(realmBounds)
-                        : L.latLngBounds(realmBounds.getSouthWest(), realmBounds.getNorthEast());
+                        ? group.bounds.extend(layerBounds)
+                        : L.latLngBounds(layerBounds.getSouthWest(), layerBounds.getNorthEast());
+                    realmBounds = layerBounds;
                     if (typeof props.label === 'string' ? props.label : props.realm) {
                         group.labelled.push({ props, features: realmFeatures, bounds: realmBounds });
                     }
@@ -1028,8 +1659,9 @@
 
                 if (Array.isArray(props.markers)) {
                     props.markers.forEach(markerInfo => {
+                        const markerLatLng = L.latLng(markerInfo.lat, markerInfo.lng);
                         const marker = L.circleMarker(
-                            [markerInfo.lat, markerInfo.lng],
+                            markerLatLng,
                             {
                                 radius: 7,
                                 color: props.borderColor || '#0a131c',
@@ -1038,8 +1670,21 @@
                                 weight: 2
                             }
                         );
-                        marker.bindPopup(createRealmPopup(markerInfo.name, props, year));
+                        marker.on('click', event => {
+                            openRealmPanel(props);
+                            showRegionPopup(event.latlng, markerInfo.name, year);
+                        });
                         realmMarkerLayers.push(marker);
+                        realmBounds = realmBounds
+                            ? realmBounds.extend(markerLatLng)
+                            : L.latLngBounds(markerLatLng, markerLatLng);
+                    });
+                }
+                if (props.realm && realmBounds?.isValid()) {
+                    searchRealms.push({
+                        name: props.realm,
+                        properties: props,
+                        bounds: realmBounds
                     });
                 }
             }
@@ -1066,7 +1711,7 @@
                 ...realmMarkerLayers,
                 ...realmLabelLayers
             );
-            return { layers: nextLayers, missingIds };
+            return { layers: nextLayers, missingIds, searchRealms };
         }
 
         const featureEdgeCache = new WeakMap();
@@ -2271,17 +2916,57 @@
                 const timelineMax = Math.max(10, availableYears.length + 1);
                 slider.max = String(timelineMax);
                 slider.disabled = availableYears.length < 2;
-                slider.value = '1';
+                const requestedYear = Number(
+                    new URLSearchParams(window.location.search).get('year')
+                );
+                const initialYear = availableYears.includes(requestedYear)
+                    ? requestedYear
+                    : availableYears[0];
+                slider.value = String(availableYears.indexOf(initialYear) + 1);
                 const marks = document.querySelector('.timeline-period-marks');
-                marks.replaceChildren(...availableYears.map((_, index) => {
+                marks.replaceChildren(...availableYears.map((year, index) => {
                     const mark = document.createElement('span');
                     mark.className = 'timeline-period-mark';
+                    mark.dataset.year = String(year);
+                    mark.dataset.yearIndex = String(index);
+                    mark.setAttribute('aria-label', `Year ${year}`);
                     mark.style.setProperty(
                         '--mark-position',
                         `${((index + 1) / timelineMax) * 100}%`
                     );
                     return mark;
                 }));
+                const updateYearFromMarkPointer = event => {
+                    const bounds = marks.getBoundingClientRect();
+                    const position = Math.min(
+                        1,
+                        Math.max(0, (event.clientX - bounds.left) / bounds.width)
+                    );
+                    slider.value = String(Math.round(position * timelineMax));
+                    slider.dispatchEvent(new Event('input', { bubbles: true }));
+                };
+                let activeTimelinePointerId = null;
+                marks.addEventListener('pointerdown', event => {
+                    if (slider.disabled || event.button !== 0) return;
+                    activeTimelinePointerId = event.pointerId;
+                    updateYearFromMarkPointer(event);
+                    event.preventDefault();
+                });
+                document.addEventListener('pointermove', event => {
+                    if (event.pointerId === activeTimelinePointerId) {
+                        updateYearFromMarkPointer(event);
+                    }
+                });
+                document.addEventListener('pointerup', event => {
+                    if (event.pointerId === activeTimelinePointerId) {
+                        activeTimelinePointerId = null;
+                    }
+                });
+                document.addEventListener('pointercancel', event => {
+                    if (event.pointerId === activeTimelinePointerId) {
+                        activeTimelinePointerId = null;
+                    }
+                });
                 // Label widths are measured on canvas, so the webfont must be ready first.
                 if (document.fonts && document.fonts.load) {
                     await Promise.race([
@@ -2289,7 +2974,7 @@
                         new Promise(resolve => setTimeout(resolve, 3000))
                     ]);
                 }
-                await loadYear(availableYears[0]);
+                await loadYear(initialYear);
             } catch (error) {
                 console.error('Could not start the map:', error);
                 showIntroError(`The map could not be loaded: ${error.message}`);
@@ -2409,13 +3094,15 @@
                 }
 
                 closeRealmPanel();
-                map.closePopup();
                 showYearLayers(result.layers);
                 cacheYearLayers(yearKey, result);
+                updateRealmSearchOptions(result.searchRealms);
+                updateYearInUrl(year);
                 yearDisplay.classList.remove('is-pending');
-                const yearNote = document.getElementById('year-note');
-                yearNote.textContent = timelineDatabase[String(year)]?.note || '';
-                yearNote.hidden = !yearNote.textContent;
+                const yearNote = timelineDatabase[String(year)]?.note || '';
+                document.getElementById('year-context-year').textContent = String(year);
+                document.getElementById('year-context-note').textContent =
+                    yearNote || 'No historical context has been added for this year yet.';
 
                 if (result.missingIds.length > 0) {
                     console.warn(`Region IDs are missing from the map registry for ${year}:`, result.missingIds);
@@ -2438,36 +3125,38 @@
             }
         }
 
-        function createRealmPopup(name, props, year) {
-            const popup = document.createElement('div');
-            popup.className = 'realm-popup';
-
-            const title = document.createElement('button');
-            title.className = 'realm-popup__title';
-            title.type = 'button';
-            title.textContent = props.realm || 'Unknown realm';
-            title.setAttribute('aria-label', `Open information about ${title.textContent}`);
-            title.addEventListener('click', () => {
-                openRealmPanel(props);
-                map.closePopup();
-            });
-
-            const province = document.createElement('span');
-            province.className = 'realm-popup__province';
-            province.textContent = `${name} · ${year}`;
-
-            popup.append(title, province);
-            return popup;
-        }
-
         const slider = document.getElementById('year-slider');
 
-        document.querySelector('.realm-panel__close').addEventListener(
+        realmSearchToggle.addEventListener('click', toggleRealmSearch);
+        realmSearchForm.addEventListener('submit', goToSearchedRealm);
+
+        realmPanel.querySelector('.realm-panel__close').addEventListener(
             'click',
             closeRealmPanel
         );
+        yearContextButton.addEventListener('click', () => {
+            if (yearContextPanel.hidden) openYearContextPanel();
+            else closeYearContextPanel();
+        });
+        yearContextPanel.querySelector('.realm-panel__close').addEventListener(
+            'click',
+            closeYearContextPanel
+        );
+        mapInfoButton.addEventListener('click', () => {
+            if (mapInfoPanel.hidden) openMapInfoPanel();
+            else closeMapInfoPanel();
+        });
+        mapInfoPanel.querySelector('.realm-panel__close').addEventListener(
+            'click',
+            closeMapInfoPanel
+        );
         document.addEventListener('keydown', event => {
-            if (event.key === 'Escape') closeRealmPanel();
+            if (event.key === 'Escape') {
+                if (!realmSearchForm.hidden) closeRealmSearch();
+                else if (!yearContextPanel.hidden) closeYearContextPanel();
+                else if (!mapInfoPanel.hidden) closeMapInfoPanel();
+                else closeRealmPanel();
+            }
         });
 
         slider.addEventListener('input', (e) => {

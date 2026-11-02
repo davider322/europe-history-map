@@ -210,7 +210,12 @@ $yearSpecific = @(
     [ordered]@{
         name = 'United Kingdom'
         leader = 'John Major (Prime Minister)'
-        info = 'The United Kingdom at the end of 1990.'
+        info = 'The United Kingdom at the end of 1990, including Scotland as a constituent country.'
+    },
+    [ordered]@{
+        name = 'Ireland'
+        leader = 'Mary Robinson (President)'
+        info = 'Ireland was an independent republic. Mary Robinson took office as President in December 1990.'
     },
     [ordered]@{
         name = 'France'

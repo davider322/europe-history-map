@@ -347,8 +347,35 @@ foreach ($m in $inst) {
     }
     if ($m.kind -eq 'add') {
         $sp = $S[$m.key]
-        $props = [ordered]@{ realm = $m.name; label = $m.label; leader = $sp.leader; regionFilters = (Make-Filters $m.idxs); fillColor = $sp.fill; borderColor = $sp.border; info = $sp.info }
+        $filters = Make-Filters $m.idxs
+        $props = [ordered]@{ realm = $m.name; label = $m.label; leader = $sp.leader; regionFilters = $filters; fillColor = $sp.fill; borderColor = $sp.border; info = $sp.info }
+        if ($m.key -eq 'DK') {
+            $props['regionFilters'] = @($filters | Where-Object { $_['admin'] -ne 'Iceland' })
+            $props['labelOwn'] = $true
+            $props['labelFontSize'] = 150
+            $props['labelCurve'] = [object[]]@(
+                [double[]]@(56.1, 8.2),
+                [double[]]@(56.2, 9.2),
+                [double[]]@(56.1, 10.2),
+                [double[]]@(56.0, 11.5)
+            )
+            $props['labelCurveIgnoreRealmGeometry'] = $true
+        }
         $additions += , ([ordered]@{ provinces = @(); properties = $props })
+        if ($m.key -eq 'DK') {
+            $iceland = [ordered]@{
+                realm = 'Denmark (Iceland)'
+                label = 'Denmark'
+                leader = $sp.leader
+                info = 'Iceland remained under the Danish crown after Denmark lost Norway in 1814.'
+                fillColor = $sp.fill
+                borderColor = $sp.border
+                labelOwn = $true
+                regionFilters = @([ordered]@{ admin = 'Iceland' })
+                excludeIds = @()
+            }
+            $additions += , ([ordered]@{ provinces = @(); properties = $iceland })
+        }
         continue
     }
     if ($m.kind -eq 'residual') {
@@ -372,7 +399,7 @@ $textFix = [ordered]@{
     'Wallachia' = @('Ioan Caragea', 'Wallachia was an Ottoman vassal principality ruled by Phanariot Greek hospodars.')
     'Principality of Moldavia' = @('Scarlat Callimachi', 'Moldavia, reduced after Russia annexed Bessarabia in 1812, was an Ottoman vassal under a Phanariot hospodar.')
     'Kingdom of Portugal' = @('John VI (Prince Regent)', 'The Portuguese court ruled from Brazil after 1807; Portugal became part of a united kingdom with Brazil in 1815.')
-    'United Kingdom of Great Britain' = @('George III (Prince Regent George)', 'The United Kingdom of Great Britain and Ireland (1801) emerged from the Napoleonic Wars as the leading naval and colonial power.')
+    'Kingdom of Great Britain' = @('George III (Prince Regent George)', 'The United Kingdom of Great Britain and Ireland (1801) emerged from the Napoleonic Wars as the leading naval and colonial power.')
     'Kingdom of Naples' = @('Ferdinand IV', 'Naples was restored under Ferdinand IV after Murat''s fall; the two kingdoms were merged as the Two Sicilies in 1816.')
     'Kingdom of Sicily' = @('Ferdinand III', 'Sicily remained under Bourbon rule through the Napoleonic era, protected by the British; merged with Naples in 1816.')
 }
@@ -387,7 +414,20 @@ foreach ($k in $textFix.Keys) {
     $op = $overrides[$k]['properties']
     if (-not $op.Contains('leader')) { $op['leader'] = $textFix[$k][0]; $op['info'] = $textFix[$k][1] }
 }
-if ($overrides.Contains('United Kingdom of Great Britain')) { $uk = $overrides['United Kingdom of Great Britain']['properties']; $uk['realm'] = 'United Kingdom of Great Britain and Ireland'; $uk['label'] = 'United Kingdom' }
+if ($overrides.Contains('Ottoman Empire (Anatolia)')) {
+    $op = $overrides['Ottoman Empire (Anatolia)']['properties']
+    $op['labelFontSize'] = 130
+    $op['labelCurveTextLength'] = 0.95
+}
+if ($overrides.Contains('Kingdom of Great Britain')) { $uk = $overrides['Kingdom of Great Britain']['properties']; $uk['realm'] = 'United Kingdom of Great Britain and Ireland'; $uk['label'] = 'United Kingdom' }
+$overrides['Kingdom of Great Britain (Scotland)'] = [ordered]@{
+    properties = [ordered]@{
+        realm = 'United Kingdom of Great Britain and Ireland (Scotland)'
+        label = ''
+        leader = 'George III (Prince Regent George)'
+        info = 'Scotland was part of the United Kingdom of Great Britain and Ireland, formed in 1801.'
+    }
+}
 foreach ($r in $realms) {
     if ($r.realm -notmatch '^(Finnic Tribal Lands|Karelian Frontierlands|Northern Finnic Frontierlands|Nogai Horde)' -and $r.realm -notlike ('S' + [char]0xE1 + 'mi and Northern*')) { continue }
     if (-not $overrides.Contains($r.realm)) { $overrides[$r.realm] = [ordered]@{ properties = [ordered]@{} } }

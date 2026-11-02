@@ -229,7 +229,7 @@ function Get-StateLeader([string]$state) {
 
 function Get-StateColors([string]$state) {
     $established = @{
-        'Albania' = @('#5b8c55', '#36533a')
+        'Albania' = @('#d18a4a', '#744923')
         'Algeria' = @('#4169a1', '#203b61')
         'Andorra' = @('#d9894a', '#75451f')
         'Armenia' = @('#bb7878', '#734949')
@@ -238,9 +238,9 @@ function Get-StateColors([string]$state) {
         'Bahrain' = @('#557b55', '#314b36')
         'Belarus' = @('#1c3a22', '#0b1a10')
         'Belgium' = @('#c2b04a', '#6b6125')
-        'Bosnia and Herzegovina' = @('#8e6aa8', '#4f3a63')
+        'Bosnia and Herzegovina' = @('#557b9b', '#314b61')
         'Bulgaria' = @('#5f9ea0', '#2f5e60')
-        'Croatia' = @('#8e6aa8', '#4f3a63')
+        'Croatia' = @('#c0504d', '#6e2927')
         'Cyprus' = @('#c0504d', '#6e2927')
         'Czech Republic' = @('#4a8c8a', '#2e5e5c')
         'Denmark' = @('#8b1e2d', '#4b0d16')
@@ -254,13 +254,13 @@ function Get-StateColors([string]$state) {
         'Greece' = @('#6fa8d8', '#35607f')
         'Hungary' = @('#8c5b68', '#5a3540')
         'Iceland' = @('#8b1e2d', '#4b0d16')
-        'Ireland' = @('#c0504d', '#6e2927')
+        'Ireland' = @('#2f8f55', '#1a5734')
         'Iran' = @('#9a4a6a', '#5a2640')
         'Iraq' = @('#a28b70', '#695945')
         'Israel' = @('#c0504d', '#6e2927')
         'Italy' = @('#5fa07e', '#2f5e46')
         'Jordan' = @('#c0504d', '#6e2927')
-        'Kosovo under UN administration' = @('#8e6aa8', '#4f3a63')
+        'Kosovo under UN administration' = @('#a28b70', '#695945')
         'Latvia' = @('#8466a6', '#4f3a65')
         'Lebanon' = @('#4169a1', '#203b61')
         'Libya' = @('#5fa07e', '#2f5e46')
@@ -276,13 +276,13 @@ function Get-StateColors([string]$state) {
         'Palestinian National Authority' = @('#c0504d', '#6e2927')
         'Poland' = @('#f08080', '#a84646')
         'Portugal' = @('#2f6b3a', '#163d1e')
-        'Republic of Macedonia' = @('#8e6aa8', '#4f3a63')
+        'Republic of Macedonia' = @('#d6b55d', '#8a7030')
         'Romania' = @('#cc8f6a', '#7a4a32')
         'Russian Federation' = @('#1c3a22', '#0b1a10')
         'San Marino' = @('#d9894a', '#75451f')
         'Saudi Arabia' = @('#557b55', '#314b36')
-        'Slovakia' = @('#4a8c8a', '#2e5e5c')
-        'Slovenia' = @('#8e6aa8', '#4f3a63')
+        'Slovakia' = @('#d9894a', '#75451f')
+        'Slovenia' = @('#5f9ea0', '#2f5e60')
         'Spain' = @('#a37d45', '#654d2b')
         'Sweden' = @('#102548', '#06142b')
         'Switzerland' = @('#c9726b', '#7a403c')
@@ -313,10 +313,19 @@ foreach ($file in @(
 }
 
 $groups = @{}
+$unassignedStatesById = @{
+    'azores' = 'Portugal'
+    'madeira' = 'Portugal'
+}
 foreach ($feature in $features) {
     $oldOwner = Get-Owner $feature
-    if (-not $oldOwner) { continue }
-    $state = Get-StateForFeature $feature
+    if ($oldOwner) {
+        $state = Get-StateForFeature $feature
+    } elseif ($unassignedStatesById.ContainsKey([string]$feature.id)) {
+        $state = $unassignedStatesById[[string]$feature.id]
+    } else {
+        continue
+    }
     if (-not $groups.ContainsKey($state)) { $groups[$state] = @{} }
     if (-not $groups[$state].ContainsKey($feature.admin)) {
         $groups[$state][$feature.admin] = New-Object System.Collections.ArrayList
@@ -371,6 +380,10 @@ foreach ($state in $sortedStates) {
         $info = 'Libya was governed by Muammar Gaddafi and remained an independent state.'
     } elseif ($state -eq 'Egypt') {
         $info = 'Egypt was an independent republic under President Hosni Mubarak.'
+    } elseif ($state -eq 'Ireland') {
+        $info = 'Ireland was an independent republic, having left the Commonwealth in 1949.'
+    } elseif ($state -eq 'United Kingdom') {
+        $info = 'The United Kingdom at the end of 2000, including Scotland as a constituent country.'
     }
 
     $properties = [ordered]@{
@@ -416,18 +429,45 @@ $fragmentPath = Join-Path $PSScriptRoot 'frag2000.json'
 [IO.File]::WriteAllText($fragmentPath, $json, (New-Object Text.UTF8Encoding($false)))
 Write-Host "2000 fragment generated: $($overrides.Count) overrides, $($additions.Count) additions."
 
+function Set-YearEntry([string]$text, [string]$year, [string]$yearJson) {
+    $pattern = '(?m)^  "' + [regex]::Escape($year) + '"\s*:\s*'
+    $match = [regex]::Match($text, $pattern)
+    if ($match.Success) {
+        $openBrace = $text.IndexOf('{', $match.Index + $match.Length)
+        if ($openBrace -lt 0) { throw "Could not find the start of year $year data." }
+        $depth = 0
+        $inString = $false
+        $escaped = $false
+        $end = -1
+        for ($i = $openBrace; $i -lt $text.Length; $i++) {
+            $character = $text[$i]
+            if ($inString) {
+                if ($escaped) { $escaped = $false }
+                elseif ($character -eq '\') { $escaped = $true }
+                elseif ($character -eq '"') { $inString = $false }
+                continue
+            }
+            if ($character -eq '"') { $inString = $true }
+            elseif ($character -eq '{') { $depth++ }
+            elseif ($character -eq '}') {
+                $depth--
+                if ($depth -eq 0) { $end = $i + 1; break }
+            }
+        }
+        if ($end -lt 0) { throw "Could not find the end of year $year data." }
+        return $text.Substring(0, $match.Index) +
+            "  `"$year`": $yearJson" + $text.Substring($end)
+    }
+
+    $lastBrace = $text.LastIndexOf('}')
+    if ($lastBrace -lt 0) { throw 'Could not find the end of years.json.' }
+    return $text.Substring(0, $lastBrace).TrimEnd() +
+        ",`r`n  `"$year`": $yearJson`r`n}"
+}
+
 if ($Insert) {
     $text = [IO.File]::ReadAllText($yearsPath, [Text.Encoding]::UTF8)
-    $yearMarker = $text.LastIndexOf('"2000"')
-    if ($yearMarker -ge 0) {
-        $comma = $text.LastIndexOf(',', $yearMarker)
-        if ($comma -lt 0) { throw 'Could not locate the existing 2000 year entry.' }
-        $updated = $text.Substring(0, $comma) + ",`r`n  `"2000`": $json`r`n}"
-    } else {
-        $lastBrace = $text.LastIndexOf('}')
-        if ($lastBrace -lt 0) { throw 'Could not find the end of years.json.' }
-        $updated = $text.Substring(0, $lastBrace).TrimEnd() + ",`r`n  `"2000`": $json`r`n}"
-    }
+    $updated = Set-YearEntry $text '2000' $json
     [IO.File]::WriteAllText($yearsPath, $updated, (New-Object Text.UTF8Encoding($false)))
     Write-Host 'Inserted or updated year 2000 after the final year.'
 }

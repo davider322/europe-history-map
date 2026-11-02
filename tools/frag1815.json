@@ -1458,7 +1458,15 @@
                                                                      "info":  "The Portuguese court ruled from Brazil after 1807; Portugal became part of a united kingdom with Brazil in 1815."
                                                                  }
                                               },
-                      "United Kingdom of Great Britain":  {
+                      "Kingdom of Great Britain (Scotland)": {
+                          "properties": {
+                              "realm": "United Kingdom of Great Britain and Ireland (Scotland)",
+                              "label": "",
+                              "leader": "George III (Prince Regent George)",
+                              "info": "Scotland was part of the United Kingdom of Great Britain and Ireland, formed in 1801."
+                          }
+                      },
+                      "Kingdom of Great Britain":  {
                                                               "properties":  {
                                                                                  "leader":  "George III (Prince Regent George)",
                                                                                  "info":  "The United Kingdom of Great Britain and Ireland (1801) emerged from the Napoleonic Wars as the leading naval and colonial power.",

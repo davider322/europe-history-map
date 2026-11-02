@@ -126,6 +126,7 @@ function Get-Leader([string]$realm) {
         '^(Kingdom of Portugal|Portugal)' { return 'Antonio Oscar Carmona' }
         '^(Kingdom of the Netherlands|Netherlands)' { return 'Wilhelmina' }
         '^Belgium' { return 'Charles of Belgium (Prince Regent)' }
+        '^Ireland$' { return 'Eamon de Valera (Taoiseach)' }
         default { return 'Local authorities' }
     }
 }
@@ -447,6 +448,11 @@ foreach ($realm in $realms) {
     $override.properties.leader = Get-Leader $realm.realm
     $override.properties.info = "$($realm.realm) at the end of 1945."
 }
+$irelandOverride = Get-Override 'Ireland'
+$irelandOverride.properties.leader = 'Eamon de Valera (Taoiseach)'
+$irelandOverride.properties.info = 'The Irish state was outside the United Kingdom and remained neutral during the Second World War; Northern Ireland remained part of the United Kingdom.'
+$ukOverride = Get-Override 'United Kingdom'
+$ukOverride.properties.info = 'The United Kingdom, including Scotland, at the end of 1945.'
 
 $block = [ordered]@{
     baseYear = 1939

@@ -114,6 +114,12 @@
                                                                       "info":  "Caliphate of Córdoba at the end of 1955."
                                                                   }
                                                },
+                      "County of Roussillon":  {
+                                                   "properties":  {
+                                                                      "leader":  "National government",
+                                                                      "info":  "County of Roussillon at the end of 1955."
+                                                                  }
+                                               },
                       "Kingdom of Gwynedd":  {
                                                  "properties":  {
                                                                     "leader":  "National government",
@@ -144,12 +150,6 @@
                                                                     "info":  "Kingdom of Munster at the end of 1955."
                                                                 }
                                              },
-                      "Historical Microstates":  {
-                                                     "properties":  {
-                                                                        "leader":  "National government",
-                                                                        "info":  "Historical Microstates at the end of 1955."
-                                                                    }
-                                                 },
                       "Arabian Tribal Polities":  {
                                                       "properties":  {
                                                                          "leader":  "National government",
@@ -168,12 +168,6 @@
                                                                    "info":  "Kingdom of Dublin at the end of 1955."
                                                                }
                                             },
-                      "County of Roussillon":  {
-                                                   "properties":  {
-                                                                      "leader":  "National government",
-                                                                      "info":  "County of Roussillon at the end of 1955."
-                                                                  }
-                                               },
                       "Kingdom of Galicia":  {
                                                  "properties":  {
                                                                     "leader":  "National government",
@@ -282,6 +276,18 @@
                                                                     "info":  "Kingdom of Majorca at the end of 1955."
                                                                 }
                                              },
+                      "Andorra":  {
+                                      "properties":  {
+                                                         "leader":  "National government",
+                                                         "info":  "Andorra at the end of 1955."
+                                                     }
+                                  },
+                      "San Marino":  {
+                                         "properties":  {
+                                                            "leader":  "National government",
+                                                            "info":  "San Marino at the end of 1955."
+                                                        }
+                                     },
                       "Republic of Venice (Aegean)":  {
                                                           "properties":  {
                                                                              "leader":  "National government",
@@ -292,18 +298,6 @@
                                                        "properties":  {
                                                                           "leader":  "National government",
                                                                           "info":  "Principality of Moldavia at the end of 1955."
-                                                                      }
-                                                   },
-                      "Denmark–Norway":  {
-                                             "properties":  {
-                                                                "leader":  "National government",
-                                                                "info":  "Denmark–Norway at the end of 1955."
-                                                            }
-                                         },
-                      "Denmark–Norway (Gotland)":  {
-                                                       "properties":  {
-                                                                          "leader":  "National government",
-                                                                          "info":  "Denmark–Norway (Gotland) at the end of 1955."
                                                                       }
                                                    },
                       "France (Brittany)":  {
@@ -318,10 +312,10 @@
                                                                    "info":  "France (Provence) at the end of 1955."
                                                                }
                                             },
-                      "Sweden":  {
+                      "Monaco":  {
                                      "properties":  {
                                                         "leader":  "National government",
-                                                        "info":  "Sweden at the end of 1955."
+                                                        "info":  "Monaco at the end of 1955."
                                                     }
                                  },
                       "Polish–Lithuanian Commonwealth":  {
@@ -360,6 +354,18 @@
                                                                                            "info":  "Polish–Lithuanian Commonwealth (Ruthenia) at the end of 1955."
                                                                                        }
                                                                     },
+                      "Denmark–Norway":  {
+                                             "properties":  {
+                                                                "leader":  "National government",
+                                                                "info":  "Denmark–Norway at the end of 1955."
+                                                            }
+                                         },
+                      "Denmark–Norway (Gotland)":  {
+                                                       "properties":  {
+                                                                          "leader":  "National government",
+                                                                          "info":  "Denmark–Norway (Gotland) at the end of 1955."
+                                                                      }
+                                                   },
                       "Safavid Iran (Armenia)":  {
                                                      "properties":  {
                                                                         "leader":  "National government",
@@ -396,6 +402,12 @@
                                                                                               "info":  "Spanish Netherlands (Brabant and Luxembourg) at the end of 1955."
                                                                                           }
                                                                        },
+                      "Sweden":  {
+                                     "properties":  {
+                                                        "leader":  "National government",
+                                                        "info":  "Sweden at the end of 1955."
+                                                    }
+                                 },
                       "Alaouite Sultanate":  {
                                                  "properties":  {
                                                                     "leader":  "Mohammed V (Sultan)",
@@ -414,6 +426,12 @@
                                                             "info":  "Qajar Iran at the end of 1955."
                                                         }
                                      },
+                      "Russian Empire (Ingria)":  {
+                                                      "properties":  {
+                                                                         "leader":  "National government",
+                                                                         "info":  "Russian Empire (Ingria) at the end of 1955."
+                                                                     }
+                                                  },
                       "Kingdom of Sicily":  {
                                                 "properties":  {
                                                                    "leader":  "National government",
@@ -486,12 +504,6 @@
                                                                          "info":  "Denmark (Faroe Islands) at the end of 1955."
                                                                      }
                                                   },
-                      "Denmark (Iceland)":  {
-                                                "properties":  {
-                                                                   "leader":  "National government",
-                                                                   "info":  "Denmark (Iceland) at the end of 1955."
-                                                               }
-                                            },
                       "Switzerland":  {
                                           "properties":  {
                                                              "leader":  "National government",
@@ -627,7 +639,7 @@
                       "United Kingdom":  {
                                              "properties":  {
                                                                 "leader":  "Anthony Eden (Prime Minister)",
-                                                                "info":  "United Kingdom at the end of 1955."
+                                                                "info":  "The United Kingdom, including Scotland, at the end of 1955."
                                                             }
                                          },
                       "United Kingdom (Scotland)":  {
@@ -794,6 +806,12 @@
                                                                      "info":  "France (Roussillon) at the end of 1955."
                                                                  }
                                               },
+                      "Liechtenstein":  {
+                                            "properties":  {
+                                                               "leader":  "National government",
+                                                               "info":  "Liechtenstein at the end of 1955."
+                                                           }
+                                        },
                       "Tsardom of Bulgaria":  {
                                                   "properties":  {
                                                                      "leader":  "Valko Chervenkov (Prime Minister)",
@@ -924,6 +942,12 @@
                                                                          "info":  "Russian SFSR (Crimea) 2 at the end of 1955."
                                                                      }
                                                   },
+                      "Kingdom of Iceland":  {
+                                                 "properties":  {
+                                                                    "leader":  "National government",
+                                                                    "info":  "Kingdom of Iceland at the end of 1955."
+                                                                }
+                                             },
                       "Russian SFSR (Caucasian steppe)":  {
                                                               "properties":  {
                                                                                  "leader":  "National government",
@@ -1391,6 +1415,12 @@
                                                                                                "info":  "Republic of Turkey (Kars, Ardahan and Artvin) at the end of 1955."
                                                                                            }
                                                                         },
+                      "Ireland":  {
+                                      "properties":  {
+                                                         "leader":  "Eamon de Valera (Taoiseach)",
+                                                         "info":  "Ireland was an independent republic and had left the Commonwealth in 1949."
+                                                     }
+                                  },
                       "Hungarian Republic":  {
                                                  "properties":  {
                                                                     "leader":  "Matyas Rakosi (General Secretary)",

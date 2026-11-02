@@ -289,6 +289,7 @@
                                                               "excludeIds":  [
                                                                                  "moselle",
                                                                                  "saxony",
+                                                                                 "mecklenburg-westernpomerania",
                                                                                  "thuringia",
                                                                                  "saxony-anhalt",
                                                                                  "schleswig-holstein",
@@ -367,15 +368,6 @@
                                                                                    "info":  "German Reich (Kingdom of Prussia) at the end of 1945."
                                                                                }
                                                             },
-                      "German Reich (Swedish Pomerania)":  {
-                                                               "properties":  {
-                                                                                  "excludeIds":  [
-                                                                                                     "mecklenburg-westernpomerania"
-                                                                                                 ],
-                                                                                  "leader":  "Allied occupation authorities",
-                                                                                  "info":  "German Reich (Swedish Pomerania) at the end of 1945."
-                                                                              }
-                                                           },
                       "German Reich (East Prussia)":  {
                                                           "properties":  {
                                                                              "excludeIds":  [
@@ -586,6 +578,12 @@
                                                                       "info":  "Caliphate of Córdoba at the end of 1945."
                                                                   }
                                                },
+                      "County of Roussillon":  {
+                                                   "properties":  {
+                                                                      "leader":  "Local authorities",
+                                                                      "info":  "County of Roussillon at the end of 1945."
+                                                                  }
+                                               },
                       "Kingdom of Gwynedd":  {
                                                  "properties":  {
                                                                     "leader":  "Local authorities",
@@ -616,12 +614,6 @@
                                                                     "info":  "Kingdom of Munster at the end of 1945."
                                                                 }
                                              },
-                      "Historical Microstates":  {
-                                                     "properties":  {
-                                                                        "leader":  "Local authorities",
-                                                                        "info":  "Historical Microstates at the end of 1945."
-                                                                    }
-                                                 },
                       "Arabian Tribal Polities":  {
                                                       "properties":  {
                                                                          "leader":  "Local authorities",
@@ -640,12 +632,6 @@
                                                                    "info":  "Kingdom of Dublin at the end of 1945."
                                                                }
                                             },
-                      "County of Roussillon":  {
-                                                   "properties":  {
-                                                                      "leader":  "Local authorities",
-                                                                      "info":  "County of Roussillon at the end of 1945."
-                                                                  }
-                                               },
                       "Kingdom of Galicia":  {
                                                  "properties":  {
                                                                     "leader":  "Local authorities",
@@ -754,6 +740,18 @@
                                                                     "info":  "Kingdom of Majorca at the end of 1945."
                                                                 }
                                              },
+                      "Andorra":  {
+                                      "properties":  {
+                                                         "leader":  "Local authorities",
+                                                         "info":  "Andorra at the end of 1945."
+                                                     }
+                                  },
+                      "San Marino":  {
+                                         "properties":  {
+                                                            "leader":  "Local authorities",
+                                                            "info":  "San Marino at the end of 1945."
+                                                        }
+                                     },
                       "Republic of Venice (Aegean)":  {
                                                           "properties":  {
                                                                              "leader":  "Local authorities",
@@ -764,18 +762,6 @@
                                                        "properties":  {
                                                                           "leader":  "Local authorities",
                                                                           "info":  "Principality of Moldavia at the end of 1945."
-                                                                      }
-                                                   },
-                      "Denmark–Norway":  {
-                                             "properties":  {
-                                                                "leader":  "Local authorities",
-                                                                "info":  "Denmark–Norway at the end of 1945."
-                                                            }
-                                         },
-                      "Denmark–Norway (Gotland)":  {
-                                                       "properties":  {
-                                                                          "leader":  "Local authorities",
-                                                                          "info":  "Denmark–Norway (Gotland) at the end of 1945."
                                                                       }
                                                    },
                       "France (Brittany)":  {
@@ -790,10 +776,10 @@
                                                                    "info":  "France (Provence) at the end of 1945."
                                                                }
                                             },
-                      "Sweden":  {
+                      "Monaco":  {
                                      "properties":  {
                                                         "leader":  "Local authorities",
-                                                        "info":  "Sweden at the end of 1945."
+                                                        "info":  "Monaco at the end of 1945."
                                                     }
                                  },
                       "Polish–Lithuanian Commonwealth":  {
@@ -832,6 +818,18 @@
                                                                                            "info":  "Polish–Lithuanian Commonwealth (Ruthenia) at the end of 1945."
                                                                                        }
                                                                     },
+                      "Denmark–Norway":  {
+                                             "properties":  {
+                                                                "leader":  "Local authorities",
+                                                                "info":  "Denmark–Norway at the end of 1945."
+                                                            }
+                                         },
+                      "Denmark–Norway (Gotland)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Local authorities",
+                                                                          "info":  "Denmark–Norway (Gotland) at the end of 1945."
+                                                                      }
+                                                   },
                       "Safavid Iran (Armenia)":  {
                                                      "properties":  {
                                                                         "leader":  "Local authorities",
@@ -868,6 +866,12 @@
                                                                                               "info":  "Spanish Netherlands (Brabant and Luxembourg) at the end of 1945."
                                                                                           }
                                                                        },
+                      "Sweden":  {
+                                     "properties":  {
+                                                        "leader":  "Local authorities",
+                                                        "info":  "Sweden at the end of 1945."
+                                                    }
+                                 },
                       "Alaouite Sultanate":  {
                                                  "properties":  {
                                                                     "leader":  "Local authorities",
@@ -886,6 +890,12 @@
                                                             "info":  "Qajar Iran at the end of 1945."
                                                         }
                                      },
+                      "Russian Empire (Ingria)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Russian Empire (Ingria) at the end of 1945."
+                                                                     }
+                                                  },
                       "Kingdom of Sicily":  {
                                                 "properties":  {
                                                                    "leader":  "Local authorities",
@@ -958,12 +968,6 @@
                                                                          "info":  "Denmark (Faroe Islands) at the end of 1945."
                                                                      }
                                                   },
-                      "Denmark (Iceland)":  {
-                                                "properties":  {
-                                                                   "leader":  "Local authorities",
-                                                                   "info":  "Denmark (Iceland) at the end of 1945."
-                                                               }
-                                            },
                       "Switzerland":  {
                                           "properties":  {
                                                              "leader":  "Local authorities",
@@ -1099,7 +1103,7 @@
                       "United Kingdom":  {
                                              "properties":  {
                                                                 "leader":  "Clement Attlee",
-                                                                "info":  "United Kingdom at the end of 1945."
+                                                                "info":  "The United Kingdom, including Scotland, at the end of 1945."
                                                             }
                                          },
                       "United Kingdom (Scotland)":  {
@@ -1258,6 +1262,12 @@
                                                                      "info":  "France (Roussillon) at the end of 1945."
                                                                  }
                                               },
+                      "Liechtenstein":  {
+                                            "properties":  {
+                                                               "leader":  "Local authorities",
+                                                               "info":  "Liechtenstein at the end of 1945."
+                                                           }
+                                        },
                       "Tsardom of Bulgaria":  {
                                                   "properties":  {
                                                                      "leader":  "Simeon II (under the Regency Council)",
@@ -1384,6 +1394,12 @@
                                                                          "info":  "Russian SFSR (Crimea) 2 at the end of 1945."
                                                                      }
                                                   },
+                      "Kingdom of Iceland":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Iceland at the end of 1945."
+                                                                }
+                                             },
                       "Russian SFSR (Caucasian steppe)":  {
                                                               "properties":  {
                                                                                  "leader":  "Local authorities",
@@ -1564,6 +1580,12 @@
                                                                                  "info":  "German Reich (Polish partition) at the end of 1945."
                                                                              }
                                                           },
+                      "German Reich (Swedish Pomerania)":  {
+                                                               "properties":  {
+                                                                                  "leader":  "Allied occupation authorities",
+                                                                                  "info":  "German Reich (Swedish Pomerania) at the end of 1945."
+                                                                              }
+                                                           },
                       "Republic of Turkey (Rumelia)":  {
                                                            "properties":  {
                                                                               "leader":  "Ismet Inonu",
@@ -1719,7 +1741,13 @@
                                                                                                "leader":  "Ismet Inonu",
                                                                                                "info":  "Republic of Turkey (Kars, Ardahan and Artvin) at the end of 1945."
                                                                                            }
-                                                                        }
+                                                                        },
+                      "Ireland":  {
+                                      "properties":  {
+                                                         "leader":  "Eamon de Valera (Taoiseach)",
+                                                         "info":  "The Irish state was outside the United Kingdom and remained neutral during the Second World War; Northern Ireland remained part of the United Kingdom."
+                                                     }
+                                  }
                   },
     "additions":  [
                       {

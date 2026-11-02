@@ -1098,7 +1098,7 @@
                                                                              "info":  "Russia ruled from Finland to the Pacific; Poland, the Baltic provinces, Ukraine, Bessarabia and the Caucasus were all incorporated."
                                                                          }
                                                       },
-                      "United Kingdom of Great Britain":  {
+                      "Kingdom of Great Britain":  {
                                                               "properties":  {
                                                                                  "realm":  "United Kingdom",
                                                                                  "label":  "United Kingdom",
@@ -1108,7 +1108,7 @@
                                                                                  "info":  "The United Kingdom of Great Britain and Ireland, centre of the largest empire in history; Queen Victoria reigned until 1901."
                                                                              }
                                                           },
-                      "United Kingdom of Great Britain (Scotland)":  {
+                      "Kingdom of Great Britain (Scotland)":  {
                                                                          "properties":  {
                                                                                             "realm":  "United Kingdom (Scotland)",
                                                                                             "label":  "",
@@ -1517,7 +1517,8 @@
                                                                                    "lowersaxony",
                                                                                    "schleswig-holstein",
                                                                                    "bavaria",
-                                                                                   "saxony"
+                                                                                   "saxony",
+                                                                                   "mecklenburg-westernpomerania"
                                                                                ]
                                                                    }
                                                                ],

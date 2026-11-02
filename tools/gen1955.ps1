@@ -93,6 +93,7 @@ function Get-Leader1955([string]$realm) {
         '^(Kingdom of the Netherlands|Netherlands)' { return 'Juliana (Queen)' }
         '^Belgium' { return 'Baudouin (King)' }
         '^(Republic of Austria|Austria)$' { return 'Adolf Schaerf (President)' }
+        '^Ireland$' { return 'Eamon de Valera (Taoiseach)' }
         default { return 'National government' }
     }
 }
@@ -172,6 +173,10 @@ foreach ($realm in $realms) {
     $override.properties.leader = Get-Leader1955 $realm.realm
     $override.properties.info = "$($realm.realm) at the end of 1955."
 }
+$irelandOverride = Get-Override 'Ireland'
+$irelandOverride.properties.info = 'Ireland was an independent republic and had left the Commonwealth in 1949.'
+$ukOverride = Get-Override 'United Kingdom'
+$ukOverride.properties.info = 'The United Kingdom, including Scotland, at the end of 1955.'
 
 $zoneNames = @(
     'Soviet Occupation Zone (Germany)',

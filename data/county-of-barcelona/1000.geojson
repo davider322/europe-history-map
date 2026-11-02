@@ -1,16 +1,27 @@
 {
   "properties": {
     "realm": "County of Barcelona",
+    "label": "Barcelona",
     "leader": "Ramon Borrell",
-    "info": "Around 1000, the County of Barcelona was ruled by Ramon Borrell. It was a significant power in the Catalan region, formally connected to the Frankish world but increasingly independent in practice. Modern regions are shown as an approximate map.",
-    "regionAdmins": ["Spain"],
+    "info": "The County of Barcelona under Ramon Borrell around 1000. Modern Catalan provinces are approximate map units, not historical borders.",
+    "regionAdmins": [
+      "Spain"
+    ],
     "fillColor": "#bb7042",
-    "borderColor": "#714326"
+    "borderColor": "#714326",
+    "regionFilters": [
+      {
+        "admin": "Supplemental Microstates",
+        "ids": [
+          "andorra"
+        ]
+      }
+    ]
   },
   "provinces": [
-    "lleida",
-    "girona",
     "barcelona",
+    "girona",
+    "lleida",
     "tarragona"
   ]
 }

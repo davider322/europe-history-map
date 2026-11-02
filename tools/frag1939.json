@@ -37,7 +37,6 @@
                                                              "republicofdagestan",
                                                              "murmansk",
                                                              "karelia",
-                                                             "leningrad",
                                                              "chernivtsi",
                                                              "ivano-frankivsk",
                                                              "odessa",
@@ -66,7 +65,6 @@
                                                              "sevastopol",
                                                              "mykolaiv",
                                                              "nenetsautonomousokrug",
-                                                             "saintpetersburg",
                                                              "arkhangelsk",
                                                              "republicofkalmykia",
                                                              "poltava",
@@ -212,6 +210,17 @@
                                                                         "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
                                                                     }
                                                  },
+                      "Russian SFSR (Astrakhan)":  {
+                                                       "properties":  {
+                                                                          "excludeIds":  [
+                                                                                             "rostov",
+                                                                                             "astrakhan",
+                                                                                             "volgograd",
+                                                                                             "republicofkalmykia",
+                                                                                             "stavropolkrai"
+                                                                                         ]
+                                                                      }
+                                                   },
                       "Republic of German-Austria":  {
                                                          "properties":  {
                                                                             "excludeIds":  [
@@ -253,12 +262,23 @@
                                                                        "info":  "The Republic of Turkey under President Ismet Inonu in 1939."
                                                                    }
                                                 },
+                      "United Kingdom (Ulster)":  {
+                                                      "properties":  {
+                                                                         "excludeIds":  [
+                                                                                            "donegal",
+                                                                                            "cavan",
+                                                                                            "monaghan"
+                                                                                        ],
+                                                                         "leader":  "George VI",
+                                                                         "info":  "United Kingdom (Ulster) in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
                       "Russian SFSR (Novgorod)":  {
                                                       "properties":  {
                                                                          "excludeIds":  [
-                                                                                            "pskov",
                                                                                             "leningrad",
                                                                                             "saintpetersburg",
+                                                                                            "pskov",
                                                                                             "novgorod"
                                                                                         ]
                                                                      }
@@ -498,17 +518,96 @@
                                                                                        ]
                                                                     }
                                                  },
-                      "Russian SFSR (Astrakhan)":  {
-                                                       "properties":  {
-                                                                          "excludeIds":  [
-                                                                                             "rostov",
-                                                                                             "astrakhan",
-                                                                                             "volgograd",
-                                                                                             "republicofkalmykia",
-                                                                                             "stavropolkrai"
-                                                                                         ]
-                                                                      }
-                                                   },
+                      "United Kingdom":  {
+                                             "properties":  {
+                                                                "excludeIds":  [
+                                                                                   "pyrenees-atlantics",
+                                                                                   "landes",
+                                                                                   "gironde",
+                                                                                   "gers",
+                                                                                   "dordogne",
+                                                                                   "lot-et-garonne",
+                                                                                   "louth",
+                                                                                   "dublin",
+                                                                                   "dúnlaoghaire–rathdown",
+                                                                                   "wicklow",
+                                                                                   "wexford",
+                                                                                   "kilkenny",
+                                                                                   "waterford",
+                                                                                   "cork",
+                                                                                   "kerry",
+                                                                                   "limerick",
+                                                                                   "clare",
+                                                                                   "meath",
+                                                                                   "fingal",
+                                                                                   "kildare",
+                                                                                   "carlow",
+                                                                                   "laois",
+                                                                                   "southdublin",
+                                                                                   "offaly",
+                                                                                   "westmeath",
+                                                                                   "longford",
+                                                                                   "tipperary"
+                                                                               ],
+                                                                "leader":  "George VI",
+                                                                "info":  "The United Kingdom, including Scotland, Wales, England and Northern Ireland, in 1939.",
+                                                                "regionFilters":  [
+                                                                                      {
+                                                                                          "admin":  "United Kingdom",
+                                                                                          "geonunit":  "England"
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "United Kingdom",
+                                                                                          "geonunit":  "Wales"
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "Supplemental Islands",
+                                                                                          "ids":  [
+                                                                                                      "jersey",
+                                                                                                      "guernsey"
+                                                                                                  ]
+                                                                                      },
+                                                                                      {
+                                                                                          "admin":  "United Kingdom",
+                                                                                          "geonunit":  "Scotland",
+                                                                                          "ids":  [
+                                                                                                      "aberdeen",
+                                                                                                      "aberdeenshire",
+                                                                                                      "angus",
+                                                                                                      "argyllandbute",
+                                                                                                      "clackmannanshire",
+                                                                                                      "dumfriesandgalloway",
+                                                                                                      "dundee",
+                                                                                                      "eastayrshire",
+                                                                                                      "eastdunbartonshire",
+                                                                                                      "eastlothian",
+                                                                                                      "eastrenfrewshire",
+                                                                                                      "edinburgh",
+                                                                                                      "falkirk",
+                                                                                                      "fife",
+                                                                                                      "glasgow",
+                                                                                                      "highland",
+                                                                                                      "inverclyde",
+                                                                                                      "midlothian",
+                                                                                                      "moray",
+                                                                                                      "northayrshire",
+                                                                                                      "northlanarkshire",
+                                                                                                      "orkneyislands",
+                                                                                                      "outerhebrides",
+                                                                                                      "perthandkinross",
+                                                                                                      "renfrewshire",
+                                                                                                      "scottishborders",
+                                                                                                      "shetlandislands",
+                                                                                                      "southayrshire",
+                                                                                                      "southlanarkshire",
+                                                                                                      "stirling",
+                                                                                                      "westdunbartonshire",
+                                                                                                      "westlothian"
+                                                                                                  ]
+                                                                                      }
+                                                                                  ]
+                                                            }
+                                         },
                       "Russian SFSR (Karelian Frontierlands)":  {
                                                                     "properties":  {
                                                                                        "excludeIds":  [
@@ -667,6 +766,19 @@
                                                                          "info":  "Principality of Albania in 1939, before the German invasion of Poland."
                                                                      }
                                                   },
+                      "United Kingdom (Connacht)":  {
+                                                        "properties":  {
+                                                                           "excludeIds":  [
+                                                                                              "leitrim",
+                                                                                              "galway",
+                                                                                              "mayo",
+                                                                                              "sligo",
+                                                                                              "roscommon"
+                                                                                          ],
+                                                                           "leader":  "George VI",
+                                                                           "info":  "United Kingdom (Connacht) in 1939, before the German invasion of Poland."
+                                                                       }
+                                                    },
                       "German Republic (Pomerania)":  {
                                                           "properties":  {
                                                                              "realm":  "German Reich (Pomerania)",
@@ -1095,6 +1207,12 @@
                                                                       "info":  "Caliphate of Córdoba in 1939, before the German invasion of Poland."
                                                                   }
                                                },
+                      "County of Roussillon":  {
+                                                   "properties":  {
+                                                                      "leader":  "Local authorities",
+                                                                      "info":  "County of Roussillon in 1939, before the German invasion of Poland."
+                                                                  }
+                                               },
                       "Kingdom of Gwynedd":  {
                                                  "properties":  {
                                                                     "leader":  "Local authorities",
@@ -1125,12 +1243,6 @@
                                                                     "info":  "Kingdom of Munster in 1939, before the German invasion of Poland."
                                                                 }
                                              },
-                      "Historical Microstates":  {
-                                                     "properties":  {
-                                                                        "leader":  "Local authorities",
-                                                                        "info":  "Historical Microstates in 1939, before the German invasion of Poland."
-                                                                    }
-                                                 },
                       "Kingdom of Meath":  {
                                                "properties":  {
                                                                   "leader":  "Local authorities",
@@ -1143,12 +1255,6 @@
                                                                    "info":  "Kingdom of Dublin in 1939, before the German invasion of Poland."
                                                                }
                                             },
-                      "County of Roussillon":  {
-                                                   "properties":  {
-                                                                      "leader":  "Local authorities",
-                                                                      "info":  "County of Roussillon in 1939, before the German invasion of Poland."
-                                                                  }
-                                               },
                       "Kingdom of Galicia":  {
                                                  "properties":  {
                                                                     "leader":  "Local authorities",
@@ -1257,6 +1363,18 @@
                                                                     "info":  "Kingdom of Majorca in 1939, before the German invasion of Poland."
                                                                 }
                                              },
+                      "Andorra":  {
+                                      "properties":  {
+                                                         "leader":  "Local authorities",
+                                                         "info":  "Andorra in 1939, before the German invasion of Poland."
+                                                     }
+                                  },
+                      "San Marino":  {
+                                         "properties":  {
+                                                            "leader":  "Local authorities",
+                                                            "info":  "San Marino in 1939, before the German invasion of Poland."
+                                                        }
+                                     },
                       "Republic of Venice (Aegean)":  {
                                                           "properties":  {
                                                                              "leader":  "Local authorities",
@@ -1267,18 +1385,6 @@
                                                        "properties":  {
                                                                           "leader":  "Local authorities",
                                                                           "info":  "Principality of Moldavia in 1939, before the German invasion of Poland."
-                                                                      }
-                                                   },
-                      "Denmark–Norway":  {
-                                             "properties":  {
-                                                                "leader":  "Local authorities",
-                                                                "info":  "Denmark–Norway in 1939, before the German invasion of Poland."
-                                                            }
-                                         },
-                      "Denmark–Norway (Gotland)":  {
-                                                       "properties":  {
-                                                                          "leader":  "Local authorities",
-                                                                          "info":  "Denmark–Norway (Gotland) in 1939, before the German invasion of Poland."
                                                                       }
                                                    },
                       "France (Brittany)":  {
@@ -1293,10 +1399,10 @@
                                                                    "info":  "France (Provence) in 1939, before the German invasion of Poland."
                                                                }
                                             },
-                      "Sweden":  {
+                      "Monaco":  {
                                      "properties":  {
                                                         "leader":  "Local authorities",
-                                                        "info":  "Sweden in 1939, before the German invasion of Poland."
+                                                        "info":  "Monaco in 1939, before the German invasion of Poland."
                                                     }
                                  },
                       "Polish–Lithuanian Commonwealth":  {
@@ -1335,6 +1441,18 @@
                                                                                            "info":  "Polish–Lithuanian Commonwealth (Ruthenia) in 1939, before the German invasion of Poland."
                                                                                        }
                                                                     },
+                      "Denmark–Norway":  {
+                                             "properties":  {
+                                                                "leader":  "Local authorities",
+                                                                "info":  "Denmark–Norway in 1939, before the German invasion of Poland."
+                                                            }
+                                         },
+                      "Denmark–Norway (Gotland)":  {
+                                                       "properties":  {
+                                                                          "leader":  "Local authorities",
+                                                                          "info":  "Denmark–Norway (Gotland) in 1939, before the German invasion of Poland."
+                                                                      }
+                                                   },
                       "Safavid Iran (Armenia)":  {
                                                      "properties":  {
                                                                         "leader":  "Local authorities",
@@ -1371,6 +1489,12 @@
                                                                                               "info":  "Spanish Netherlands (Brabant and Luxembourg) in 1939, before the German invasion of Poland."
                                                                                           }
                                                                        },
+                      "Sweden":  {
+                                     "properties":  {
+                                                        "leader":  "Local authorities",
+                                                        "info":  "Sweden in 1939, before the German invasion of Poland."
+                                                    }
+                                 },
                       "Alaouite Sultanate":  {
                                                  "properties":  {
                                                                     "leader":  "Local authorities",
@@ -1389,6 +1513,12 @@
                                                             "info":  "Qajar Iran in 1939, before the German invasion of Poland."
                                                         }
                                      },
+                      "Russian Empire (Ingria)":  {
+                                                      "properties":  {
+                                                                         "leader":  "Local authorities",
+                                                                         "info":  "Russian Empire (Ingria) in 1939, before the German invasion of Poland."
+                                                                     }
+                                                  },
                       "Kingdom of Sicily":  {
                                                 "properties":  {
                                                                    "leader":  "Local authorities",
@@ -1461,12 +1591,6 @@
                                                                          "info":  "Denmark (Faroe Islands) in 1939, before the German invasion of Poland."
                                                                      }
                                                   },
-                      "Denmark (Iceland)":  {
-                                                "properties":  {
-                                                                   "leader":  "Local authorities",
-                                                                   "info":  "Denmark (Iceland) in 1939, before the German invasion of Poland."
-                                                               }
-                                            },
                       "Switzerland":  {
                                           "properties":  {
                                                              "leader":  "Local authorities",
@@ -1497,24 +1621,12 @@
                                                                                       "info":  "Austria-Hungary (Kingdom of Bohemia) in 1939, before the German invasion of Poland."
                                                                                   }
                                                                },
-                      "United Kingdom (Connacht)":  {
-                                                        "properties":  {
-                                                                           "leader":  "George VI",
-                                                                           "info":  "United Kingdom (Connacht) in 1939, before the German invasion of Poland."
-                                                                       }
-                                                    },
                       "United Kingdom (Isle of Man)":  {
                                                            "properties":  {
                                                                               "leader":  "George VI",
                                                                               "info":  "United Kingdom (Isle of Man) in 1939, before the German invasion of Poland."
                                                                           }
                                                        },
-                      "United Kingdom (Ulster)":  {
-                                                      "properties":  {
-                                                                         "leader":  "George VI",
-                                                                         "info":  "United Kingdom (Ulster) in 1939, before the German invasion of Poland."
-                                                                     }
-                                                  },
                       "Kingdom of Italy (Kingdom of Sardinia)":  {
                                                                      "properties":  {
                                                                                         "leader":  "Victor Emmanuel III",
@@ -1524,8 +1636,18 @@
                       "United Kingdom (Northern Isles)":  {
                                                               "properties":  {
                                                                                  "leader":  "George VI",
-                                                                                 "info":  "United Kingdom (Northern Isles) in 1939, before the German invasion of Poland."
-                                                                             }
+                                                                                 "info":  "United Kingdom (Northern Isles) is included in the United Kingdom.",
+                                                                                 "label":  "",
+                                                                                 "regionFilters":  [
+
+                                                                                                   ],
+                                                                                 "excludeIds":  [
+
+                                                                                                ]
+                                                                             },
+                                                              "provinces":  [
+
+                                                                            ]
                                                           },
                       "Kingdom of Italy (North Italian signorie)":  {
                                                                         "properties":  {
@@ -1599,17 +1721,21 @@
                                                                                "info":  "Austria-Hungary (Reconquered) in 1939, before the German invasion of Poland."
                                                                            }
                                                         },
-                      "United Kingdom":  {
-                                             "properties":  {
-                                                                "leader":  "George VI",
-                                                                "info":  "United Kingdom in 1939, before the German invasion of Poland."
-                                                            }
-                                         },
                       "United Kingdom (Scotland)":  {
                                                         "properties":  {
                                                                            "leader":  "George VI",
-                                                                           "info":  "United Kingdom (Scotland) in 1939, before the German invasion of Poland."
-                                                                       }
+                                                                           "info":  "United Kingdom (Scotland) is included in the United Kingdom.",
+                                                                           "label":  "",
+                                                                           "regionFilters":  [
+
+                                                                                             ],
+                                                                           "excludeIds":  [
+
+                                                                                          ]
+                                                                       },
+                                                        "provinces":  [
+
+                                                                      ]
                                                     },
                       "Kingdom of Romania":  {
                                                  "properties":  {
@@ -1767,6 +1893,12 @@
                                                                      "info":  "France (Roussillon) in 1939, before the German invasion of Poland."
                                                                  }
                                               },
+                      "Liechtenstein":  {
+                                            "properties":  {
+                                                               "leader":  "Local authorities",
+                                                               "info":  "Liechtenstein in 1939, before the German invasion of Poland."
+                                                           }
+                                        },
                       "Tsardom of Bulgaria":  {
                                                   "properties":  {
                                                                      "leader":  "Boris III",
@@ -1797,6 +1929,12 @@
                                                                           "info":  "Kingdom of Italy (Libya) in 1939, before the German invasion of Poland."
                                                                       }
                                                    },
+                      "Kingdom of Iceland":  {
+                                                 "properties":  {
+                                                                    "leader":  "Local authorities",
+                                                                    "info":  "Kingdom of Iceland in 1939, before the German invasion of Poland."
+                                                                }
+                                             },
                       "Hungarian People's Republic":  {
                                                                "properties":  {
                                                                                   "leader":  "MiklÃ³s Horthy (Regent)",
@@ -2126,6 +2264,24 @@
                                              "fillColor":  "#8a9c83",
                                              "borderColor":  "#465343",
                                              "info":  "Turkey recovered Kars, Ardahan and Artvin from Soviet control under the 1921 Treaty of Kars."
+                                         }
+                      },
+                      {
+                          "provinces":  [
+
+                                        ],
+                          "properties":  {
+                                             "realm":  "Ireland",
+                                             "label":  "Ireland",
+                                             "leader":  "Eamon de Valera (Taoiseach)",
+                                             "regionFilters":  [
+                                                                   {
+                                                                       "admin":  "Ireland"
+                                                                   }
+                                                               ],
+                                             "fillColor":  "#2f8f55",
+                                             "borderColor":  "#1a5734",
+                                             "info":  "Ireland had gained self-government in 1922, and the 1937 Constitution described the state as Ireland. Northern Ireland remained part of the United Kingdom."
                                          }
                       }
                   ]
