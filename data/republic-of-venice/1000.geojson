@@ -1,0 +1,12 @@
+{
+  "properties": {
+    "realm": "Republic of Venice",
+    "label": "Venice",
+    "leader": "Doge Pietro II Orseolo",
+    "info": "Venice was a self-governing maritime polity under Pietro II Orseolo, who led a naval expedition along the Dalmatian coast in 1000. The modern Venice province is a broad proxy for the lagoon polity, not a claim that its later mainland territory was already under Venetian control.",
+    "regionAdmins": ["Italy"],
+    "fillColor": "#3a8a7a",
+    "borderColor": "#1f4f46"
+  },
+  "provinces": ["venice"]
+}

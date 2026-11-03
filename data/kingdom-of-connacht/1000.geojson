@@ -1,8 +1,8 @@
 {
   "properties": {
     "realm": "Kingdom of Connacht",
-    "leader": "Cathal mac Conchobair",
-    "info": "Connacht was one of the regional Irish kingdoms. Cathal mac Conchobair was king around 1000. Ireland was not united under a single king; the claims and actual control of the high king shifted.",
+    "leader": "Cathal mac Conchobar mac Taidg",
+    "info": "In 1000, this mapped component represents Kingdom of Connacht. Leadership: Cathal mac Conchobar mac Taidg. Modern regions are approximate historical map units; local administration and actual control could vary.",
     "regionAdmins": ["Ireland"],
     "fillColor": "#7e9d55",
     "borderColor": "#4b5d33"

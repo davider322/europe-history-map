@@ -1,8 +1,8 @@
 {
   "properties": {
     "realm": "Emirate of Aleppo",
-    "leader": "Hamdanid emir; name uncertain",
-    "info": "Around 1000, Aleppo was ruled by a local Hamdanid dynasty, while the Fatimids claimed suzerainty and competed with Byzantium in northern Syria. Modern Aleppo Governorate is only a rough geographic approximation.",
+    "leader": "Lu\u0027lu\u0027 al-Kabir (regent for the young Hamdanid heirs)",
+    "info": "In 1000, this mapped component represents Emirate of Aleppo. Leadership: Lu\u0027lu\u0027 al-Kabir (regent for the young Hamdanid heirs). Modern regions are approximate historical map units; local administration and actual control could vary.",
     "regionFilters": [
       {
         "admin": "Syria",

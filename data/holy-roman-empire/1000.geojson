@@ -148,7 +148,29 @@
       {
         "admin": "Supplemental Microstates",
         "ids": [
+          "liechtenstein",
           "monaco"
+        ]
+      },
+      {
+        "admin": "Switzerland",
+        "ids": [
+          "aargau",
+          "appenzellausserrhoden",
+          "appenzellinnerrhoden",
+          "glarus",
+          "grisons",
+          "lucerne",
+          "nidwalden",
+          "obwalden",
+          "schaffhausen",
+          "schwyz",
+          "st.gallen",
+          "thurgau",
+          "ticino",
+          "uri",
+          "zug",
+          "zürich"
         ]
       }
     ]

@@ -1,8 +1,16 @@
 {
   "properties": {
     "realm": "Zirid Ifriqiya",
-    "leader": "Al-Mansur ibn Buluggin",
-    "info": "Around 1000, the Zirids ruled Ifriqiya from Kairouan, formally under Fatimid suzerainty. Modern Tunisian regions, neighboring parts of eastern Algeria and the Tripolitanian coast are used as approximate map references; they are not exact historical borders.",
+    "labelCurve": [
+      [35, 9],
+      [32, 13],
+      [33, 18],
+      [32.5, 23]
+    ],
+    "labelCurveIgnoreRealmGeometry": true,
+    "labelFontSize": 90,
+    "leader": "Badis ibn al-Mansur",
+    "info": "Badis ibn al-Mansur ruled Zirid Ifriqiya from 996 to 1016, formally under Fatimid suzerainty. Modern Tunisian regions, neighboring eastern Algeria and the coastal Libyan districts are approximate geographic proxies rather than exact borders or uniform areas of control.",
     "regionFilters": [
       {
         "admin": "Tunisia"
